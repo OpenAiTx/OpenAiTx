@@ -1,25 +1,57 @@
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # missForest
 
-<!-- badges: start -->
+<!-- insignias: inicio -->
 
-[![CRAN status](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)
-[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
-[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
+[![Estado CRAN](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)
+[![Descargas CRAN RStudio del último mes](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
+[![Descargas CRAN RStudio total](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
 [![R-CMD-check](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)
+
 [![test-coverage](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml)
 [![License: GPL (≥ 2)](https://img.shields.io/badge/license-GPL%20(%E2%89%A5%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 <!-- badges: end -->
 
-**missForest** es un método de imputación no paramétrico para datos tabulares de **tipos mixtos** en R. Maneja variables **numéricas y categóricas** simultáneamente entrenando de forma iterativa bosques aleatorios para predecir entradas faltantes a partir de las observadas. Sin supuestos explícitos de modelado, sin factorizaciones de matrices—solo bases predictivas sólidas que funcionan bien desde el inicio.
+**missForest** es un método de imputación no paramétrico para datos tabulares de **tipo mixto** en R. Maneja variables **numéricas y categóricas** simultáneamente entrenando iterativamente bosques aleatorios para predecir valores faltantes a partir de los observados. Sin supuestos de modelado explícitos, sin factorizaciones de matrices—solo potentes bases predictivas que funcionan bien desde el principio.
 
 * Funciona con **cualquier combinación de columnas numéricas y de factores**
 * Captura **no linealidades** e **interacciones**
-* Reporta el error de imputación **fuera de bolsa (OOB)** (NRMSE/PFC)
+* Reporta el error de imputación **out-of-bag (OOB)** (NRMSE/PFC)
 * Soporta **ejecución paralela** (por variable o por bosque)
-* Dos backends de bosque: **[`ranger`](https://cran.r-project.org/package=ranger)** (predeterminado) y **[`randomForest`](https://cran.r-project.org/package=randomForest)** (legado/compatibilidad)
+* Dos motores de bosque: **[`ranger`](https://cran.r-project.org/package=ranger)** (predeterminado) y **[`randomForest`](https://cran.r-project.org/package=randomForest)** (legado/compatibilidad)
 
-El paquete también incluye utilidades para medir el error de imputación, generar datos faltantes para experimentos e inspeccionar tipos de variables.
+El paquete también incluye utilidades para medir el error de imputación, generar valores faltantes para experimentos e inspeccionar tipos de variables.
 
 ---
 
@@ -172,6 +204,6 @@ Daniel J. Stekhoven — [stekhoven@nexus.ethz.ch](https://raw.githubusercontent.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-17
 
 ---

@@ -1,3 +1,34 @@
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # missForest
 
 <!-- badges: start -->
@@ -6,20 +37,21 @@
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
 [![R-CMD-check](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)
+
 [![test-coverage](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml)
 [![License: GPL (≥ 2)](https://img.shields.io/badge/license-GPL%20(%E2%89%A5%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 <!-- badges: end -->
 
-**missForest** est une méthode d'imputation non paramétrique pour les données tabulaires de **type mixte** dans R. Elle gère simultanément les variables **numériques et catégorielles** en entraînant itérativement des forêts aléatoires pour prédire les valeurs manquantes à partir des valeurs observées. Aucune hypothèse de modélisation explicite, pas de factorisation de matrice—juste des bases prédictives solides qui fonctionnent bien dès le départ.
+**missForest** est une méthode d’imputation non paramétrique pour des données tabulaires de **types mixtes** dans R. Elle gère simultanément les variables **numériques et catégorielles** en entraînant de façon itérative des forêts aléatoires pour prédire les valeurs manquantes à partir des valeurs observées. Aucun modèle explicite, aucune factorisation de matrice—juste des bases prédictives puissantes qui fonctionnent efficacement dès l’installation.
 
-* Fonctionne avec **n'importe quelle combinaison de colonnes numériques et factorielles**
+* Fonctionne avec **toute combinaison de colonnes numériques et facteurs**
 * Capture les **non-linéarités** et les **interactions**
-* Fournit une estimation de l'erreur d'imputation **hors échantillon (OOB)** (NRMSE/PFC)
-* Supporte l’**exécution parallèle** (par variable ou par forêt)
-* Deux moteurs de forêt : **[`ranger`](https://cran.r-project.org/package=ranger)** (par défaut) et **[`randomForest`](https://cran.r-project.org/package=randomForest)** (héritage/compatibilité)
+* Rapporte l’erreur d’imputation **out-of-bag (OOB)** (NRMSE/PFC)
+* Prend en charge l’**exécution parallèle** (par variable ou par forêt)
+* Deux moteurs de forêt : **[`ranger`](https://cran.r-project.org/package=ranger)** (par défaut) et **[`randomForest`](https://cran.r-project.org/package=randomForest)** (ancien/compatible)
 
-Le package inclut également des utilitaires pour mesurer l'erreur d'imputation, générer des données manquantes pour les expériences, et inspecter les types de variables.
+Le package inclut également des utilitaires pour mesurer l’erreur d’imputation, générer des valeurs manquantes pour les expériences, et inspecter les types de variables.
 
 ---
 
@@ -172,6 +204,6 @@ Daniel J. Stekhoven — [stekhoven@nexus.ethz.ch](https://raw.githubusercontent.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-17
 
 ---

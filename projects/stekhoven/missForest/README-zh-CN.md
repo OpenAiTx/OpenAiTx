@@ -1,25 +1,57 @@
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # missForest
 
-<!-- badges: start -->
+<!-- 徽章：开始 -->
 
 [![CRAN status](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
 [![R-CMD-check](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)
+
 [![test-coverage](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml)
 [![License: GPL (≥ 2)](https://img.shields.io/badge/license-GPL%20(%E2%89%A5%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 <!-- badges: end -->
 
-**missForest** 是 R 中用于 **混合类型** 表格数据的非参数插补方法。它通过迭代训练随机森林，从已观测的数据中预测缺失项，能够同时处理 **数值型和分类型** 变量。无需显式建模假设，无需矩阵分解——只是强大的预测基线，开箱即用，表现优异。
+**missForest** 是一种用于 R 语言中**混合类型**表格数据的非参数插补方法。它通过迭代训练随机森林，利用观测到的数据来预测缺失的条目，能够同时处理**数值型和分类型**变量。无需显式建模假设，无需矩阵分解——只需强大的预测基线，开箱即用，效果良好。
 
-* 适用于 **任意混合的数值和因子列**
-* 捕捉 **非线性** 和 **交互作用**
-* 报告 **袋外（OOB）** 插补误差（NRMSE/PFC）
-* 支持 **并行执行**（按变量或按森林）
-* 两种森林后端：**[`ranger`](https://cran.r-project.org/package=ranger)**（默认）和 **[`randomForest`](https://cran.r-project.org/package=randomForest)**（传统/兼容）
+* 支持**任意组合的数值型和因子列**
+* 能捕捉**非线性关系**和**变量交互**
+* 报告**袋外（OOB）**插补误差（NRMSE/PFC）
+* 支持**并行执行**（可按变量或按森林并行）
+* 提供两种森林后端：**[`ranger`](https://cran.r-project.org/package=ranger)**（默认）与 **[`randomForest`](https://cran.r-project.org/package=randomForest)**（传统/兼容）
 
-该包还包括用于衡量插补误差、生成缺失数据进行实验以及检查变量类型的实用工具。
+该包还包含用于测量插补误差、生成实验用缺失数据和检查变量类型的工具。
 
 ---
 
@@ -172,6 +204,6 @@ Daniel J. Stekhoven — [stekhoven@nexus.ethz.ch](https://raw.githubusercontent.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-17
 
 ---

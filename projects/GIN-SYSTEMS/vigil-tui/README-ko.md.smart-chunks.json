@@ -1,0 +1,1545 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n\n# VIGIL\n\n**Real-time terminal power monitor — CPU · GPU · RAM · Network · Processes**\n\n[![CI](https://github.com/GIN-SYSTEMS/vigil-tui/actions/workflows/ci.yml/badge.svg)](https://github.com/GIN-SYSTEMS/vigil-tui/actions)\n[![Python](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)\n[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-lightgrey)](https://github.com/GIN-SYSTEMS/vigil-tui)\n[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)\n\n</div>\n\n---\n\n![vigil-tui dashboard](https://raw.githubusercontent.com/GIN-SYSTEMS/vigil-tui/main/assets/screenshot.png)\n\n---\n\n## Overview\n\nvigil is a high-resolution terminal dashboard that shows **live wattage, thermals, clock speeds, efficiency scores, and electricity cost** for every major component — all inside the terminal with no browser, no background service, no telemetry.\n\nIt reads directly from hardware sensors (hwmon, RAPL, LibreHardwareMonitor, NVML) and falls back gracefully when a sensor is unavailable. Every panel updates in real time, the whole thing runs from a single `vigil` command.\n\n---\n\n## Features\n\n### Power & Thermals\n- **CPU package power** — hwmon (k10temp / zenpower / amd_energy) → RAPL → LibreHardwareMonitor WMI → CPU% × TDP estimate\n- **GPU power** — NVIDIA NVML: watts, temperature, utilisation, core/mem clocks, VRAM, fan speed\n- **RAM wattage** — DDR4 power model (slot count × utilisation)\n- **Throttle detection** — blinking `THROTTLE` badge on CPU or GPU thermal throttle\n\n### Charts & Visualisation\n- **Power history** — high-resolution Braille area chart, CPU + GPU overlay\n- **Clock history** — CPU avg frequency + GPU core clock with boost ceiling marker\n- **Per-core bars** — utilisation % + live frequency for every core\n",
+    "ContentSha": "soCbpjiCcfZQk16O/UczX9kMZvuu9rl/SX1Oi1Kfemc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n\n# VIGIL\n\n**실시간 터미널 전력 모니터 — CPU · GPU · RAM · 네트워크 · 프로세스**\n\n[![CI](https://github.com/GIN-SYSTEMS/vigil-tui/actions/workflows/ci.yml/badge.svg)](https://github.com/GIN-SYSTEMS/vigil-tui/actions)\n[![Python](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)\n[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-lightgrey)](https://github.com/GIN-SYSTEMS/vigil-tui)\n[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)\n\n</div>\n\n---\n\n![vigil-tui dashboard](https://raw.githubusercontent.com/GIN-SYSTEMS/vigil-tui/main/assets/screenshot.png)\n\n---\n\n## 개요\n\nvigil은 고해상도 터미널 대시보드로서 모든 주요 구성 요소에 대해 **실시간 와트수, 온도, 클럭 속도, 효율 점수, 전기 요금**을 표시합니다 — 브라우저, 백그라운드 서비스, 텔레메트리 없이 터미널 내에서 모두 실행됩니다.\n\n하드웨어 센서(hwmon, RAPL, LibreHardwareMonitor, NVML)에서 직접 읽으며 센서가 없을 경우 유연하게 대체합니다. 모든 패널은 실시간으로 업데이트되며, 전체가 단일 `vigil` 명령어로 실행됩니다.\n\n---\n\n## 기능\n\n### 전력 및 온도\n- **CPU 패키지 전력** — hwmon (k10temp / zenpower / amd_energy) → RAPL → LibreHardwareMonitor WMI → CPU% × TDP 추정치\n- **GPU 전력** — NVIDIA NVML: 와트, 온도, 사용률, 코어/메모리 클럭, VRAM, 팬 속도\n- **RAM 와트수** — DDR4 전력 모델 (슬롯 수 × 사용률)\n- **스로틀 감지** — CPU 또는 GPU 온도 스로틀 시 깜빡이는 `THROTTLE` 배지 표시\n\n### 차트 및 시각화\n- **전력 이력** — 고해상도 브레일 영역 차트, CPU + GPU 오버레이\n- **클럭 이력** — CPU 평균 주파수 + GPU 코어 클럭과 부스트 한계 표시기\n- **코어별 바** — 모든 코어의 사용률 % + 실시간 주파수\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "QnkcjN6RrUCEWYcR31094sYBqkYx3U8jz7i0wmDsFtU=",
+        "originContent": "# VIGIL",
+        "translatedContent": "# VIGIL"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "lu3u7Cica44iLeawCL9JopikwkWY+71S9BEh77KOgNI=",
+        "originContent": "**Real-time terminal power monitor — CPU · GPU · RAM · Network · Processes**",
+        "translatedContent": "**실시간 터미널 전력 모니터 — CPU · GPU · RAM · 네트워크 · 프로세스**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "05ozzD2XcFC1VnmDMXgiCgisw82dB6Jym4uIWhg08cU=",
+        "originContent": "[![CI](https://github.com/GIN-SYSTEMS/vigil-tui/actions/workflows/ci.yml/badge.svg)](https://github.com/GIN-SYSTEMS/vigil-tui/actions)",
+        "translatedContent": "[![CI](https://github.com/GIN-SYSTEMS/vigil-tui/actions/workflows/ci.yml/badge.svg)](https://github.com/GIN-SYSTEMS/vigil-tui/actions)"
+      },
+      {
+        "row": 8,
+        "rowsha": "3XRuHrnj9hcfms1C+mn1cpqJTtuJXl6RfvbtBDe4lAo=",
+        "originContent": "[![Python](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)",
+        "translatedContent": "[![Python](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "CEn9ecj7idwK2zvNm83qpevCjEb3NvSoXXGYQI12KNw=",
+        "originContent": "[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-lightgrey)](https://github.com/GIN-SYSTEMS/vigil-tui)",
+        "translatedContent": "[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-lightgrey)](https://github.com/GIN-SYSTEMS/vigil-tui)"
+      },
+      {
+        "row": 10,
+        "rowsha": "m4R6L8vSotWM4M+l9v6OxJwb7mhrXLBnl9X0df4AYTM=",
+        "originContent": "[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "qBI0Qot4GCznBdwSWAOTUstjeM1/p74Exs+gGLoHrBg=",
+        "originContent": "![vigil-tui dashboard](https://raw.githubusercontent.com/GIN-SYSTEMS/vigil-tui/main/assets/screenshot.png)",
+        "translatedContent": "![vigil-tui dashboard](https://raw.githubusercontent.com/GIN-SYSTEMS/vigil-tui/main/assets/screenshot.png)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## 개요"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "RM69nsOQ1nd/8CnGyl/xMpV5UlHoi8ukp52f/wXnTF0=",
+        "originContent": "vigil is a high-resolution terminal dashboard that shows **live wattage, thermals, clock speeds, efficiency scores, and electricity cost** for every major component — all inside the terminal with no browser, no background service, no telemetry.",
+        "translatedContent": "vigil은 고해상도 터미널 대시보드로서 모든 주요 구성 요소에 대해 **실시간 와트수, 온도, 클럭 속도, 효율 점수, 전기 요금**을 표시합니다 — 브라우저, 백그라운드 서비스, 텔레메트리 없이 터미널 내에서 모두 실행됩니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "WAutBsAm7HQFo8c8S2yCrSYuqCyokaTLpM5A71lEqY0=",
+        "originContent": "It reads directly from hardware sensors (hwmon, RAPL, LibreHardwareMonitor, NVML) and falls back gracefully when a sensor is unavailable. Every panel updates in real time, the whole thing runs from a single `vigil` command.",
+        "translatedContent": "하드웨어 센서(hwmon, RAPL, LibreHardwareMonitor, NVML)에서 직접 읽으며 센서가 없을 경우 유연하게 대체합니다. 모든 패널은 실시간으로 업데이트되며, 전체가 단일 `vigil` 명령어로 실행됩니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "MlX+SA0vX4q1nr50ZfrO0G5iX8IuyIelb6LTchzK2iw=",
+        "originContent": "### Power & Thermals",
+        "translatedContent": "### 전력 및 온도"
+      },
+      {
+        "row": 31,
+        "rowsha": "i5ElkyK7UYutTtGGhGra+Id00+vapferVCqquDpS2YQ=",
+        "originContent": "- **CPU package power** — hwmon (k10temp / zenpower / amd_energy) → RAPL → LibreHardwareMonitor WMI → CPU% × TDP estimate",
+        "translatedContent": "- **CPU 패키지 전력** — hwmon (k10temp / zenpower / amd_energy) → RAPL → LibreHardwareMonitor WMI → CPU% × TDP 추정치"
+      },
+      {
+        "row": 32,
+        "rowsha": "UExLhAjH04ehS4yivAQZ3aCZOjMfCUx9TU0FPGJwZaY=",
+        "originContent": "- **GPU power** — NVIDIA NVML: watts, temperature, utilisation, core/mem clocks, VRAM, fan speed",
+        "translatedContent": "- **GPU 전력** — NVIDIA NVML: 와트, 온도, 사용률, 코어/메모리 클럭, VRAM, 팬 속도"
+      },
+      {
+        "row": 33,
+        "rowsha": "orT5050KIqjHoDuvTH1q+PF6+27g91NC78wuSnTrO0g=",
+        "originContent": "- **RAM wattage** — DDR4 power model (slot count × utilisation)",
+        "translatedContent": "- **RAM 와트수** — DDR4 전력 모델 (슬롯 수 × 사용률)"
+      },
+      {
+        "row": 34,
+        "rowsha": "HvgV/axhYaHGpb06+dHbzNFioeyKEWc0gU4n1Lrd+kA=",
+        "originContent": "- **Throttle detection** — blinking `THROTTLE` badge on CPU or GPU thermal throttle",
+        "translatedContent": "- **스로틀 감지** — CPU 또는 GPU 온도 스로틀 시 깜빡이는 `THROTTLE` 배지 표시"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "nDGKyPFyc7XIJCP0H/Q+eYFxYGZ8yklrPZwILTR7n7M=",
+        "originContent": "### Charts & Visualisation",
+        "translatedContent": "### 차트 및 시각화"
+      },
+      {
+        "row": 37,
+        "rowsha": "16naim1S8ySFoFaQTAwLp9T+SvKArcRyjUG6+DQdVo8=",
+        "originContent": "- **Power history** — high-resolution Braille area chart, CPU + GPU overlay",
+        "translatedContent": "- **전력 이력** — 고해상도 브레일 영역 차트, CPU + GPU 오버레이"
+      },
+      {
+        "row": 38,
+        "rowsha": "jeYJ4qVDQez8cW0lICP9j8jxAakcii9LmWbRZX1FaVw=",
+        "originContent": "- **Clock history** — CPU avg frequency + GPU core clock with boost ceiling marker",
+        "translatedContent": "- **클럭 이력** — CPU 평균 주파수 + GPU 코어 클럭과 부스트 한계 표시기"
+      },
+      {
+        "row": 39,
+        "rowsha": "m7cfOysUm6GEMU6fYpkojNBjk6N4n5ER/KQTw1YkTB0=",
+        "originContent": "- **Per-core bars** — utilisation % + live frequency for every core",
+        "translatedContent": "- **코어별 바** — 모든 코어의 사용률 % + 실시간 주파수"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "### Process Intelligence\n- **Process table** — ranked by estimated wattage contribution\n- **Sparkline trends** — per-process watt history mini-chart\n- **EST.W column** — watts per process derived from CPU% share of package power\n\n### Efficiency & Cost\n- **Efficiency score** — `OPTIMAL` · `NORMAL` · `LOW EFF` · `THROTTLE`\n- **Electricity cost** — /hr, /day, session total (configurable kWh price + currency)\n- **Baseline mode** — snapshot idle state, compare live delta in real time\n\n### Alerts & Logging\n- **Webhook alerts** — HTTP POST when CPU temp or power threshold is breached\n- **Session logging** — optional JSONL tick log (`--log` flag)\n- **SVG screenshot** — full dashboard export with `s`\n\n### Themes & UX\n- **TacticalCyberpunk** (dark) — green / amber / cyan on near-black\n- **GhostWhite** (light) — high-contrast monochrome\n- **Setup wizard** — first-run guided TDP + kWh configuration\n- **Live accent recolour** — sidebar colour tweaks without restart\n\n---\n\n## Platform Support\n\n| Platform | CPU Power | CPU Temp | GPU Power | GPU Temp |\n|---|---|---|---|---|\n| **Linux** | hwmon · RAPL · estimate | hwmon | NVML | NVML |\n| **Windows 11 / 10** | LibreHardwareMonitor · estimate | LHM | NVML | NVML |\n| **macOS** | estimate only | — | NVML (if present) | NVML |\n\n### Windows — accurate CPU readings\n\nvigil reads real CPU wattage through **[LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) (MPL-2.0)** via its WMI interface. Without it, vigil falls back to a CPU% × TDP estimate automatically.\n\n1. Download [LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/releases)\n2. Run it **as Administrator**\n3. Launch vigil — LHM is detected automatically\n\n> vigil does not bundle or modify LibreHardwareMonitor. It connects to its WMI interface at runtime. LHM must be running separately.",
+    "ContentSha": "pKYYwT3ah2GRHcaNYQJOahoF3FemBb8s9ajvgHxXRD0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 프로세스 인텔리전스\n- **프로세스 테이블** — 추정 와트 기여도 순위별 정렬\n- **스파크라인 추세** — 프로세스별 와트 이력 미니 차트\n- **EST.W 열** — 패키지 전력의 CPU% 점유율에서 유도된 프로세스별 와트\n\n### 효율성 및 비용\n- **효율 점수** — `OPTIMAL` · `NORMAL` · `LOW EFF` · `THROTTLE`\n- **전기 비용** — /시간, /일, 세션 총액 (설정 가능한 kWh 가격 + 통화)\n- **기준 모드** — 스냅샷 대기 상태, 실시간으로 라이브 델타 비교\n\n### 알림 및 로깅\n- **웹훅 알림** — CPU 온도 또는 전력 임계값 초과 시 HTTP POST\n- **세션 로깅** — 선택적 JSONL 틱 로그 (`--log` 플래그)\n- **SVG 스크린샷** — 전체 대시보드 내보내기 `s` 키 사용\n\n### 테마 및 UX\n- **TacticalCyberpunk** (다크) — 거의 검정 바탕에 녹색 / 호박색 / 청록색\n- **GhostWhite** (라이트) — 고대비 단색\n- **설정 마법사** — 첫 실행 시 TDP + kWh 구성 가이드\n- **라이브 강조색 재조정** — 재시작 없이 사이드바 색상 변경\n\n---\n\n## 플랫폼 지원\n\n| 플랫폼 | CPU 전력 | CPU 온도 | GPU 전력 | GPU 온도 |\n|---|---|---|---|---|\n| **리눅스** | hwmon · RAPL · 추정 | hwmon | NVML | NVML |\n| **윈도우 11 / 10** | LibreHardwareMonitor · 추정 | LHM | NVML | NVML |\n| **macOS** | 추정만 지원 | — | NVML (존재 시) | NVML |\n\n### 윈도우 — 정확한 CPU 읽기\n\nvigil은 **[LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) (MPL-2.0)** 의 WMI 인터페이스를 통해 실제 CPU 와트 수를 읽습니다. 없으면 vigil은 자동으로 CPU% × TDP 추정값을 사용합니다.\n\n1. [LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/releases) 다운로드\n2. **관리자 권한으로 실행**\n3. vigil 실행 — LHM이 자동 감지됨\n\n> vigil은 LibreHardwareMonitor를 번들하거나 수정하지 않습니다. 실행 시 WMI 인터페이스에 연결합니다. LHM은 별도로 실행 중이어야 합니다.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qgpEv3AVmHrvU8IyOxvyI/v6d6yF3Go4vOwqTe0zuC4=",
+        "originContent": "### Process Intelligence",
+        "translatedContent": "### 프로세스 인텔리전스"
+      },
+      {
+        "row": 2,
+        "rowsha": "LHr8ZiN/6INAOWllJfrZpFIRQI3z7xpiwemRCm8XywI=",
+        "originContent": "- **Process table** — ranked by estimated wattage contribution",
+        "translatedContent": "- **프로세스 테이블** — 추정 와트 기여도 순위별 정렬"
+      },
+      {
+        "row": 3,
+        "rowsha": "IbqoK3t3/DmEh3Ragv7uGoVk3jr/1CZr8bt7WBmvcGY=",
+        "originContent": "- **Sparkline trends** — per-process watt history mini-chart",
+        "translatedContent": "- **스파크라인 추세** — 프로세스별 와트 이력 미니 차트"
+      },
+      {
+        "row": 4,
+        "rowsha": "9urghmaRTb69VJPaMwiGnQgsyTdbIQPdOrHr/rONqFk=",
+        "originContent": "- **EST.W column** — watts per process derived from CPU% share of package power",
+        "translatedContent": "- **EST.W 열** — 패키지 전력의 CPU% 점유율에서 유도된 프로세스별 와트"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "QmmzTBMSTbFh3HUxTOn+wtMiEzqwesK1WYnqTBRxfY4=",
+        "originContent": "### Efficiency & Cost",
+        "translatedContent": "### 효율성 및 비용"
+      },
+      {
+        "row": 7,
+        "rowsha": "Eb0mfflDYuguMcOdFucPVHtHsgTVOC1Pshi2cSoKbV0=",
+        "originContent": "- **Efficiency score** — `OPTIMAL` · `NORMAL` · `LOW EFF` · `THROTTLE`",
+        "translatedContent": "- **효율 점수** — `OPTIMAL` · `NORMAL` · `LOW EFF` · `THROTTLE`"
+      },
+      {
+        "row": 8,
+        "rowsha": "E3D6XRgemk4Sr6IxlEjymc+r3QSX14Wq0hV4qIes8jE=",
+        "originContent": "- **Electricity cost** — /hr, /day, session total (configurable kWh price + currency)",
+        "translatedContent": "- **전기 비용** — /시간, /일, 세션 총액 (설정 가능한 kWh 가격 + 통화)"
+      },
+      {
+        "row": 9,
+        "rowsha": "GfLsdOLAro6kj6+cpU2ixKDSY9duVCe4VzoHRKK+HNU=",
+        "originContent": "- **Baseline mode** — snapshot idle state, compare live delta in real time",
+        "translatedContent": "- **기준 모드** — 스냅샷 대기 상태, 실시간으로 라이브 델타 비교"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "B8GI4yGQOw4DcnFNMRLEQGR+H+uxwf4u0jdjvmZ8luk=",
+        "originContent": "### Alerts & Logging",
+        "translatedContent": "### 알림 및 로깅"
+      },
+      {
+        "row": 12,
+        "rowsha": "fi//MUkO07bm6hN/hN2ZEcCEfmG7y9fL6H3uH9Jz3EU=",
+        "originContent": "- **Webhook alerts** — HTTP POST when CPU temp or power threshold is breached",
+        "translatedContent": "- **웹훅 알림** — CPU 온도 또는 전력 임계값 초과 시 HTTP POST"
+      },
+      {
+        "row": 13,
+        "rowsha": "51LvJUbL8hDheQi4M7KuIpTuNDl5HPuzio7sOnV1R0c=",
+        "originContent": "- **Session logging** — optional JSONL tick log (`--log` flag)",
+        "translatedContent": "- **세션 로깅** — 선택적 JSONL 틱 로그 (`--log` 플래그)"
+      },
+      {
+        "row": 14,
+        "rowsha": "D2qsnBf6xPglkAlUjZzVz6RfZ3+5KSxvGZFMBAXXqt8=",
+        "originContent": "- **SVG screenshot** — full dashboard export with `s`",
+        "translatedContent": "- **SVG 스크린샷** — 전체 대시보드 내보내기 `s` 키 사용"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "htJUTmtrLmLvO90/Vj6nMYWJAIT75QmrM4hFnc+E77g=",
+        "originContent": "### Themes & UX",
+        "translatedContent": "### 테마 및 UX"
+      },
+      {
+        "row": 17,
+        "rowsha": "KaCctrpZCPuC9me3/Icx+h15LXOucUhw4XiD6gq6FU0=",
+        "originContent": "- **TacticalCyberpunk** (dark) — green / amber / cyan on near-black",
+        "translatedContent": "- **TacticalCyberpunk** (다크) — 거의 검정 바탕에 녹색 / 호박색 / 청록색"
+      },
+      {
+        "row": 18,
+        "rowsha": "Jby0v5lxmJneUg0Ucgn0c1q0CjQF0FZvrhcFfM9wHeM=",
+        "originContent": "- **GhostWhite** (light) — high-contrast monochrome",
+        "translatedContent": "- **GhostWhite** (라이트) — 고대비 단색"
+      },
+      {
+        "row": 19,
+        "rowsha": "4TshGmKSI4nJku0JHCey/OgV//SBXE7Q9RIAOyePwrE=",
+        "originContent": "- **Setup wizard** — first-run guided TDP + kWh configuration",
+        "translatedContent": "- **설정 마법사** — 첫 실행 시 TDP + kWh 구성 가이드"
+      },
+      {
+        "row": 20,
+        "rowsha": "8wsXBnd91capDHE6XpIiTeG5mxvZ9Ky8TRR0Gxvm5s4=",
+        "originContent": "- **Live accent recolour** — sidebar colour tweaks without restart",
+        "translatedContent": "- **라이브 강조색 재조정** — 재시작 없이 사이드바 색상 변경"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "OPrmm6f4GDGUFZTHm3BqmRxfO/Wz9GrkUsClwCqXVNI=",
+        "originContent": "## Platform Support",
+        "translatedContent": "## 플랫폼 지원"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "qrRgCHWOnNNCbYMAxJe3KEuCjoeUlX3qIl4C6rXB7vs=",
+        "originContent": "| Platform | CPU Power | CPU Temp | GPU Power | GPU Temp |",
+        "translatedContent": "| 플랫폼 | CPU 전력 | CPU 온도 | GPU 전력 | GPU 온도 |"
+      },
+      {
+        "row": 27,
+        "rowsha": "Eq8A70vu0E6YMkp22XH5RBmpK3cxHPIWKQIONEm49Fc=",
+        "originContent": "|---|---|---|---|---|",
+        "translatedContent": "|---|---|---|---|---|"
+      },
+      {
+        "row": 28,
+        "rowsha": "iuW5d5ZTdiRD+9ysncz983QC41GFlnktvnbSDi0RV60=",
+        "originContent": "| **Linux** | hwmon · RAPL · estimate | hwmon | NVML | NVML |",
+        "translatedContent": "| **리눅스** | hwmon · RAPL · 추정 | hwmon | NVML | NVML |"
+      },
+      {
+        "row": 29,
+        "rowsha": "8Pnrx1GivqDbJVLVdzTLZzWFV9HZtonaQwG5yPyOGyU=",
+        "originContent": "| **Windows 11 / 10** | LibreHardwareMonitor · estimate | LHM | NVML | NVML |",
+        "translatedContent": "| **윈도우 11 / 10** | LibreHardwareMonitor · 추정 | LHM | NVML | NVML |"
+      },
+      {
+        "row": 30,
+        "rowsha": "I/TVBeApBRPME1J+JkTyRQSok9ffTpglEM8Yud3Pkvw=",
+        "originContent": "| **macOS** | estimate only | — | NVML (if present) | NVML |",
+        "translatedContent": "| **macOS** | 추정만 지원 | — | NVML (존재 시) | NVML |"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "khnPZ0Pgm3w6XBOBiA/TQBCPxYTzmgas/zSbpg800dM=",
+        "originContent": "### Windows — accurate CPU readings",
+        "translatedContent": "### 윈도우 — 정확한 CPU 읽기"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "pqBDgt8a1fug7c9aAiqQF3uKhZ/z8p1q0jmjZL24Hv8=",
+        "originContent": "vigil reads real CPU wattage through **[LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) (MPL-2.0)** via its WMI interface. Without it, vigil falls back to a CPU% × TDP estimate automatically.",
+        "translatedContent": "vigil은 **[LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor) (MPL-2.0)** 의 WMI 인터페이스를 통해 실제 CPU 와트 수를 읽습니다. 없으면 vigil은 자동으로 CPU% × TDP 추정값을 사용합니다."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "iMPD4Cb2vZV1f8Jl+7U45a1tYwLaWIyHfqx1Y+cbzz8=",
+        "originContent": "1. Download [LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/releases)",
+        "translatedContent": "1. [LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/releases) 다운로드"
+      },
+      {
+        "row": 37,
+        "rowsha": "O6XqFVj+fBbePg4JZ99xfekbBofwB64jSenYqMLw50Q=",
+        "originContent": "2. Run it **as Administrator**",
+        "translatedContent": "2. **관리자 권한으로 실행**"
+      },
+      {
+        "row": 38,
+        "rowsha": "gqASLyjozVqWKN+s13RHCPjwalFFG/IbONmzknS6HAg=",
+        "originContent": "3. Launch vigil — LHM is detected automatically",
+        "translatedContent": "3. vigil 실행 — LHM이 자동 감지됨"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "4qBxk11t7q8ZBWcx+P/BuTEMTxgmhLF8ShNH8Tva0z4=",
+        "originContent": "> vigil does not bundle or modify LibreHardwareMonitor. It connects to its WMI interface at runtime. LHM must be running separately.",
+        "translatedContent": "> vigil은 LibreHardwareMonitor를 번들하거나 수정하지 않습니다. 실행 시 WMI 인터페이스에 연결합니다. LHM은 별도로 실행 중이어야 합니다."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n## Installation\n\n**Requirements:** Python 3.11+\n",
+    "ContentSha": "ptuU77WUGJApIm+ctd4QuDsnc2VTIg/kOnKBbSqxnQU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## Installation\n\n**Requirements:** Python 3.11+\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ONs8oxrkq1iuJjAfH+jMSwo/TkdlheDvr6FoKYCKpJ4=",
+        "originContent": "**Requirements:** Python 3.11+",
+        "translatedContent": "**Requirements:** Python 3.11+"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# Clone\ngit clone https://github.com/GIN-SYSTEMS/vigil-tui\ncd vigil-tui\n\n# Linux / macOS\npip install .\n\n# Windows (includes WMI + pywin32 for LHM support)\npip install \".[windows]\"\n```",
+    "ContentSha": "DiZBbuxsXE739ZwIv5+RQpPG1jQUp+cvLOBXIApZ2Yw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Clone\ngit clone https://github.com/GIN-SYSTEMS/vigil-tui\ncd vigil-tui\n\n# Linux / macOS\npip install .\n\n# Windows (includes WMI + pywin32 for LHM support)\npip install \".[windows]\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "yMgIoOhMG2K9q9MUaciGcIe7KeUnQy/KjRai0M+lhtQ=",
+        "originContent": "# Clone",
+        "translatedContent": "# Clone"
+      },
+      {
+        "row": 3,
+        "rowsha": "PIdKz6/plydl6DrqKkrHn46w19yQr8sMN14bFfRsKWM=",
+        "originContent": "git clone https://github.com/GIN-SYSTEMS/vigil-tui",
+        "translatedContent": "git clone https://github.com/GIN-SYSTEMS/vigil-tui"
+      },
+      {
+        "row": 4,
+        "rowsha": "3CC9MOC2hC+x8oz0J+0STGvLp6+/Tnmyoe8lcY2G7gM=",
+        "originContent": "cd vigil-tui",
+        "translatedContent": "cd vigil-tui"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "nepgPIvJcg4WAYw1yeMw5zc0/47oeyNJVENq9y79XQM=",
+        "originContent": "# Linux / macOS",
+        "translatedContent": "# Linux / macOS"
+      },
+      {
+        "row": 7,
+        "rowsha": "k3I9coeZqczLnzk5xV6iCASIR/kOdsIaN1sm5FVLfdg=",
+        "originContent": "pip install .",
+        "translatedContent": "pip install ."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "akL5a/6891p+SxCt6GVsH9DczWO/WEYiYKX7taf+DVM=",
+        "originContent": "# Windows (includes WMI + pywin32 for LHM support)",
+        "translatedContent": "# Windows (includes WMI + pywin32 for LHM support)"
+      },
+      {
+        "row": 10,
+        "rowsha": "3azNAF0fjN804NNAcoN2SLXRr/+F1rO/Bip8E2UUkng=",
+        "originContent": "pip install \".[windows]\"",
+        "translatedContent": "pip install \".[windows]\""
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n**Run:**",
+    "ContentSha": "zJmj5flyz1V4XRcYft3vSEVMAiWZBVSRdnTaj+AD29g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Run:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lBLD9a+T+ufEl98J6VF6rIRtkGb7gCIWuiwCaiM9xpg=",
+        "originContent": "**Run:**",
+        "translatedContent": "**Run:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nvigil           # launch dashboard\nvigil --log     # launch + write JSONL tick log\nvigil --help    # all options\n```",
+    "ContentSha": "Kmgn9OE5EBpJ7Hai5cdRbFVqvExvIbvfQYQDKcLejX8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nvigil           # launch dashboard\nvigil --log     # launch + write JSONL tick log\nvigil --help    # all options\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "a6+UizokPvq2LctLiUe0njB0RTq19MOyNlKVXw1fHs4=",
+        "originContent": "vigil           # launch dashboard",
+        "translatedContent": "vigil           # launch dashboard"
+      },
+      {
+        "row": 3,
+        "rowsha": "aDkcVu7Z2vYD6cWBqUYyGkXH1jC0tfZyv0opUjXArHs=",
+        "originContent": "vigil --log     # launch + write JSONL tick log",
+        "translatedContent": "vigil --log     # launch + write JSONL tick log"
+      },
+      {
+        "row": 4,
+        "rowsha": "8ZJR6QkL5cjakVHYIZxLSrD8K5qeRCP9s/3UjLWdyEQ=",
+        "originContent": "vigil --help    # all options",
+        "translatedContent": "vigil --help    # all options"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n---\n\n## Key Bindings\n\n| Key | Action |\n|-----|--------|\n| `*` / `?` | Toggle help overlay |\n| `q` / Ctrl+C | Quit |\n| `p` | Pause / resume sampling |\n| `r` | Reset chart history |\n| `+` / `-` | Zoom Y-axis in / out |\n| `b` | Snapshot baseline — press again to clear |\n| `s` | Save SVG screenshot |\n| `t` | Toggle theme (dark ↔ light) |\n| `c` | Open config / setup wizard |\n\n---\n\n## Configuration\n\nFirst launch creates `~/.config/vigil/config.toml`:\n",
+    "ContentSha": "HPO2WJDJDct+QoU8kIcKNhtkDxwzTS3cIqey7FFiRjw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 주요 단축키\n\n| 키 | 동작 |\n|-----|--------|\n| `*` / `?` | 도움말 오버레이 전환 |\n| `q` / Ctrl+C | 종료 |\n| `p` | 샘플링 일시정지 / 재개 |\n| `r` | 차트 기록 초기화 |\n| `+` / `-` | Y축 확대 / 축소 |\n| `b` | 기준선 스냅샷 — 다시 누르면 삭제 |\n| `s` | SVG 스크린샷 저장 |\n| `t` | 테마 전환 (다크 ↔ 라이트) |\n| `c` | 설정 / 설치 마법사 열기 |\n\n---\n\n## 설정\n\n첫 실행 시 `~/.config/vigil/config.toml` 생성:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nb4WSxj/OM4sKVjtdinIYSX2nEfKqmaoIFjhdjPB4Wc=",
+        "originContent": "## Key Bindings",
+        "translatedContent": "## 주요 단축키"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "m5AWMnaRWuOxWxEOkujnszNZJPWs7q/VX4+cHnYr+ec=",
+        "originContent": "| Key | Action |",
+        "translatedContent": "| 키 | 동작 |"
+      },
+      {
+        "row": 7,
+        "rowsha": "jkmZYRv65poROmvvr75JKBKibqtZ8OY/rZ9Pk+Ryg1k=",
+        "originContent": "|-----|--------|",
+        "translatedContent": "|-----|--------|"
+      },
+      {
+        "row": 8,
+        "rowsha": "aSWr4Su5jlnqWnumIdo45hMcB42I7nm1TU+1ultBxqs=",
+        "originContent": "| `*` / `?` | Toggle help overlay |",
+        "translatedContent": "| `*` / `?` | 도움말 오버레이 전환 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "18DFSFAurWK4GF0EF9odxM3GNPLIMBXzjKyjLamrMPk=",
+        "originContent": "| `q` / Ctrl+C | Quit |",
+        "translatedContent": "| `q` / Ctrl+C | 종료 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "97ACYXr83WKnU28nU7tPsoeIkBLmXFuMZQLVq+wFGtA=",
+        "originContent": "| `p` | Pause / resume sampling |",
+        "translatedContent": "| `p` | 샘플링 일시정지 / 재개 |"
+      },
+      {
+        "row": 11,
+        "rowsha": "boK4KffcCdAGYnHZNEKtHK8/rF1c+x7R1zne3xNCboI=",
+        "originContent": "| `r` | Reset chart history |",
+        "translatedContent": "| `r` | 차트 기록 초기화 |"
+      },
+      {
+        "row": 12,
+        "rowsha": "1EVs7NKLik/B8ObT+0Hs5o3QBsX8RCUucfcDxdPAvEI=",
+        "originContent": "| `+` / `-` | Zoom Y-axis in / out |",
+        "translatedContent": "| `+` / `-` | Y축 확대 / 축소 |"
+      },
+      {
+        "row": 13,
+        "rowsha": "xybKBFdCbYnvTgLRHlfzg2FK61nDr3N0umRkDDIlIoY=",
+        "originContent": "| `b` | Snapshot baseline — press again to clear |",
+        "translatedContent": "| `b` | 기준선 스냅샷 — 다시 누르면 삭제 |"
+      },
+      {
+        "row": 14,
+        "rowsha": "6NX8WTYlO3GMwp8IS84OZMNoOAGgfV2cDa6hUwNMB5k=",
+        "originContent": "| `s` | Save SVG screenshot |",
+        "translatedContent": "| `s` | SVG 스크린샷 저장 |"
+      },
+      {
+        "row": 15,
+        "rowsha": "S84o7MTt7DFnCdPCwBMVGrl+u2Qg97Id+Ls9u4a2y/8=",
+        "originContent": "| `t` | Toggle theme (dark ↔ light) |",
+        "translatedContent": "| `t` | 테마 전환 (다크 ↔ 라이트) |"
+      },
+      {
+        "row": 16,
+        "rowsha": "pXclCB8wmVEhOkl4MymgTJpYQWXl8BWL66XungDZ7s8=",
+        "originContent": "| `c` | Open config / setup wizard |",
+        "translatedContent": "| `c` | 설정 / 설치 마법사 열기 |"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## 설정"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "r5ldqA5+tNcnMMOtv5iFHbRRqLIy0HftYkFs30NhmFQ=",
+        "originContent": "First launch creates `~/.config/vigil/config.toml`:",
+        "translatedContent": "첫 실행 시 `~/.config/vigil/config.toml` 생성:"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```toml\n[hardware]\ncpu_tdp_watts       = 65.0     # CPU TDP ceiling for estimation\ngpu_tdp_watts       = 165.0    # GPU TDP ceiling\nupdate_interval     = 1.0      # seconds between ticks\nhistory_len         = 120      # chart ring-buffer depth\n\n[cost]\nkwh_price           = 2.0      # electricity price per kWh\ncurrency_symbol     = \"₺\"\n\n[alerts]\nwebhook_url         = \"\"       # HTTP POST endpoint — empty = disabled\ncpu_temp_thresh     = 90       # °C\ncpu_watt_thresh_pct = 90       # % of TDP\n\n[ui]\ntheme               = \"tactical\"   # \"tactical\" or \"ghost\"\n```",
+    "ContentSha": "mnIBq8NP+gkqonOOc12yG90IgNTqjPkO+iaP00lQan8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[hardware]\ncpu_tdp_watts       = 65.0     # CPU TDP ceiling for estimation\ngpu_tdp_watts       = 165.0    # GPU TDP ceiling\nupdate_interval     = 1.0      # seconds between ticks\nhistory_len         = 120      # chart ring-buffer depth\n\n[cost]\nkwh_price           = 2.0      # electricity price per kWh\ncurrency_symbol     = \"₺\"\n\n[alerts]\nwebhook_url         = \"\"       # HTTP POST endpoint — empty = disabled\ncpu_temp_thresh     = 90       # °C\ncpu_watt_thresh_pct = 90       # % of TDP\n\n[ui]\ntheme               = \"tactical\"   # \"tactical\" or \"ghost\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "FRkq3JyBb6Ux+Q9facmxP93+aaKyGZgUCy7J51ONpw8=",
+        "originContent": "[hardware]",
+        "translatedContent": "[hardware]"
+      },
+      {
+        "row": 3,
+        "rowsha": "vLrcGwjhvQqFe/ktxKkxFkhwlDz4c+0RXBGt+0MEhCA=",
+        "originContent": "cpu_tdp_watts       = 65.0     # CPU TDP ceiling for estimation",
+        "translatedContent": "cpu_tdp_watts       = 65.0     # CPU TDP ceiling for estimation"
+      },
+      {
+        "row": 4,
+        "rowsha": "XC9Wd4dC6Y2YU/KORz9Jgu6GVnwfR6p8MT3VDMyVqnY=",
+        "originContent": "gpu_tdp_watts       = 165.0    # GPU TDP ceiling",
+        "translatedContent": "gpu_tdp_watts       = 165.0    # GPU TDP ceiling"
+      },
+      {
+        "row": 5,
+        "rowsha": "kNK//WSE26Lr+hpCtDsywEPgf5aq0Z+SJIIOfAQL49s=",
+        "originContent": "update_interval     = 1.0      # seconds between ticks",
+        "translatedContent": "update_interval     = 1.0      # seconds between ticks"
+      },
+      {
+        "row": 6,
+        "rowsha": "CXGbd94bZKIdScEk7PwbDZxRA8bdRi2tRDfv9bzI1Kc=",
+        "originContent": "history_len         = 120      # chart ring-buffer depth",
+        "translatedContent": "history_len         = 120      # chart ring-buffer depth"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Co5OnrRi3VF9ZDpvPiRdbQ3hu/XLi/LHG4CzC2LtegE=",
+        "originContent": "[cost]",
+        "translatedContent": "[cost]"
+      },
+      {
+        "row": 9,
+        "rowsha": "3fCORfymLoOGo+X38TcP1Czu3qmD7DpR0VmJzH4bHjk=",
+        "originContent": "kwh_price           = 2.0      # electricity price per kWh",
+        "translatedContent": "kwh_price           = 2.0      # electricity price per kWh"
+      },
+      {
+        "row": 10,
+        "rowsha": "nDMzUsRQD/xymKheyGpFfI+0McruASiFmEvu4Hxqid0=",
+        "originContent": "currency_symbol     = \"₺\"",
+        "translatedContent": "currency_symbol     = \"₺\""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yWN2SNNsJU2bmQ2lTBQ3jL8SzP49hopY9JeIO3aatIU=",
+        "originContent": "[alerts]",
+        "translatedContent": "[alerts]"
+      },
+      {
+        "row": 13,
+        "rowsha": "VVm8FbR8imjYhcz5H1t1Fi41Mlu7L1b991E68QOLWaM=",
+        "originContent": "webhook_url         = \"\"       # HTTP POST endpoint — empty = disabled",
+        "translatedContent": "webhook_url         = \"\"       # HTTP POST endpoint — empty = disabled"
+      },
+      {
+        "row": 14,
+        "rowsha": "5F1mwkv6+7oBz5TdagDobS7A0EU3Zx9KHHH7u5jh670=",
+        "originContent": "cpu_temp_thresh     = 90       # °C",
+        "translatedContent": "cpu_temp_thresh     = 90       # °C"
+      },
+      {
+        "row": 15,
+        "rowsha": "+MBkrJM8KXpnWHXzbeyIYPM91DNY0VZwnG5nz5W6RW0=",
+        "originContent": "cpu_watt_thresh_pct = 90       # % of TDP",
+        "translatedContent": "cpu_watt_thresh_pct = 90       # % of TDP"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "7LjvxnngVmhWW6WNXMFqbcZ82o9QSFB7yo71aLXkbUQ=",
+        "originContent": "[ui]",
+        "translatedContent": "[ui]"
+      },
+      {
+        "row": 18,
+        "rowsha": "FWm1xaKUOydU/momr2t2vaNRgKFp6VBRaO5+NrF1mfU=",
+        "originContent": "theme               = \"tactical\"   # \"tactical\" or \"ghost\"",
+        "translatedContent": "theme               = \"tactical\"   # \"tactical\" or \"ghost\""
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n---\n\n## How the power waterfall works\n",
+    "ContentSha": "HAufbo4ewkrLkiNkb1HVkX6tHeEitjgTbyCL3yVfgI8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## How the power waterfall works\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "eMzMpLHRDrSI0FuDKF8s1DP/aDu72GTR0HNsc8BFyNE=",
+        "originContent": "## How the power waterfall works",
+        "translatedContent": "## How the power waterfall works"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\nvigil starts\n│\n├─ Linux?\n│   ├─ hwmon sysfs (k10temp / zenpower / amd_energy)   ← real sensor\n│   ├─ RAPL powercap energy_uj delta                   ← kernel counter\n│   └─ CPU% × TDP estimate                             ← always available\n│\n└─ Windows?\n    ├─ LibreHardwareMonitor WMI (requires Admin + LHM) ← real sensor\n    └─ CPU% × TDP estimate                             ← always available\n\nGPU → NVML (pynvml) on all platforms\n     if no NVIDIA GPU: panel shows \"unavailable\", no crash\n```",
+    "ContentSha": "SwtWL23IZDiwEw/W22AaH+3DS2jqFgBqV5FEZOod9BY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nvigil starts\n│\n├─ Linux?\n│   ├─ hwmon sysfs (k10temp / zenpower / amd_energy)   ← real sensor\n│   ├─ RAPL powercap energy_uj delta                   ← kernel counter\n│   └─ CPU% × TDP estimate                             ← always available\n│\n└─ Windows?\n    ├─ LibreHardwareMonitor WMI (requires Admin + LHM) ← real sensor\n    └─ CPU% × TDP estimate                             ← always available\n\nGPU → NVML (pynvml) on all platforms\n     if no NVIDIA GPU: panel shows \"unavailable\", no crash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "g5gG5idFXuLqFxyw/l8dxMZycYcAEtpkMnukUUctA9A=",
+        "originContent": "vigil starts",
+        "translatedContent": "vigil starts"
+      },
+      {
+        "row": 3,
+        "rowsha": "5vGmpyBVt2J6FS88MgVfu7gyr+7V41/iBhPX5sN8De0=",
+        "originContent": "│",
+        "translatedContent": "│"
+      },
+      {
+        "row": 4,
+        "rowsha": "ETOZOhnA/96u0QJYeB7UY/qD0Pn1VClFIb5NmdoMCfU=",
+        "originContent": "├─ Linux?",
+        "translatedContent": "├─ Linux?"
+      },
+      {
+        "row": 5,
+        "rowsha": "kOLnXBdlwSSPXeb/76oF1xttlz23gNthNvSxysE8pdY=",
+        "originContent": "│   ├─ hwmon sysfs (k10temp / zenpower / amd_energy)   ← real sensor",
+        "translatedContent": "│   ├─ hwmon sysfs (k10temp / zenpower / amd_energy)   ← real sensor"
+      },
+      {
+        "row": 6,
+        "rowsha": "SVMDk48TXQ9psDDrgz1LqiK1X1DJ0WfoWTp0PlUoPIw=",
+        "originContent": "│   ├─ RAPL powercap energy_uj delta                   ← kernel counter",
+        "translatedContent": "│   ├─ RAPL powercap energy_uj delta                   ← kernel counter"
+      },
+      {
+        "row": 7,
+        "rowsha": "c8UVRjW1xTODCdebdXjLC7JXLPQdcmV3BpptLAbyVZs=",
+        "originContent": "│   └─ CPU% × TDP estimate                             ← always available",
+        "translatedContent": "│   └─ CPU% × TDP estimate                             ← always available"
+      },
+      {
+        "row": 8,
+        "rowsha": "5vGmpyBVt2J6FS88MgVfu7gyr+7V41/iBhPX5sN8De0=",
+        "originContent": "│",
+        "translatedContent": "│"
+      },
+      {
+        "row": 9,
+        "rowsha": "1VCq1BTMYLYm6Ppb9gV44FVOAguTFnPE94wfvXIUDq0=",
+        "originContent": "└─ Windows?",
+        "translatedContent": "└─ Windows?"
+      },
+      {
+        "row": 10,
+        "rowsha": "fcBOMy3dnSjgruuzfUTw/KjLyuPnOPGoOFc03No5OsU=",
+        "originContent": "    ├─ LibreHardwareMonitor WMI (requires Admin + LHM) ← real sensor",
+        "translatedContent": "    ├─ LibreHardwareMonitor WMI (requires Admin + LHM) ← real sensor"
+      },
+      {
+        "row": 11,
+        "rowsha": "l3cOXDJh6nYS8pTPhczu4fMG5crsmdo4jN9Axbk/jvI=",
+        "originContent": "    └─ CPU% × TDP estimate                             ← always available",
+        "translatedContent": "    └─ CPU% × TDP estimate                             ← always available"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "J3lDzcBU4kzZbN7qlE15P8ai5IpOlCeRbtD+HLQJIR4=",
+        "originContent": "GPU → NVML (pynvml) on all platforms",
+        "translatedContent": "GPU → NVML (pynvml) on all platforms"
+      },
+      {
+        "row": 14,
+        "rowsha": "KTpxASexPSh3fHWv02Bh6hg1QyvB+DbmFhjAxxiLra0=",
+        "originContent": "     if no NVIDIA GPU: panel shows \"unavailable\", no crash",
+        "translatedContent": "     if no NVIDIA GPU: panel shows \"unavailable\", no crash"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n---\n\n## Project Structure\n",
+    "ContentSha": "mkQJ5vLbsWqAb52h7T6FzUywtMkwDQxSUOzcQ0nC7EA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## Project Structure\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fgyvOUxAVQzAAJBynGYLLFVgQh7X0IXOshtNb9Ky0Sw=",
+        "originContent": "## Project Structure",
+        "translatedContent": "## Project Structure"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\nvigil-tui/\n├── src/vigil/\n│   ├── app.py                   # Textual app, layout, tick loop\n│   ├── config.py                # Static constants\n│   ├── config_manager.py        # TOML config loader/writer\n│   ├── session.py               # Cost tracking, webhooks, JSONL logging\n│   ├── collectors/\n│   │   ├── base.py              # Collector ABC + SensorReading\n│   │   ├── cpu.py               # hwmon → RAPL → LHM → estimate\n│   │   ├── gpu.py               # NVIDIA NVML\n│   │   ├── ram.py               # RAM wattage model\n│   │   ├── netdisk.py           # Network + disk I/O rates\n│   │   └── system.py            # Orchestrator → SystemSnapshot\n│   └── widgets/\n│       ├── power_header.py      # Top bar: wordmark + gauge\n│       ├── cpu_panel.py         # Left: CPU + per-core bars\n│       ├── braille_chart.py     # Center: power history\n│       ├── clock_chart.py       # Center: clock history\n│       ├── process_table.py     # Center: process ranking\n│       ├── gpu_panel.py         # Right: GPU metrics\n│       ├── financial_widget.py  # Cost display\n│       ├── netdisk_widget.py    # Network + disk rates\n│       ├── status_bar.py        # Footer\n│       ├── boot_screen.py       # Splash screen\n│       ├── help_overlay.py      # Key bindings overlay\n│       └── setup_wizard.py      # First-run wizard\n├── .github/workflows/ci.yml\n├── pyproject.toml\n├── requirements.txt\n└── LICENSE\n```",
+    "ContentSha": "pBEvGTIWROLQKN6wJt+dw7R0JFF15dT/NWkNrp8Or2U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nvigil-tui/\n├── src/vigil/\n│   ├── app.py                   # Textual app, layout, tick loop\n│   ├── config.py                # Static constants\n│   ├── config_manager.py        # TOML config loader/writer\n│   ├── session.py               # Cost tracking, webhooks, JSONL logging\n│   ├── collectors/\n│   │   ├── base.py              # Collector ABC + SensorReading\n│   │   ├── cpu.py               # hwmon → RAPL → LHM → estimate\n│   │   ├── gpu.py               # NVIDIA NVML\n│   │   ├── ram.py               # RAM wattage model\n│   │   ├── netdisk.py           # Network + disk I/O rates\n│   │   └── system.py            # Orchestrator → SystemSnapshot\n│   └── widgets/\n│       ├── power_header.py      # Top bar: wordmark + gauge\n│       ├── cpu_panel.py         # Left: CPU + per-core bars\n│       ├── braille_chart.py     # Center: power history\n│       ├── clock_chart.py       # Center: clock history\n│       ├── process_table.py     # Center: process ranking\n│       ├── gpu_panel.py         # Right: GPU metrics\n│       ├── financial_widget.py  # Cost display\n│       ├── netdisk_widget.py    # Network + disk rates\n│       ├── status_bar.py        # Footer\n│       ├── boot_screen.py       # Splash screen\n│       ├── help_overlay.py      # Key bindings overlay\n│       └── setup_wizard.py      # First-run wizard\n├── .github/workflows/ci.yml\n├── pyproject.toml\n├── requirements.txt\n└── LICENSE\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "DUf3b6HfMpUGKqhb6nBMZ6cyvXM6roDZs4JizqCz8Ew=",
+        "originContent": "vigil-tui/",
+        "translatedContent": "vigil-tui/"
+      },
+      {
+        "row": 3,
+        "rowsha": "cyX8ERBqxyquOpQEQF7cIo3XANEl3bI1dunL/ot4FsE=",
+        "originContent": "├── src/vigil/",
+        "translatedContent": "├── src/vigil/"
+      },
+      {
+        "row": 4,
+        "rowsha": "5ydiwTDR1KjR+uYIr7hZXJFOC8tJHpacGIs4uL/WoxY=",
+        "originContent": "│   ├── app.py                   # Textual app, layout, tick loop",
+        "translatedContent": "│   ├── app.py                   # Textual app, layout, tick loop"
+      },
+      {
+        "row": 5,
+        "rowsha": "3HfVBP3JGWMsKRFsHDcCk6tY9Kax8SyJtT4T5rVJUak=",
+        "originContent": "│   ├── config.py                # Static constants",
+        "translatedContent": "│   ├── config.py                # Static constants"
+      },
+      {
+        "row": 6,
+        "rowsha": "5v43jMgVnrsfGRtNMeSMkOKw5gDCuHiSF41hJcZd+wI=",
+        "originContent": "│   ├── config_manager.py        # TOML config loader/writer",
+        "translatedContent": "│   ├── config_manager.py        # TOML config loader/writer"
+      },
+      {
+        "row": 7,
+        "rowsha": "1hPn1aBSdrcQFOoJdscOS8ZcZev5C6io653hMvO7c7U=",
+        "originContent": "│   ├── session.py               # Cost tracking, webhooks, JSONL logging",
+        "translatedContent": "│   ├── session.py               # Cost tracking, webhooks, JSONL logging"
+      },
+      {
+        "row": 8,
+        "rowsha": "oRXW9XPQnZugVEI7C3Mj16Kk2Kc8/LyFBDV4jqGtYYw=",
+        "originContent": "│   ├── collectors/",
+        "translatedContent": "│   ├── collectors/"
+      },
+      {
+        "row": 9,
+        "rowsha": "3VT6eKyVoxGVtOUjhM3SN8r+fhCi/xvVY6DVsyXbIzs=",
+        "originContent": "│   │   ├── base.py              # Collector ABC + SensorReading",
+        "translatedContent": "│   │   ├── base.py              # Collector ABC + SensorReading"
+      },
+      {
+        "row": 10,
+        "rowsha": "Dlip048dW0zUpfDmFk7wiZN5D3REQkQ3H+hI3ClJwGc=",
+        "originContent": "│   │   ├── cpu.py               # hwmon → RAPL → LHM → estimate",
+        "translatedContent": "│   │   ├── cpu.py               # hwmon → RAPL → LHM → estimate"
+      },
+      {
+        "row": 11,
+        "rowsha": "xyGU8vhJb9t0Q17NQ+W7ATDkikjpTHVdNX9Qfjsr710=",
+        "originContent": "│   │   ├── gpu.py               # NVIDIA NVML",
+        "translatedContent": "│   │   ├── gpu.py               # NVIDIA NVML"
+      },
+      {
+        "row": 12,
+        "rowsha": "OY17X/JyMKNkAHodqv4YFyqgiU4PBQKexmD1dCzXn4k=",
+        "originContent": "│   │   ├── ram.py               # RAM wattage model",
+        "translatedContent": "│   │   ├── ram.py               # RAM wattage model"
+      },
+      {
+        "row": 13,
+        "rowsha": "xdogruKlYb3wV+H/Vyq+uHoeW9DvblYAyXfQsRxHTLw=",
+        "originContent": "│   │   ├── netdisk.py           # Network + disk I/O rates",
+        "translatedContent": "│   │   ├── netdisk.py           # Network + disk I/O rates"
+      },
+      {
+        "row": 14,
+        "rowsha": "KkMAZxNenCavuOEwmMOdsUWi4cTOW3BL/pT+fJfj1qQ=",
+        "originContent": "│   │   └── system.py            # Orchestrator → SystemSnapshot",
+        "translatedContent": "│   │   └── system.py            # Orchestrator → SystemSnapshot"
+      },
+      {
+        "row": 15,
+        "rowsha": "JewhrEZQlkV2rmOPrmmW1ZaOSjmhhl6sUZ8+IwP+u7U=",
+        "originContent": "│   └── widgets/",
+        "translatedContent": "│   └── widgets/"
+      },
+      {
+        "row": 16,
+        "rowsha": "nciL8cmuf4gNkaARugGVibT1HkquHrfd0qzD50oowEk=",
+        "originContent": "│       ├── power_header.py      # Top bar: wordmark + gauge",
+        "translatedContent": "│       ├── power_header.py      # Top bar: wordmark + gauge"
+      },
+      {
+        "row": 17,
+        "rowsha": "GqDzrz5FweOWE1iVwmJb2zK06WpzQUeJiQ7MLmR77u8=",
+        "originContent": "│       ├── cpu_panel.py         # Left: CPU + per-core bars",
+        "translatedContent": "│       ├── cpu_panel.py         # Left: CPU + per-core bars"
+      },
+      {
+        "row": 18,
+        "rowsha": "CrPIjqOnjEDgm4qKnryQQi69+eFrB1rJHwnA96yTrKc=",
+        "originContent": "│       ├── braille_chart.py     # Center: power history",
+        "translatedContent": "│       ├── braille_chart.py     # Center: power history"
+      },
+      {
+        "row": 19,
+        "rowsha": "w2YBlR1kYp4ea6bBy0g98JQs5NtQofiqZ+q29UaBw3E=",
+        "originContent": "│       ├── clock_chart.py       # Center: clock history",
+        "translatedContent": "│       ├── clock_chart.py       # Center: clock history"
+      },
+      {
+        "row": 20,
+        "rowsha": "XfEFC2nHts8D743ivZ3jdYb2v3XythBl3Ky7iyVtSys=",
+        "originContent": "│       ├── process_table.py     # Center: process ranking",
+        "translatedContent": "│       ├── process_table.py     # Center: process ranking"
+      },
+      {
+        "row": 21,
+        "rowsha": "e9cDOPN32Tqe3tho9cwJXNX+R11sjkcr+7kpB6BbKrA=",
+        "originContent": "│       ├── gpu_panel.py         # Right: GPU metrics",
+        "translatedContent": "│       ├── gpu_panel.py         # Right: GPU metrics"
+      },
+      {
+        "row": 22,
+        "rowsha": "ffxlazyVVqts1K1Xj61Q5ObT4GtKMNJEXW8Rnc3Kcrc=",
+        "originContent": "│       ├── financial_widget.py  # Cost display",
+        "translatedContent": "│       ├── financial_widget.py  # Cost display"
+      },
+      {
+        "row": 23,
+        "rowsha": "RHUTDoYUrrutu5UAMg46NiLRIMnWLwlc40RFIqPUc3Y=",
+        "originContent": "│       ├── netdisk_widget.py    # Network + disk rates",
+        "translatedContent": "│       ├── netdisk_widget.py    # Network + disk rates"
+      },
+      {
+        "row": 24,
+        "rowsha": "B0hI1MC+cbK7LrkDmEAeCaPNuCLIuYFnxDeddSlMalw=",
+        "originContent": "│       ├── status_bar.py        # Footer",
+        "translatedContent": "│       ├── status_bar.py        # Footer"
+      },
+      {
+        "row": 25,
+        "rowsha": "xAb94zfPRdByXSOBH7at9Q6+6BjhEGoaMoCkrNtbXsI=",
+        "originContent": "│       ├── boot_screen.py       # Splash screen",
+        "translatedContent": "│       ├── boot_screen.py       # Splash screen"
+      },
+      {
+        "row": 26,
+        "rowsha": "/xwX0je39wbRESP1nj6LmAv9F5I/bKAZ6WgvsI4ajNc=",
+        "originContent": "│       ├── help_overlay.py      # Key bindings overlay",
+        "translatedContent": "│       ├── help_overlay.py      # Key bindings overlay"
+      },
+      {
+        "row": 27,
+        "rowsha": "S/2RcYC8l1iNF32N9j7JiFxPoFysAOkP8AzwI++g6pE=",
+        "originContent": "│       └── setup_wizard.py      # First-run wizard",
+        "translatedContent": "│       └── setup_wizard.py      # First-run wizard"
+      },
+      {
+        "row": 28,
+        "rowsha": "a5M0EwUTB7EoN9B1fcSVrGHBFXr4o/N/m5Ea2dcTefo=",
+        "originContent": "├── .github/workflows/ci.yml",
+        "translatedContent": "├── .github/workflows/ci.yml"
+      },
+      {
+        "row": 29,
+        "rowsha": "NyTcicujtxlT2mWGWwXt8qRkMW7sLawu67emnfyLnus=",
+        "originContent": "├── pyproject.toml",
+        "translatedContent": "├── pyproject.toml"
+      },
+      {
+        "row": 30,
+        "rowsha": "xlV0yUT1msPqBxaLt9F0FeZLfqakRCwtYfD3goFU2Mg=",
+        "originContent": "├── requirements.txt",
+        "translatedContent": "├── requirements.txt"
+      },
+      {
+        "row": 31,
+        "rowsha": "rBqbWeyIDejfWYuuczjmtuousS/Z3YEuwNAfGsmIu20=",
+        "originContent": "└── LICENSE",
+        "translatedContent": "└── LICENSE"
+      },
+      {
+        "row": 32,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n---\n\n## Dependencies\n\n| Package | Purpose |\n|---------|---------|\n| `textual >= 0.80` | TUI framework |\n| `psutil >= 5.9.8` | CPU%, process list, net/disk I/O |\n| `pynvml >= 11.5.0` | NVIDIA GPU metrics |\n| `wmi >= 1.5.1` *(Windows)* | LHM WMI bridge |\n| `pywin32 >= 306` *(Windows)* | Windows COM/WMI support |\n\n---\n\n## License\n\n[MIT](LICENSE) — free to use, modify, and distribute.\n\n---\n\n<div align=\"center\">\nbuilt by <a href=\"https://github.com/GIN-SYSTEMS\">GIN-SYSTEMS</a>\n</div>\n",
+    "ContentSha": "9NHo6p2V29OHFViXRCK6DKsmZfjqdW5oiDAk7utkfiU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 의존성\n\n| 패키지 | 용도 |\n|---------|---------|\n| `textual >= 0.80` | TUI 프레임워크 |\n| `psutil >= 5.9.8` | CPU%, 프로세스 목록, 네트워크/디스크 I/O |\n| `pynvml >= 11.5.0` | NVIDIA GPU 메트릭 |\n| `wmi >= 1.5.1` *(Windows)* | LHM WMI 브리지 |\n| `pywin32 >= 306` *(Windows)* | Windows COM/WMI 지원 |\n\n---\n\n## 라이선스\n\n[MIT](LICENSE) — 자유롭게 사용, 수정 및 배포 가능.\n\n---\n\n<div align=\"center\">\nbuilt by <a href=\"https://github.com/GIN-SYSTEMS\">GIN-SYSTEMS</a>\n</div>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1GG6RzhUQg6MWK7hzadJlvIKgJovz9zWw6FnPT8QVK0=",
+        "originContent": "## Dependencies",
+        "translatedContent": "## 의존성"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "TF52SewMru0YzQbZG6xYboKSNTUy/tsioyTwRyiUQvE=",
+        "originContent": "| Package | Purpose |",
+        "translatedContent": "| 패키지 | 용도 |"
+      },
+      {
+        "row": 7,
+        "rowsha": "hQM8nWYuGwbsusUVo6JDavZzOYBX5x6G5pnJ0ehlPvY=",
+        "originContent": "|---------|---------|",
+        "translatedContent": "|---------|---------|"
+      },
+      {
+        "row": 8,
+        "rowsha": "dHl4L4jatFktffQg3F9+iPIjDk76vubZ5kiE+hweNrg=",
+        "originContent": "| `textual >= 0.80` | TUI framework |",
+        "translatedContent": "| `textual >= 0.80` | TUI 프레임워크 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "tPzBkfBiT3C7LfK7XcPNN/bqZuD1mBUyr5ttTyrWCJo=",
+        "originContent": "| `psutil >= 5.9.8` | CPU%, process list, net/disk I/O |",
+        "translatedContent": "| `psutil >= 5.9.8` | CPU%, 프로세스 목록, 네트워크/디스크 I/O |"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZQhmJYBPKOpRsnaJZrIKSD/1sEEIgVnO0HgjMwaflYI=",
+        "originContent": "| `pynvml >= 11.5.0` | NVIDIA GPU metrics |",
+        "translatedContent": "| `pynvml >= 11.5.0` | NVIDIA GPU 메트릭 |"
+      },
+      {
+        "row": 11,
+        "rowsha": "jU73fo6t2wZosHsRIhcrHh1g79+WG0y1fPQiKFN3jI4=",
+        "originContent": "| `wmi >= 1.5.1` *(Windows)* | LHM WMI bridge |",
+        "translatedContent": "| `wmi >= 1.5.1` *(Windows)* | LHM WMI 브리지 |"
+      },
+      {
+        "row": 12,
+        "rowsha": "+sejkFieHoLHl/6C/2DRzT1swDEUlrHgJQJUna6t55U=",
+        "originContent": "| `pywin32 >= 306` *(Windows)* | Windows COM/WMI support |",
+        "translatedContent": "| `pywin32 >= 306` *(Windows)* | Windows COM/WMI 지원 |"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Jk+kdjZ/056E8zjohgBWmPronY4xQB9JVZIVZd8b9Fc=",
+        "originContent": "[MIT](LICENSE) — free to use, modify, and distribute.",
+        "translatedContent": "[MIT](LICENSE) — 자유롭게 사용, 수정 및 배포 가능."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 23,
+        "rowsha": "FWtEdPUInbPUO5oC5GZWeLNgdj0pV8g59k7fzBq8R7E=",
+        "originContent": "built by <a href=\"https://github.com/GIN-SYSTEMS\">GIN-SYSTEMS</a>",
+        "translatedContent": "built by <a href=\"https://github.com/GIN-SYSTEMS\">GIN-SYSTEMS</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

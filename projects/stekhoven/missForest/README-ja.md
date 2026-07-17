@@ -1,25 +1,57 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=stekhoven&project=missForest&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # missForest
 
-<!-- badges: start -->
+<!-- バッジ: 開始 -->
 
-[![CRAN status](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)
-[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
-[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
-[![R-CMD-check](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)
+[![CRAN ステータス](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)
+[![CRAN RStudio ミラー ダウンロード（先月）](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
+[![CRAN RStudio ミラー ダウンロード（総計）](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)
+[![R-CMD-チェック](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml)
 [![License: GPL (≥ 2)](https://img.shields.io/badge/license-GPL%20(%E2%89%A5%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 <!-- badges: end -->
 
-**missForest** は、Rにおける**混合型**表形式データの非パラメトリックな補完手法です。数値変数とカテゴリ変数を同時に扱い、観測データから欠損値を予測するランダムフォレストを反復的に学習させます。明示的なモデル仮定や行列分解は不要で、すぐに使える強力な予測ベースラインを提供します。
+**missForest** は、Rでの**混合型**表形式データに対するノンパラメトリックな補完手法です。**数値型およびカテゴリ型**変数を同時に扱い、ランダムフォレストを反復的に学習させて観測済みの値から欠損値を予測します。明示的なモデル仮定や行列分解は不要で、すぐに使える強力な予測ベースラインを提供します。
 
-* **数値列と因子列の任意の組み合わせ**に対応
-* **非線形性**と**相互作用**を捉える
+* **数値型と因子型列の任意の混在**に対応
+* **非線形性**や**交互作用**を捉える
 * **アウト・オブ・バッグ（OOB）**補完誤差（NRMSE/PFC）を報告
-* **並列実行**をサポート（変数単位または森林単位）
-* 2つのフォレストバックエンド：**[`ranger`](https://cran.r-project.org/package=ranger)**（デフォルト）と**[`randomForest`](https://cran.r-project.org/package=randomForest)**（旧版/互換）
+* **並列実行**をサポート（変数単位またはフォレスト単位）
+* 2つのフォレストバックエンド：**[`ranger`](https://cran.r-project.org/package=ranger)**（デフォルト）および**[`randomForest`](https://cran.r-project.org/package=randomForest)**（レガシー/互換）
 
-このパッケージには、補完誤差の測定、実験用の欠損生成、変数型の検査に役立つユーティリティも含まれています。
+本パッケージには補完誤差の評価、実験用の欠損生成、変数型の確認用ユーティリティも含まれています。
 
 ---
 
@@ -172,6 +204,6 @@ Daniel J. Stekhoven — [stekhoven@nexus.ethz.ch](https://raw.githubusercontent.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-17
 
 ---

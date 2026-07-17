@@ -1,0 +1,1563 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <b>P R O T E I N V I E W</b>\n</p>\n\n<p align=\"center\">\n  <em>Explore molecular structures in your terminal</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg\" alt=\"License: MIT\"></a>\n  <a href=\"https://www.rust-lang.org/\"><img src=\"https://img.shields.io/badge/Rust-1.85%2B-orange.svg\" alt=\"Rust\"></a>\n  <img src=\"https://img.shields.io/badge/version-0.3.0-green.svg\" alt=\"Version\">\n  <a href=\"https://github.com/001TMF/ProteinView/pulls\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg\" alt=\"PRs Welcome\"></a>\n  <a href=\"https://www.linkedin.com/in/tristan-farmer-973b7a17a/\"><img src=\"https://img.shields.io/badge/LinkedIn-Tristan%20Farmer-0A66C2?logo=linkedin\" alt=\"LinkedIn\"></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/hero-histone.png\" alt=\"Nucleosome core particle with histone proteins and DNA rendered in FullHD mode\" width=\"700\">\n</p>\n\n<p align=\"center\">\n  <sub>Nucleosome core particle — histone octamer wrapped in DNA, rendered with Kitty graphics protocol</sub>\n</p>\n\n---\n\nTerminal molecular structure viewer — load, rotate, and explore proteins, nucleic acids, and small molecules from PDB/CIF files right in your terminal. No browser, no GUI, no dependencies.\n\n## Features\n\n- **3-tier render modes** — Braille, HD, and FullHD (Sixel/Kitty) with automatic SSH detection\n- **PNG-compressed Kitty protocol** — ~10-20x smaller than raw RGBA, making FullHD viable over SSH\n- **Cartoon ribbon visualization** — Lambert-shaded ribbons with depth fog for helices, sheets, and coils\n- **RNA/DNA support** — backbone, wireframe, and cartoon modes with base-type coloring\n- **Small molecule rendering** — ligands as ball-and-stick, ions as spheres\n- **Interface analysis** — inter-chain contacts, binding pockets, and interaction visualization (H-bonds, salt bridges, hydrophobic contacts)\n- **7 color schemes** — structure, chain, element (CPK), B-factor, rainbow, pLDDT (AlphaFold)\n- **Interactive controls** — vim-style rotation, zoom, pan with auto-rotation\n- **PDB & mmCIF** — both formats supported, with RCSB PDB fetch (`--fetch`)\n- **Single static binary** — zero runtime dependencies",
+    "ContentSha": "Ovsa+qZtWYoDfGurRQ7YKRTAzHXqoFsohtoKxKUpC3I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <b>P R O T E I N V I E W</b>\n</p>\n\n<p align=\"center\">\n  <em>Explorez les structures moléculaires dans votre terminal</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg\" alt=\"Licence : MIT\"></a>\n  <a href=\"https://www.rust-lang.org/\"><img src=\"https://img.shields.io/badge/Rust-1.85%2B-orange.svg\" alt=\"Rust\"></a>\n  <img src=\"https://img.shields.io/badge/version-0.3.0-green.svg\" alt=\"Version\">\n  <a href=\"https://github.com/001TMF/ProteinView/pulls\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg\" alt=\"PRs Bienvenus\"></a>\n  <a href=\"https://www.linkedin.com/in/tristan-farmer-973b7a17a/\"><img src=\"https://img.shields.io/badge/LinkedIn-Tristan%20Farmer-0A66C2?logo=linkedin\" alt=\"LinkedIn\"></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/hero-histone.png\" alt=\"Particule de base du nucléosome avec protéines histones et ADN rendu en mode FullHD\" width=\"700\">\n</p>\n\n<p align=\"center\">\n  <sub>Particule de base du nucléosome — octamère d’histones enroulé dans l’ADN, rendu avec le protocole graphique Kitty</sub>\n</p>\n\n---\n\nVisionneuse de structures moléculaires en terminal — chargez, faites pivoter et explorez protéines, acides nucléiques et petites molécules depuis des fichiers PDB/CIF directement dans votre terminal. Pas de navigateur, pas d’interface graphique, pas de dépendances.\n\n## Fonctionnalités\n\n- **3 modes de rendu** — Braille, HD et FullHD (Sixel/Kitty) avec détection automatique SSH\n- **Protocole Kitty compressé PNG** — ~10-20x plus petit que RGBA brut, rendant FullHD viable en SSH\n- **Visualisation en rubans cartoon** — rubans ombrés Lambert avec brouillard de profondeur pour hélices, feuillets et boucles\n- **Support ARN/ADN** — modes squelette, filaire et cartoon avec coloration selon type de base\n- **Rendu des petites molécules** — ligands en bâtonnets-boules, ions en sphères\n- **Analyse d’interface** — contacts inter-chaînes, poches de liaison, visualisation des interactions (liaisons H, ponts salins, contacts hydrophobes)\n- **7 schémas de couleurs** — structure, chaîne, élément (CPK), facteur B, arc-en-ciel, pLDDT (AlphaFold)\n- **Contrôles interactifs** — rotation, zoom, panoramique style vim avec auto-rotation\n- **PDB & mmCIF** — support des deux formats, avec récupération RCSB PDB (`--fetch`)\n- **Binaire statique unique** — zéro dépendance à l’exécution",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "qEbmZqs75oDbKS6m7Sm+YVgoahywdzYN1sHVAyEZDEI=",
+        "originContent": "  <b>P R O T E I N V I E W</b>",
+        "translatedContent": "  <b>P R O T E I N V I E W</b>"
+      },
+      {
+        "row": 3,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "x+e/PYtAztRFFHRm9FmyR8ULST3qeaBwzaWf3pLB1h0=",
+        "originContent": "  <em>Explore molecular structures in your terminal</em>",
+        "translatedContent": "  <em>Explorez les structures moléculaires dans votre terminal</em>"
+      },
+      {
+        "row": 7,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "s903yp6zXcIK3TS3YKtfkANeQ5tB0RvfveZuyKqB3FQ=",
+        "originContent": "  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg\" alt=\"License: MIT\"></a>",
+        "translatedContent": "  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg\" alt=\"Licence : MIT\"></a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "Nf8CKYBk7NjLO7meViDHlpvjfkxZn2dcEUyefyTq4ak=",
+        "originContent": "  <a href=\"https://www.rust-lang.org/\"><img src=\"https://img.shields.io/badge/Rust-1.85%2B-orange.svg\" alt=\"Rust\"></a>",
+        "translatedContent": "  <a href=\"https://www.rust-lang.org/\"><img src=\"https://img.shields.io/badge/Rust-1.85%2B-orange.svg\" alt=\"Rust\"></a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "1k11SA5CnV5nFRyoGt52ye6o5H+PVnp1V1NLigGyMnw=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/version-0.3.0-green.svg\" alt=\"Version\">",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/version-0.3.0-green.svg\" alt=\"Version\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "tA/My5a0ziPGWEyczitjkjsH4PdBTG9mB3BAKcpm1Ak=",
+        "originContent": "  <a href=\"https://github.com/001TMF/ProteinView/pulls\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg\" alt=\"PRs Welcome\"></a>",
+        "translatedContent": "  <a href=\"https://github.com/001TMF/ProteinView/pulls\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg\" alt=\"PRs Bienvenus\"></a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "gYQKYQu6XOZPfeaKGYufjgY7cibpkCpZf/p7hshP+v0=",
+        "originContent": "  <a href=\"https://www.linkedin.com/in/tristan-farmer-973b7a17a/\"><img src=\"https://img.shields.io/badge/LinkedIn-Tristan%20Farmer-0A66C2?logo=linkedin\" alt=\"LinkedIn\"></a>",
+        "translatedContent": "  <a href=\"https://www.linkedin.com/in/tristan-farmer-973b7a17a/\"><img src=\"https://img.shields.io/badge/LinkedIn-Tristan%20Farmer-0A66C2?logo=linkedin\" alt=\"LinkedIn\"></a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "OPJ7NxKYexURIXsBKDaTyalMcaw31vd0OCW3EkJR/ZI=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/hero-histone.png\" alt=\"Nucleosome core particle with histone proteins and DNA rendered in FullHD mode\" width=\"700\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/hero-histone.png\" alt=\"Particule de base du nucléosome avec protéines histones et ADN rendu en mode FullHD\" width=\"700\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 22,
+        "rowsha": "vWqHpURNGyxRW2jrx+Aw1YVhibJJ2Oq1xm8X0eHF25Y=",
+        "originContent": "  <sub>Nucleosome core particle — histone octamer wrapped in DNA, rendered with Kitty graphics protocol</sub>",
+        "translatedContent": "  <sub>Particule de base du nucléosome — octamère d’histones enroulé dans l’ADN, rendu avec le protocole graphique Kitty</sub>"
+      },
+      {
+        "row": 23,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "DopCl75KukHPSGKMgjX+Azm+uzkDICrlUbhYHWQxZms=",
+        "originContent": "Terminal molecular structure viewer — load, rotate, and explore proteins, nucleic acids, and small molecules from PDB/CIF files right in your terminal. No browser, no GUI, no dependencies.",
+        "translatedContent": "Visionneuse de structures moléculaires en terminal — chargez, faites pivoter et explorez protéines, acides nucléiques et petites molécules depuis des fichiers PDB/CIF directement dans votre terminal. Pas de navigateur, pas d’interface graphique, pas de dépendances."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "dNDgmUzRtI56xGWM1kMNHXgwqiI46dRawvnBYfPMGeA=",
+        "originContent": "- **3-tier render modes** — Braille, HD, and FullHD (Sixel/Kitty) with automatic SSH detection",
+        "translatedContent": "- **3 modes de rendu** — Braille, HD et FullHD (Sixel/Kitty) avec détection automatique SSH"
+      },
+      {
+        "row": 32,
+        "rowsha": "aN87A2OtMBaq1feSAyJjesSylBnCZpKdmO0DXL0xdFw=",
+        "originContent": "- **PNG-compressed Kitty protocol** — ~10-20x smaller than raw RGBA, making FullHD viable over SSH",
+        "translatedContent": "- **Protocole Kitty compressé PNG** — ~10-20x plus petit que RGBA brut, rendant FullHD viable en SSH"
+      },
+      {
+        "row": 33,
+        "rowsha": "BAc4Ar5nxj1a9R/hY0Gtfv/cO8whzQN1wHbRjVjjpzI=",
+        "originContent": "- **Cartoon ribbon visualization** — Lambert-shaded ribbons with depth fog for helices, sheets, and coils",
+        "translatedContent": "- **Visualisation en rubans cartoon** — rubans ombrés Lambert avec brouillard de profondeur pour hélices, feuillets et boucles"
+      },
+      {
+        "row": 34,
+        "rowsha": "JXKBynqbUBTuLVqLg8vDI9FtkYgidPMdLQ4SDczzv2g=",
+        "originContent": "- **RNA/DNA support** — backbone, wireframe, and cartoon modes with base-type coloring",
+        "translatedContent": "- **Support ARN/ADN** — modes squelette, filaire et cartoon avec coloration selon type de base"
+      },
+      {
+        "row": 35,
+        "rowsha": "wfqAPONxyw69b6jjWauip5lDoi1itR1gLhhuRMkKt28=",
+        "originContent": "- **Small molecule rendering** — ligands as ball-and-stick, ions as spheres",
+        "translatedContent": "- **Rendu des petites molécules** — ligands en bâtonnets-boules, ions en sphères"
+      },
+      {
+        "row": 36,
+        "rowsha": "cvv/9FxW50fADjjSRDkQ681wr6sNBVNGEAAVSgXBq9k=",
+        "originContent": "- **Interface analysis** — inter-chain contacts, binding pockets, and interaction visualization (H-bonds, salt bridges, hydrophobic contacts)",
+        "translatedContent": "- **Analyse d’interface** — contacts inter-chaînes, poches de liaison, visualisation des interactions (liaisons H, ponts salins, contacts hydrophobes)"
+      },
+      {
+        "row": 37,
+        "rowsha": "6vpDBQzPk4r2xToP3xwv1XMAKjrnj7mCA8uJqXJBYMk=",
+        "originContent": "- **7 color schemes** — structure, chain, element (CPK), B-factor, rainbow, pLDDT (AlphaFold)",
+        "translatedContent": "- **7 schémas de couleurs** — structure, chaîne, élément (CPK), facteur B, arc-en-ciel, pLDDT (AlphaFold)"
+      },
+      {
+        "row": 38,
+        "rowsha": "+Q07+G8ZKhNb3Mo7NGNZ/heFMxYIqOKwn5EGcxCy2dk=",
+        "originContent": "- **Interactive controls** — vim-style rotation, zoom, pan with auto-rotation",
+        "translatedContent": "- **Contrôles interactifs** — rotation, zoom, panoramique style vim avec auto-rotation"
+      },
+      {
+        "row": 39,
+        "rowsha": "K0z1vVWdAEfqebFw4Y/oBnuWl73ZtalGHVAN3C8x0YE=",
+        "originContent": "- **PDB & mmCIF** — both formats supported, with RCSB PDB fetch (`--fetch`)",
+        "translatedContent": "- **PDB & mmCIF** — support des deux formats, avec récupération RCSB PDB (`--fetch`)"
+      },
+      {
+        "row": 40,
+        "rowsha": "MKE+US1IIXZfitQeWNm9/Svz9Ih8rxO051wtB4aKFiU=",
+        "originContent": "- **Single static binary** — zero runtime dependencies",
+        "translatedContent": "- **Binaire statique unique** — zéro dépendance à l’exécution"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## Render Modes\n\nThree rendering tiers to match your terminal and connection:\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/render-modes-grid.png\" alt=\"Braille vs HD vs FullHD rendering comparison\" width=\"700\">\n</p>\n\n<p align=\"center\">\n  <sub>Left: Braille (works everywhere, including SSH/tmux) · Middle: HD (Lambert-shaded braille) · Right: FullHD (Kitty pixel graphics)</sub>\n</p>\n\n| Mode | Key | Quality | SSH Performance |\n|------|-----|---------|-----------------|\n| **Braille** | default | Text-based, monochrome per cell | Excellent |\n| **HD** | `m` | Shaded braille with lighting + depth fog | Excellent |\n| **FullHD** | `M` | Sixel/Kitty pixel graphics | Good (PNG compressed) |\n\n`--hd` is SSH-aware: defaults to HD over SSH, FullHD locally. Use `--fullhd` to force pixel graphics.\n\n## Visualization Modes\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/viz-modes-grid.png\" alt=\"Cartoon, Wireframe, and Backbone visualization modes\" width=\"700\">\n</p>\n\n<p align=\"center\">\n  <sub>Left: Cartoon (ribbon) · Middle: Wireframe (all-atom) · Right: Backbone (CA trace)</sub>\n</p>\n\n| Mode | Description |\n|------|-------------|\n| **Cartoon** | Smooth ribbon rendering — helices, beta-sheets, and coils with Lambert shading. Default. |\n| **Wireframe** | All-atom bonds including inter-residue peptide and phosphodiester linkages. |\n| **Backbone** | CA trace (proteins) / C4' trace (nucleic acids) with spheres and thick connecting lines. |\n\n## Interface Analysis & Interactions\n\n<p align=\"center\">",
+    "ContentSha": "vr2yb2fk/222r8Frz0hBn3fpaYG9W26jUh8BOpmWZyI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Modes de rendu\n\nTrois niveaux de rendu adaptés à votre terminal et connexion :\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/render-modes-grid.png\" alt=\"Comparaison de rendu Braille vs HD vs FullHD\" width=\"700\">\n</p>\n\n<p align=\"center\">\n  <sub>Gauche : Braille (fonctionne partout, y compris SSH/tmux) · Milieu : HD (braille ombré Lambert) · Droite : FullHD (graphismes pixel Kitty)</sub>\n</p>\n\n| Mode | Touche | Qualité | Performance SSH |\n|------|--------|---------|-----------------|\n| **Braille** | par défaut | Basé sur du texte, monochrome par cellule | Excellente |\n| **HD** | `m` | Braille ombré avec éclairage + brouillard de profondeur | Excellente |\n| **FullHD** | `M` | Graphismes pixel Sixel/Kitty | Bonne (compression PNG) |\n\n`--hd` détecte SSH : HD par défaut en SSH, FullHD localement. Utilisez `--fullhd` pour forcer les graphismes pixel.\n\n## Modes de visualisation\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/viz-modes-grid.png\" alt=\"Modes de visualisation Cartoon, Wireframe et Backbone\" width=\"700\">\n</p>\n\n<p align=\"center\">\n  <sub>Gauche : Cartoon (ruban) · Milieu : Wireframe (tout-atome) · Droite : Backbone (trace CA)</sub>\n</p>\n\n| Mode | Description |\n|------|-------------|\n| **Cartoon** | Rendu ruban lisse — hélices, feuillets bêta, et boucles avec ombrage Lambert. Par défaut. |\n| **Wireframe** | Liaisons tout-atome incluant peptides inter-résidus et liaisons phosphodiester. |\n| **Backbone** | Trace CA (protéines) / trace C4' (acides nucléiques) avec sphères et lignes épaisses de liaison. |\n\n## Analyse d’interface & Interactions\n\n<p align=\"center\">\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Modes de rendu"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZgdBzO6lQjXJvmm1lMxjvBPhak4QxvA6GmQyCE3Azo0=",
+        "originContent": "## Render Modes",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Trois niveaux de rendu adaptés à votre terminal et connexion :"
+      },
+      {
+        "row": 4,
+        "rowsha": "5LT5BFYmM4xEqVNGK7YIuTbTNQj6bZjHhaChU8Yvut8=",
+        "originContent": "Three rendering tiers to match your terminal and connection:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/render-modes-grid.png\" alt=\"Comparaison de rendu Braille vs HD vs FullHD\" width=\"700\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "0baElLk0mEtZkhsoAzuYxFBeJKhQkA8NnLwbWWKNHjs=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/render-modes-grid.png\" alt=\"Braille vs HD vs FullHD rendering comparison\" width=\"700\">",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "  <sub>Gauche : Braille (fonctionne partout, y compris SSH/tmux) · Milieu : HD (braille ombré Lambert) · Droite : FullHD (graphismes pixel Kitty)</sub>"
+      },
+      {
+        "row": 11,
+        "rowsha": "C3ZFQzyAuF2/okcoAqMlgItijYbzeIUHZ5SWdxHdCmw=",
+        "originContent": "  <sub>Left: Braille (works everywhere, including SSH/tmux) · Middle: HD (Lambert-shaded braille) · Right: FullHD (Kitty pixel graphics)</sub>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 12,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Mode | Touche | Qualité | Performance SSH |"
+      },
+      {
+        "row": 14,
+        "rowsha": "kpVuTRZWThOVbkT6uQ0UYSl/M86COpX0disVV2lSc9I=",
+        "originContent": "| Mode | Key | Quality | SSH Performance |",
+        "translatedContent": "|------|--------|---------|-----------------|"
+      },
+      {
+        "row": 15,
+        "rowsha": "NQWMmjuCGazdfBFUfq0H5i/fRKmrSyksXP+NoXiROPo=",
+        "originContent": "|------|-----|---------|-----------------|",
+        "translatedContent": "| **Braille** | par défaut | Basé sur du texte, monochrome par cellule | Excellente |"
+      },
+      {
+        "row": 16,
+        "rowsha": "x0s9qov5zObo7GFO+D7cwGEp924RhNgGh5zdgrYSqm8=",
+        "originContent": "| **Braille** | default | Text-based, monochrome per cell | Excellent |",
+        "translatedContent": "| **HD** | `m` | Braille ombré avec éclairage + brouillard de profondeur | Excellente |"
+      },
+      {
+        "row": 17,
+        "rowsha": "ZtztX/I4xH31JKh3pRnUQBSSaf7yyzo8C+JQob38Z+4=",
+        "originContent": "| **HD** | `m` | Shaded braille with lighting + depth fog | Excellent |",
+        "translatedContent": "| **FullHD** | `M` | Graphismes pixel Sixel/Kitty | Bonne (compression PNG) |"
+      },
+      {
+        "row": 18,
+        "rowsha": "9k65MQaHRor9JHuZSw34BpAmLdOsm3fUfOE2YURPG00=",
+        "originContent": "| **FullHD** | `M` | Sixel/Kitty pixel graphics | Good (PNG compressed) |",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`--hd` détecte SSH : HD par défaut en SSH, FullHD localement. Utilisez `--fullhd` pour forcer les graphismes pixel."
+      },
+      {
+        "row": 20,
+        "rowsha": "nal6MW/v96CNw91I6C7U41QUPrCaARmRe+T4D21Vpbk=",
+        "originContent": "`--hd` is SSH-aware: defaults to HD over SSH, FullHD locally. Use `--fullhd` to force pixel graphics.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Modes de visualisation"
+      },
+      {
+        "row": 22,
+        "rowsha": "YRd2QCttQb/QQN/PfVszJTHm6P9NsEq6qEwr691ALqM=",
+        "originContent": "## Visualization Modes",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/viz-modes-grid.png\" alt=\"Modes de visualisation Cartoon, Wireframe et Backbone\" width=\"700\">"
+      },
+      {
+        "row": 25,
+        "rowsha": "KszKCIxC5i5Yim/2Tg8K7Tnwk8YsEJry41fMYcz8FCM=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/viz-modes-grid.png\" alt=\"Cartoon, Wireframe, and Backbone visualization modes\" width=\"700\">",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 26,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 28,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "  <sub>Gauche : Cartoon (ruban) · Milieu : Wireframe (tout-atome) · Droite : Backbone (trace CA)</sub>"
+      },
+      {
+        "row": 29,
+        "rowsha": "ZYdo87tu4dgFMYccffGqktV4+uhFU2gBnw+CcsGutVw=",
+        "originContent": "  <sub>Left: Cartoon (ribbon) · Middle: Wireframe (all-atom) · Right: Backbone (CA trace)</sub>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 30,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Mode | Description |"
+      },
+      {
+        "row": 32,
+        "rowsha": "hOl5FTj4HAGCLuZ4h+7C4zkxMf8ll+uFWzXEVM8N91g=",
+        "originContent": "| Mode | Description |",
+        "translatedContent": "|------|-------------|"
+      },
+      {
+        "row": 33,
+        "rowsha": "E0a5l6U++MKlNLJbXgJB6DSfMfYy1KL1EHjo1imkim0=",
+        "originContent": "|------|-------------|",
+        "translatedContent": "| **Cartoon** | Rendu ruban lisse — hélices, feuillets bêta, et boucles avec ombrage Lambert. Par défaut. |"
+      },
+      {
+        "row": 34,
+        "rowsha": "dpMzAtI4m2qgLvgT97mHrQ8Z5WycwirAzbk87Yzds14=",
+        "originContent": "| **Cartoon** | Smooth ribbon rendering — helices, beta-sheets, and coils with Lambert shading. Default. |",
+        "translatedContent": "| **Wireframe** | Liaisons tout-atome incluant peptides inter-résidus et liaisons phosphodiester. |"
+      },
+      {
+        "row": 35,
+        "rowsha": "xpYoP+/zMkKX1aFEFFQGB+Vh0k/o1vwbveP2jWNwAVA=",
+        "originContent": "| **Wireframe** | All-atom bonds including inter-residue peptide and phosphodiester linkages. |",
+        "translatedContent": "| **Backbone** | Trace CA (protéines) / trace C4' (acides nucléiques) avec sphères et lignes épaisses de liaison. |"
+      },
+      {
+        "row": 36,
+        "rowsha": "K+zhSXcVrRJcPJfE2LqvTvry7Cdyh1ZoOGrISfRBFAo=",
+        "originContent": "| **Backbone** | CA trace (proteins) / C4' trace (nucleic acids) with spheres and thick connecting lines. |",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Analyse d’interface & Interactions"
+      },
+      {
+        "row": 38,
+        "rowsha": "vDK248NX7Zoyz4yR9cBtBncDNOVRaPtDlMn6D1dToS8=",
+        "originContent": "## Interface Analysis & Interactions",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 40,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/interface-grid.png\" alt=\"Interface analysis with interaction visualization\" width=\"700\">\n</p>\n\n<p align=\"center\">\n  <sub>Left: Interface residue coloring with sidebar panel · Right: Dashed interaction lines (H-bonds, salt bridges, hydrophobic contacts)</sub>\n</p>\n\nPress `f` to toggle interface mode — highlights contact residues across chain boundaries with a detailed sidebar. Press `I` to overlay interaction lines:\n\n| Color | Interaction | Distance |\n|-------|-------------|----------|\n| Cyan | Hydrogen bond | &le; 3.5 &Aring; |\n| Red | Salt bridge | &le; 4.0 &Aring; |\n| Yellow | Hydrophobic contact | &le; 4.5 &Aring; |\n| Gray | Other | &le; 4.5 &Aring; |\n\n## Nucleic Acids\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/dna-element.png\" alt=\"B-DNA double helix with element (CPK) coloring\" width=\"500\">\n</p>\n\n<p align=\"center\">\n  <sub>B-DNA dodecamer in wireframe mode with CPK element coloring</sub>\n</p>\n\nFull support for DNA and RNA structures — backbone traces, wireframe bonds, and cartoon ribbons with nucleotide base-type coloring (A=red, U/T=blue, G=green, C=yellow).\n\n## AlphaFold & pLDDT\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/plddt-cartoon.png\" alt=\"AlphaFold prediction with pLDDT confidence coloring\" width=\"500\">\n</p>\n\n<p align=\"center\">\n  <sub>AlphaFold prediction with pLDDT confidence coloring — blue (high confidence) to orange/yellow (low confidence)</sub>\n</p>\n\nAutomatically detects AlphaFold structures and offers pLDDT confidence coloring. Cycle through color schemes with `c`.\n",
+    "ContentSha": "a8RqgJng95X7siLebSJmLy2Y5ntCISn3jRsmbkCmFSQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/interface-grid.png\" alt=\"Analyse d'interface avec visualisation des interactions\" width=\"700\">\n</p>\n\n<p align=\"center\">\n  <sub>Gauche : Coloration des résidus d'interface avec panneau latéral · Droite : Lignes d'interaction en pointillés (liaisons H, ponts salins, contacts hydrophobes)</sub>\n</p>\n\nAppuyez sur `f` pour basculer en mode interface — met en évidence les résidus de contact à travers les limites des chaînes avec un panneau latéral détaillé. Appuyez sur `I` pour superposer les lignes d'interaction :\n\n| Couleur | Interaction | Distance |\n|---------|-------------|----------|\n| Cyan | Liaison hydrogène | &le; 3.5 &Aring; |\n| Rouge | Pont salin | &le; 4.0 &Aring; |\n| Jaune | Contact hydrophobe | &le; 4.5 &Aring; |\n| Gris | Autre | &le; 4.5 &Aring; |\n\n## Acides nucléiques\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/dna-element.png\" alt=\"Double hélice B-ADN avec coloration par élément (CPK)\" width=\"500\">\n</p>\n\n<p align=\"center\">\n  <sub>Dodécamère B-ADN en mode fil de fer avec coloration par élément CPK</sub>\n</p>\n\nSupport complet pour les structures ADN et ARN — tracés de la chaîne principale, liaisons en fil de fer et rubans cartoon avec coloration par type de base nucléotidique (A=rouge, U/T=bleu, G=vert, C=jaune).\n\n## AlphaFold & pLDDT\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/plddt-cartoon.png\" alt=\"Prédiction AlphaFold avec coloration de confiance pLDDT\" width=\"500\">\n</p>\n\n<p align=\"center\">\n  <sub>Prédiction AlphaFold avec coloration de confiance pLDDT — bleu (haute confiance) à orange/jaune (faible confiance)</sub>\n</p>\n\nDétecte automatiquement les structures AlphaFold et propose une coloration de confiance pLDDT. Parcourez les schémas de couleurs avec `c`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "N0ku8ZGwLU5kzwvRt3mI3SkZ/JM4XxJkAUgvJfez5aM=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/interface-grid.png\" alt=\"Interface analysis with interaction visualization\" width=\"700\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/interface-grid.png\" alt=\"Analyse d'interface avec visualisation des interactions\" width=\"700\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "O9/gmPgKyFhEW3raUPnF2hQjBoCqGjSae7FczM97iyU=",
+        "originContent": "  <sub>Left: Interface residue coloring with sidebar panel · Right: Dashed interaction lines (H-bonds, salt bridges, hydrophobic contacts)</sub>",
+        "translatedContent": "  <sub>Gauche : Coloration des résidus d'interface avec panneau latéral · Droite : Lignes d'interaction en pointillés (liaisons H, ponts salins, contacts hydrophobes)</sub>"
+      },
+      {
+        "row": 6,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "VT4CCDwp/leITpoWTbXG1d9NYYif1+1XSWKJASNlghQ=",
+        "originContent": "Press `f` to toggle interface mode — highlights contact residues across chain boundaries with a detailed sidebar. Press `I` to overlay interaction lines:",
+        "translatedContent": "Appuyez sur `f` pour basculer en mode interface — met en évidence les résidus de contact à travers les limites des chaînes avec un panneau latéral détaillé. Appuyez sur `I` pour superposer les lignes d'interaction :"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "2IsewieKPkyi1ip5fLC3BnmEcLXudVuab+ONYJc0GoQ=",
+        "originContent": "| Color | Interaction | Distance |",
+        "translatedContent": "| Couleur | Interaction | Distance |"
+      },
+      {
+        "row": 11,
+        "rowsha": "+wGdt9L1CdO5fE9wTc7jfv/DcePjtRA1rzlku3BWkGE=",
+        "originContent": "|-------|-------------|----------|",
+        "translatedContent": "|---------|-------------|----------|"
+      },
+      {
+        "row": 12,
+        "rowsha": "Jsjve/Dav407BewYxC95rDEkoVI7cSJkr+K6ONxAReU=",
+        "originContent": "| Cyan | Hydrogen bond | &le; 3.5 &Aring; |",
+        "translatedContent": "| Cyan | Liaison hydrogène | &le; 3.5 &Aring; |"
+      },
+      {
+        "row": 13,
+        "rowsha": "7oxih9Efn9ij8AmdfOOx2P/ij8+ha84qOpbPCMNYEFo=",
+        "originContent": "| Red | Salt bridge | &le; 4.0 &Aring; |",
+        "translatedContent": "| Rouge | Pont salin | &le; 4.0 &Aring; |"
+      },
+      {
+        "row": 14,
+        "rowsha": "cZEfFVc0lFB6PY9pMi+FjDABKwruR5QdR4U/VbICYvc=",
+        "originContent": "| Yellow | Hydrophobic contact | &le; 4.5 &Aring; |",
+        "translatedContent": "| Jaune | Contact hydrophobe | &le; 4.5 &Aring; |"
+      },
+      {
+        "row": 15,
+        "rowsha": "YKgEQWj8Xxg10WpFM3c/RvXwlEl2wuYpUNAUgPTeN5c=",
+        "originContent": "| Gray | Other | &le; 4.5 &Aring; |",
+        "translatedContent": "| Gris | Autre | &le; 4.5 &Aring; |"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "CIkmx+nfMbHhcFUwWy94FMSEdBGXsbQshEJDTBysZbU=",
+        "originContent": "## Nucleic Acids",
+        "translatedContent": "## Acides nucléiques"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 20,
+        "rowsha": "QzOzegC+P8UcsCZtoMgMlJB7zHkf+ryHzTBE9nwJ700=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/dna-element.png\" alt=\"B-DNA double helix with element (CPK) coloring\" width=\"500\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/dna-element.png\" alt=\"Double hélice B-ADN avec coloration par élément (CPK)\" width=\"500\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "ZN4aAHDvs9HugbCbm9vhy/xAWuFx5s7hIIONgr1rf1I=",
+        "originContent": "  <sub>B-DNA dodecamer in wireframe mode with CPK element coloring</sub>",
+        "translatedContent": "  <sub>Dodécamère B-ADN en mode fil de fer avec coloration par élément CPK</sub>"
+      },
+      {
+        "row": 25,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "bvJYhiloGxzggqQbtq2j3GyzjMdvzMMdXdNwwKtZ45Y=",
+        "originContent": "Full support for DNA and RNA structures — backbone traces, wireframe bonds, and cartoon ribbons with nucleotide base-type coloring (A=red, U/T=blue, G=green, C=yellow).",
+        "translatedContent": "Support complet pour les structures ADN et ARN — tracés de la chaîne principale, liaisons en fil de fer et rubans cartoon avec coloration par type de base nucléotidique (A=rouge, U/T=bleu, G=vert, C=jaune)."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "o0fosTYzHr6x8OJPC36cduQfPzzf/PgqQh4GJ15wuzU=",
+        "originContent": "## AlphaFold & pLDDT",
+        "translatedContent": "## AlphaFold & pLDDT"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 32,
+        "rowsha": "rmGTD65cP+zWP25o36WYyXu+6GDW8sm10HfSk2JzgFw=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/plddt-cartoon.png\" alt=\"AlphaFold prediction with pLDDT confidence coloring\" width=\"500\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/001TMF/ProteinView/master/assets/plddt-cartoon.png\" alt=\"Prédiction AlphaFold avec coloration de confiance pLDDT\" width=\"500\">"
+      },
+      {
+        "row": 33,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 36,
+        "rowsha": "8uE1Ed/KnMvct6LJP60yEKxFm9ngEsaZ7V1gFyKH75E=",
+        "originContent": "  <sub>AlphaFold prediction with pLDDT confidence coloring — blue (high confidence) to orange/yellow (low confidence)</sub>",
+        "translatedContent": "  <sub>Prédiction AlphaFold avec coloration de confiance pLDDT — bleu (haute confiance) à orange/jaune (faible confiance)</sub>"
+      },
+      {
+        "row": 37,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "JgSakzDW3seQMvz0Yaw6pn1aH1e5/ihaJ22L9TMUR88=",
+        "originContent": "Automatically detects AlphaFold structures and offers pLDDT confidence coloring. Cycle through color schemes with `c`.",
+        "translatedContent": "Détecte automatiquement les structures AlphaFold et propose une coloration de confiance pLDDT. Parcourez les schémas de couleurs avec `c`."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "## Installation\n\nRequires [Rust 1.85+](https://www.rust-lang.org/tools/install). If you don't have Rust, install it with:\n",
+    "ContentSha": "ctqBGIngyK8arB7SODZCV6k5YVvkYF3ZVgfPtPBDrY0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Installation\n\nNécessite [Rust 1.85+](https://www.rust-lang.org/tools/install). Si vous n'avez pas Rust, installez-le avec :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "40k1BFurosl0NpJLFZGnbjB/9Sm3k3nLac/9wLNIzGE=",
+        "originContent": "Requires [Rust 1.85+](https://www.rust-lang.org/tools/install). If you don't have Rust, install it with:",
+        "translatedContent": "Nécessite [Rust 1.85+](https://www.rust-lang.org/tools/install). Si vous n'avez pas Rust, installez-le avec :"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\ncurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\n```",
+    "ContentSha": "cfd1bNebbMIlcWq4SqNj5JSqwzKQTbzHxRxegG1H0z0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "j/0Ltk/+eD/qVpL/+z2lYDThAOgIa7tohLfAuNIoYCw=",
+        "originContent": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+        "translatedContent": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nThen install proteinview:\n",
+    "ContentSha": "5Fyzk/GpcDhhxEiLMzA2gEFSc6qlkPVFCKtB58wof6Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEnsuite, installez proteinview :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "TShD46M0BnwguA6/2KeKItKZQQ7s/fzBj7S8OAMPC9E=",
+        "originContent": "Then install proteinview:",
+        "translatedContent": "Ensuite, installez proteinview :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\ngit clone https://github.com/001TMF/ProteinView.git\ncd ProteinView\n\n# Basic install\ncargo install --path .\n\n# With RCSB PDB fetch support\ncargo install --path . --features fetch\n\n# Update an existing installation\ncargo install --path . --force\n```",
+    "ContentSha": "X4WPXwZx/z1FVtBZLbxf7gtFDEGU3BDuuzfLtOO6SFE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/001TMF/ProteinView.git\ncd ProteinView\n\n# Basic install\ncargo install --path .\n\n# With RCSB PDB fetch support\ncargo install --path . --features fetch\n\n# Update an existing installation\ncargo install --path . --force\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xU7XoTZZ3dqos2crIo1/2a7E0tSglUtnrD8xOwLu+f0=",
+        "originContent": "git clone https://github.com/001TMF/ProteinView.git",
+        "translatedContent": "git clone https://github.com/001TMF/ProteinView.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "5wLxmaaQJtWJizffh432/EV6NjJAnwDZCcL4f8gyWrs=",
+        "originContent": "cd ProteinView",
+        "translatedContent": "cd ProteinView"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Lx6QxNnPxjbKaJqm+tUgNSeUoyTDDAmNE5SLTZ9CWDQ=",
+        "originContent": "# Basic install",
+        "translatedContent": "# Basic install"
+      },
+      {
+        "row": 6,
+        "rowsha": "UrfYV89HEr7Y2LOJNzJS2dfNsaKrBlUdCgPrc5ar/XM=",
+        "originContent": "cargo install --path .",
+        "translatedContent": "cargo install --path ."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "c5acZfojbpM0nMIMa6+JV0IazkedvtUSRStwdxOkdgc=",
+        "originContent": "# With RCSB PDB fetch support",
+        "translatedContent": "# With RCSB PDB fetch support"
+      },
+      {
+        "row": 9,
+        "rowsha": "4VHjHoRt76DpmvntOF8jtsnf4M6VF/tsnFi3uYaw3XU=",
+        "originContent": "cargo install --path . --features fetch",
+        "translatedContent": "cargo install --path . --features fetch"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "9K+/hk9qhFrxTkOXIxxo0N6ik4pgJnFL4lPOOkN5W8M=",
+        "originContent": "# Update an existing installation",
+        "translatedContent": "# Update an existing installation"
+      },
+      {
+        "row": 12,
+        "rowsha": "+Vol6SMMbTh8ccuDpvPKb4YGMkrAU9dlM/v+pNKzW98=",
+        "originContent": "cargo install --path . --force",
+        "translatedContent": "cargo install --path . --force"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## Quick Start\n",
+    "ContentSha": "v/H5MTOKJFjo7O++dmhNUXyVa/XHL7Gh/1PA9mTZnVM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Démarrage rapide\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Démarrage rapide"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\n# View a local PDB file\nproteinview examples/1AOI.pdb\n\n# HD mode (fast text-based shading)\nproteinview examples/4HHB.pdb --hd\n\n# FullHD pixel mode (Kitty/Sixel terminals)\nproteinview examples/4HHB.pdb --fullhd\n\n# Fetch from RCSB PDB\nproteinview --fetch 1UBQ\n\n# Choose color scheme and visualization\nproteinview examples/1UBQ.pdb --color rainbow --mode wireframe\n```",
+    "ContentSha": "rKW2NYueknpq7JpJkZVsOtiYOWNPdykz8AP28iC5RSk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# View a local PDB file\nproteinview examples/1AOI.pdb\n\n# HD mode (fast text-based shading)\nproteinview examples/4HHB.pdb --hd\n\n# FullHD pixel mode (Kitty/Sixel terminals)\nproteinview examples/4HHB.pdb --fullhd\n\n# Fetch from RCSB PDB\nproteinview --fetch 1UBQ\n\n# Choose color scheme and visualization\nproteinview examples/1UBQ.pdb --color rainbow --mode wireframe\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "/NPLUIryRg6Y1BiKZhWpB4ZnOPuAcj6rnyBsr62xmUo=",
+        "originContent": "# View a local PDB file",
+        "translatedContent": "# View a local PDB file"
+      },
+      {
+        "row": 3,
+        "rowsha": "CaDP9Eo2iAcEguMNVEHUXEAr+FA+d6lJJgrrjDHPltw=",
+        "originContent": "proteinview examples/1AOI.pdb",
+        "translatedContent": "proteinview examples/1AOI.pdb"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "YeBcWeK53Avffy7ALFxelWVFyTBeLKHGHfGxHc8f8Rs=",
+        "originContent": "# HD mode (fast text-based shading)",
+        "translatedContent": "# HD mode (fast text-based shading)"
+      },
+      {
+        "row": 6,
+        "rowsha": "JDYNFWGcaNV3RKv+vdw9OFTGNAgOLjo2ik57lkYe/S8=",
+        "originContent": "proteinview examples/4HHB.pdb --hd",
+        "translatedContent": "proteinview examples/4HHB.pdb --hd"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "+WoGhKA9RImvGPeKSYr/+bcP1Zdjbi0RsxyfJS1VpsI=",
+        "originContent": "# FullHD pixel mode (Kitty/Sixel terminals)",
+        "translatedContent": "# FullHD pixel mode (Kitty/Sixel terminals)"
+      },
+      {
+        "row": 9,
+        "rowsha": "BMyt0EXpfNkMasDuAVM6eUlbqgE2/SRuxfbRTaVoO4I=",
+        "originContent": "proteinview examples/4HHB.pdb --fullhd",
+        "translatedContent": "proteinview examples/4HHB.pdb --fullhd"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "/aEUvdY2dMG8UkZJNrnYmfy3i03CiexwGppkQiMkL3g=",
+        "originContent": "# Fetch from RCSB PDB",
+        "translatedContent": "# Fetch from RCSB PDB"
+      },
+      {
+        "row": 12,
+        "rowsha": "WuTvyJLziN89E8FUzAKKbsIqWl9puyg5eupTKDY5qwg=",
+        "originContent": "proteinview --fetch 1UBQ",
+        "translatedContent": "proteinview --fetch 1UBQ"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "fE28HA2AE7I4+h1Utn/p7X6Emy2NUbypxpBPu7NbHRg=",
+        "originContent": "# Choose color scheme and visualization",
+        "translatedContent": "# Choose color scheme and visualization"
+      },
+      {
+        "row": 15,
+        "rowsha": "h+PxHQ6ZwW9Zt5HNnc9/CyvoF/PasKChh3BHRc7Ch5M=",
+        "originContent": "proteinview examples/1UBQ.pdb --color rainbow --mode wireframe",
+        "translatedContent": "proteinview examples/1UBQ.pdb --color rainbow --mode wireframe"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n## Keybindings\n\n| Key | Action |\n|-----|--------|\n| `h`/`l` | Rotate Y |\n| `j`/`k` | Rotate X |\n| `u`/`i` | Roll |\n| `+`/`-` | Zoom |\n| `w`/`a`/`s`/`d` | Pan |\n| `r` | Reset view |\n| `c` | Cycle color scheme |\n| `v` | Cycle viz mode |\n| `m` | Braille / HD |\n| `M` | HD / FullHD |\n| `f` | Interface analysis |\n| `I` | Interface interactions |\n| `g` | Toggle ligands |\n| `[`/`]` | Prev/next chain |\n| `Space` | Auto-rotate |\n| `?` | Help |\n| `q` | Quit |\n\n## Color Schemes\n\n| Scheme | Description |\n|--------|-------------|\n| **Structure** | Helix (red), sheet (yellow), coil (green). Default. |\n| **Chain** | Distinct color per chain. |\n| **Element** | CPK coloring (C, N, O, S, P, metals). |\n| **B-factor** | Blue (rigid) to red (flexible). |\n| **Rainbow** | N-terminus (blue) to C-terminus (red). |\n| **pLDDT** | AlphaFold confidence (blue=high, orange=low). |\n\n## Terminal Support\n\n| Terminal | Braille | HD | FullHD |\n|----------|---------|-----|--------|\n| Any Unicode terminal | Yes | Yes | -- |\n| Kitty | Yes | Yes | Yes (PNG) |",
+    "ContentSha": "4+Vf/QgLlchpMBP12cpAN0GrvEKyaxlojjrVWUs2nEk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Raccourcis Clavier\n\n| Touche | Action |\n|-----|--------|\n| `h`/`l` | Rotation Y |\n| `j`/`k` | Rotation X |\n| `u`/`i` | Roulement |\n| `+`/`-` | Zoom |\n| `w`/`a`/`s`/`d` | Panoramique |\n| `r` | Réinitialiser la vue |\n| `c` | Changer de palette de couleurs |\n| `v` | Changer de mode de visualisation |\n| `m` | Braille / HD |\n| `M` | HD / FullHD |\n| `f` | Analyse de l’interface |\n| `I` | Interactions de l’interface |\n| `g` | Basculer les ligands |\n| `[`/`]` | Chaîne précédente/suivante |\n| `Espace` | Rotation automatique |\n| `?` | Aide |\n| `q` | Quitter |\n\n## Palettes de Couleurs\n\n| Palette | Description |\n|--------|-------------|\n| **Structure** | Hélice (rouge), feuillet (jaune), boucle (vert). Par défaut. |\n| **Chaîne** | Couleur distincte par chaîne. |\n| **Élément** | Coloration CPK (C, N, O, S, P, métaux). |\n| **Facteur B** | Bleu (rigide) à rouge (flexible). |\n| **Arc-en-ciel** | N-terminus (bleu) à C-terminus (rouge). |\n| **pLDDT** | Confiance AlphaFold (bleu=élevée, orange=faible). |\n\n## Support Terminal\n\n| Terminal | Braille | HD | FullHD |\n|----------|---------|-----|--------|\n| Tout terminal Unicode | Oui | Oui | -- |\n| Kitty | Oui | Oui | Oui (PNG) |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "eh0wXwFeE0ZTEIJbv84rG0KbEtFuukb9L60KYgpPFpU=",
+        "originContent": "## Keybindings",
+        "translatedContent": "## Raccourcis Clavier"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "m5AWMnaRWuOxWxEOkujnszNZJPWs7q/VX4+cHnYr+ec=",
+        "originContent": "| Key | Action |",
+        "translatedContent": "| Touche | Action |"
+      },
+      {
+        "row": 5,
+        "rowsha": "jkmZYRv65poROmvvr75JKBKibqtZ8OY/rZ9Pk+Ryg1k=",
+        "originContent": "|-----|--------|",
+        "translatedContent": "|-----|--------|"
+      },
+      {
+        "row": 6,
+        "rowsha": "uUV2AAgxcmxe5Fso/8eg8Mz+6EYLYJB2TqBk34BnIfI=",
+        "originContent": "| `h`/`l` | Rotate Y |",
+        "translatedContent": "| `h`/`l` | Rotation Y |"
+      },
+      {
+        "row": 7,
+        "rowsha": "nRVKhNDe6FPC3SJZI2TU7DUaqoyBMX8BryuJWclSlBk=",
+        "originContent": "| `j`/`k` | Rotate X |",
+        "translatedContent": "| `j`/`k` | Rotation X |"
+      },
+      {
+        "row": 8,
+        "rowsha": "0dPHGzbW6nnwjvRrgJHzaB/iXl74ekcWXTI0yGThVv8=",
+        "originContent": "| `u`/`i` | Roll |",
+        "translatedContent": "| `u`/`i` | Roulement |"
+      },
+      {
+        "row": 9,
+        "rowsha": "V2yO4hWbmP5v553aUs1WIQHqonbn9FlcVn01cHEonXU=",
+        "originContent": "| `+`/`-` | Zoom |",
+        "translatedContent": "| `+`/`-` | Zoom |"
+      },
+      {
+        "row": 10,
+        "rowsha": "Wu8MUrM8XlSW/bIt/jC06XDAs4GholxB1fW76nFcFxA=",
+        "originContent": "| `w`/`a`/`s`/`d` | Pan |",
+        "translatedContent": "| `w`/`a`/`s`/`d` | Panoramique |"
+      },
+      {
+        "row": 11,
+        "rowsha": "cZRVeGBEGCwTt08RBSXvlp0gJuHgvqN2y/fjBerNItI=",
+        "originContent": "| `r` | Reset view |",
+        "translatedContent": "| `r` | Réinitialiser la vue |"
+      },
+      {
+        "row": 12,
+        "rowsha": "i7Sp01yYhVcVQp9vFMfmqT/cKf/o7bbk9gByjcqGdEA=",
+        "originContent": "| `c` | Cycle color scheme |",
+        "translatedContent": "| `c` | Changer de palette de couleurs |"
+      },
+      {
+        "row": 13,
+        "rowsha": "rZbhhGeKpIQj487Wz+yWqU2b7TRnd9DWroBkxHkSht8=",
+        "originContent": "| `v` | Cycle viz mode |",
+        "translatedContent": "| `v` | Changer de mode de visualisation |"
+      },
+      {
+        "row": 14,
+        "rowsha": "ms8ogE4810eogSqCSGrR+9s++DVzOyfUpaErWR/XAls=",
+        "originContent": "| `m` | Braille / HD |",
+        "translatedContent": "| `m` | Braille / HD |"
+      },
+      {
+        "row": 15,
+        "rowsha": "0fOf6aAdBRabn3VNa3WiC3J6C2ssAY5X35iwXu4C7qM=",
+        "originContent": "| `M` | HD / FullHD |",
+        "translatedContent": "| `M` | HD / FullHD |"
+      },
+      {
+        "row": 16,
+        "rowsha": "Pylf0HB1Ux24YheeWX2SZhKR1lfB/o8NZpguvjJlcSk=",
+        "originContent": "| `f` | Interface analysis |",
+        "translatedContent": "| `f` | Analyse de l’interface |"
+      },
+      {
+        "row": 17,
+        "rowsha": "oLLxhtnY9yWm9NIWl08/hd+V3lCY+OgDF99fgAlSRzE=",
+        "originContent": "| `I` | Interface interactions |",
+        "translatedContent": "| `I` | Interactions de l’interface |"
+      },
+      {
+        "row": 18,
+        "rowsha": "q271qNqhCPoL9ZnFCkfiYcKaSsiQdoRGIYEQqExbANE=",
+        "originContent": "| `g` | Toggle ligands |",
+        "translatedContent": "| `g` | Basculer les ligands |"
+      },
+      {
+        "row": 19,
+        "rowsha": "5e8Qjey03KwKwg9FgZ3ZhSSOyzrmU8HnMD7YwuUPKIE=",
+        "originContent": "| `[`/`]` | Prev/next chain |",
+        "translatedContent": "| `[`/`]` | Chaîne précédente/suivante |"
+      },
+      {
+        "row": 20,
+        "rowsha": "jud958qegOcDMSNnaxNrH/mA+uax6/yjLlYe5hJHDjA=",
+        "originContent": "| `Space` | Auto-rotate |",
+        "translatedContent": "| `Espace` | Rotation automatique |"
+      },
+      {
+        "row": 21,
+        "rowsha": "ppj3mGMG3OcLMqg8ZeTzo/oXfWnET5kGxKuXyuQx9hM=",
+        "originContent": "| `?` | Help |",
+        "translatedContent": "| `?` | Aide |"
+      },
+      {
+        "row": 22,
+        "rowsha": "sG8g/48mWLeipo7RcCqduBmv2t0kBXZ6PRgFROeyWco=",
+        "originContent": "| `q` | Quit |",
+        "translatedContent": "| `q` | Quitter |"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "vRCbsNwfSmZLAgM6tFBoT7aMwZouDmFaX6/xD3XSIQU=",
+        "originContent": "## Color Schemes",
+        "translatedContent": "## Palettes de Couleurs"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "JbjW2tcspiKK4NacHKIKo8SoHBzbXQRwwtYLdBPeA6o=",
+        "originContent": "| Scheme | Description |",
+        "translatedContent": "| Palette | Description |"
+      },
+      {
+        "row": 27,
+        "rowsha": "ZqcitLEDVJCsaateC1TsrZJjRd8T8FmDq8vfQcWHwsw=",
+        "originContent": "|--------|-------------|",
+        "translatedContent": "|--------|-------------|"
+      },
+      {
+        "row": 28,
+        "rowsha": "ZQqix8TRTA5OF+wlV59MXybrD6Ko6n0HGLtJYL/KYiw=",
+        "originContent": "| **Structure** | Helix (red), sheet (yellow), coil (green). Default. |",
+        "translatedContent": "| **Structure** | Hélice (rouge), feuillet (jaune), boucle (vert). Par défaut. |"
+      },
+      {
+        "row": 29,
+        "rowsha": "bj5Nc3lyFAUpfEZDilQ7h8GMiO4ryan4XzWBEx0CN5o=",
+        "originContent": "| **Chain** | Distinct color per chain. |",
+        "translatedContent": "| **Chaîne** | Couleur distincte par chaîne. |"
+      },
+      {
+        "row": 30,
+        "rowsha": "iqCZ9F+s7YIMG/MP5fmpHaj1KG9fcKVhkoKj5bD3TOk=",
+        "originContent": "| **Element** | CPK coloring (C, N, O, S, P, metals). |",
+        "translatedContent": "| **Élément** | Coloration CPK (C, N, O, S, P, métaux). |"
+      },
+      {
+        "row": 31,
+        "rowsha": "smL6VyBN6TT3uce0/aSsHjJW86xDBWpq0pzneiu79qk=",
+        "originContent": "| **B-factor** | Blue (rigid) to red (flexible). |",
+        "translatedContent": "| **Facteur B** | Bleu (rigide) à rouge (flexible). |"
+      },
+      {
+        "row": 32,
+        "rowsha": "Di9CwLcjOKvJ/ZAdEEKMR2Yi6I/Fhc94Xm+L+c6PWps=",
+        "originContent": "| **Rainbow** | N-terminus (blue) to C-terminus (red). |",
+        "translatedContent": "| **Arc-en-ciel** | N-terminus (bleu) à C-terminus (rouge). |"
+      },
+      {
+        "row": 33,
+        "rowsha": "JHBFLxOktUNlcutNxGfrrFVmnr3xzYNarTxRtf86QsY=",
+        "originContent": "| **pLDDT** | AlphaFold confidence (blue=high, orange=low). |",
+        "translatedContent": "| **pLDDT** | Confiance AlphaFold (bleu=élevée, orange=faible). |"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "/OD50RWvZc9lcWS1asZgLQoEiBUfUXqtdUSVx2jFPyM=",
+        "originContent": "## Terminal Support",
+        "translatedContent": "## Support Terminal"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "uxiDhNsgnpE7I6Gsjb+2q2ZldLYBl1O/QUneDmM0GPs=",
+        "originContent": "| Terminal | Braille | HD | FullHD |",
+        "translatedContent": "| Terminal | Braille | HD | FullHD |"
+      },
+      {
+        "row": 38,
+        "rowsha": "GLR1KRIne6hYDpVgXWPLHPqUqA5IAmrFLPHT1PuUemQ=",
+        "originContent": "|----------|---------|-----|--------|",
+        "translatedContent": "|----------|---------|-----|--------|"
+      },
+      {
+        "row": 39,
+        "rowsha": "1CFlPbXAH2te6m+WBBkY/Sr8UKkSgxbZZAYnR/Iw+nc=",
+        "originContent": "| Any Unicode terminal | Yes | Yes | -- |",
+        "translatedContent": "| Tout terminal Unicode | Oui | Oui | -- |"
+      },
+      {
+        "row": 40,
+        "rowsha": "7F21ok70pPGON324KT4IUtCBG3lNqP8OSBVdDfdRy7M=",
+        "originContent": "| Kitty | Yes | Yes | Yes (PNG) |",
+        "translatedContent": "| Kitty | Oui | Oui | Oui (PNG) |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "| WezTerm | Yes | Yes | Yes (Sixel) |\n| iTerm2 | Yes | Yes | Yes |\n| foot | Yes | Yes | Yes (Sixel) |\n| tmux/screen | Yes | Yes | -- |\n\n## Building\n",
+    "ContentSha": "vrQW1CW6PrCPY6yITnO4TvfHUOE7XlUcv6urKsh3XkU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| WezTerm | Oui | Oui | Oui (Sixel) |\n| iTerm2 | Oui | Oui | Oui |\n| foot | Oui | Oui | Oui (Sixel) |\n| tmux/screen | Oui | Oui | -- |\n\n## Construction\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "C1S1WVBLmRrcB2lEPKIa2w451mviuiU44gsqSHmyeYA=",
+        "originContent": "| WezTerm | Yes | Yes | Yes (Sixel) |",
+        "translatedContent": "| WezTerm | Oui | Oui | Oui (Sixel) |"
+      },
+      {
+        "row": 2,
+        "rowsha": "zQFIPMS/CPPi3WeW+YpIPoSooG84PxGXof8LPWOgm9c=",
+        "originContent": "| iTerm2 | Yes | Yes | Yes |",
+        "translatedContent": "| iTerm2 | Oui | Oui | Oui |"
+      },
+      {
+        "row": 3,
+        "rowsha": "+9SYvqfxe2Ro4vuifIlVSspL+FsshinYM42e4L7rdk0=",
+        "originContent": "| foot | Yes | Yes | Yes (Sixel) |",
+        "translatedContent": "| foot | Oui | Oui | Oui (Sixel) |"
+      },
+      {
+        "row": 4,
+        "rowsha": "AcFTFYVnGslp6GGD01AUsBnJ8KgSnY2GVqPHbGisE2s=",
+        "originContent": "| tmux/screen | Yes | Yes | -- |",
+        "translatedContent": "| tmux/screen | Oui | Oui | -- |"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+        "originContent": "## Building",
+        "translatedContent": "## Construction"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\ncargo build --release\n\n# With RCSB fetch support\ncargo build --release --features fetch\n```",
+    "ContentSha": "toAk4AesKEOMSXsvx/Xrj39GVB9AnkFPS2RlSycJfLM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncargo build --release\n\n# With RCSB fetch support\ncargo build --release --features fetch\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "QbRskjoJo1EyPe3xomSnbIj+llmIagYeZojksq7EuPs=",
+        "originContent": "cargo build --release",
+        "translatedContent": "cargo build --release"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "663XIJs6Tdzd7yxejsgE42GRirG8xq6rDKwPrVqM6Ao=",
+        "originContent": "# With RCSB fetch support",
+        "translatedContent": "# With RCSB fetch support"
+      },
+      {
+        "row": 5,
+        "rowsha": "7iQZv+E/8GJUiUj7HPfrsd1kj851j7H0Lv6LpUb6g6k=",
+        "originContent": "cargo build --release --features fetch",
+        "translatedContent": "cargo build --release --features fetch"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Contributing\n\nContributions are welcome! Here's how to get started:\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/my-feature`)\n3. Make your changes and add tests\n4. Run `cargo test` to verify\n5. Open a pull request against `develop`\n\nPlease open an issue first for major changes to discuss the approach.\n\n## License\n\n[MIT](LICENSE)\n",
+    "ContentSha": "tuhUWb9nJJNSXR+6J+WaLW3/RnrLt0nCw4I8EQcFZ5g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Contribution\n\nLes contributions sont les bienvenues ! Voici comment commencer :\n\n1. Forkez le dépôt\n2. Créez une branche de fonctionnalité (`git checkout -b feature/ma-fonctionnalité`)\n3. Faites vos modifications et ajoutez des tests\n4. Lancez `cargo test` pour vérifier\n5. Ouvrez une pull request vers `develop`\n\nVeuillez d'abord ouvrir une issue pour les changements majeurs afin de discuter de l'approche.\n\n## Licence\n\n[MIT](LICENSE)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contribution"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "KQlvXMviknGd1U99oFXPLwTdaZZHGTJP41BOORIqQVc=",
+        "originContent": "Contributions are welcome! Here's how to get started:",
+        "translatedContent": "Les contributions sont les bienvenues ! Voici comment commencer :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "gKYrfInB5vs8/nXoZ513IRiv+2rnhN0mL7v7OAyCepM=",
+        "originContent": "1. Fork the repository",
+        "translatedContent": "1. Forkez le dépôt"
+      },
+      {
+        "row": 7,
+        "rowsha": "Z10GWU8dfhriGMOUskRbrZ4D+0C6FUzP8uF/TNnqDbI=",
+        "originContent": "2. Create a feature branch (`git checkout -b feature/my-feature`)",
+        "translatedContent": "2. Créez une branche de fonctionnalité (`git checkout -b feature/ma-fonctionnalité`)"
+      },
+      {
+        "row": 8,
+        "rowsha": "6lptLb/LLDKJ1MHI45Rio911eH/69kxTj3FZXEH4Goc=",
+        "originContent": "3. Make your changes and add tests",
+        "translatedContent": "3. Faites vos modifications et ajoutez des tests"
+      },
+      {
+        "row": 9,
+        "rowsha": "uucrepUb/YRVxx9WWLWU3L9TV2KtrEbZtc4RH82AxyQ=",
+        "originContent": "4. Run `cargo test` to verify",
+        "translatedContent": "4. Lancez `cargo test` pour vérifier"
+      },
+      {
+        "row": 10,
+        "rowsha": "rbpaYrzmnohDuTRouxfdJEklsFwj+3qbhu5k4TCf5eQ=",
+        "originContent": "5. Open a pull request against `develop`",
+        "translatedContent": "5. Ouvrez une pull request vers `develop`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Mz9EIAK+rer0WG/lI73QdhmQD0kiqIWPajrUAwzVevM=",
+        "originContent": "Please open an issue first for major changes to discuss the approach.",
+        "translatedContent": "Veuillez d'abord ouvrir une issue pour les changements majeurs afin de discuter de l'approche."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licence"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "kZiCy3Sq1NBO31NW05EgcEcEwYNDZfbuWPQllgk2RqA=",
+        "originContent": "[MIT](LICENSE)",
+        "translatedContent": "[MIT](LICENSE)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
