@@ -1,0 +1,434 @@
+[
+  {
+    "row": 1,
+    "rowsha": "gOb2L0fBpM8gbWFT081oVmhWXT8KSz0pw+TXSY1CbJc=",
+    "originContent": "# bevy_dev_console",
+    "translatedContent": "# bevy_dev_console"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "QPs3O/nMDDpUVX0Br2wmBfJ4P9X3nRMCkY6P+LwqOaw=",
+    "originContent": "`bevy_dev_console` is a Source-inspired developer console plugin for the [Bevy Game Engine](https://github.com/bevyengine/bevy).",
+    "translatedContent": "`bevy_dev_console`는 [Bevy 게임 엔진](https://github.com/bevyengine/bevy)을 위한 Source 영감을 받은 개발자 콘솔 플러그인입니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "JtMwFg0wMh/arnZgs9hofOuj8w8CcYXk7ohkHyXlnxA=",
+    "originContent": "![Image of the developer console](https://raw.githubusercontent.com/doonv/bevy_dev_console/master/doc/console.png)",
+    "translatedContent": "![개발자 콘솔 이미지](https://raw.githubusercontent.com/doonv/bevy_dev_console/master/doc/console.png)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "HCzHYBecdJTpYaMaw+p9/ycks2Jt/DmgNQCeydNnGY8=",
+    "originContent": "> [!WARNING]  ",
+    "translatedContent": "> [!경고]  "
+  },
+  {
+    "row": 8,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 9,
+    "rowsha": "SlrSFRwo4vOU3FmG1i6Y2dbqeAmeAwakgbL650mLA1g=",
+    "originContent": "> `bevy_dev_console` is currently in its early development stages. Expect breaking changes in the near future (especially when using the built-in command parser). For this reason its only available as a git package at the moment.",
+    "translatedContent": "> `bevy_dev_console`는 현재 초기 개발 단계에 있습니다. 가까운 미래에 파괴적인 변경 사항이 있을 수 있으니 주의하세요 (특히 내장된 명령어 파서를 사용할 때). 이 이유로 현재는 git 패키지로만 제공됩니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "TztwZbIM4ceWy8eckcv/ilUX3FZNM6D/oAJgrIyQsPs=",
+    "originContent": "- Log viewing",
+    "translatedContent": "- 로그 보기"
+  },
+  {
+    "row": 14,
+    "rowsha": "Xlf5982vRNmkuDDr0hu0fYgWHhd6Ygo8cPQyvcheBVQ=",
+    "originContent": "  - View all the hidden data from any log message by hovering over it.",
+    "translatedContent": "  - 로그 메시지 위에 마우스를 올리면 모든 숨겨진 데이터를 확인할 수 있습니다."
+  },
+  {
+    "row": 15,
+    "rowsha": "7xGKdkVJrxt+LiMpgmb6M26BaP/6cyWONgrYNHSo8HU=",
+    "originContent": "- Powerful Built-in parser language built specifically for `bevy_dev_console`. ([Documentation](https://github.com/doonv/bevy_dev_console/wiki/Built%E2%80%90in-Parser))",
+    "translatedContent": "- `bevy_dev_console` 전용으로 만들어진 강력한 내장 파서 언어 ([문서](https://github.com/doonv/bevy_dev_console/wiki/Built%E2%80%90in-Parser))"
+  },
+  {
+    "row": 16,
+    "rowsha": "GYlXB4r2k2t33oNhFU33Y6KSDGZAmf6WwRN+UfH4Osc=",
+    "originContent": "  - Calculations",
+    "translatedContent": "  - 계산"
+  },
+  {
+    "row": 17,
+    "rowsha": "4cx7SEaL62bmcPAl4oeFeaKZTgaeFpjQXGGrkHDZeFQ=",
+    "originContent": "  - Variables",
+    "translatedContent": "  - 변수"
+  },
+  {
+    "row": 18,
+    "rowsha": "EZsUN6tk5IDgL46OVamkEjnR4GXMUrDF9y7yUORJL1g=",
+    "originContent": "    - Uses a simplified version of ownership and borrowing",
+    "translatedContent": "    - 소유권과 빌림의 단순화된 버전을 사용"
+  },
+  {
+    "row": 19,
+    "rowsha": "SPbSDdRuJuNnTJr+VPJcXLZ8hHULk+ReY7zSICi6UG4=",
+    "originContent": "  - Standard library (Doesn't have much at the moment)",
+    "translatedContent": "  - 표준 라이브러리 (현재는 많지 않음)"
+  },
+  {
+    "row": 20,
+    "rowsha": "kOXr2LjNxxLF8opY4Q3uFeiHZCRI8wWwu4fFv7AwoUs=",
+    "originContent": "  - [Custom native functions](https://github.com/doonv/bevy_dev_console/blob/master/examples/custom_functions.rs) (`World` access included!)",
+    "translatedContent": "  - [사용자 정의 네이티브 함수](https://github.com/doonv/bevy_dev_console/blob/master/examples/custom_functions.rs) (`World` 접근 포함!)"
+  },
+  {
+    "row": 21,
+    "rowsha": "HQ1t+xRiBnbYTCbn3D4DetmDYX5jhEh0kyHUp22YijY=",
+    "originContent": "  - [Many types](https://github.com/doonv/bevy_dev_console/wiki/Built%E2%80%90in-Parser#types)",
+    "translatedContent": "  - [다양한 타입](https://github.com/doonv/bevy_dev_console/wiki/Built%E2%80%90in-Parser#types)"
+  },
+  {
+    "row": 22,
+    "rowsha": "MLKPmj8MKx7COATf5U7Gu3VkUF+HwL7Ne2STrp1G20w=",
+    "originContent": "  - Resource viewing and modification",
+    "translatedContent": "  - 리소스 보기 및 수정"
+  },
+  {
+    "row": 23,
+    "rowsha": "ugQKIB14hNqGIFW5UzXTFh3u1tAF/yjOr2q7jdAKu0k=",
+    "originContent": "    - Enums",
+    "translatedContent": "    - 열거형"
+  },
+  {
+    "row": 24,
+    "rowsha": "97hFijN40+2I+L3buqS3AgrRyj6MFtFtVFBmJ3d5FSc=",
+    "originContent": "    - Structs",
+    "translatedContent": "    - 구조체"
+  },
+  {
+    "row": 25,
+    "rowsha": "y8XoEglrq4PgpLLjfUWAKrJMU8VmrwunNADNC+ejKR0=",
+    "originContent": "  - ~~Entity queries~~ [*Coming Soon...*](https://github.com/doonv/bevy_dev_console/issues/3) (Syntax suggestions would be appreciated!)",
+    "translatedContent": "  - ~~엔티티 쿼리~~ [*곧 출시 예정...*](https://github.com/doonv/bevy_dev_console/issues/3) (문법 제안 환영!)"
+  },
+  {
+    "row": 26,
+    "rowsha": "w+JQ0ddXwt+K14BrdKQ8uYI27tFDoP7W8mSLO31m0y0=",
+    "originContent": "  - ...and more!",
+    "translatedContent": "  - ...그리고 더 많은 기능!"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "h0IypWWKtFUiCFEkdX2gTWThT3T376E0gecwYruWYVA=",
+    "originContent": "1. Add the `bevy_dev_console` git package.",
+    "translatedContent": "1. `bevy_dev_console` git 패키지를 추가하세요."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+    "originContent": "    ```bash",
+    "translatedContent": "    ```bash"
+  },
+  {
+    "row": 33,
+    "rowsha": "xXjHghHK7pPBLEimr/mdLNos55CSj9+KlkYQv93cmZU=",
+    "originContent": "    cargo add --git https://github.com/doonv/bevy_dev_console.git",
+    "translatedContent": "    cargo add --git https://github.com/doonv/bevy_dev_console.git"
+  },
+  {
+    "row": 34,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. `prelude`를 가져옵니다."
+  },
+  {
+    "row": 36,
+    "rowsha": "N+0+tHqUGbQOMyQex0Fn5kKfIRph6q/qT0tW+DqgXPs=",
+    "originContent": "2. Import the `prelude`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "ixeIId5jKijlgVDxBqMRFJcEr9WVV+axVPuXiS7Eolo=",
+    "originContent": "    ```rust",
+    "translatedContent": "    ```rust"
+  },
+  {
+    "row": 39,
+    "rowsha": "ZStCzT1Bohc7VFLvWSOvYQRPOaSFwMPe2Dd2mfaXJUg=",
+    "originContent": "    use bevy_dev_console::prelude::*;",
+    "translatedContent": "    use bevy_dev_console::prelude::*;"
+  },
+  {
+    "row": 40,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. 플러그인을 추가합니다."
+  },
+  {
+    "row": 42,
+    "rowsha": "dc4TAf5e2kkdLUbv3ObxUjy1biSmZnOozBx1Y5qrOiQ=",
+    "originContent": "3. Add the plugins.",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "ajpAZm7uFEBlzGXuqx7bECqwFTxXn5mFHDTnuclg52U=",
+    "originContent": "    ```rust,no_run",
+    "translatedContent": "    ```rust,no_run"
+  },
+  {
+    "row": 45,
+    "rowsha": "ZVLF6u31AEfN8Sv/FrwftONjQ5UdIhbfVc2nVuyMgdo=",
+    "originContent": "    use bevy::{prelude::*, log::LogPlugin};",
+    "translatedContent": "    use bevy::{prelude::*, log::LogPlugin};"
+  },
+  {
+    "row": 46,
+    "rowsha": "ZStCzT1Bohc7VFLvWSOvYQRPOaSFwMPe2Dd2mfaXJUg=",
+    "originContent": "    use bevy_dev_console::prelude::*;",
+    "translatedContent": "    use bevy_dev_console::prelude::*;"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "jbg0EFwsZYJLfQBIzW7XYHMAjnbZ+bQMCaNw2BBtKDc=",
+    "originContent": "    App::new()",
+    "translatedContent": "    App::new()"
+  },
+  {
+    "row": 49,
+    "rowsha": "rUgnDLcsazvKL5az/la9o+3gdiLbft8YupVocti2IK8=",
+    "originContent": "        .add_plugins((",
+    "translatedContent": "        .add_plugins(("
+  },
+  {
+    "row": 50,
+    "rowsha": "mZCaFU4lmcL5i1+gKCSAQpDosDEY6y2Z9Jd2R8n865w=",
+    "originContent": "            // Add the log plugin with the custom log layer",
+    "translatedContent": "            // Add the log plugin with the custom log layer"
+  },
+  {
+    "row": 51,
+    "rowsha": "Zfn+mGkmkd55re8dyLTnlSfFRcqFVrF44sqmngyEw6w=",
+    "originContent": "            DefaultPlugins.set(LogPlugin {",
+    "translatedContent": "            DefaultPlugins.set(LogPlugin {"
+  },
+  {
+    "row": 52,
+    "rowsha": "LOzifSQ6t+lHafGgVMXBmJf0x3A7hPHu38ssMFGVmYM=",
+    "originContent": "                custom_layer: custom_log_layer,",
+    "translatedContent": "                custom_layer: custom_log_layer,"
+  },
+  {
+    "row": 53,
+    "rowsha": "WN2pqFF7VgYO7bSXbmbZFRPQmGdtFFni5VDHWqstmjI=",
+    "originContent": "                ..default()",
+    "translatedContent": "                ..default()"
+  },
+  {
+    "row": 54,
+    "rowsha": "/Wy84GrXWo9c056HlB9uOJiWtpHnN7hEKB7Ugk2+jkg=",
+    "originContent": "            }),",
+    "translatedContent": "            }),"
+  },
+  {
+    "row": 55,
+    "rowsha": "zRUIQejjUvHGRHIAiFTfdkhbnHNtWtuIjTXIgYDcpPU=",
+    "originContent": "            // Add the dev console plugin itself.",
+    "translatedContent": "            // Add the dev console plugin itself."
+  },
+  {
+    "row": 56,
+    "rowsha": "App/rdsX8fLr9ae7RjEobt/7UxcgGaQDD1N0aHS+rHQ=",
+    "originContent": "            DevConsolePlugin,",
+    "translatedContent": "            DevConsolePlugin,"
+  },
+  {
+    "row": 57,
+    "rowsha": "oN8PETiI0GrEe8S0nOzifsP1hLYHKqEzzuStzjr1KaM=",
+    "originContent": "        ))",
+    "translatedContent": "        ))"
+  },
+  {
+    "row": 58,
+    "rowsha": "Y9Oy9ztKFeWY0+7yCmNjG2IMmzwVeWjDfearnL2ifHw=",
+    "originContent": "        .run();",
+    "translatedContent": "        .run();"
+  },
+  {
+    "row": 59,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4. 이제 완료되었습니다! 키보드에서 `` ` `` / `~` 키를 누르면 콘솔이 열릴 것입니다!"
+  },
+  {
+    "row": 61,
+    "rowsha": "gTnk2sOaDnyMagKe2fqIPzmQeXsyFkUtnOx+0g9YRk8=",
+    "originContent": "4. That should be it! You can now press the `` ` `` / `~` key on your keyboard and it should open the console!",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 토글 가능한 기능들"
+  },
+  {
+    "row": 63,
+    "rowsha": "Pfp/6jEinWAjI1lvL6zOzX/NPL7Rll6qbrEaMFVcxK4=",
+    "originContent": "## Togglable Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**(기본값)** `builtin-parser`는 기본 파서를 포함합니다. 이를 비활성화하면 내장 파서를 제거하고 자신만의 파서로 교체할 수 있습니다(또는 아무 것도 하지 않고 콘솔을 로그 리더로 만들 수도 있습니다)."
+  },
+  {
+    "row": 65,
+    "rowsha": "/cJTs8KLrXSPHvWf63sUhExI8TO3/vTmhhKn+5xkfQ0=",
+    "originContent": "**(default)** `builtin-parser` includes the default parser. Disabling this allows you to remove the built-in parser and replace it with your own (or you could do nothing and make the console into a log reader).",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Bevy 호환성"
+  },
+  {
+    "row": 67,
+    "rowsha": "ZKDm7Gk4VfhU5qkkw3NvqrNVF7IDURMbbIaHG/f7OJE=",
+    "originContent": "## Bevy Compatibility",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| bevy   | bevy_dev_console |"
+  },
+  {
+    "row": 69,
+    "rowsha": "vcLLyHZN4Za7T21cVgn9jKorM6qDa5vn0UNuB5IvtSM=",
+    "originContent": "| bevy   | bevy_dev_console |",
+    "translatedContent": "| ------ | ---------------- |"
+  },
+  {
+    "row": 70,
+    "rowsha": "McgUnnW1C0pzTJ+vRy8n/dgWAR1/m72iSXwos//+kZc=",
+    "originContent": "| ------ | ---------------- |",
+    "translatedContent": "| 0.14.* | git (master)     |"
+  },
+  {
+    "row": 71,
+    "rowsha": "digWQTkjjcL5PMAsz6KTaEFgZ7jcRDxKs7lDSnhY88U=",
+    "originContent": "| 0.14.* | git (master)     |",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,495 @@
+[
+  {
+    "Id": 1,
+    "Content": "# mock\n\n[![Go Reference](https://pkg.go.dev/badge/github.com/dhuan/mock.svg)](https://pkg.go.dev/github.com/dhuan/mock)\n[![Go Report Card](https://goreportcard.com/badge/github.com/dhuan/mock)](https://goreportcard.com/report/github.com/dhuan/mock)\n\n*mock* is an API utility - it lets you:\n\n- define API routes easily through API configuration files or through\n  command-line parameters.\n- use shells scripts as response handlers. Or any other type of program can act\n  as response handlers.\n- test your API - make assertions on whether an endpoint was requested.\n\n[The fastest way to learn and understand `mock` is to see the examples page.](https://dhuan.github.io/mock/latest/examples.html)\n\n## Quick links\n\n- [User guide](https://dhuan.github.io/mock)\n- [User guide (main branch, not released yet)](https://dhuan.github.io/mock/latest)\n- [How-tos & Examples](https://dhuan.github.io/mock/latest/examples.html)\n\n## Getting started\n",
+    "ContentSha": "XDGkTrBJsREoAMZAk0JPBBk7aY0W+OunaCd0151v2B0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# mock\n\n[![Go Reference](https://pkg.go.dev/badge/github.com/dhuan/mock.svg)](https://pkg.go.dev/github.com/dhuan/mock)\n[![Go Report Card](https://goreportcard.com/badge/github.com/dhuan/mock)](https://goreportcard.com/report/github.com/dhuan/mock)\n\n*mock* est un utilitaire d’API - il vous permet de :\n\n- définir facilement des routes API via des fichiers de configuration API ou via\n  des paramètres en ligne de commande.\n- utiliser des scripts shell comme gestionnaires de réponses. Ou tout autre type de programme peut agir\n  comme gestionnaire de réponses.\n- tester votre API - faire des assertions sur le fait qu’un point de terminaison a été sollicité.\n\n[Le moyen le plus rapide d’apprendre et de comprendre `mock` est de consulter la page des exemples.](https://dhuan.github.io/mock/latest/examples.html)\n\n## Liens rapides\n\n- [Guide utilisateur](https://dhuan.github.io/mock)\n- [Guide utilisateur (branche principale, non encore publiée)](https://dhuan.github.io/mock/latest)\n- [Tutoriels & Exemples](https://dhuan.github.io/mock/latest/examples.html)\n\n## Pour commencer\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Jj1i1F5+carIpFyA5wf3VTU3tuQrXhA71EUfRHSMP74=",
+        "originContent": "# mock",
+        "translatedContent": "# mock"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "RpRwFswWCwmbPLSzCyQstht6xwPv+tEn+w1MY+pS5Mo=",
+        "originContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/dhuan/mock.svg)](https://pkg.go.dev/github.com/dhuan/mock)",
+        "translatedContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/dhuan/mock.svg)](https://pkg.go.dev/github.com/dhuan/mock)"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZfgypDuI9zL8U9/AY0oIjLwVttQcs2qkhtGtUiPTaY0=",
+        "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/dhuan/mock)](https://goreportcard.com/report/github.com/dhuan/mock)",
+        "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/dhuan/mock)](https://goreportcard.com/report/github.com/dhuan/mock)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qcblbYTwh9jz3h/sSq/mjnWV1oMZPLiXnyCRdVVJqIw=",
+        "originContent": "*mock* is an API utility - it lets you:",
+        "translatedContent": "*mock* est un utilitaire d’API - il vous permet de :"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "4yTW1j5bcw+yjJKtz3AFgYuPeMMxZkFpeQ/6tnwFQXg=",
+        "originContent": "- define API routes easily through API configuration files or through",
+        "translatedContent": "- définir facilement des routes API via des fichiers de configuration API ou via"
+      },
+      {
+        "row": 9,
+        "rowsha": "zue97bnzWaNVay9jrnmSIX9vtDXoq7ZoQYh3rdY8wao=",
+        "originContent": "  command-line parameters.",
+        "translatedContent": "  des paramètres en ligne de commande."
+      },
+      {
+        "row": 10,
+        "rowsha": "jj7LvOgyuc2qreibn58vKUOxiR3sv/plkt70wm0JxMw=",
+        "originContent": "- use shells scripts as response handlers. Or any other type of program can act",
+        "translatedContent": "- utiliser des scripts shell comme gestionnaires de réponses. Ou tout autre type de programme peut agir"
+      },
+      {
+        "row": 11,
+        "rowsha": "Jh6RMVtGz+QIy7NaApHwW3+yLTuLidqhF7huCJsZIWg=",
+        "originContent": "  as response handlers.",
+        "translatedContent": "  comme gestionnaire de réponses."
+      },
+      {
+        "row": 12,
+        "rowsha": "d/zA6gRCjlISVHSnfEOaVE5BfvxkMcqQSG2kFtn5tus=",
+        "originContent": "- test your API - make assertions on whether an endpoint was requested.",
+        "translatedContent": "- tester votre API - faire des assertions sur le fait qu’un point de terminaison a été sollicité."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "nOOeB9yhFAdfvVB2iK/xlIAYbgnUubXQd3vvRGLVZA8=",
+        "originContent": "[The fastest way to learn and understand `mock` is to see the examples page.](https://dhuan.github.io/mock/latest/examples.html)",
+        "translatedContent": "[Le moyen le plus rapide d’apprendre et de comprendre `mock` est de consulter la page des exemples.](https://dhuan.github.io/mock/latest/examples.html)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "UAsact7iwUhi8qtP0OlpGtk95E/o5RYjzFyUInPkfIQ=",
+        "originContent": "## Quick links",
+        "translatedContent": "## Liens rapides"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "9UtlDKcOZ9PgbrL2ZsjhBCaQ6Nv5BwATgvvBPZzAv58=",
+        "originContent": "- [User guide](https://dhuan.github.io/mock)",
+        "translatedContent": "- [Guide utilisateur](https://dhuan.github.io/mock)"
+      },
+      {
+        "row": 19,
+        "rowsha": "+0rXITeMGuHKrkgFa5b1tKobuDb17z8ZkX40GcN8h+w=",
+        "originContent": "- [User guide (main branch, not released yet)](https://dhuan.github.io/mock/latest)",
+        "translatedContent": "- [Guide utilisateur (branche principale, non encore publiée)](https://dhuan.github.io/mock/latest)"
+      },
+      {
+        "row": 20,
+        "rowsha": "FDNQ9A52adIC3RFrzBOx1ffx8VuCLhu1D02ht2/uFMc=",
+        "originContent": "- [How-tos & Examples](https://dhuan.github.io/mock/latest/examples.html)",
+        "translatedContent": "- [Tutoriels & Exemples](https://dhuan.github.io/mock/latest/examples.html)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+        "originContent": "## Getting started",
+        "translatedContent": "## Pour commencer"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\n$ mock serve --port 3000 \\\n  --get \"/time-now\" \\\n  --exec 'printf \"Now it is %s\" $(date +\"%H:%M\") | mock write' \\\n  --post \"/shut-down/{application}\" \\\n  --exec 'killall $(mock get-route-param application)'\n```",
+    "ContentSha": "fUbugQGoaor9Fjl2dW9j46PiiiL6Cb9rQC39QuxaYxs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n$ mock serve --port 3000 \\\n  --get \"/time-now\" \\\n  --exec 'printf \"Now it is %s\" $(date +\"%H:%M\") | mock write' \\\n  --post \"/shut-down/{application}\" \\\n  --exec 'killall $(mock get-route-param application)'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "9nu9rra0Kx9PXFdB/TkWOKH9GgNs2z40/evZTp/Whgk=",
+        "originContent": "$ mock serve --port 3000 \\",
+        "translatedContent": "$ mock serve --port 3000 \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "mOjll7rHYDqNXYiGbnYV+3s0e+J/wmNKT6LjI4pVcjs=",
+        "originContent": "  --get \"/time-now\" \\",
+        "translatedContent": "  --get \"/time-now\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "kUmXJ+otZ9oxF0D/pmIo2KjBIz0IFKJBr+1XD9+Hpog=",
+        "originContent": "  --exec 'printf \"Now it is %s\" $(date +\"%H:%M\") | mock write' \\",
+        "translatedContent": "  --exec 'printf \"Now it is %s\" $(date +\"%H:%M\") | mock write' \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "yVg4vbp3JCQVvTXGs3F2BVrQnigzgIbqF9Q++XinNBg=",
+        "originContent": "  --post \"/shut-down/{application}\" \\",
+        "translatedContent": "  --post \"/shut-down/{application}\" \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "jyWPwBKYkgzP78fZ3I6D8vUWuWatoU0PNccDGQXo/p8=",
+        "originContent": "  --exec 'killall $(mock get-route-param application)'",
+        "translatedContent": "  --exec 'killall $(mock get-route-param application)'"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nLet's test it out:\n",
+    "ContentSha": "VKOS+UTx/M5yv6Bn1/BXZTtn7TqU7ANTCG/MaYRSFHU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Testons-le :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Testons-le :"
+      },
+      {
+        "row": 2,
+        "rowsha": "b8wCWe7paBWQGhTfWlCenp6azxGHECMomYMUeYd+ygA=",
+        "originContent": "Let's test it out:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\n$ curl localhost:3000/time-now\n# Prints out:\nNow it is 22:00\n\n$ curl -X POST localhost:3000/shut-down/mock\n# Shuts down the server!\n```",
+    "ContentSha": "OFxdXZVsQs4O/vPgBVjb71W0N66bmiFocTYDFGIGzn0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n$ curl localhost:3000/time-now\n# Prints out:\nNow it is 22:00\n\n$ curl -X POST localhost:3000/shut-down/mock\n# Shuts down the server!\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "NyEIcIOwC9b5al1/tv4l1LJ3LqqesYmJb0eEt1kUOhc=",
+        "originContent": "$ curl localhost:3000/time-now",
+        "translatedContent": "$ curl localhost:3000/time-now"
+      },
+      {
+        "row": 3,
+        "rowsha": "SPbsoHLl7FSdZsdIKGasR0AyjyREf6e3/MrXlPVU7Tk=",
+        "originContent": "# Prints out:",
+        "translatedContent": "# Prints out:"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZoWjfoZb2o1oMuOcPvfbmVoomwrL98whZxyZV43B0wc=",
+        "originContent": "Now it is 22:00",
+        "translatedContent": "Now it is 22:00"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "YcAQTUzp9ZDPBGyMvvXb5yTLxjFWqltc12PRt0rrXK8=",
+        "originContent": "$ curl -X POST localhost:3000/shut-down/mock",
+        "translatedContent": "$ curl -X POST localhost:3000/shut-down/mock"
+      },
+      {
+        "row": 7,
+        "rowsha": "sk6c7ClSskFf0Zz20KRg2MxkMLwo5ZsXzBBVcmUmGRo=",
+        "originContent": "# Shuts down the server!",
+        "translatedContent": "# Shuts down the server!"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n*mock* lets you also extend other APIs (or any HTTP service, for that matter.)\nSuppose you want to add a new route to an existing API running at\n``example.com``:\n",
+    "ContentSha": "VkSzgdMNDekiUmNp7S1/ASmfPIjh8kpjen9HP4Ot+g8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "*mock* vous permet également d’étendre d’autres API (ou tout service HTTP, d’ailleurs).  \nSupposons que vous souhaitiez ajouter une nouvelle route à une API existante fonctionnant sur  \n``example.com`` :  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*mock* vous permet également d’étendre d’autres API (ou tout service HTTP, d’ailleurs).  "
+      },
+      {
+        "row": 2,
+        "rowsha": "/pKnwrNfX5G/0iD1zEvo5GyejO3YMxe/08EHekiiKvA=",
+        "originContent": "*mock* lets you also extend other APIs (or any HTTP service, for that matter.)",
+        "translatedContent": "Supposons que vous souhaitiez ajouter une nouvelle route à une API existante fonctionnant sur  "
+      },
+      {
+        "row": 3,
+        "rowsha": "YIOV9NPmvu66R91GjI/hKUfKX+Xwl1XE6njgqu1YTnk=",
+        "originContent": "Suppose you want to add a new route to an existing API running at",
+        "translatedContent": "``example.com`` :  "
+      },
+      {
+        "row": 4,
+        "rowsha": "676nw0CyPw68RMi50CR+vdsxm1VddGBsCh69uzKJgrc=",
+        "originContent": "``example.com``:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\n$ mock serve --port 3000 \\\n  --base example.com \\\n  --get 'some-new-route' \\\n  --exec 'printf \"Hello, world!\" | mock write' \n```",
+    "ContentSha": "J4O1X/HJEPUMr6GACft7ZnMVNCsvTG9UKGXaNRnrNpY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n$ mock serve --port 3000 \\\n  --base example.com \\\n  --get 'some-new-route' \\\n  --exec 'printf \"Hello, world!\" | mock write' \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "9nu9rra0Kx9PXFdB/TkWOKH9GgNs2z40/evZTp/Whgk=",
+        "originContent": "$ mock serve --port 3000 \\",
+        "translatedContent": "$ mock serve --port 3000 \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "oXnN1dMG9ECyD9hJLqgru9qxt7qCk+Jm3yCiZn+0CYk=",
+        "originContent": "  --base example.com \\",
+        "translatedContent": "  --base example.com \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "QAQZX/76KFNOXlgZsDXFhwkho7CzoTplWpMM/Ueow0E=",
+        "originContent": "  --get 'some-new-route' \\",
+        "translatedContent": "  --get 'some-new-route' \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "g4SJzJUbcwPcSEdKFqMj0rlroN+Fm43NVvTKSELzULs=",
+        "originContent": "  --exec 'printf \"Hello, world!\" | mock write' ",
+        "translatedContent": "  --exec 'printf \"Hello, world!\" | mock write' "
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nWith the ``--base example.com`` option above, your API will act as proxy to\nthat other website, and extend it with an extra route `GET /some-new-route`.\nLook up \"Base APIs\" in the docs for more details.\n\n*[There are many other ways of further customising your APIs with *mock*. Read further through the guide to learn.](https://dhuan.github.io/mock)*\n\n## Installing\n\nmock is distributed as a single-file executable. Check the releases page and download the latest tarball.\n\n## License\n\n**mock** is licensed under MIT. For more information check the [LICENSE file.](LICENSE)\n",
+    "ContentSha": "YdrePVZaz7u+eOE2ACjpl07SGkGpWPRRjRBAImu9Bps=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAvec l'option ``--base example.com`` ci-dessus, votre API agira comme un proxy vers\nce site web, et l'étendra avec une route supplémentaire `GET /some-new-route`.\nConsultez \"Base APIs\" dans la documentation pour plus de détails.\n\n*[Il existe de nombreuses autres façons de personnaliser davantage vos API avec *mock*. Lisez la suite du guide pour en savoir plus.](https://dhuan.github.io/mock)*\n\n## Installation\n\nmock est distribué sous forme d'exécutable monofichier. Consultez la page des releases et téléchargez le dernier tarball.\n\n## Licence\n\n**mock** est sous licence MIT. Pour plus d'informations, consultez le [fichier LICENSE.](LICENSE)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "O5wmdmRtUW5ZYOB0r8K76LiyAUgBUoCabXNmLeebHps=",
+        "originContent": "With the ``--base example.com`` option above, your API will act as proxy to",
+        "translatedContent": "Avec l'option ``--base example.com`` ci-dessus, votre API agira comme un proxy vers"
+      },
+      {
+        "row": 3,
+        "rowsha": "obWPb5PEwE+GRJFL0lDuqOFcVM3wowd6TaCBHVZxbI0=",
+        "originContent": "that other website, and extend it with an extra route `GET /some-new-route`.",
+        "translatedContent": "ce site web, et l'étendra avec une route supplémentaire `GET /some-new-route`."
+      },
+      {
+        "row": 4,
+        "rowsha": "aI5T/Xr19n+ElyBtdUaawU8wol98pYmRD15tXZKljU0=",
+        "originContent": "Look up \"Base APIs\" in the docs for more details.",
+        "translatedContent": "Consultez \"Base APIs\" dans la documentation pour plus de détails."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "/vnH7VyBe//xEKLlydNXcVK6M26UJNIEOyd96vJnqMI=",
+        "originContent": "*[There are many other ways of further customising your APIs with *mock*. Read further through the guide to learn.](https://dhuan.github.io/mock)*",
+        "translatedContent": "*[Il existe de nombreuses autres façons de personnaliser davantage vos API avec *mock*. Lisez la suite du guide pour en savoir plus.](https://dhuan.github.io/mock)*"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "oDVP3SR/aiqGlwC3MYkKbuw/xKWgDvrUk2CdNhgTxg4=",
+        "originContent": "## Installing",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Sti/kuBX5iCYaUh4WR5Qf5FSXMI8tYFW7WCCNbkcaYU=",
+        "originContent": "mock is distributed as a single-file executable. Check the releases page and download the latest tarball.",
+        "translatedContent": "mock est distribué sous forme d'exécutable monofichier. Consultez la page des releases et téléchargez le dernier tarball."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licence"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "opAHU0jQPEtX0HrpeD8beg/aOAqU9807ig+lupOw2yk=",
+        "originContent": "**mock** is licensed under MIT. For more information check the [LICENSE file.](LICENSE)",
+        "translatedContent": "**mock** est sous licence MIT. Pour plus d'informations, consultez le [fichier LICENSE.](LICENSE)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
