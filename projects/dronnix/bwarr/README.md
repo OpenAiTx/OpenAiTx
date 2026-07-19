@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 ## What is it?
 
 [![CI](https://github.com/dronnix/bwarr/actions/workflows/ci.yml/badge.svg)](https://github.com/dronnix/bwarr/actions)
@@ -27,6 +59,9 @@ Dynamic Data Sets](https://arxiv.org/abs/2004.09051). This repository contains t
 - For a small number of elements `Search()/Delete()` operations may take $O((\log N)^2)$. 50% of elements take $O(\log N)$ time, 75%  - $O(2\log N)$, 87.5% - $O(3\log N)$, etc.
 - When deleting long series of elements, a `Max()/Min()` operation can take $O(N/4)$. Amortized complexity for series of calls remains $O(\log N)$.
 - When deleting long series of elements, iteration step can take $O(N/4)$. Amortized complexity for iteration over the whole collection remains $O(\log N)$ per element.
+
+### Use-case
+In-memory collections with read-write ratio 1:1 < r:w < 10:1. BWArr is optimized for heavy insertions and deletions (with low allocations and fragmentation), while still providing fast search and iteration.
 
 ###  Benchmarks
 
@@ -80,6 +115,7 @@ import "github.com/dronnix/bwarr"
 package main
 
 import (
+    "cmp"
     "fmt"
 
     "github.com/dronnix/bwarr"
@@ -89,7 +125,7 @@ func main() {
     // Create a BWArr with an integer comparison function
     // The second parameter (10) is the initial capacity hint
     bwa := bwarr.New(func(a, b int64) int {
-        return int(a - b)
+        return cmp.Compare(a, b)
     }, 10)
 
     // Insert elements

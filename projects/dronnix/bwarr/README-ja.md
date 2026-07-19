@@ -1,66 +1,101 @@
-## それは何ですか？
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+## これは何ですか？
 
 [![CI](https://github.com/dronnix/bwarr/actions/workflows/ci.yml/badge.svg)](https://github.com/dronnix/bwarr/actions)
 [![codecov](https://codecov.io/gh/dronnix/bwarr/branch/main/graph/badge.svg)](https://codecov.io/gh/dronnix/bwarr)
 [![Go Reference](https://pkg.go.dev/badge/github.com/dronnix/bwarr.svg)](https://pkg.go.dev/github.com/dronnix/bwarr)
 [![Go Report Card](https://goreportcard.com/badge/github.com/dronnix/bwarr)](https://goreportcard.com/report/github.com/dronnix/bwarr)
 
-ブラックホワイト配列（別名BWArr）は、配列に基づく高速かつ順序付きのデータ構造で、***$O(\log N)$*** **のメモリアロケーション**を特徴としています。
+Black-White Array（略して BWArr）は、配列に基づく高速で順序付けられたデータ構造であり、***$O(\log N)$*** **のメモリアロケーション**を実現します。
 
 ## データ構造
-ブラックホワイト配列のアイデアは、教授[Z. George Mou](https://www.cs.brandeis.edu/~mou/)によって考案され、[Black-White Array: A New Data Structure for
-Dynamic Data Sets](https://arxiv.org/abs/2004.09051)にて発表されました。このリポジトリは最初の公開実装を含みます。
+Black-White Array のアイデアは教授 [Z. George Mou](https://www.cs.brandeis.edu/~mou/) によって考案され、[Black-White Array: A New Data Structure for Dynamic Data Sets](https://arxiv.org/abs/2004.09051) で発表されました。このリポジトリは初の公開実装を含んでいます。
 
 ![Professor Z. George Mou](https://www.cs.brandeis.edu/~mou/mou.gif)
 
-### 主な特徴：
-- 挿入時に$O(\log N)$のメモリアロケーション - GCへの負荷が少ない；
-- 挿入、削除、検索操作が高速で、$O(\log N)$の振幅時間複雑度；
-- 配列ベースでポインタを使わず、CPUフレンドリー：キャッシュ局所性／連続イテレーション等に適する；
-- 重複要素をネイティブにサポート（マルチセットの振る舞い） - ユニークにするために値を構造体にラップする必要なし；
-- `github.com/google/btree`や`github.com/petar/GoLLRB`の代替にそのまま使える；
-- メモリオーバーヘッドが低い - 要素ごとのポインタなし、コンパクトなメモリ表現；
-- シリアライズが容易；
+### 主な特徴:
+- 挿入時のメモリアロケーションは $O(\log N)$ - GCへの負担なし；
+- 挿入、削除、検索操作は高速で、時間のアモチゼーション複雑度 $O(\log N)$；
+- 配列ベースでポインタなし、CPUフレンドリー：キャッシュ局所性／順次イテレーション／など；
+- 重複要素をネイティブにサポート（マルチセット挙動）- 値をユニーク化するための構造体ラップ不要；
+- `github.com/google/btree` や `github.com/petar/GoLLRB` のドロップイン代替；
+- 低メモリオーバーヘッド - 要素ごとにポインタなし、コンパクトなメモリ表現；
+- シリアライズ容易；
 
 ### トレードオフ
-- $N$回の挿入操作のうち1回は$O(N)$の複雑度になるが、振幅時間は$O(\log N)$のまま。リアルタイムシステムでは、数百万要素のコレクションでレイテンシのスパイクが発生する可能性がある。非同期／バックグラウンド挿入で緩和可能。
-- 要素数が少ない場合、`Search()/Delete()`操作は$O((\log N)^2)$になることがある。50%の要素は$O(\log N)$、75%は$O(2\log N)$、87.5%は$O(3\log N)$など。
-- 長い連続した要素を削除する際、`Max()/Min()`操作は$O(N/4)$になることがある。連続呼び出しの振幅複雑度は$O(\log N)$のまま。
-- 長い連続した要素を削除する際、イテレーションステップは$O(N/4)$になることがある。全体コレクションのイテレーションの振幅複雑度は要素あたり$O(\log N)$のまま。
+- $N$ 回の挿入操作ごとに複雑度が $O(N)$ になることがあるが、アモチゼーションでは $O(\log N)$。リアルタイムシステムでは、数百万要素のコレクションでレイテンシスパイクが発生する可能性。非同期／バックグラウンド挿入で緩和可能。
+- 要素数が少ない場合、`Search()/Delete()` 操作は $O((\log N)^2)$ になることがある。50%の要素は $O(\log N)$、75% は $O(2\log N)$、87.5% は $O(3\log N)$ など。
+- 長い連続要素を削除する場合、`Max()/Min()` 操作は $O(N/4)$ かかることがある。呼び出しの連続ではアモチゼーション複雑度は $O(\log N)$。
+- 長い連続要素を削除する場合、イテレーションステップは $O(N/4)$ かかることがある。全コレクションのイテレーションでは各要素 $O(\log N)$ のアモチゼーション複雑度。
+
+### ユースケース
+メモリ内コレクションで読取:書込比率 1:1 < r:w < 10:1。BWArr は大量の挿入・削除（低アロケーション・断片化）に最適化され、検索やイテレーションも高速。
 
 ### ベンチマーク
 
-[Google BTree](https://github.com/google/btree)との比較ベンチマーク。
+[Google BTree](https://github.com/google/btree) と比較したベンチマーク。
 
 #### 挿入
-N個のユニークなランダムint64値を空のデータ構造に挿入する際の時間、割り当て回数、割り当てバイト数を測定。BWArrとBTreeはどちらも空から開始し、値を一つずつ挿入します。
+空のデータ構造へ N 個のユニークな int64 ランダム値を挿入する際の時間、アロケーション数、割り当てKB数を計測。BWArr と BTree はどちらも空から開始し、値を一つずつ挿入。
 
-![挿入性能](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values.png?raw=true)
-![挿入アロケーション数](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_allocs.png?raw=true)
-![挿入割り当てバイト数](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_bytes.png?raw=true)
-小さい値への割り当て：
+![Insert performance](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values.png?raw=true)
+![Insert Allocs](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_allocs.png?raw=true)
+![Insert Alloc_Bytes](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_bytes.png?raw=true)
+
+小さい値の場合のアロケーション：
 
 ![Insert Allocs small](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_performance_allocs_detailed.png?raw=true)
 
 
-#### Get
-事前に値が格納されたデータ構造内で、N個の値をキーで検索する時間を測定します。タイミングを開始する前にすべての値がデータ構造に格納され、その後各値がキーで取得されます。
+
+#### 取得
+事前に全ての値が格納されたデータ構造から、N個の値をキーで検索するのにかかる時間を計測します。タイミングの計測前にデータ構造に全ての値を格納し、その後各値をキーで取得します。
 
 ![Get performance](https://github.com/dronnix/bwarr-bench/blob/main/images/get_all_values_by_key.png?raw=true)
 
-#### Iterate
-ソート済みおよび非ソートの順序で、すべてのN個の値を反復処理する時間を測定します。
+#### イテレート
+N個全ての値をソート順・非ソート順でイテレートするのにかかる時間を計測します。
 ![Ordered Iterate performance](https://github.com/dronnix/bwarr-bench/blob/main/images/ordered_iteration_over_all_values.png?raw=true)
 ![Unordered Iterate performance](https://github.com/dronnix/bwarr-bench/blob/main/images/unordered_iteration_over_all_values.png?raw=true)
 
-#### 追加ベンチマーク
-追加のベンチマークや詳細は[ bwarr-bench](https://github.com/dronnix/bwarr-bench)リポジトリで利用可能です。
-さらに多くのメソッドが追加される予定であり、AMD64とARM64アーキテクチャ向けの別々のベンチマークも予定しています。
+#### その他のベンチマーク
+追加のベンチマークや詳細は [bwarr-bench](https://github.com/dronnix/bwarr-bench) リポジトリで確認できます。
+今後さらに多くのメソッドが追加され、AMD64およびARM64アーキテクチャ向けの個別ベンチマークも予定しています。
 
 ## インストール
 
-Go 1.22以降が必要です。
-
+Go 1.22 以上が必要です。
 
 ```bash
 go get github.com/dronnix/bwarr
@@ -80,6 +115,7 @@ import "github.com/dronnix/bwarr"
 package main
 
 import (
+    "cmp"
     "fmt"
 
     "github.com/dronnix/bwarr"
@@ -89,7 +125,7 @@ func main() {
     // Create a BWArr with an integer comparison function
     // The second parameter (10) is the initial capacity hint
     bwa := bwarr.New(func(a, b int64) int {
-        return int(a - b)
+        return cmp.Compare(a, b)
     }, 10)
 
     // Insert elements
@@ -132,6 +168,6 @@ func main() {
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-19
 
 ---

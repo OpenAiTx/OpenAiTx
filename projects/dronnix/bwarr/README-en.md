@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronnix&project=bwarr&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 ## What is it?
 
 [![CI](https://github.com/dronnix/bwarr/actions/workflows/ci.yml/badge.svg)](https://github.com/dronnix/bwarr/actions)
@@ -8,32 +40,34 @@
 The Black-White Array (aka BWArr) is a fast, ordered data structure based on arrays with ***$O(\log N)$*** **memory allocations**.
 
 ## Data Structure
-The idea of Black-White Array was invented and published by professor [Z. George Mou](https://www.cs.brandeis.edu/~mou/) in [Black-White Array: A New Data Structure for
-Dynamic Data Sets](https://arxiv.org/abs/2004.09051). This repository contains the first public implementation.
+The concept of the Black-White Array was created and published by Professor [Z. George Mou](https://www.cs.brandeis.edu/~mou/) in [Black-White Array: A New Data Structure for Dynamic Data Sets](https://arxiv.org/abs/2004.09051). This repository presents the first public implementation.
 
 ![Professor Z. George Mou](https://www.cs.brandeis.edu/~mou/mou.gif)
 
 ### Key features:
-- $O(\log N)$ memory allocations for Inserts - no pressure on GC;
-- Fast insert, delete, and search operations $O(\log N)$ time amortized complexity;
-- Array-based and pointerless makes it CPU-friendly: cache locality / sequential iteration / etc;
-- Supports duplicate elements natively (multiset behavior) - no need for wrapping values into structs to make them unique;
+- $O(\log N)$ memory allocations for Inserts - minimal pressure on GC;
+- Fast insert, delete, and search operations with $O(\log N)$ amortized time complexity;
+- Array-based and pointerless, making it CPU-friendly: cache locality / sequential iteration / etc;
+- Natively supports duplicate elements (multiset behavior) - no need to wrap values in structs for uniqueness;
 - Drop-in replacement for `github.com/google/btree` and `github.com/petar/GoLLRB`;
-- Low memory overhead - no pointers per element, compact memory representation;
+- Low memory overhead - no per-element pointers, compact memory representation;
 - Easily serializable;
 
 ### Tradeoffs
-- One per $N$ insert operations complexity falls down to $O(N)$, though amortized remains $O(\log N)$. For real-time systems, it may introduce latency spikes for collections with millions of elements. Could be mitigated by async/background inserts.
-- For a small number of elements `Search()/Delete()` operations may take $O((\log N)^2)$. 50% of elements take $O(\log N)$ time, 75%  - $O(2\log N)$, 87.5% - $O(3\log N)$, etc.
-- When deleting long series of elements, a `Max()/Min()` operation can take $O(N/4)$. Amortized complexity for series of calls remains $O(\log N)$.
-- When deleting long series of elements, iteration step can take $O(N/4)$. Amortized complexity for iteration over the whole collection remains $O(\log N)$ per element.
+- Once every $N$ insert operations, complexity drops to $O(N)$, though amortized stays at $O(\log N)$. For real-time systems, this may introduce latency spikes for collections with millions of elements. Can be alleviated by async/background inserts.
+- For a small number of elements, `Search()/Delete()` operations may take $O((\log N)^2)$. 50% of elements take $O(\log N)$ time, 75% - $O(2\log N)$, 87.5% - $O(3\log N)$, etc.
+- When deleting long series of elements, a `Max()/Min()` operation can take $O(N/4)$. The amortized complexity for a series of calls remains $O(\log N)$.
+- When deleting long series of elements, the iteration step can take $O(N/4)$. Amortized complexity for iterating over the entire collection remains $O(\log N)$ per element.
+
+### Use-case
+In-memory collections with read-write ratio 1:1 < r:w < 10:1. BWArr is optimized for heavy insertions and deletions (with low allocations and fragmentation), while still offering fast search and iteration.
 
 ###  Benchmarks
 
-Benchmarks in comparison with [Google BTree](https://github.com/google/btree).
+Benchmarks compared with [Google BTree](https://github.com/google/btree).
 
 #### Insert 
-Measures the time, allocs and allocated KBs to insert N unique random int64 values into an empty data structure. Both BWArr and BTree start empty and insert all values one by one.
+Measures the time, allocations, and allocated KBs to insert N unique random int64 values into an empty data structure. Both BWArr and BTree start empty and insert all values one by one.
 
 ![Insert performance](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values.png?raw=true)
 ![Insert Allocs](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_unique_values_allocs.png?raw=true)
@@ -42,6 +76,7 @@ Measures the time, allocs and allocated KBs to insert N unique random int64 valu
 Allocations on smaller values: 
 
 ![Insert Allocs small](https://github.com/dronnix/bwarr-bench/blob/main/images/insert_performance_allocs_detailed.png?raw=true)
+
 
 
 #### Get 
@@ -80,6 +115,7 @@ import "github.com/dronnix/bwarr"
 package main
 
 import (
+    "cmp"
     "fmt"
 
     "github.com/dronnix/bwarr"
@@ -89,7 +125,7 @@ func main() {
     // Create a BWArr with an integer comparison function
     // The second parameter (10) is the initial capacity hint
     bwa := bwarr.New(func(a, b int64) int {
-        return int(a - b)
+        return cmp.Compare(a, b)
     }, 10)
 
     // Insert elements
@@ -132,6 +168,6 @@ func main() {
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-19
 
 ---

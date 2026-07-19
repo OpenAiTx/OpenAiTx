@@ -1,0 +1,1418 @@
+[
+  {
+    "row": 1,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "5Ht1DTlXifbk2hoqUT+i6nsCCSANvzESMCPEwxz5zUU=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/nabroleonx/dbslice/main/docs/assets/logo.png\" alt=\"dbslice logo\" width=\"128\">",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/nabroleonx/dbslice/main/docs/assets/logo.png\" alt=\"dbslice ロゴ\" width=\"128\">"
+  },
+  {
+    "row": 3,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "mook1X56EkJ1cHIKmi6m67m7kqvlKKq5ZXkugRiroDU=",
+    "originContent": "# dbslice",
+    "translatedContent": "# dbslice"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yFdAo0E15Lg4Ssc869XUD3TytNrSyZS1TY+bjgDRf8Y=",
+    "originContent": "[![PyPI version](https://img.shields.io/pypi/v/dbslice)](https://pypi.org/project/dbslice/)",
+    "translatedContent": "[![PyPI バージョン](https://img.shields.io/pypi/v/dbslice)](https://pypi.org/project/dbslice/)"
+  },
+  {
+    "row": 8,
+    "rowsha": "T74wg+upsuJuG1b7GCaib3uIPqtzv6418uqERHA8Bi4=",
+    "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+    "translatedContent": "[![ライセンス: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+  },
+  {
+    "row": 9,
+    "rowsha": "FMtyUbBRBpJSi7YMYC+wtdXGx5i1xnNb2VeUFptpdpU=",
+    "originContent": "[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)",
+    "translatedContent": "[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "gzi94BZmjJ8cm1nW8x5VGopoLlKIqk/misAvZpKkUpg=",
+    "originContent": "Extract minimal, referentially-intact database subsets for local development and debugging.",
+    "translatedContent": "ローカル開発とデバッグのための最小限かつ参照整合性を保つデータベース部分集合を抽出します。"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "lR7GTMM3zAqvnZnIsrFEy15m6S/PY8nzenXxRU1vPnA=",
+    "originContent": "## The Problem",
+    "translatedContent": "## 問題点"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "9ryljTjiEw7jYm2wQqctC4cvt1du/ume7ep3pvLdrGM=",
+    "originContent": "Copying an entire production database to your machine is infeasible. But reproducing a bug often requires having the exact data that caused it. **dbslice** solves this by extracting only the records you need, following foreign key relationships to ensure referential integrity.",
+    "translatedContent": "本番データベース全体を自分のマシンにコピーするのは現実的ではありません。しかし、バグを再現するには、そのバグを引き起こした正確なデータが必要なことが多いです。**dbslice** は必要なレコードだけを抽出し、外部キー関係をたどって参照整合性を保証することでこれを解決します。"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 18,
+    "rowsha": "pNi5ddhQ7iL561IJ5THE3f+dqp1tdPxgxmBusoYddCA=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/nabroleonx/dbslice/main/docs/assets/dbslice-overview.png\" alt=\"dbslice — seed to subset\">",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/nabroleonx/dbslice/main/docs/assets/dbslice-overview.png\" alt=\"dbslice — シードから部分集合へ\">"
+  },
+  {
+    "row": 19,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## クイックスタート"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 24,
+    "rowsha": "wHuuDdROSkbPyIun5qPrlhr1AkJGHQtEODvfCkUjQ4o=",
+    "originContent": "# Install globally",
+    "translatedContent": "# Install globally"
+  },
+  {
+    "row": 25,
+    "rowsha": "4/mTL+l77VQ+20KRrlD30n+4ZcoCJfjWU2luJxkdiMc=",
+    "originContent": "uv tool install dbslice   # or: pip install dbslice",
+    "translatedContent": "uv tool install dbslice   # or: pip install dbslice"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "5a2wEDkrfx1aSiBmHBHMszkQBo6eqwMJfp8y0upBQ4w=",
+    "originContent": "# Extract an order and all related records",
+    "translatedContent": "# Extract an order and all related records"
+  },
+  {
+    "row": 28,
+    "rowsha": "h90ubqgOlEywi2dNXMAmMHWKFblMlAdfHpnEhznttK0=",
+    "originContent": "dbslice extract postgres://localhost/myapp --seed \"orders.id=12345\" > subset.sql",
+    "translatedContent": "dbslice extract postgres://localhost/myapp --seed \"orders.id=12345\" > subset.sql"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "+KpPq4NGSpOXybvQZYacsW/4q95ZUfkHHTaBfjHseJs=",
+    "originContent": "# Import into local database",
+    "translatedContent": "# Import into local database"
+  },
+  {
+    "row": 31,
+    "rowsha": "OX2UQN5FHlx5kuH+Gmtx01Emxi7GDaHGvkg/yUO6pjM=",
+    "originContent": "psql -d localdb < subset.sql",
+    "translatedContent": "psql -d localdb < subset.sql"
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 特徴"
+  },
+  {
+    "row": 34,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **ゼロコンフィグ開始** -- スキーマを自動的に解析し、データモデルファイルは不要"
+  },
+  {
+    "row": 36,
+    "rowsha": "pvNBqYh0vGZbw+ihjNMNq9Su5+iDp5R6BbONGNcMnhQ=",
+    "originContent": "- **Zero-config start** -- Introspects schema automatically, no data model file required",
+    "translatedContent": "- **シングルコマンド** -- 1回のCLI呼び出しで完全なデータサブセットを抽出"
+  },
+  {
+    "row": 37,
+    "rowsha": "lsDl4/zrvQcNy46zprbILhIw0IYYwA80z7uVF9gpZB8=",
+    "originContent": "- **Single command** -- Extract complete data subsets with one CLI invocation",
+    "translatedContent": "- **デフォルトで安全** -- 敏感なフィールド（メール、電話番号、SSNなど）を自動検出して匿名化"
+  },
+  {
+    "row": 38,
+    "rowsha": "IbgOrzvdjjmUmtBXGOgC9uQrsGlWwVlk3T/l/usUeBI=",
+    "originContent": "- **Safe by default** -- Auto-detects and anonymizes sensitive fields (emails, phones, SSNs, etc.)",
+    "translatedContent": "- **コンプライアンスプロファイル** -- GDPR、HIPAAセーフハーバー、PCI-DSSの組み込みプロファイル、2段階のPIIスキャン付き"
+  },
+  {
+    "row": 39,
+    "rowsha": "SnGWRGx16t53AU8DaFCcGCWS3sZrBOuJpx/7n395SUY=",
+    "originContent": "- **Compliance profiles** -- Built-in GDPR, HIPAA Safe Harbor, and PCI-DSS profiles with two-phase PII scanning",
+    "translatedContent": "- **カラムマッピングUI** -- ローカルブラウザUIでカラムを視覚的にマッピングし、コンプライアンスプロファイルを適用し、設定をエクスポート"
+  },
+  {
+    "row": 40,
+    "rowsha": "5tY6zYthcEF/nMGPl2y2ZvYrb2bAk0DLpraNLaxVmio=",
+    "originContent": "- **Column mapping UI** -- Local browser UI to visually map columns, apply compliance profiles, and export config",
+    "translatedContent": "- **複数の出力形式** -- SQL、JSON、CSV"
+  },
+  {
+    "row": 41,
+    "rowsha": "k4QYEqIxYQITQsMpkVs8KQlit13cn30wsVwEwjwZ8UE=",
+    "originContent": "- **Multiple output formats** -- SQL, JSON, and CSV",
+    "translatedContent": "- **ストリーミング** -- 大規模データセット（10万行以上）に対応したメモリ効率の良い抽出"
+  },
+  {
+    "row": 42,
+    "rowsha": "dfRkHW+qqCR6H6gqmOTxflFRyzVJFo4n7PbbgMIO8ao=",
+    "originContent": "- **Streaming** -- Memory-efficient extraction for large datasets (100K+ rows)",
+    "translatedContent": "- **仮想外部キー** -- DjangoのGenericForeignKeysや設定による暗黙的なリレーションに対応"
+  },
+  {
+    "row": 43,
+    "rowsha": "3MijYdftvzFdb0CG/iFK44AOQMP/Bl3qz1/OiYT0zMQ=",
+    "originContent": "- **Virtual foreign keys** -- Support for Django GenericForeignKeys and implicit relationships via config",
+    "translatedContent": "- **設定ファイル** -- 繰り返し抽出可能なYAMLベースの設定"
+  },
+  {
+    "row": 44,
+    "rowsha": "MRRuQsBr3Jp0axHHmjSAEMiShhWdXVjeVEIG10TPcZw=",
+    "originContent": "- **Config files** -- YAML-based configuration for repeatable extractions",
+    "translatedContent": "- **検証** -- 抽出データの参照整合性をチェック"
+  },
+  {
+    "row": 45,
+    "rowsha": "npjnp2G2aUXCMeh+cEL0yG3XZBsruDNxcsyjb3n9lrc=",
+    "originContent": "- **Validation** -- Checks referential integrity of extracted data",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### データベースサポート"
+  },
+  {
+    "row": 47,
+    "rowsha": "g2uy+iyjXq2jUhCgjIIgeoodwojWuYQBoOqQmxDKfT0=",
+    "originContent": "### Database Support",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| データベース   | ステータス                |"
+  },
+  {
+    "row": 49,
+    "rowsha": "2T5y1lOudfJfmCGnWL4c1u4Z6wRz2R3dHwDeAYgwN50=",
+    "originContent": "| Database   | Status                |",
+    "translatedContent": "|------------|-----------------------|"
+  },
+  {
+    "row": 50,
+    "rowsha": "u7VTWueledQh/5yuAX64V3kWY7wKpBu0N+g3+U1o1fw=",
+    "originContent": "|------------|-----------------------|",
+    "translatedContent": "| PostgreSQL | 完全対応       |"
+  },
+  {
+    "row": 51,
+    "rowsha": "b3wny496qfAZmtH7CTadKtQHLFsRrCRWmBBL+SUSHbA=",
+    "originContent": "| PostgreSQL | Fully supported       |",
+    "translatedContent": "| MySQL      | 計画中（まだ実装されていません） |"
+  },
+  {
+    "row": 52,
+    "rowsha": "ZyL1rH3H0ykuVxk336zFUvoakYGolLJim6nMXySkOaE=",
+    "originContent": "| MySQL      | Planned (not yet implemented) |",
+    "translatedContent": "| SQLite     | 計画中（まだ実装されていません） |"
+  },
+  {
+    "row": 53,
+    "rowsha": "NIRYqWyJsVZa8/N7Lnns6aPUbP2q5PEudlrhitq0+IM=",
+    "originContent": "| SQLite     | Planned (not yet implemented) |",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 55,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 58,
+    "rowsha": "LU5VzPIlOXM9FHTkah7T+yZzzp8z1Jm6T8Ha5eVv4ec=",
+    "originContent": "# Install with uv (recommended)",
+    "translatedContent": "# Install with uv (recommended)"
+  },
+  {
+    "row": 59,
+    "rowsha": "DDbXWuT7MjADTq8XwNItamasbUbDRQh+BCQt4FoU2Qg=",
+    "originContent": "uv add dbslice",
+    "translatedContent": "uv add dbslice"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "SWXAkKWjpBuernSfcKz4uSknjCaeJHIAZDst3Q5GNSo=",
+    "originContent": "# Try without installing",
+    "translatedContent": "# Try without installing"
+  },
+  {
+    "row": 62,
+    "rowsha": "WyAYa/AC5yVMHF72MbkCGEy8iQZCHK5+vsCv2gF9bfA=",
+    "originContent": "uvx dbslice --help",
+    "translatedContent": "uvx dbslice --help"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "2epL0gUHxGPs8sbZauSTdTEBEZzubV9qXcmCvRfA9zQ=",
+    "originContent": "# Or with pip",
+    "translatedContent": "# Or with pip"
+  },
+  {
+    "row": 65,
+    "rowsha": "nZ0hLeQ8uDLtCQqwVpv6QZtuFBLIjf2f7f5+Fag7yQE=",
+    "originContent": "pip install dbslice",
+    "translatedContent": "pip install dbslice"
+  },
+  {
+    "row": 66,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用法"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "yFTm0f6V+MCqucwT6cDuXadaUw558c8/HG4jZtiifNk=",
+    "originContent": "### Basic Extraction",
+    "translatedContent": "### 基本的な抽出"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 73,
+    "rowsha": "1tfu3lPCvphJ41pZSLO7ACjXUJQRxOJBffQev18F2rs=",
+    "originContent": "# Extract by primary key",
+    "translatedContent": "# Extract by primary key"
+  },
+  {
+    "row": 74,
+    "rowsha": "/rDIKBCq8pdpUkGB2fCHrcm0NRo0x6bTcfPUh1P01MA=",
+    "originContent": "dbslice extract postgres://user:pass@host:5432/db --seed \"orders.id=12345\"",
+    "translatedContent": "dbslice extract postgres://user:pass@host:5432/db --seed \"orders.id=12345\""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "9iICY8KpSYlXv8ifaDvG//ONE9VkySV+gE9a/ZPXRUM=",
+    "originContent": "# Extract with WHERE clause",
+    "translatedContent": "# Extract with WHERE clause"
+  },
+  {
+    "row": 77,
+    "rowsha": "wTLUO7IPl/Bvtk5hukZPhyTNFd+4mLnMRJ4azDDVUiU=",
+    "originContent": "dbslice extract postgres://localhost/db --seed \"orders:status='failed' AND created_at > '2024-01-01'\"",
+    "translatedContent": "dbslice extract postgres://localhost/db --seed \"orders:status='failed' AND created_at > '2024-01-01'\""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "nlujtLANc9qJQKfxhwY5leIhauQya38OjDabLKKDOB4=",
+    "originContent": "# Multiple seeds",
+    "translatedContent": "# Multiple seeds"
+  },
+  {
+    "row": 80,
+    "rowsha": "nK0klFiACLCPRsj4HkAbnZE8arv4KNFRgKOKUJzGGI0=",
+    "originContent": "dbslice extract postgres://localhost/db \\",
+    "translatedContent": "dbslice extract postgres://localhost/db \\"
+  },
+  {
+    "row": 81,
+    "rowsha": "OEs4EaEcmA2Oji9cVj6cv644s3LFtMybP4A4QgqtjsA=",
+    "originContent": "  --seed \"orders.id=100\" \\",
+    "translatedContent": "  --seed \"orders.id=100\" \\"
+  },
+  {
+    "row": 82,
+    "rowsha": "329L76aqMAep6VcE10I/cBBWqz4kCOPIpj1kHM4SLkg=",
+    "originContent": "  --seed \"orders.id=101\"",
+    "translatedContent": "  --seed \"orders.id=101\""
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "zEwNsCPxBeLUpkaJTmwJ1yltb8iWah1BPy+IOMXhpP0=",
+    "originContent": "### Control Traversal",
+    "translatedContent": "### コントロール・トラバーサル"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 88,
+    "rowsha": "u5qRqZfqcmNLgXsYSwlp8oQcr8eBo9Y8m7SyraFMRJ8=",
+    "originContent": "# Limit depth (default: 3)",
+    "translatedContent": "# Limit depth (default: 3)"
+  },
+  {
+    "row": 89,
+    "rowsha": "JjsxTM5P04qYI78LqXMZ1By5x3XhEgXz72WE+GXiQ2o=",
+    "originContent": "dbslice extract postgres://... --seed \"orders.id=1\" --depth 2",
+    "translatedContent": "dbslice extract postgres://... --seed \"orders.id=1\" --depth 2"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "wL4tiR7jZDCASNPj6xn/YrU71JUrCknnM5tqW1/jA1M=",
+    "originContent": "# Direction: up (parents only), down (children only), both (default)",
+    "translatedContent": "# Direction: up (parents only), down (children only), both (default)"
+  },
+  {
+    "row": 92,
+    "rowsha": "XBH9vaK7RqQ79rYMMsFDvHaoZsAZlbfvezrE5+rZ2UU=",
+    "originContent": "dbslice extract postgres://... --seed \"orders.id=1\" --direction up",
+    "translatedContent": "dbslice extract postgres://... --seed \"orders.id=1\" --direction up"
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "PfzANZVodEsi7chE4Mcs63tXtvxeK/um5obFx52eDkA=",
+    "originContent": "### Anonymization",
+    "translatedContent": "### 匿名化"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 98,
+    "rowsha": "meS5Nq/B6lu320G2y76bxr8pzhQ0/YrcTWc4e6WxmuU=",
+    "originContent": "# Auto-anonymize detected sensitive fields",
+    "translatedContent": "# Auto-anonymize detected sensitive fields"
+  },
+  {
+    "row": 99,
+    "rowsha": "hN9dbZK4hWR/H4mZ8qFAC4r7vaMDOMlsLrBH3a5SUvg=",
+    "originContent": "dbslice extract postgres://... --seed \"users.id=1\" --anonymize",
+    "translatedContent": "dbslice extract postgres://... --seed \"users.id=1\" --anonymize"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "zHwKtXqveQ0J5UZTlsfIKxV7X7TIqAQ4zgQNBWjdgls=",
+    "originContent": "# Redact additional fields",
+    "translatedContent": "# Redact additional fields"
+  },
+  {
+    "row": 102,
+    "rowsha": "buGeRTXIFuY3zJ0KJtwoKvyMLQtHmIMSkmj0H5fZZ7c=",
+    "originContent": "dbslice extract postgres://... --seed \"users.id=1\" --anonymize --redact \"audit_logs.ip_address\"",
+    "translatedContent": "dbslice extract postgres://... --seed \"users.id=1\" --anonymize --redact \"audit_logs.ip_address\""
+  },
+  {
+    "row": 103,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "VDwFnockQgUEGqoUg64kshDSt9YHe98QEvxgTzyz7OI=",
+    "originContent": "### Column Mapping UI",
+    "translatedContent": "### カラムマッピングUI"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "tLLmtcQ83GrZMdyoXiOLuJYnhHDji7vTIoRYJthWJro=",
+    "originContent": "Map columns visually, apply compliance profiles, and generate a ready-to-use config — all from a local browser UI.",
+    "translatedContent": "カラムを視覚的にマッピングし、コンプライアンスプロファイルを適用し、すぐに使える設定を生成します — すべてローカルブラウザのUIから。"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 110,
+    "rowsha": "mwCxxm33a15G/R12hyN5i0zFjf2wh6hU2cSF1+Hgnk4=",
+    "originContent": "dbslice map postgres://localhost/myapp",
+    "translatedContent": "dbslice map postgres://localhost/myapp"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "5B4lZF0xHzAQC4I3IEQInI8IXDbnZYzRy51gP+Ttzbg=",
+    "originContent": "# Custom port",
+    "translatedContent": "# Custom port"
+  },
+  {
+    "row": 113,
+    "rowsha": "Cvn4R+Coxlz4WbQT9+tayVZ8nb09GQwbx4nLB5YPMxo=",
+    "originContent": "dbslice map postgres://localhost/myapp --port 8888",
+    "translatedContent": "dbslice map postgres://localhost/myapp --port 8888"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "43hXwfr57nDy6lMokn7Rv5jACw7yEdtfgoPA+44kQQk=",
+    "originContent": "# Also works with uvx (no install needed)",
+    "translatedContent": "# Also works with uvx (no install needed)"
+  },
+  {
+    "row": 116,
+    "rowsha": "w4kd5uujKlhJbqOlE1UJnncSnDVDCyC3FOkN8thFfBU=",
+    "originContent": "uvx dbslice map postgres://localhost/myapp",
+    "translatedContent": "uvx dbslice map postgres://localhost/myapp"
+  },
+  {
+    "row": 117,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<table>"
+  },
+  {
+    "row": 119,
+    "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+    "originContent": "<table>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 120,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<td width=\"50%\"><strong>列を匿名化ルールにマッピング</strong></td>"
+  },
+  {
+    "row": 121,
+    "rowsha": "QOOh395Cegw4+G2u+9NXMfAslUwtGdoK5E/S4CD4QDo=",
+    "originContent": "<td width=\"50%\"><strong>Map columns to anonymization rules</strong></td>",
+    "translatedContent": "<td width=\"50%\"><strong>設定を生成してエクスポート</strong></td>"
+  },
+  {
+    "row": 122,
+    "rowsha": "prBc8gQfWjP/jZ0qpDBf6NC2CDofROSXSJlCqyuYcHM=",
+    "originContent": "<td width=\"50%\"><strong>Generate and export config</strong></td>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 123,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "<tr>"
+  },
+  {
+    "row": 124,
+    "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+    "originContent": "<tr>",
+    "translatedContent": "<td><img src=\"https://raw.githubusercontent.com/nabroleonx/dbslice/main/docs/assets/mapping.png\" alt=\"列のマッピング\" width=\"100%\"></td>"
+  },
+  {
+    "row": 125,
+    "rowsha": "SPeS0/TuDRvy65ah6MfZvw7+uMM0OlRd3+b9LBnvUdg=",
+    "originContent": "<td><img src=\"https://raw.githubusercontent.com/nabroleonx/dbslice/main/docs/assets/mapping.png\" alt=\"Column mapping\" width=\"100%\"></td>",
+    "translatedContent": "<td><img src=\"https://raw.githubusercontent.com/nabroleonx/dbslice/main/docs/assets/mapping_instructions.png\" alt=\"生成された設定\" width=\"100%\"></td>"
+  },
+  {
+    "row": 126,
+    "rowsha": "I//ILwf5xYwOunlg3p9kwdaySVb8Sd0oxR6cyD+p6+g=",
+    "originContent": "<td><img src=\"https://raw.githubusercontent.com/nabroleonx/dbslice/main/docs/assets/mapping_instructions.png\" alt=\"Generated config\" width=\"100%\"></td>",
+    "translatedContent": "</tr>"
+  },
+  {
+    "row": 127,
+    "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+    "originContent": "</tr>",
+    "translatedContent": "</table>"
+  },
+  {
+    "row": 128,
+    "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+    "originContent": "</table>",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`127.0.0.1:9473`で動作し、一度限りのセッショントークンを使用 — データはマシンを離れません。GDPR、HIPAA、またはPCI-DSSプロファイルをワンクリックで適用し、マスクされる内容を確認してからYAMLをダウンロードしてください。"
+  },
+  {
+    "row": 130,
+    "rowsha": "DUTR/8bDCbVHWdCeW43QOXogQpE52Lb0VNSRgJ6vHIA=",
+    "originContent": "Runs on `127.0.0.1:9473` with a one-time session token — no data leaves your machine. Apply GDPR, HIPAA, or PCI-DSS profiles with one click, review what gets masked, then download the YAML.",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### コンプライアンスプロファイル"
+  },
+  {
+    "row": 132,
+    "rowsha": "l42MQ9+31uMp2yRSaulesZcMIwZOW6+EkHyWNQ0TqvY=",
+    "originContent": "### Compliance Profiles",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 135,
+    "rowsha": "xhk7C/zAIM1FTkfBZIYRe9MhNd9ASJhvIFs8J8Q/7as=",
+    "originContent": "# HIPAA Safe Harbor — auto-masks all 18 identifier types",
+    "translatedContent": "# HIPAA Safe Harbor — auto-masks all 18 identifier types"
+  },
+  {
+    "row": 136,
+    "rowsha": "UfcAdK3RvcNvtu3da6Y5+inx8MHitRxO4sjqF5Q/j/M=",
+    "originContent": "dbslice extract postgres://... --seed \"patients.id=1\" --compliance hipaa --compliance-strict",
+    "translatedContent": "dbslice extract postgres://... --seed \"patients.id=1\" --compliance hipaa --compliance-strict"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "QyKyOtM0/kql2jdxsC0fE+RLRBHE//6NpLVKAJwxMSI=",
+    "originContent": "# Multiple profiles + audit manifest",
+    "translatedContent": "# Multiple profiles + audit manifest"
+  },
+  {
+    "row": 139,
+    "rowsha": "BVHdoHx4yY2ZGmlH4Py1Uv+cfYd4GJJAPa8MXltf7as=",
+    "originContent": "dbslice extract postgres://... --seed \"users.id=1\" --compliance gdpr --compliance pci-dss -f subset.sql",
+    "translatedContent": "dbslice extract postgres://... --seed \"users.id=1\" --compliance gdpr --compliance pci-dss -f subset.sql"
+  },
+  {
+    "row": 140,
+    "rowsha": "rpnXPTiIQrwsdAr7avQhulMiIXUcCtI8CRqPtKqMvrA=",
+    "originContent": "# Produces subset.sql + subset.manifest.json",
+    "translatedContent": "# Produces subset.sql + subset.manifest.json"
+  },
+  {
+    "row": 141,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "AzsG08MlbvKTXAbgKhdypWrJCURYAuSR2BgZBTbL1/A=",
+    "originContent": "### Output Formats",
+    "translatedContent": "### 出力形式"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 146,
+    "rowsha": "RNgnoLVZro41gQuMCxFennseNDFtDg3i82LiS73YeTk=",
+    "originContent": "# SQL (default)",
+    "translatedContent": "# SQL (default)"
+  },
+  {
+    "row": 147,
+    "rowsha": "51W8v0o/oK78mDrp2slO6A3GXWnBgl/7uHvz3QWeuRk=",
+    "originContent": "dbslice extract postgres://... --seed \"orders.id=1\" --output sql",
+    "translatedContent": "dbslice extract postgres://... --seed \"orders.id=1\" --output sql"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "2dCn8oS7aQvOO0qY/19f/3QcVDHfTiQdY6a9U3N/vSU=",
+    "originContent": "# JSON fixtures",
+    "translatedContent": "# JSON fixtures"
+  },
+  {
+    "row": 150,
+    "rowsha": "i2IZ1x+9aLE5nGPl1gFWwy9GV7CDK4xFHhvYPWe7AMY=",
+    "originContent": "dbslice extract postgres://... --seed \"orders.id=1\" --output json --out-file fixtures/",
+    "translatedContent": "dbslice extract postgres://... --seed \"orders.id=1\" --output json --out-file fixtures/"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "3cOdSsvpuk4Xq4wyDh7WvuEnMnyLpP98tERWNODxFHs=",
+    "originContent": "# CSV",
+    "translatedContent": "# CSV"
+  },
+  {
+    "row": 153,
+    "rowsha": "1fm4KS1bePurzrAIVwQ5molyPlFUNvVnZpkxp25PMV0=",
+    "originContent": "dbslice extract postgres://... --seed \"orders.id=1\" --output csv --out-file data/",
+    "translatedContent": "dbslice extract postgres://... --seed \"orders.id=1\" --output csv --out-file data/"
+  },
+  {
+    "row": 154,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "0fe0hodJsno9CE9WMzxe1wjCCHUWulJbWfOQ81eTajk=",
+    "originContent": "### Virtual Foreign Keys",
+    "translatedContent": "### 仮想外部キー"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "N0AVG8MPuRDprX+dKptsjynq+/pwqy4vWy0Eu1z9S0w=",
+    "originContent": "For relationships not defined in the database schema (Django GenericForeignKeys, implicit relationships):",
+    "translatedContent": "データベーススキーマに定義されていないリレーションシップ（DjangoのGenericForeignKeys、暗黙のリレーションシップ）について："
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 161,
+    "rowsha": "P1nQaYXXhw+I8t4WUF4T/YvAqObEgwEc91FMREGEuIs=",
+    "originContent": "# dbslice.yaml",
+    "translatedContent": "# dbslice.yaml"
+  },
+  {
+    "row": 162,
+    "rowsha": "GbyuS2WLEtHptKHQY+GELSjUpQ34rmsr1eVOVo18mWg=",
+    "originContent": "database:",
+    "translatedContent": "database:"
+  },
+  {
+    "row": 163,
+    "rowsha": "KAjxp855j2clwP+LlI7R927viB8plbMBaGlUlYpOtgE=",
+    "originContent": "  url: postgres://localhost:5432/myapp",
+    "translatedContent": "  url: postgres://localhost:5432/myapp"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "muFPB4gtpzgI7B4U/KBuJDxrfAgz2VRJ4CoaXNbYqik=",
+    "originContent": "virtual_foreign_keys:",
+    "translatedContent": "virtual_foreign_keys:"
+  },
+  {
+    "row": 166,
+    "rowsha": "7yzU7ybSGieUpkVwPeh9i3N3AjrkFRAE6HLvbuDI08k=",
+    "originContent": "  - source_table: notifications",
+    "translatedContent": "  - source_table: notifications"
+  },
+  {
+    "row": 167,
+    "rowsha": "aEuCZFt1ShAlnN9YNIGjnoMd/P6NBi3n5fQsKl8/OGI=",
+    "originContent": "    source_columns: [object_id]",
+    "translatedContent": "    source_columns: [object_id]"
+  },
+  {
+    "row": 168,
+    "rowsha": "wXhAQxh2U1gQbJyd9SIIgDRDs+H2RFFrBOArQX0t6Ns=",
+    "originContent": "    target_table: orders",
+    "translatedContent": "    target_table: orders"
+  },
+  {
+    "row": 169,
+    "rowsha": "Gwj8e4ELs675383uMTHMpdKSoRanNZNLiN04X5jIheQ=",
+    "originContent": "    description: \"Generic FK to orders via ContentType\"",
+    "translatedContent": "    description: \"Generic FK to orders via ContentType\""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "DyJuXQv+QiQiSEGyubYXqzcPzHAeHlR5oLka5urILWk=",
+    "originContent": "  - source_table: audit_log",
+    "translatedContent": "  - source_table: audit_log"
+  },
+  {
+    "row": 172,
+    "rowsha": "RoQc3/r7sZqVrWyyyt4jvwSasiMvYAZ8pQrt3YIyTOM=",
+    "originContent": "    source_columns: [user_id]",
+    "translatedContent": "    source_columns: [user_id]"
+  },
+  {
+    "row": 173,
+    "rowsha": "0a+v9ZTERKCmluXKSjAZpt+Gx0JDwNUaADs3p9MnvGI=",
+    "originContent": "    target_table: users",
+    "translatedContent": "    target_table: users"
+  },
+  {
+    "row": 174,
+    "rowsha": "IhxvIzyOCgmnh1gWEm8z4VHEvUpUGvpeQ2AC0O9sE54=",
+    "originContent": "    description: \"Implicit FK without DB constraint\"",
+    "translatedContent": "    description: \"Implicit FK without DB constraint\""
+  },
+  {
+    "row": 175,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 178,
+    "rowsha": "BLwXC+ieWR7c8+fiRLPonCObovmkf2xL6e/7KriXJBA=",
+    "originContent": "dbslice extract --config dbslice.yaml --seed \"users.id=1\"",
+    "translatedContent": "dbslice extract --config dbslice.yaml --seed \"users.id=1\""
+  },
+  {
+    "row": 179,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "9cZU++6uekHgCx5dcc1taU6VGJVSmuCZTTwtejfoMTI=",
+    "originContent": "### Inspect Schema",
+    "translatedContent": "### スキーマの検査"
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 184,
+    "rowsha": "pSe7AcIH+iBkqO4MVY3/u2PSLhALWrRO0phkNoTlEh4=",
+    "originContent": "dbslice inspect postgres://localhost/myapp",
+    "translatedContent": "dbslice inspect postgres://localhost/myapp"
+  },
+  {
+    "row": 185,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "SsrR6fpo2Z64niprIK3LQjrjUfW++pzTy7tfWcVIwy0=",
+    "originContent": "### Configuration File",
+    "translatedContent": "### 設定ファイル"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 190,
+    "rowsha": "pgzkbJDDffaRDWEjpN5JbIaNwuX1TJ2TZNSvJ3bXgPg=",
+    "originContent": "# Generate config from database",
+    "translatedContent": "# Generate config from database"
+  },
+  {
+    "row": 191,
+    "rowsha": "9rp+rs/5NgEtIvcsnrMDzkOBhsvtyLSeaKA8Zf4zau8=",
+    "originContent": "dbslice init postgres://localhost/myapp --out-file dbslice.yaml",
+    "translatedContent": "dbslice init postgres://localhost/myapp --out-file dbslice.yaml"
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "Gu/wDh2hYp1K1tx5ku/bJvZun6vjDP2cb89YBHUdhyo=",
+    "originContent": "# Use config",
+    "translatedContent": "# Use config"
+  },
+  {
+    "row": 194,
+    "rowsha": "2BjvUUPGtD8Xg+2fuZ7Jd4o0iglviV/zrAFV+39USP4=",
+    "originContent": "dbslice extract --config dbslice.yaml --seed \"orders.id=12345\"",
+    "translatedContent": "dbslice extract --config dbslice.yaml --seed \"orders.id=12345\""
+  },
+  {
+    "row": 195,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 仕組み"
+  },
+  {
+    "row": 197,
+    "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+    "originContent": "## How It Works",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **イントロスペクト** -- データベーススキーマを読み取り、テーブルと外部キーの関係を発見する  "
+  },
+  {
+    "row": 199,
+    "rowsha": "FFWCWA0hrqQ0P9A/OGA9QCNmwdIVuYuFjlkKd1dPs70=",
+    "originContent": "1. **Introspect** -- Reads database schema to discover tables and foreign key relationships",
+    "translatedContent": "2. **トラバース** -- シードレコードから開始し、BFSで外部キー関係をたどる  "
+  },
+  {
+    "row": 200,
+    "rowsha": "E2coXtD2mhpL903zKXvwS1L387C7vHjwSuf8PCryNJs=",
+    "originContent": "2. **Traverse** -- Starting from seed record(s), follows FK relationships via BFS",
+    "translatedContent": "3. **抽出** -- 特定されたすべてのレコードを取得する  "
+  },
+  {
+    "row": 201,
+    "rowsha": "Id1aZ+Pd+mnG2DN46JpDuhrZ2KNFGdbWZcjzZZJVpHk=",
+    "originContent": "3. **Extract** -- Fetches all identified records",
+    "translatedContent": "4. **ソート** -- 正しいINSERT順になるようにテーブルをトポロジカルソートする  "
+  },
+  {
+    "row": 202,
+    "rowsha": "nA1stOYlEN6sCjRyL8hp2pPxur9oIHNWLySUOuaxQlQ=",
+    "originContent": "4. **Sort** -- Topologically sorts tables for correct INSERT order",
+    "translatedContent": "5. **出力** -- 適切なエスケープ付きでSQL/JSON/CSVを生成する  "
+  },
+  {
+    "row": 203,
+    "rowsha": "OYSgt9floiXytovnRd+vzqemAyTSQbci03RFqZ6Vkys=",
+    "originContent": "5. **Output** -- Generates SQL/JSON/CSV with proper escaping",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 比較"
+  },
+  {
+    "row": 205,
+    "rowsha": "9DDmcBiSCcvpJhMzUdVPg9mKK2oXRziYzueTjH7saoA=",
+    "originContent": "## Comparison",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 機能 | dbslice | Jailer | Greenmask | slice-db |"
+  },
+  {
+    "row": 207,
+    "rowsha": "26Tv6a2alAPJfKBIDrnXddB3R06uLBNouIt4tssfOlk=",
+    "originContent": "| Feature | dbslice | Jailer | Greenmask | slice-db |",
+    "translatedContent": "|---------|---------|--------|-----------|----------|"
+  },
+  {
+    "row": 208,
+    "rowsha": "ySUcDXCG/cMN1NUSlIC6xgea3hdeIaUsMqc3C/xjUlA=",
+    "originContent": "|---------|---------|--------|-----------|----------|",
+    "translatedContent": "| 言語 | Python | Java | Go | Ruby |"
+  },
+  {
+    "row": 209,
+    "rowsha": "0dCvk7ADOcbCAmcQwyG9s28ux1JfUctx80etXH08w9U=",
+    "originContent": "| Language | Python | Java | Go | Ruby |",
+    "translatedContent": "| 設定 | ゼロコンフィグ | モデルファイル必須 | 設定必須 | 手動YAML |"
+  },
+  {
+    "row": 210,
+    "rowsha": "UyyvuRxCJo0yFsdrZFb0zU4mz5WMxpoh9A0aAxwqcqk=",
+    "originContent": "| Configuration | Zero-config | Requires model file | Config required | Manual YAML |",
+    "translatedContent": "| セットアップ時間 | 数秒 | 数時間 | 中程度 | 中程度 |"
+  },
+  {
+    "row": 211,
+    "rowsha": "tDH6T/uhQeKaM2PIHjrd0yaWSSXVfyXtkXCkXXR1c2U=",
+    "originContent": "| Setup time | Seconds | Hours | Medium | Medium |",
+    "translatedContent": "| 匿名化 | 内蔵（Faker） | プラグインベース | 高度な変換器 | 利用不可 |"
+  },
+  {
+    "row": 212,
+    "rowsha": "w0QjgbyHidgIkiDXZr+roSP6BPizK/X0EtbkPbHS+B4=",
+    "originContent": "| Anonymization | Built-in (Faker) | Plugin-based | Advanced transformers | Not available |",
+    "translatedContent": "| コンプライアンスプロファイル | GDPR, HIPAA, PCI-DSS | なし | なし | なし |"
+  },
+  {
+    "row": 213,
+    "rowsha": "eY2ekNJ4Xs4sDAoFgUX2mRggVQdBYNaWf4/DYHIu1yA=",
+    "originContent": "| Compliance profiles | GDPR, HIPAA, PCI-DSS | None | None | None |",
+    "translatedContent": "| カラムマッピングUI | 内蔵（ローカル） | なし | なし | なし |"
+  },
+  {
+    "row": 214,
+    "rowsha": "ClJWv+yp7FncmlqCmbfoPUhrMvy3c8ySniQ8lF9d82w=",
+    "originContent": "| Column mapping UI | Built-in (local) | None | None | None |",
+    "translatedContent": "| PII値スキャン | 二段階（マスク前後） | なし | なし | なし |"
+  },
+  {
+    "row": 215,
+    "rowsha": "GAynwce49S3ucfNI7EzyNGqgy48tzC+/9rg5xfJqlg4=",
+    "originContent": "| PII value scanning | Two-phase (pre/post mask) | None | None | None |",
+    "translatedContent": "| サブセット化 | 外部キー走査 | 外部キー走査 | 制限あり | 外部キー走査 |"
+  },
+  {
+    "row": 216,
+    "rowsha": "1GI3nV79JXePSXZkqnbkdyeIpHXWMZ0SUqg5SbwVdoU=",
+    "originContent": "| Subsetting | FK traversal | FK traversal | Limited | FK traversal |",
+    "translatedContent": "| 出力形式 | SQL, JSON, CSV | SQL, XML, CSV | SQL | SQLのみ |"
+  },
+  {
+    "row": 217,
+    "rowsha": "i+j3ozHb877zKl8ZySfTiHort4LLikAaXersVyhA/aQ=",
+    "originContent": "| Output formats | SQL, JSON, CSV | SQL, XML, CSV | SQL | SQL only |",
+    "translatedContent": "| 循環処理 | 自動 | 手動設定 | 該当なし | 手動 |"
+  },
+  {
+    "row": 218,
+    "rowsha": "AgQQupqSsIvnfF7CdcUCEEXPlTe6zzAFxoDAERqrXXA=",
+    "originContent": "| Cycle handling | Automatic | Manual config | N/A | Manual |",
+    "translatedContent": "| ストリーミング | 内蔵 | 設定可能 | 内蔵 | 利用不可 |"
+  },
+  {
+    "row": 219,
+    "rowsha": "v+TUh+NEOaVtFYRyyFSTq5UoGcpVCUADd5Cwbf5F1a8=",
+    "originContent": "| Streaming | Built-in | Configurable | Built-in | Not available |",
+    "translatedContent": "| メンテナンス | 活発 | 活発 | 活発 | メンテナンス終了 |"
+  },
+  {
+    "row": 220,
+    "rowsha": "U+F+QVVrAzHke00Hwjd8f/IjjkEkwIGz2H8+gtrwAxI=",
+    "originContent": "| Maintenance | Active | Active | Active | Unmaintained |",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**dbslice** は軽量でゼロコンフィグのPythonオプションです：インストールして1分以内に抽出できます。"
+  },
+  {
+    "row": 222,
+    "rowsha": "/6G/nG4HJd/yMeYAQulBe0PR01xTKoBoPsfoHWyR/oA=",
+    "originContent": "**dbslice** is the lightweight, zero-config Python option: install and extract in under a minute.",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 開発"
+  },
+  {
+    "row": 224,
+    "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+    "originContent": "## Development",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 227,
+    "rowsha": "q67OywHrYct0PaHeDe9ZtZl3Y/7NI+8rHM3EApZ5gb0=",
+    "originContent": "git clone https://github.com/nabroleonx/dbslice.git",
+    "translatedContent": "git clone https://github.com/nabroleonx/dbslice.git"
+  },
+  {
+    "row": 228,
+    "rowsha": "lchrfvEyy2wHBuz3F4h3k+6AMk3UoCAvDSVjF+Poens=",
+    "originContent": "cd dbslice",
+    "translatedContent": "cd dbslice"
+  },
+  {
+    "row": 229,
+    "rowsha": "/hE96yzehfl37yCqd97+QdKhk9Ogl4GnslcnfG5p6xc=",
+    "originContent": "uv sync --dev",
+    "translatedContent": "uv sync --dev"
+  },
+  {
+    "row": 230,
+    "rowsha": "77tg0IfGeNJxikKN3qlsVFjnn48zTDFB6z3azVWukdg=",
+    "originContent": "uv run pytest",
+    "translatedContent": "uv run pytest"
+  },
+  {
+    "row": 231,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 234,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 235,
+    "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+    "originContent": "MIT",
+    "translatedContent": "MIT"
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
