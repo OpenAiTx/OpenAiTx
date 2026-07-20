@@ -1,0 +1,1460 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Tkh4DPHH/k6HKkSV3RnS/UPZ74Sby8Jc+NKll/jR21I=",
+    "originContent": "# parakeet.cpp",
+    "translatedContent": "# parakeet.cpp"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Co1WQqACOESJ8HhnL+KLlC/5W8BqCtQ17bSlNbFZhio=",
+    "originContent": "Fast speech recognition with NVIDIA's [Parakeet](https://huggingface.co/collections/nvidia/parakeet) models in pure C++.",
+    "translatedContent": "NVIDIA의 [Parakeet](https://huggingface.co/collections/nvidia/parakeet) 모델을 이용한 순수 C++ 기반의 빠른 음성 인식."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "rlvlb3maBlfUuBpOimOR1y0EaoMIVCN73Us3rDWpyc8=",
+    "originContent": "Built on [axiom](https://github.com/frikallo/axiom) — a lightweight tensor library with automatic Metal GPU acceleration. No ONNX runtime, no Python runtime, no heavyweight dependencies. Just C++ and one tensor library that outruns PyTorch MPS.",
+    "translatedContent": "[axiom](https://github.com/frikallo/axiom) 위에 구축 — 자동 Metal GPU 가속을 지원하는 경량 텐서 라이브러리. ONNX 런타임 없음, Python 런타임 없음, 무거운 의존성 없음. 오직 C++와 PyTorch MPS보다 빠른 하나의 텐서 라이브러리만 사용."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "FIMDYr7/y/Ir+eWanggE2M66o7Yx8u0inRFxsDDj+60=",
+    "originContent": "**~27ms encoder inference on Apple Silicon GPU** for 10s audio (110M model) — 96x faster than CPU. FP16 support for ~2x memory reduction.",
+    "translatedContent": "**Apple Silicon GPU에서 10초 음성에 대해 약 27ms 인코더 추론** (110M 모델) — CPU보다 96배 빠름. FP16 지원으로 메모리 사용량 약 2배 절감."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "kNFCKuk4wBbxs/+j8gunXHofSkegWkVkXLqu1F3+9EQ=",
+    "originContent": "## Supported Models",
+    "translatedContent": "## 지원 모델"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "0gu3Iqfpt6XFmKEL+awZd+9wct3ceC0w8ah0g38IW+w=",
+    "originContent": "| Model | Class | Size | Type | Description |",
+    "translatedContent": "| 모델 | 클래스 | 크기 | 유형 | 설명 |"
+  },
+  {
+    "row": 12,
+    "rowsha": "bQckuUv9PzirT73a8o9fS05viboUDptWblMQx2g2n+0=",
+    "originContent": "|-------|-------|------|------|-------------|",
+    "translatedContent": "|-------|-------|------|------|-------------|"
+  },
+  {
+    "row": 13,
+    "rowsha": "XOuSHT2thE8P7SGCOryj3GvHabrNMjyc7tI8d3fXDIs=",
+    "originContent": "| `tdt-ctc-110m` | `ParakeetTDTCTC` | 110M | Offline | English, dual CTC/TDT decoder heads |",
+    "translatedContent": "| `tdt-ctc-110m` | `ParakeetTDTCTC` | 110M | 오프라인 | 영어, 이중 CTC/TDT 디코더 헤드 |"
+  },
+  {
+    "row": 14,
+    "rowsha": "CVA3ru7xsiOoyJQ5u9YAQbeqpibSBNoA3Pi7UbdplQE=",
+    "originContent": "| `tdt-600m` | `ParakeetTDT` | 600M | Offline | Multilingual, TDT decoder |",
+    "translatedContent": "| `tdt-600m` | `ParakeetTDT` | 600M | 오프라인 | 다국어, TDT 디코더 |"
+  },
+  {
+    "row": 15,
+    "rowsha": "ujtf4z3491EQnbsJvPStiIpkFzJofNN0RQav63K99cY=",
+    "originContent": "| `eou-120m` | `ParakeetEOU` | 120M | Streaming | English, RNNT with end-of-utterance detection |",
+    "translatedContent": "| `eou-120m` | `ParakeetEOU` | 120M | 스트리밍 | 영어, 발화 종료 감지 기능이 있는 RNNT |"
+  },
+  {
+    "row": 16,
+    "rowsha": "Q8xE+2ApfJmPEsKdxHzOujgur7Nb+54XcA9m3xHOKm4=",
+    "originContent": "| `nemotron-600m` | `ParakeetNemotron` | 600M | Streaming | Multilingual, configurable latency (80ms–1120ms) |",
+    "translatedContent": "| `nemotron-600m` | `ParakeetNemotron` | 600M | 스트리밍 | 다국어, 조정 가능한 지연 시간 (80ms–1120ms) |"
+  },
+  {
+    "row": 17,
+    "rowsha": "D9yE5O+ylWgNfcw4FmEJ+ozzwsP2wUB7AoCoXg1fmqw=",
+    "originContent": "| `sortformer` | `Sortformer` | 117M | Streaming | Speaker diarization (up to 4 speakers) |",
+    "translatedContent": "| `sortformer` | `Sortformer` | 117M | 스트리밍 | 화자 분리 (최대 4명) |"
+  },
+  {
+    "row": 18,
+    "rowsha": "L2Zi6A9najEYxPh5YablABbL4N3BSO//ar4NyyFeALk=",
+    "originContent": "| `diarized` | `DiarizedTranscriber` | 110M+117M | Offline | ASR + diarization → speaker-attributed words |",
+    "translatedContent": "| `diarized` | `DiarizedTranscriber` | 110M+117M | 오프라인 | ASR + 분리 → 화자별 단어 |"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "iThfT1SXA7lRVp5z6L8hev8dxmkNxPdn2mq9g/tiVFo=",
+    "originContent": "All ASR models share the same audio pipeline: 16kHz mono WAV → 80-bin Mel spectrogram → FastConformer encoder.",
+    "translatedContent": "모든 ASR 모델은 동일한 오디오 파이프라인을 공유: 16kHz 모노 WAV → 80-빈 멜 스펙트로그램 → FastConformer 인코더."
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## 빠른 시작"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "p9kHAsnrYsj1u+Xw/CDKCanha99nrkZazj/wyJwtzUE=",
+    "originContent": "```cpp",
+    "translatedContent": "```cpp"
+  },
+  {
+    "row": 25,
+    "rowsha": "rVfzVsIvLgBih6O2Ygds+0RfLZ+Mwb8tdggNez9tQXo=",
+    "originContent": "#include <parakeet/parakeet.hpp>",
+    "translatedContent": "#include <parakeet/parakeet.hpp>"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "If9t/xJFuH/B+13StI0FMOyRdYQFyoBKZM2Yuw3rxqI=",
+    "originContent": "parakeet::Transcriber t(\"model.safetensors\", \"vocab.txt\");",
+    "translatedContent": "parakeet::Transcriber t(\"model.safetensors\", \"vocab.txt\");"
+  },
+  {
+    "row": 28,
+    "rowsha": "QD+b8HK8BcaVR3vCttwjqKl2KWRUUmqTQX+CSPrJpyk=",
+    "originContent": "t.to_gpu();   // optional — Metal acceleration",
+    "translatedContent": "t.to_gpu();   // optional — Metal acceleration"
+  },
+  {
+    "row": 29,
+    "rowsha": "5Z4D8HW4RsgDPjNZfEHmoF7Xk6XnH0eNxXShcKjCduA=",
+    "originContent": "t.to_half();  // optional — FP16 inference (~2x memory reduction)",
+    "translatedContent": "t.to_half();  // optional — FP16 inference (~2x memory reduction)"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "/mqM5SnTHqP7x8Y1JyxILhdXhft3QpjdWxURio+XFVI=",
+    "originContent": "auto result = t.transcribe(\"audio.wav\");",
+    "translatedContent": "auto result = t.transcribe(\"audio.wav\");"
+  },
+  {
+    "row": 32,
+    "rowsha": "duBxjRPiFMTzdWTFpz/pKW4S0nAXQ4Q1qzQQ+CfHJYE=",
+    "originContent": "std::cout << result.text << std::endl;",
+    "translatedContent": "std::cout << result.text << std::endl;"
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 35,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **다중 디코더** — CTC 그리디, TDT 그리디, CTC 빔 서치, TDT 빔 서치 (호출 지점에서 전환)"
+  },
+  {
+    "row": 37,
+    "rowsha": "cn+e8QaolfDe0anyS7xf410ut1tNXyTi4skjPIkO7k0=",
+    "originContent": "- **Multiple decoders** — CTC greedy, TDT greedy, CTC beam search, TDT beam search (switch at call site)",
+    "translatedContent": "- **단어 타임스탬프** — 모든 디코더에서 단어별 시작/종료 시간 및 신뢰도 점수 제공"
+  },
+  {
+    "row": 38,
+    "rowsha": "Gq8j2lkjXCd1rzBAqvNCB0QDqaUmm62Tr4QIJfBfCxo=",
+    "originContent": "- **Word timestamps** — Per-word start/end times and confidence scores on all decoders",
+    "translatedContent": "- **빔 서치 + 언어 모델** — 선택적 ARPA n-그램 언어 모델 융합을 지원하는 CTC 및 TDT 빔 서치"
+  },
+  {
+    "row": 39,
+    "rowsha": "BBEyVuP42rhzRWZnGDJ9cO72x5oNg+PfONFB2bbVBns=",
+    "originContent": "- **Beam search + LM** — CTC and TDT beam search with optional ARPA n-gram language model fusion",
+    "translatedContent": "- **문구 부스팅** — 도메인별 어휘를 위한 토큰 레벨 트라이를 통한 컨텍스트 바이어싱"
+  },
+  {
+    "row": 40,
+    "rowsha": "niMg8TfIs8HwMNYitzFLorySoUhqYun4MF1z+Caz1GY=",
+    "originContent": "- **Phrase boosting** — Context biasing via token-level trie for domain-specific vocabulary",
+    "translatedContent": "- **배치 전사** — 한 번의 배치 인코더 전방 패스로 다중 파일 처리"
+  },
+  {
+    "row": 41,
+    "rowsha": "HRkGFxFWqd167gm+LLanHfF6qON030OlLaVV7kXnfqw=",
+    "originContent": "- **Batch transcription** — Multiple files in one batched encoder forward pass",
+    "translatedContent": "- **VAD 전처리** — Silero VAD가 ASR 전 음성 구간 무음 제거; 타임스탬프 자동 재매핑"
+  },
+  {
+    "row": 42,
+    "rowsha": "ITWP/W9oaGnF3PwDS9xwtP6vxgdHS+JtZJUlOIv/hbI=",
+    "originContent": "- **VAD preprocessing** — Silero VAD strips silence before ASR; timestamps auto-remapped",
+    "translatedContent": "- **GPU 가속** — axiom의 MPSGraph 컴파일러를 통한 Metal 지원 (Apple Silicon에서 96배 속도 향상)"
+  },
+  {
+    "row": 43,
+    "rowsha": "rIQbFKj6jk3Ih/aJPZZQXgqdm76qZxFyuqVxRi8rGwY=",
+    "originContent": "- **GPU acceleration** — Metal via axiom's MPSGraph compiler (96x speedup on Apple Silicon)",
+    "translatedContent": "- **FP16 추론** — 하프 정밀도 가중치 및 연산 (~2배 메모리 절감)"
+  },
+  {
+    "row": 44,
+    "rowsha": "AbFY6x+4OJiFGtwHcCa1kC4Z5KewrUgFogczC36HU5s=",
+    "originContent": "- **FP16 inference** — Half-precision weights and compute (~2x memory reduction)",
+    "translatedContent": "- **스트리밍** — 청크 오디오 입력을 지원하는 EOU 및 Nemotron 모델"
+  },
+  {
+    "row": 45,
+    "rowsha": "UYDlOoFy+AkrZYAGe5JXDAGxSg2PSnyhUT4s62g25Hs=",
+    "originContent": "- **Streaming** — EOU and Nemotron models with chunked audio input",
+    "translatedContent": "- **화자 분리** — Sortformer (최대 4명 화자), ASR과 결합하여 화자 별 단어 제공 가능"
+  },
+  {
+    "row": 46,
+    "rowsha": "ELZVpz2VW/Kj5R7ek6TdS2tqWPdVXmspJT94lMeZxNA=",
+    "originContent": "- **Speaker diarization** — Sortformer (up to 4 speakers), combinable with ASR for speaker-attributed words",
+    "translatedContent": "- **C API** — Python, Swift, Go, Rust 등 다양한 언어를 위한 Flat `extern \"C\"` FFI"
+  },
+  {
+    "row": 47,
+    "rowsha": "xs9Qn2XFxBj3uOHSzvm5E1J3+cyEnaQZVLRWPOWvtvA=",
+    "originContent": "- **C API** — Flat `extern \"C\"` FFI for Python, Swift, Go, Rust, and other languages",
+    "translatedContent": "- **다중 포맷 오디오** — WAV, FLAC, MP3, OGG 자동 리샘플링 지원"
+  },
+  {
+    "row": 48,
+    "rowsha": "KEnNDZDTgnJSlKdC1FfivRhpYwQ3kCBnDKzi5+meqKY=",
+    "originContent": "- **Multi-format audio** — WAV, FLAC, MP3, OGG with automatic resampling",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "각 기능을 보여주는 코드는 [examples/](examples/)를 참조하세요."
+  },
+  {
+    "row": 50,
+    "rowsha": "juSmpFKZVhSlDsD0YosozvHBzfsgFZ85S2eGm1wtwNU=",
+    "originContent": "See [examples/](examples/) for code demonstrating each feature.",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 52,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "사전 빌드된 바이너리는 macOS arm64, macOS x86_64, Linux x86_64용으로 각 [GitHub 릴리스](https://github.com/Frikallo/parakeet.cpp/releases)에 첨부되어 있습니다. 플랫폼에 맞는 tarball을 다운로드하여 압축을 해제하세요:"
+  },
+  {
+    "row": 54,
+    "rowsha": "PAUOFSFyQAX/fBR+ZR2qpzY6nGJjUC+QdQPaBJKtMxY=",
+    "originContent": "Prebuilt binaries are attached to each [GitHub release](https://github.com/Frikallo/parakeet.cpp/releases) for macOS arm64, macOS x86_64, and Linux x86_64. Download the tarball for your platform and extract:",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 57,
+    "rowsha": "AXOTbPyBx51ZZ0YjlJ22f2gWHOjsT0Er41Q88JFDRZs=",
+    "originContent": "tar -xzf parakeet-v0.1.0-macos-arm64.tar.gz",
+    "translatedContent": "tar -xzf parakeet-v0.1.0-macos-arm64.tar.gz"
+  },
+  {
+    "row": 58,
+    "rowsha": "hv8hoFY0h2CRy3C0vEnJk+DJCLwxYxPUZxkoU7OzNg0=",
+    "originContent": "cd parakeet-v0.1.0-macos-arm64",
+    "translatedContent": "cd parakeet-v0.1.0-macos-arm64"
+  },
+  {
+    "row": 59,
+    "rowsha": "WEZCQfxk1IF0UvnD/jKbAPN6zjJp6e+Q+4462mHJCi0=",
+    "originContent": "# On macOS, clear the Gatekeeper quarantine attribute first:",
+    "translatedContent": "# On macOS, clear the Gatekeeper quarantine attribute first:"
+  },
+  {
+    "row": 60,
+    "rowsha": "KqcTyRElU81SzdZSe6h+Hs+2p76dJum2ScyS/hjZ+Lw=",
+    "originContent": "xattr -dr com.apple.quarantine .",
+    "translatedContent": "xattr -dr com.apple.quarantine ."
+  },
+  {
+    "row": 61,
+    "rowsha": "YUBfkzqzBXE3okipeBg15NXMHDOg57DGGnao8vNTcUg=",
+    "originContent": "./bin/parakeet --help",
+    "translatedContent": "./bin/parakeet --help"
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "아카이브는 자체 포함된 `bin/parakeet` (및 `bin/example-server`)과 `lib/libaxiom`을 제공하며, `@rpath`/`$ORIGIN`이 설정되어 있어 이진 파일들이 설치 디렉토리를 기준으로 의존성을 해결합니다 — 디렉토리를 어디에나 놓을 수 있습니다. 임베더를 위해 `include/parakeet/` 아래에 C-API 헤더가 포함되어 있습니다."
+  },
+  {
+    "row": 64,
+    "rowsha": "PdWlmix8RQkb5TfoiVZocFFEbcx15dgLe7DaHMKrGxI=",
+    "originContent": "The archive ships a self-contained `bin/parakeet` (and `bin/example-server`) plus `lib/libaxiom` with `@rpath`/`$ORIGIN` set so the binaries resolve their dependencies relative to the install dir — drop the directory anywhere. The C-API headers under `include/parakeet/` are included for embedders.",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 소스에서 빌드하기"
+  },
+  {
+    "row": 66,
+    "rowsha": "VuGIuEpfgyqbJQhqJA1HcbWrpmKxwU5U6IKzzxQrHTI=",
+    "originContent": "## Build from source",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 69,
+    "rowsha": "kQC4G2JmGFgesOKRLtKoo8AEZj+ctSY02abZFSlgwpY=",
+    "originContent": "git clone --recursive https://github.com/frikallo/parakeet.cpp",
+    "translatedContent": "git clone --recursive https://github.com/frikallo/parakeet.cpp"
+  },
+  {
+    "row": 70,
+    "rowsha": "oiXkgJfsQ98FQ3gOOqgfoA5ogtgVrEUEyn27vftI/GY=",
+    "originContent": "cd parakeet.cpp",
+    "translatedContent": "cd parakeet.cpp"
+  },
+  {
+    "row": 71,
+    "rowsha": "0RIeNfp62rFw/h7ktiJuS9UFlTXiTcR2fxvyti2Vc5k=",
+    "originContent": "make build",
+    "translatedContent": "make build"
+  },
+  {
+    "row": 72,
+    "rowsha": "Isxmqn0mJLTrTVthZYYUzWwyR3sSOvv328f8PX0PNxM=",
+    "originContent": "make test",
+    "translatedContent": "make test"
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "요구사항: C++20 (Clang 14+ 또는 GCC 12+), CMake 3.20+, Metal GPU용 macOS 13+."
+  },
+  {
+    "row": 75,
+    "rowsha": "LkXWp8ifc3CUSdoiP9QGOjd6zU4vLX0rp6QWDlh2L7c=",
+    "originContent": "Requirements: C++20 (Clang 14+ or GCC 12+), CMake 3.20+, macOS 13+ for Metal GPU.",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **macOS:** 빌드하려면 **전체 Xcode** 설치가 필요합니다 (Command Line Tools만으로는 안 됩니다). axiom은 Metal 셰이더를 `xcrun metal`과 `xcrun metallib`로 컴파일하는데, 이 도구들은 Xcode에만 포함되어 있습니다. parakeet만 실행하려면 위에 있는 미리 빌드된 tarball을 사용하세요; `.metallib`는 제공된 `libaxiom.dylib`에 포함되어 있어 사용자 측에서 Xcode/CLT 설치 없이 실행됩니다."
+  },
+  {
+    "row": 77,
+    "rowsha": "LFayTuZpX4tr+4/8VCrWlC54lnvepmSjckVU42MbcLQ=",
+    "originContent": "> **macOS:** building requires the **full Xcode** install (not just Command Line Tools), because axiom compiles its Metal shaders with `xcrun metal` and `xcrun metallib` — those ship only with Xcode. If you just want to run parakeet, use the prebuilt tarball above; the `.metallib` is embedded into the shipped `libaxiom.dylib` and runs without any Xcode/CLT install on the user side.",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 가중치 변환하기"
+  },
+  {
+    "row": 79,
+    "rowsha": "kU9ovUt0Rk5x8G6iUHQEXNnzD/kc/hlB1gUeBuGtlqM=",
+    "originContent": "## Convert Weights",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 82,
+    "rowsha": "5Ubs7VLTPhTBDfrEeBon7gFo2rEE9XUuuYZ0cXLglig=",
+    "originContent": "# Download from HuggingFace",
+    "translatedContent": "# Download from HuggingFace"
+  },
+  {
+    "row": 83,
+    "rowsha": "7+RYPxxoI2GbnYX0ZcvwvDY0A4rS/Edsvk3CUv2+DtE=",
+    "originContent": "huggingface-cli download nvidia/parakeet-tdt_ctc-110m --include \"*.nemo\" --local-dir .",
+    "translatedContent": "huggingface-cli download nvidia/parakeet-tdt_ctc-110m --include \"*.nemo\" --local-dir ."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "8rGJyYz+FnF0TGb/vFQqBx0JHrpop/2wR9B+k856EZo=",
+    "originContent": "# Convert to safetensors",
+    "translatedContent": "# Convert to safetensors"
+  },
+  {
+    "row": 86,
+    "rowsha": "SVaUiaGhTHIeLhpNQMger8P3Sy8Numt8OARppVw/Edc=",
+    "originContent": "pip install safetensors torch",
+    "translatedContent": "pip install safetensors torch"
+  },
+  {
+    "row": 87,
+    "rowsha": "pe5gaytndtndUCXvtIq83Sd17yHxEyyqcXjOqKrWzVo=",
+    "originContent": "python scripts/convert_nemo.py parakeet-tdt_ctc-110m.nemo -o model.safetensors",
+    "translatedContent": "python scripts/convert_nemo.py parakeet-tdt_ctc-110m.nemo -o model.safetensors"
+  },
+  {
+    "row": 88,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "컨버터는 모든 모델 유형을 지원합니다: `110m-tdt-ctc` (기본값), `600m-tdt`, `eou-120m`, `nemotron-600m`, `sortformer`."
+  },
+  {
+    "row": 90,
+    "rowsha": "wiPOVdV5EYQwOXiqiN2ADIWzsD8mODEJ5nNn5zZBTPk=",
+    "originContent": "The converter supports all model types: `110m-tdt-ctc` (default), `600m-tdt`, `eou-120m`, `nemotron-600m`, `sortformer`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 93,
+    "rowsha": "kJhRWTeCrDNkAlbGNDIXPTuACMIceByx6l8w7mY2oqk=",
+    "originContent": "python scripts/convert_nemo.py checkpoint.nemo -o model.safetensors --model 600m-tdt",
+    "translatedContent": "python scripts/convert_nemo.py checkpoint.nemo -o model.safetensors --model 600m-tdt"
+  },
+  {
+    "row": 94,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "fi8X+bEgj8SLy51W0T6sDGKgvtIPpjYTa9DblCmmsgI=",
+    "originContent": "Silero VAD weights:",
+    "translatedContent": "실레로 VAD 가중치:"
+  },
+  {
+    "row": 97,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 98,
+    "rowsha": "MKxcbEdqwdBYnw+PfTFEZHuGvlTtb015k+FYNF1cPyE=",
+    "originContent": "python scripts/convert_silero_vad.py -o silero_vad_v5.safetensors",
+    "translatedContent": "python scripts/convert_silero_vad.py -o silero_vad_v5.safetensors"
+  },
+  {
+    "row": 99,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Examples"
+  },
+  {
+    "row": 101,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| Example | Description |"
+  },
+  {
+    "row": 103,
+    "rowsha": "XW69QoAdLzyGu2vPV54czE/EbNa8Z5JK1+xPEri6+C4=",
+    "originContent": "| Example | Description |",
+    "translatedContent": "|---------|-------------|"
+  },
+  {
+    "row": 104,
+    "rowsha": "gZZrvc4DyBVOhqMtRyPspS6oKwB1KkzkgrCtPdqMto0=",
+    "originContent": "|---------|-------------|",
+    "translatedContent": "| [basic](examples/basic/) | 가장 간단한 전사 (~20줄) |"
+  },
+  {
+    "row": 105,
+    "rowsha": "9+HkJ0/X+BND3YDahU/GStDROcFArAV1tBWyNANvhVE=",
+    "originContent": "| [basic](examples/basic/) | Simplest transcription (~20 lines) |",
+    "translatedContent": "| [timestamps](examples/timestamps/) | 단어/토큰 타임스탬프 및 신뢰도 |"
+  },
+  {
+    "row": 106,
+    "rowsha": "YPntBZaVUcF0/biQRkzggVcyiehOb0SyaA0d2C6SSlg=",
+    "originContent": "| [timestamps](examples/timestamps/) | Word/token timestamps with confidence |",
+    "translatedContent": "| [beam-search](examples/beam-search/) | 선택적 ARPA LM과 함께하는 CTC/TDT 빔 서치 |"
+  },
+  {
+    "row": 107,
+    "rowsha": "PSYFSjIgqRuVj/3Pi3lf76HZhlejBV02epnuhgPLcmY=",
+    "originContent": "| [beam-search](examples/beam-search/) | CTC/TDT beam search with optional ARPA LM |",
+    "translatedContent": "| [phrase-boost](examples/phrase-boost/) | 도메인 어휘를 위한 문구 편향 |"
+  },
+  {
+    "row": 108,
+    "rowsha": "Fbxonze7tDFCVgYcyxsYybEQO5ihvZqX1r0y6FIrYz0=",
+    "originContent": "| [phrase-boost](examples/phrase-boost/) | Context biasing for domain vocabulary |",
+    "translatedContent": "| [batch](examples/batch/) | 여러 파일 일괄 전사 |"
+  },
+  {
+    "row": 109,
+    "rowsha": "SY9LdEZlfNYC9/0RtR8Tb6UFilYuTcEb8pEqag64Nj0=",
+    "originContent": "| [batch](examples/batch/) | Batch transcription of multiple files |",
+    "translatedContent": "| [vad](examples/vad/) | 독립형 VAD 및 ASR+VAD 전처리 |"
+  },
+  {
+    "row": 110,
+    "rowsha": "DyuuQrLmbcFYu9skJv83sOF6bMgVda1qvar5SkOpzwc=",
+    "originContent": "| [vad](examples/vad/) | Standalone VAD and ASR+VAD preprocessing |",
+    "translatedContent": "| [gpu](examples/gpu/) | Metal GPU + FP16 및 시간 비교 |"
+  },
+  {
+    "row": 111,
+    "rowsha": "dmNYGmeWSY78MCxQRf/sLciiHq9OZixECLozwfVsLgA=",
+    "originContent": "| [gpu](examples/gpu/) | Metal GPU + FP16 with timing comparison |",
+    "translatedContent": "| [stream](examples/stream/) | EOU 스트리밍 전사 |"
+  },
+  {
+    "row": 112,
+    "rowsha": "+2vEQTipNZ7+b/EuVvfVeJv73oge47+p/scL88OsARk=",
+    "originContent": "| [stream](examples/stream/) | EOU streaming transcription |",
+    "translatedContent": "| [nemotron](examples/nemotron/) | 지연 모드가 있는 Nemotron 스트리밍 |"
+  },
+  {
+    "row": 113,
+    "rowsha": "qJkOjL4FICNt687yQkRuonmNaxaf/mAgr+BeX+o1iWg=",
+    "originContent": "| [nemotron](examples/nemotron/) | Nemotron streaming with latency modes |",
+    "translatedContent": "| [diarize](examples/diarize/) | Sortformer 화자 분리 |"
+  },
+  {
+    "row": 114,
+    "rowsha": "FN6A4tJa5l3qWmgxakVVHIEmXXIxsGIotzIZJTT9kKw=",
+    "originContent": "| [diarize](examples/diarize/) | Sortformer speaker diarization |",
+    "translatedContent": "| [diarized-transcription](examples/diarized-transcription/) | ASR + 화자 분리 결합 |"
+  },
+  {
+    "row": 115,
+    "rowsha": "YOapXZThQ/CouAgn5QbNUdb82Vo66CyG2dVfFxC02ro=",
+    "originContent": "| [diarized-transcription](examples/diarized-transcription/) | ASR + diarization combined |",
+    "translatedContent": "| [c-api](examples/c-api/) | 순수 C99 FFI 사용법 |"
+  },
+  {
+    "row": 116,
+    "rowsha": "3qujNLKltz1YA5CXqbdlmIkIBFkUjPGpUKaOcwXJB80=",
+    "originContent": "| [c-api](examples/c-api/) | Pure C99 FFI usage |",
+    "translatedContent": "| [cli](examples/cli/) | 모든 옵션 포함 전체 CLI |"
+  },
+  {
+    "row": 117,
+    "rowsha": "lGhq7A21CYiF3rDpp/cWYqny3GZdF0fpOBBqQh+DnaY=",
+    "originContent": "| [cli](examples/cli/) | Full CLI with all options |",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 라이브러리로 사용하기"
+  },
+  {
+    "row": 119,
+    "rowsha": "qilobfe9CfTQMjtvdZxKFA5pgqGkA/eOl19FF3lLaqA=",
+    "originContent": "## Using as a Library",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### CMake `find_package`"
+  },
+  {
+    "row": 121,
+    "rowsha": "dvalWFohKVCaziEnyJ+HnGwnM8FgzTBWuepH4EobQ/A=",
+    "originContent": "### CMake `find_package`",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "설치 후 (`make install` 또는 `cmake --install build`):"
+  },
+  {
+    "row": 123,
+    "rowsha": "KFUbB57CZBZXjto2tfu+g0uaNyW14XvOUVaz44Zx5G4=",
+    "originContent": "After installing (`make install` or `cmake --install build`):",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "W+63107Hl+0X81S5ZFRqZTkxe8HKRP2Gy4902QKz6jo=",
+    "originContent": "```cmake",
+    "translatedContent": "```cmake"
+  },
+  {
+    "row": 126,
+    "rowsha": "hsov2vcPCIiKzQcaCRLDzlHOq0wy27HTs5wCDjAZjhA=",
+    "originContent": "find_package(Parakeet REQUIRED)",
+    "translatedContent": "find_package(Parakeet REQUIRED)"
+  },
+  {
+    "row": 127,
+    "rowsha": "AMTUX1zg3to2ygBSP7TLNoryohvkBtDd2FODFTpT7rc=",
+    "originContent": "target_link_libraries(myapp PRIVATE Parakeet::parakeet)",
+    "translatedContent": "target_link_libraries(myapp PRIVATE Parakeet::parakeet)"
+  },
+  {
+    "row": 128,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "WdaqiFMQbPL/zGMhIOM/Hse7sCKsgRieCAm3vbBiWBs=",
+    "originContent": "### CMake `add_subdirectory`",
+    "translatedContent": "### CMake `add_subdirectory`"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "W+63107Hl+0X81S5ZFRqZTkxe8HKRP2Gy4902QKz6jo=",
+    "originContent": "```cmake",
+    "translatedContent": "```cmake"
+  },
+  {
+    "row": 133,
+    "rowsha": "gT1IxLemKOSfpI8ktjPo1UqTv7kZSodf36OfXCvv6gE=",
+    "originContent": "add_subdirectory(third_party/parakeet.cpp)",
+    "translatedContent": "add_subdirectory(third_party/parakeet.cpp)"
+  },
+  {
+    "row": 134,
+    "rowsha": "AMTUX1zg3to2ygBSP7TLNoryohvkBtDd2FODFTpT7rc=",
+    "originContent": "target_link_libraries(myapp PRIVATE Parakeet::parakeet)",
+    "translatedContent": "target_link_libraries(myapp PRIVATE Parakeet::parakeet)"
+  },
+  {
+    "row": 135,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "d/U18fIxIPM04T0idbkFWCm6erLnx7QzwOVqhYCdE58=",
+    "originContent": "### pkg-config",
+    "translatedContent": "### pkg-config"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 140,
+    "rowsha": "P/7f/H5Axgdh7cgTK/5H+TEaLBLbM+cSJzPr2BYpOlw=",
+    "originContent": "g++ -std=c++20 myapp.cpp $(pkg-config --cflags --libs parakeet) -o myapp",
+    "translatedContent": "g++ -std=c++20 myapp.cpp $(pkg-config --cflags --libs parakeet) -o myapp"
+  },
+  {
+    "row": 141,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 아키텍처"
+  },
+  {
+    "row": 143,
+    "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+    "originContent": "## Architecture",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 오프라인 모델"
+  },
+  {
+    "row": 145,
+    "rowsha": "f8JjwNjatBuEaRanaGnTwpi91SINkQAVwI9qUcjkKE4=",
+    "originContent": "### Offline Models",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "공유 FastConformer 인코더(Conv2d 8배 다운샘플링 → 상대 위치 인식 주의가 적용된 N개의 Conformer 블록)를 기반으로 구축:"
+  },
+  {
+    "row": 147,
+    "rowsha": "0qvLxgqFG96fiGb9mADutOFAtnlqBk6S/SvDZPDB0tw=",
+    "originContent": "Built on a shared FastConformer encoder (Conv2d 8x subsampling → N Conformer blocks with relative positional attention):",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 모델 | 클래스 | 디코더 | 사용 사례 |"
+  },
+  {
+    "row": 149,
+    "rowsha": "rfwxL1tmLua/vxaiTWTFAlvJz7oBcoFy3b3rTRJAvNg=",
+    "originContent": "| Model | Class | Decoder | Use case |",
+    "translatedContent": "|-------|-------|---------|----------|"
+  },
+  {
+    "row": 150,
+    "rowsha": "AvzWN1CIKcQjSs5CIaSs34Grq0/LF66rseduJks70Lw=",
+    "originContent": "|-------|-------|---------|----------|",
+    "translatedContent": "| CTC | `ParakeetCTC` | 탐욕적 argmax 또는 빔 서치 (+LM) | 빠름, 영어 전용 |"
+  },
+  {
+    "row": 151,
+    "rowsha": "OC3KmAOQtjemTwiGPdxkV83Q7zJnvfsJL6390tq5dD0=",
+    "originContent": "| CTC | `ParakeetCTC` | Greedy argmax or beam search (+LM) | Fast, English-only |",
+    "translatedContent": "| RNNT | `ParakeetRNNT` | 자동회귀 LSTM | 스트리밍 가능 |"
+  },
+  {
+    "row": 152,
+    "rowsha": "eZrgVgMW7IfUQOFCuAdFE5xrpYUh9w2oYhuzwNtcz8w=",
+    "originContent": "| RNNT | `ParakeetRNNT` | Autoregressive LSTM | Streaming capable |",
+    "translatedContent": "| TDT | `ParakeetTDT` | LSTM + 지속 시간 예측, 탐욕적 또는 빔 서치 (+LM) | RNNT보다 높은 정확도 |"
+  },
+  {
+    "row": 153,
+    "rowsha": "8Y0L8q4agLZwH22AhQeHIXQH6SZnYG7GhjLFgIIrwrA=",
+    "originContent": "| TDT | `ParakeetTDT` | LSTM + duration prediction, greedy or beam search (+LM) | Better accuracy than RNNT |",
+    "translatedContent": "| TDT-CTC | `ParakeetTDTCTC` | TDT와 CTC 헤드 모두 | 추론 시 디코더 전환 |"
+  },
+  {
+    "row": 154,
+    "rowsha": "CLbmsyVfjc1NetJRZvCD9JZoUH6RwROgZOUY19htQGc=",
+    "originContent": "| TDT-CTC | `ParakeetTDTCTC` | Both TDT and CTC heads | Switch decoder at inference |",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 스트리밍 모델"
+  },
+  {
+    "row": 156,
+    "rowsha": "UZTO3GIxZ+AR2JkJT58RuySb/ucWAiLMnsz5FeBVF/w=",
+    "originContent": "### Streaming Models",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "인과적 합성곱과 제한된 문맥 주의가 적용된 캐시 인식 스트리밍 FastConformer 인코더 기반:"
+  },
+  {
+    "row": 158,
+    "rowsha": "z/GJHkpA2KjMDa66uNlaadwZ5QN1wA+R4LgdfGLfCYM=",
+    "originContent": "Built on a cache-aware streaming FastConformer encoder with causal convolutions and bounded-context attention:",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 모델 | 클래스 | 디코더 | 사용 사례 |"
+  },
+  {
+    "row": 160,
+    "rowsha": "rfwxL1tmLua/vxaiTWTFAlvJz7oBcoFy3b3rTRJAvNg=",
+    "originContent": "| Model | Class | Decoder | Use case |",
+    "translatedContent": "|-------|-------|---------|----------|"
+  },
+  {
+    "row": 161,
+    "rowsha": "AvzWN1CIKcQjSs5CIaSs34Grq0/LF66rseduJks70Lw=",
+    "originContent": "|-------|-------|---------|----------|",
+    "translatedContent": "| EOU | `ParakeetEOU` | 스트리밍 RNNT | 발화 종료 감지 |"
+  },
+  {
+    "row": 162,
+    "rowsha": "LgqZaeNyTg4+Nc2HzKQ5lmVIG8YPX0hit87IvfKWV0Y=",
+    "originContent": "| EOU | `ParakeetEOU` | Streaming RNNT | End-of-utterance detection |",
+    "translatedContent": "| Nemotron | `ParakeetNemotron` | 스트리밍 TDT | 구성 가능한 지연 시간 스트리밍 |"
+  },
+  {
+    "row": 163,
+    "rowsha": "kboU/UidQ3Pm13r9Cpx/bw4QNG3ljFSciwUgrvRVuwg=",
+    "originContent": "| Nemotron | `ParakeetNemotron` | Streaming TDT | Configurable latency streaming |",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 화자 분리"
+  },
+  {
+    "row": 165,
+    "rowsha": "HZBkpME1xN2v3TUdYOgZkPfMPp+otN63UKsFWlg02b0=",
+    "originContent": "### Diarization",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 모델 | 클래스 | 아키텍처 | 사용 사례 |"
+  },
+  {
+    "row": 167,
+    "rowsha": "kbA3YzDhXdZ3fnAq5cTivuGiw7SF1Iet+457y4xLdmI=",
+    "originContent": "| Model | Class | Architecture | Use case |",
+    "translatedContent": "|-------|-------|-------------|----------|"
+  },
+  {
+    "row": 168,
+    "rowsha": "kPXutZaGeC6A895XTzWSiaJcbr2tK7TqtU0jUkCnkiQ=",
+    "originContent": "|-------|-------|-------------|----------|",
+    "translatedContent": "| Sortformer | `Sortformer` | NEST 인코더 → Transformer → 시그모이드 | 화자 분리 (최대 4명) |"
+  },
+  {
+    "row": 169,
+    "rowsha": "BnM9LBiQZ71BbwVEt+rxIwwn5Jw6QrHUmcge+QEwwpk=",
+    "originContent": "| Sortformer | `Sortformer` | NEST encoder → Transformer → sigmoid | Speaker diarization (up to 4 speakers) |",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 벤치마크"
+  },
+  {
+    "row": 171,
+    "rowsha": "ZrB6WAnr2MUw+xxeGHyQMYA7Rp0gMGJzZS08QrJ5eE8=",
+    "originContent": "## Benchmarks",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Apple M3 16GB에서 시뮬레이션된 오디오 입력(`Tensor::randn`)을 사용하여 측정. 시간은 인코더 한 번 전방향 통과 기준(Sortformer: 전체 전방향 통과)."
+  },
+  {
+    "row": 173,
+    "rowsha": "GrGO4N1eaa8lhLSs4lRJPdNlPpkdQmbuLC/8RBCEfA0=",
+    "originContent": "Measured on Apple M3 16GB with simulated audio input (`Tensor::randn`). Times are per-encoder-forward-pass (Sortformer: full forward pass).",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**인코더 처리량 — 10초 오디오:**"
+  },
+  {
+    "row": 175,
+    "rowsha": "wqlWc1r8m0lx0spt7V4fb9GXqzre4w6CUJA/2Ey6N9E=",
+    "originContent": "**Encoder throughput — 10s audio:**",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 모델 | 파라미터 | CPU (ms) | GPU (ms) | GPU 가속비 |"
+  },
+  {
+    "row": 177,
+    "rowsha": "IAbWlsKywqP1k+hM6X8LU5gXMcpN0kPbPJ8UmbPnBtk=",
+    "originContent": "| Model | Params | CPU (ms) | GPU (ms) | GPU Speedup |",
+    "translatedContent": "|-------|--------|----------|----------|-------------|"
+  },
+  {
+    "row": 178,
+    "rowsha": "10uXAHPAY6UVxBpNFpbHSLCgZu28T2rQtNEsgdEfKxY=",
+    "originContent": "|-------|--------|----------|----------|-------------|",
+    "translatedContent": "| 110m (TDT-CTC) | 110M | 2,581 | 27 | **96배** |"
+  },
+  {
+    "row": 179,
+    "rowsha": "rL8KsMmUr6TtrBvpxjzzGu38TPmeS2kOWwL8MLSzd8M=",
+    "originContent": "| 110m (TDT-CTC) | 110M | 2,581 | 27 | **96x** |",
+    "translatedContent": "| tdt-600m | 600M | 10,779 | 520 | **21배** |"
+  },
+  {
+    "row": 180,
+    "rowsha": "rC86vy40gzSUYibT0Unfx3nEXymtdCOjIwz5jz0Lxf0=",
+    "originContent": "| tdt-600m | 600M | 10,779 | 520 | **21x** |",
+    "translatedContent": "| rnnt-600m | 600M | 10,648 | 1,468 | **7배** |"
+  },
+  {
+    "row": 181,
+    "rowsha": "HJSilP9H6Ek4z4ZWyW5dDXcS81RECoSIwXlSFh6BWVU=",
+    "originContent": "| rnnt-600m | 600M | 10,648 | 1,468 | **7x** |",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "ICQpA9qGOHBBswcBF/+K514AozevkZgcxRRyrMFrrho=",
+    "originContent": "| sortformer | 117M | 3,195 | 479 | **7x** |",
+    "translatedContent": "| sortformer | 117M | 3,195 | 479 | **7배** |"
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "h/+GDvxnQZYjPbJUz1CvHwJp4WCPAE6Emdr5zMRsoB8=",
+    "originContent": "**110m GPU scaling across audio lengths:**",
+    "translatedContent": "**오디오 길이에 따른 110m GPU 확장성:**"
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "QvyE19AqKbpgOfHZL+ombPcj0RY/iGevpri5JS3m1qA=",
+    "originContent": "| Audio | CPU (ms) | GPU (ms) | RTF | Throughput |",
+    "translatedContent": "| 오디오 | CPU (ms) | GPU (ms) | RTF | 처리량 |"
+  },
+  {
+    "row": 187,
+    "rowsha": "uD8dJvB9l9Ebmgn0NlrvpqY15P5FF7KhX1IJgf5wxME=",
+    "originContent": "|-------|----------|----------|-----|------------|",
+    "translatedContent": "|-------|----------|----------|-----|--------|"
+  },
+  {
+    "row": 188,
+    "rowsha": "5jXFNh6a3phV2VwIjtHn/5tZlDgff/xR0On3GcxvitA=",
+    "originContent": "| 1s | 262 | 24 | 0.024 | 41x |",
+    "translatedContent": "| 1초 | 262 | 24 | 0.024 | 41배 |"
+  },
+  {
+    "row": 189,
+    "rowsha": "Hdg03rXrh1OO0dD9Y9r4HyeRdmpJO7ZmwHmQ0z5mAzY=",
+    "originContent": "| 5s | 1,222 | 26 | 0.005 | 190x |",
+    "translatedContent": "| 5초 | 1,222 | 26 | 0.005 | 190배 |"
+  },
+  {
+    "row": 190,
+    "rowsha": "BhmlJv/p4UYG5loxv0yV/hqldpGcXAmyroqkEWolHQY=",
+    "originContent": "| 10s | 2,581 | 27 | 0.003 | 370x |",
+    "translatedContent": "| 10초 | 2,581 | 27 | 0.003 | 370배 |"
+  },
+  {
+    "row": 191,
+    "rowsha": "RcU/QK82zUho9l2fuPOzeRmIl2lsgovWfiriDEhZ+oU=",
+    "originContent": "| 30s | 10,061 | 32 | 0.001 | 935x |",
+    "translatedContent": "| 30초 | 10,061 | 32 | 0.001 | 935배 |"
+  },
+  {
+    "row": 192,
+    "rowsha": "zLrtrxUwgayWhSoKhzcamAPkYMq9UqP63ANOYDN2Eow=",
+    "originContent": "| 60s | 26,559 | 72 | 0.001 | 833x |",
+    "translatedContent": "| 60초 | 26,559 | 72 | 0.001 | 833배 |"
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "QUhHl62kZwNz9d1H64CTUVMQjapKGe7eLirLszvi3rc=",
+    "originContent": "GPU acceleration powered by axiom's Metal graph compiler which fuses the full encoder into optimized MPSGraph operations.",
+    "translatedContent": "GPU 가속은 전체 인코더를 최적화된 MPSGraph 연산으로 융합하는 axiom의 Metal 그래프 컴파일러에 의해 구현됩니다."
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 197,
+    "rowsha": "URAY6Yu5YpBRRw7vw/6VABL4cVossKxWqGfhM1j93nw=",
+    "originContent": "make bench ARGS=\"--110m=models/model.safetensors --tdt-600m=models/tdt.safetensors\"",
+    "translatedContent": "make bench ARGS=\"--110m=models/model.safetensors --tdt-600m=models/tdt.safetensors\""
+  },
+  {
+    "row": 198,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 로드맵"
+  },
+  {
+    "row": 200,
+    "rowsha": "uRQ4dBQEv6RHmBfuRiXr10ur0TwKlFiD+9olmuSkhDY=",
+    "originContent": "## Roadmap",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 1단계 — 높은 영향력"
+  },
+  {
+    "row": 202,
+    "rowsha": "HlV6Hz6Wt0gQNyaKTMTLB4+qmxtFEiwm7Ni7zZ6UoiY=",
+    "originContent": "### Tier 1 — High Impact",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [x] **신뢰도 점수** — 토큰 로그 확률에서 토큰별 및 단어별 신뢰도"
+  },
+  {
+    "row": 204,
+    "rowsha": "bKu7wiTE8TPDwf6hEwoWkqNTr1Dvu4CtE1YseyGjjC4=",
+    "originContent": "- [x] **Confidence scores** — Per-token and per-word confidence from token log-probs",
+    "translatedContent": "- [x] **구문 부스팅** — 디코딩 중 토큰 수준 트라이 컨텍스트 바이어싱"
+  },
+  {
+    "row": 205,
+    "rowsha": "1aLLQRcKSkHmlbYXhM9ovdhuSXbXlnE9xRBHv+02Cec=",
+    "originContent": "- [x] **Phrase boosting** — Token-level trie context biasing during decode",
+    "translatedContent": "- [x] **빔 서치** — CTC 접두사 빔 서치 및 TDT 시간 동기 빔 서치"
+  },
+  {
+    "row": 206,
+    "rowsha": "nXmBgkqKzSNYsrXSCTjQpCLHyhC1zrLrfDWFNgTMhcw=",
+    "originContent": "- [x] **Beam search** — CTC prefix beam search and TDT time-synchronous beam search",
+    "translatedContent": "- [x] **N-그램 LM 융합** — 단어 경계에서 점수화된 ARPA 언어 모델"
+  },
+  {
+    "row": 207,
+    "rowsha": "5CRQ06P8vnquDNaQfIWpOiZiAUFpJCaCNtAK7QI3dzU=",
+    "originContent": "- [x] **N-gram LM fusion** — ARPA language models scored at word boundaries",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 오디오 및 입출력"
+  },
+  {
+    "row": 209,
+    "rowsha": "UOyq4ytygdNVxEyG+hwxBhCIDhLVj2mxQZTRybklFZs=",
+    "originContent": "### Audio & I/O",
+    "translatedContent": ""
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [x] **다중 포맷 오디오** — dr_libs + stb_vorbis를 통한 WAV, FLAC, MP3, OGG 지원"
+  },
+  {
+    "row": 211,
+    "rowsha": "s0gU+NeprbLAo8/REMqgiVlqDGrtg+/FhVTPP5Bz+0k=",
+    "originContent": "- [x] **Multi-format audio** — WAV, FLAC, MP3, OGG via dr_libs + stb_vorbis",
+    "translatedContent": "- [x] **자동 리샘플링** — 창 함수 싱크 보간법 (Kaiser, 16탭)"
+  },
+  {
+    "row": 212,
+    "rowsha": "X+nzm1+I3uGea+fv+n3szHttjtdfH94fJakbqjhICtQ=",
+    "originContent": "- [x] **Automatic resampling** — Windowed sinc interpolation (Kaiser, 16-tap)",
+    "translatedContent": "- [x] **메모리에서 로드** — `read_audio(bytes, len)`, float/int16 버퍼"
+  },
+  {
+    "row": 213,
+    "rowsha": "MJHKztMgB87hiXeo7I6439wBV0fAZdZSoG3OOEflEBw=",
+    "originContent": "- [x] **Load from memory** — `read_audio(bytes, len)`, float/int16 buffers",
+    "translatedContent": "- [ ] **오디오 길이 조회** — 전체 디코딩 없이 헤더만으로 길이 확인"
+  },
+  {
+    "row": 214,
+    "rowsha": "CDVp5QTwfQn2g4trlT+EWZVjSNsYCRSGIV75lQ36LRI=",
+    "originContent": "- [ ] **Audio duration query** — Header-only duration without full decode",
+    "translatedContent": "- [ ] **진행 콜백** — 긴 파일에 대한 단계별 보고"
+  },
+  {
+    "row": 215,
+    "rowsha": "jY7W9y7xp6RdyG0cqOSN6/uXhpgG0E/IsJK2lCnp0Y4=",
+    "originContent": "- [ ] **Progress callbacks** — Stage reporting for long files",
+    "translatedContent": "- [ ] **원시 PCM 스트리밍** — 마이크 버퍼 직접 공급"
+  },
+  {
+    "row": 216,
+    "rowsha": "+xWTcpTsloG3slk7qBGRbhF7XpOk8AIBVd1F/XLW9OQ=",
+    "originContent": "- [ ] **Streaming from raw PCM** — Direct microphone buffer feeding",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 2단계 — 생산 준비"
+  },
+  {
+    "row": 218,
+    "rowsha": "U9ZsqhWapNZHdahpdiI1ptLIzf9uIcRDG7DjjnFdXsg=",
+    "originContent": "### Tier 2 — Production Readiness",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [x] **화자 분리 전사** — ASR + Sortformer → 화자 구분 단어"
+  },
+  {
+    "row": 220,
+    "rowsha": "btaqxuV1AOZtIb0A8UQEiVLAVHRVAosdQBiaoYV/ND4=",
+    "originContent": "- [x] **Diarized transcription** — ASR + Sortformer → speaker-attributed words",
+    "translatedContent": "- [x] **VAD** — Silero VAD v5, 독립형 + ASR 전처리"
+  },
+  {
+    "row": 221,
+    "rowsha": "ghiHdZX2wSeDGgIaPdgSpLZaQvEc4GVU0I2LpNf8SFs=",
+    "originContent": "- [x] **VAD** — Silero VAD v5, standalone + ASR preprocessing",
+    "translatedContent": "- [x] **배치 추론** — 패딩된 다중 파일 인코더 순방향"
+  },
+  {
+    "row": 222,
+    "rowsha": "+XicMGSZl4wnDJUzO7vxt/ZO8Jx9Kgp0jqWj2FePEqw=",
+    "originContent": "- [x] **Batch inference** — Padded multi-file encoder forward pass",
+    "translatedContent": "- [ ] **장기 오디오 분할** — 30초 이상 오디오를 위한 겹치는 창"
+  },
+  {
+    "row": 223,
+    "rowsha": "veNtF4+FoYkkOXymRYDa8SHg4pamBGrQDtSAKmPdQOU=",
+    "originContent": "- [ ] **Long-form chunking** — Overlapping windows for audio >30s",
+    "translatedContent": "- [ ] **신경망 LM 재점수화** — Transformer LM을 이용한 N-베스트 재순위화"
+  },
+  {
+    "row": 224,
+    "rowsha": "JAvRiWZgqmP7yUF8E/529WCYeVC4AW/GBHwUqSgioSU=",
+    "originContent": "- [ ] **Neural LM rescoring** — N-best reranking with Transformer LM",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 3단계 — 생태계"
+  },
+  {
+    "row": 226,
+    "rowsha": "2UbeoZS4NefbMeMD9XKTqH6Xzvrx9DtNapZN5yEH+KE=",
+    "originContent": "### Tier 3 — Ecosystem",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [x] **C API** — 모든 언어에서 FFI를 위한 평면 C 인터페이스"
+  },
+  {
+    "row": 228,
+    "rowsha": "aPFU05hp27o8uL75mepE2syNxnBbhLUbcPGGvGhsj6c=",
+    "originContent": "- [x] **C API** — Flat C interface for FFI from any language",
+    "translatedContent": "- [x] **FP16 추론** — 반정밀도 가중치 및 연산"
+  },
+  {
+    "row": 229,
+    "rowsha": "PWWCXhzTXcIImqDfaoiLndhqdNJ1p3z5OHZgRs4Yql8=",
+    "originContent": "- [x] **FP16 inference** — Half-precision weights and compute",
+    "translatedContent": "- [ ] **모델 양자화** — 모바일 배포를 위한 INT8/INT4"
+  },
+  {
+    "row": 230,
+    "rowsha": "gB2Uq5Ac2oDLcCZyCZxpvKrkP7/AcWZlD48ghYPq6Yk=",
+    "originContent": "- [ ] **Model quantization** — INT8/INT4 for mobile deployment",
+    "translatedContent": "- [ ] **핫워드 감지** — 트리거 구문 감지"
+  },
+  {
+    "row": 231,
+    "rowsha": "Bf4uS/3nb6I7j3er21njaD9eqxf5/vW3kWBuwJFyM7Q=",
+    "originContent": "- [ ] **Hotword detection** — Trigger phrase detection",
+    "translatedContent": "- [ ] **화자 임베딩** — Sortformer/TitaNet을 이용한 화자 검증"
+  },
+  {
+    "row": 232,
+    "rowsha": "vKtCeHfwVRd4I80PRIalC93Dl7879qtMUZ2QZ0FgFVE=",
+    "originContent": "- [ ] **Speaker embeddings** — Speaker verification from Sortformer/TitaNet",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 참고 사항"
+  },
+  {
+    "row": 234,
+    "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+    "originContent": "## Notes",
+    "translatedContent": ""
+  },
+  {
+    "row": 235,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 오디오: 16kHz 모노 (WAV, FLAC, MP3, OGG — 자동 감지 및 리샘플링)"
+  },
+  {
+    "row": 236,
+    "rowsha": "4Icy0Wg2NMG/6zxirju6CbKLxE3bP4V9ljTx2DC44rk=",
+    "originContent": "- Audio: 16kHz mono (WAV, FLAC, MP3, OGG — auto-detected and resampled)",
+    "translatedContent": "- 오프라인 모델은 약 4-5분 길이 제한; 더 긴 오디오에는 스트리밍 모델 사용"
+  },
+  {
+    "row": 237,
+    "rowsha": "rb4nlhUN6ix8Z8Y/0vaseu3D6QNgPrgcbkK01IJNvJc=",
+    "originContent": "- Offline models have ~4-5 minute audio length limits; use streaming models for longer audio",
+    "translatedContent": "- GPU 가속은 Metal 지원 Apple Silicon 필요"
+  },
+  {
+    "row": 238,
+    "rowsha": "mzXBp4IpBGM4WVJleLJ2solfnHmC7dVU8tkEeA67TNY=",
+    "originContent": "- GPU acceleration requires Apple Silicon with Metal support",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 240,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 241,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 242,
+    "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+    "originContent": "MIT",
+    "translatedContent": "MIT"
+  },
+  {
+    "row": 243,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Obsidian Chronology Plugin\n\nProvides a sidebar with a calendar view of your notes.\n\n![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/demo.gif)\n\nThe calendar allow to navingate and select a daily, weekly, monthly or custom range of notes. Daily and Weekly range are displayed in a time line but you can force the display of the notes in a simple list by enabline the setting `Display Simple List`.\nIn the timeline visualization, you can group notes that were created or modified in the same time slot by enabling `Group Notes in same time slot`.\n\nClick the month name to see a list of all notes of that month.\n\nTo select a range of dates to display: select one date than shift-click the other date of the range.\n\nThe notes in the timeline will be shown with a colored marked indicating if they were **created** or **modified** at that moment.\n\n\n![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/example.png)\n\n\nClicking on the name of the note will open it. Ctrl-(or Command-) clicking the note name will open it in a new pane.\n\nIn the calendar you can select the single days or the week number (on the left).\n\nThe days tiles background gives an indication about how many notes were created or edited that day. The scale depends also on the average number of daily notes set in the settings.\n\n# Obsidian Sync Issues\nIf you have Obsidian Sync, you might have noticed that synced file will have a creation timestamp corresponding to when they were synced to the other machines.\nIn version 1.1.9 a couple of settings were added in order to work around this issue by (optionally) reading from the file metadata the actual creation date of the note.\nIt is not mandatory that every note has a creation/modification date in the metadata, if it is missing the plugin will fallback to the file creation or modification date.\n",
+    "ContentSha": "HuLV7fhY6xm0ipmjxcUixGqc8vyatXRLOFlWyspHxwM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Obsidian 时间轴插件\n\n提供一个侧边栏，显示你的笔记的日历视图。\n\n![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/demo.gif)\n\n该日历允许导航并选择每日、每周、每月或自定义范围的笔记。每日和每周范围以时间线形式显示，但你可以通过启用设置 `显示简单列表` 强制以简单列表形式显示笔记。\n在时间线视图中，你可以通过启用 `将同一时间段的笔记分组` 来将创建或修改于同一时间段的笔记分组显示。\n\n点击月份名称可以查看该月份所有笔记的列表。\n\n要选择要显示的日期范围：先选择一个日期，然后按住 Shift 点击范围的另一个日期。\n\n时间线中的笔记将以彩色标记显示，指示它们是在该时刻**创建**还是**修改**的。\n\n![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/example.png)\n\n点击笔记名称将打开该笔记。按 Ctrl（或 Command）点击笔记名称将在新窗格中打开。\n\n在日历中，你可以选择单天或左侧的周数。\n\n日期块的背景颜色显示该天创建或编辑的笔记数量。该刻度还依赖于设置中每日笔记数量的平均值。\n\n# Obsidian 同步问题\n如果你使用 Obsidian 同步，可能会注意到同步的文件创建时间戳对应的是它们同步到其他设备的时间。\n在 1.1.9 版本中，添加了一些设置以解决此问题，方法是（可选地）从文件元数据中读取笔记的实际创建日期。\n并非每个笔记的元数据中都必须有创建/修改日期，如果缺失，插件将回退使用文件的创建或修改日期。\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "h9YpEjlna02s8/KpCme+/3CTCtAQ5GOBM91aef61dEE=",
+        "originContent": "# Obsidian Chronology Plugin",
+        "translatedContent": "# Obsidian 时间轴插件"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "iJ9q/+Y4Fnk6x+bhjbVdHu738WLRVOAV62cKQgE8fkM=",
+        "originContent": "Provides a sidebar with a calendar view of your notes.",
+        "translatedContent": "提供一个侧边栏，显示你的笔记的日历视图。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Bs2ZTj4QruBkSGHD/7h66OKAw9LCQIltdoq90ZHyRjk=",
+        "originContent": "![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/demo.gif)",
+        "translatedContent": "![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/demo.gif)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "SlLqtld5vN/+WHawZgjBKFMz+A+AAIv3e0+6Y7k4Cfg=",
+        "originContent": "The calendar allow to navingate and select a daily, weekly, monthly or custom range of notes. Daily and Weekly range are displayed in a time line but you can force the display of the notes in a simple list by enabline the setting `Display Simple List`.",
+        "translatedContent": "该日历允许导航并选择每日、每周、每月或自定义范围的笔记。每日和每周范围以时间线形式显示，但你可以通过启用设置 `显示简单列表` 强制以简单列表形式显示笔记。"
+      },
+      {
+        "row": 8,
+        "rowsha": "2sYkwB4BIh7dLV9EOjnNUpL0Tr5+a5wup0EHFPxPkE0=",
+        "originContent": "In the timeline visualization, you can group notes that were created or modified in the same time slot by enabling `Group Notes in same time slot`.",
+        "translatedContent": "在时间线视图中，你可以通过启用 `将同一时间段的笔记分组` 来将创建或修改于同一时间段的笔记分组显示。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "x4QJS/YEn4ku27h9ZCF2r7cG07A2YBWUg0l38VDcdLQ=",
+        "originContent": "Click the month name to see a list of all notes of that month.",
+        "translatedContent": "点击月份名称可以查看该月份所有笔记的列表。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "f5Dzne+nSe/2K7BBuYpOIEOeUe15dioyIzE8LyWslYk=",
+        "originContent": "To select a range of dates to display: select one date than shift-click the other date of the range.",
+        "translatedContent": "要选择要显示的日期范围：先选择一个日期，然后按住 Shift 点击范围的另一个日期。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+XRMf9xMq5wiRh0zOxXfKXo6CN+fAIHHrXsddTClp0s=",
+        "originContent": "The notes in the timeline will be shown with a colored marked indicating if they were **created** or **modified** at that moment.",
+        "translatedContent": "时间线中的笔记将以彩色标记显示，指示它们是在该时刻**创建**还是**修改**的。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/example.png)"
+      },
+      {
+        "row": 17,
+        "rowsha": "bQdZTAvr3MOR/IbLHH93nZwYLdOFonyFSGhzQaapI50=",
+        "originContent": "![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/example.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "点击笔记名称将打开该笔记。按 Ctrl（或 Command）点击笔记名称将在新窗格中打开。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "o3x39rFynn2dnp7QWePe6Z/oVjEJ00uKLev0Q8M//C8=",
+        "originContent": "Clicking on the name of the note will open it. Ctrl-(or Command-) clicking the note name will open it in a new pane.",
+        "translatedContent": "在日历中，你可以选择单天或左侧的周数。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "1k+b5bWGxGdx4a/5gWx2/VzsQ4SBRpgm/JBA3crGWyk=",
+        "originContent": "In the calendar you can select the single days or the week number (on the left).",
+        "translatedContent": "日期块的背景颜色显示该天创建或编辑的笔记数量。该刻度还依赖于设置中每日笔记数量的平均值。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "g4AHb0BGs8aVJOJ6DMcbI+/1jiz1o2H3qcvMYaV5zug=",
+        "originContent": "The days tiles background gives an indication about how many notes were created or edited that day. The scale depends also on the average number of daily notes set in the settings.",
+        "translatedContent": "# Obsidian 同步问题"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果你使用 Obsidian 同步，可能会注意到同步的文件创建时间戳对应的是它们同步到其他设备的时间。"
+      },
+      {
+        "row": 26,
+        "rowsha": "+JFUc9/xHcRPLkTJ6yOMYDk3gDnFNn6w9q44MPMUhvw=",
+        "originContent": "# Obsidian Sync Issues",
+        "translatedContent": "在 1.1.9 版本中，添加了一些设置以解决此问题，方法是（可选地）从文件元数据中读取笔记的实际创建日期。"
+      },
+      {
+        "row": 27,
+        "rowsha": "sOKDJ7GyPXOY8hx7/GMkqub1dAU8RaGMUpPTgLylycE=",
+        "originContent": "If you have Obsidian Sync, you might have noticed that synced file will have a creation timestamp corresponding to when they were synced to the other machines.",
+        "translatedContent": "并非每个笔记的元数据中都必须有创建/修改日期，如果缺失，插件将回退使用文件的创建或修改日期。"
+      },
+      {
+        "row": 28,
+        "rowsha": "Y9IXBZkDp+NqKtI+k55fZ5nqJVJSlYp6Lx9/1oWasws=",
+        "originContent": "In version 1.1.9 a couple of settings were added in order to work around this issue by (optionally) reading from the file metadata the actual creation date of the note.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "/EctBkJlNSXWQjthayBjiWYR/6hiuyV+FjHxJRk+jYI=",
+        "originContent": "It is not mandatory that every note has a creation/modification date in the metadata, if it is missing the plugin will fallback to the file creation or modification date.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

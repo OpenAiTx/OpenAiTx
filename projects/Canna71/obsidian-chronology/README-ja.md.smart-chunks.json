@@ -1,0 +1,195 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Obsidian Chronology Plugin\n\nProvides a sidebar with a calendar view of your notes.\n\n![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/demo.gif)\n\nThe calendar allow to navingate and select a daily, weekly, monthly or custom range of notes. Daily and Weekly range are displayed in a time line but you can force the display of the notes in a simple list by enabline the setting `Display Simple List`.\nIn the timeline visualization, you can group notes that were created or modified in the same time slot by enabling `Group Notes in same time slot`.\n\nClick the month name to see a list of all notes of that month.\n\nTo select a range of dates to display: select one date than shift-click the other date of the range.\n\nThe notes in the timeline will be shown with a colored marked indicating if they were **created** or **modified** at that moment.\n\n\n![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/example.png)\n\n\nClicking on the name of the note will open it. Ctrl-(or Command-) clicking the note name will open it in a new pane.\n\nIn the calendar you can select the single days or the week number (on the left).\n\nThe days tiles background gives an indication about how many notes were created or edited that day. The scale depends also on the average number of daily notes set in the settings.\n\n# Obsidian Sync Issues\nIf you have Obsidian Sync, you might have noticed that synced file will have a creation timestamp corresponding to when they were synced to the other machines.\nIn version 1.1.9 a couple of settings were added in order to work around this issue by (optionally) reading from the file metadata the actual creation date of the note.\nIt is not mandatory that every note has a creation/modification date in the metadata, if it is missing the plugin will fallback to the file creation or modification date.\n",
+    "ContentSha": "HuLV7fhY6xm0ipmjxcUixGqc8vyatXRLOFlWyspHxwM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Obsidian Chronology Plugin\n\nノートのカレンダー表示を備えたサイドバーを提供します。\n\n![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/demo.gif)\n\nカレンダーは日次、週次、月次、またはカスタム範囲のノートをナビゲートおよび選択できます。日次および週次範囲はタイムラインで表示されますが、設定の「Display Simple List」を有効にするとノートをシンプルなリスト表示に強制できます。\nタイムラインの表示では、「Group Notes in same time slot」を有効にすると同じ時間帯に作成または変更されたノートをグループ化できます。\n\n月名をクリックすると、その月のすべてのノートのリストが表示されます。\n\n表示する日付範囲を選択するには、1つの日付を選択してからシフトクリックで範囲のもう1つの日付を選択します。\n\nタイムライン内のノートは、その時点で**作成**または**変更**されたことを示す色付きのマークで表示されます。\n\n![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/example.png)\n\nノート名をクリックするとノートが開きます。Ctrl（またはCommand）クリックすると新しいペインで開きます。\n\nカレンダーでは単一の日または左側の週番号を選択できます。\n\n日付タイルの背景は、その日に作成または編集されたノートの数を示しています。スケールは設定で指定された1日あたりの平均ノート数にも依存します。\n\n# Obsidian Syncの問題\nObsidian Syncを使用している場合、同期されたファイルの作成日時が他のマシンに同期された日時になることに気づいたかもしれません。\nバージョン1.1.9では、この問題を回避するために（オプションで）ファイルメタデータから実際のノート作成日時を読み取る設定が追加されました。\nすべてのノートがメタデータに作成/変更日時を持つ必要はなく、欠落している場合はプラグインがファイルの作成または変更日時にフォールバックします。\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "h9YpEjlna02s8/KpCme+/3CTCtAQ5GOBM91aef61dEE=",
+        "originContent": "# Obsidian Chronology Plugin",
+        "translatedContent": "# Obsidian Chronology Plugin"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "iJ9q/+Y4Fnk6x+bhjbVdHu738WLRVOAV62cKQgE8fkM=",
+        "originContent": "Provides a sidebar with a calendar view of your notes.",
+        "translatedContent": "ノートのカレンダー表示を備えたサイドバーを提供します。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Bs2ZTj4QruBkSGHD/7h66OKAw9LCQIltdoq90ZHyRjk=",
+        "originContent": "![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/demo.gif)",
+        "translatedContent": "![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/demo.gif)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "SlLqtld5vN/+WHawZgjBKFMz+A+AAIv3e0+6Y7k4Cfg=",
+        "originContent": "The calendar allow to navingate and select a daily, weekly, monthly or custom range of notes. Daily and Weekly range are displayed in a time line but you can force the display of the notes in a simple list by enabline the setting `Display Simple List`.",
+        "translatedContent": "カレンダーは日次、週次、月次、またはカスタム範囲のノートをナビゲートおよび選択できます。日次および週次範囲はタイムラインで表示されますが、設定の「Display Simple List」を有効にするとノートをシンプルなリスト表示に強制できます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "2sYkwB4BIh7dLV9EOjnNUpL0Tr5+a5wup0EHFPxPkE0=",
+        "originContent": "In the timeline visualization, you can group notes that were created or modified in the same time slot by enabling `Group Notes in same time slot`.",
+        "translatedContent": "タイムラインの表示では、「Group Notes in same time slot」を有効にすると同じ時間帯に作成または変更されたノートをグループ化できます。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "x4QJS/YEn4ku27h9ZCF2r7cG07A2YBWUg0l38VDcdLQ=",
+        "originContent": "Click the month name to see a list of all notes of that month.",
+        "translatedContent": "月名をクリックすると、その月のすべてのノートのリストが表示されます。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "f5Dzne+nSe/2K7BBuYpOIEOeUe15dioyIzE8LyWslYk=",
+        "originContent": "To select a range of dates to display: select one date than shift-click the other date of the range.",
+        "translatedContent": "表示する日付範囲を選択するには、1つの日付を選択してからシフトクリックで範囲のもう1つの日付を選択します。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+XRMf9xMq5wiRh0zOxXfKXo6CN+fAIHHrXsddTClp0s=",
+        "originContent": "The notes in the timeline will be shown with a colored marked indicating if they were **created** or **modified** at that moment.",
+        "translatedContent": "タイムライン内のノートは、その時点で**作成**または**変更**されたことを示す色付きのマークで表示されます。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/example.png)"
+      },
+      {
+        "row": 17,
+        "rowsha": "bQdZTAvr3MOR/IbLHH93nZwYLdOFonyFSGhzQaapI50=",
+        "originContent": "![](https://raw.githubusercontent.com/Canna71/obsidian-chronology/master/media/example.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ノート名をクリックするとノートが開きます。Ctrl（またはCommand）クリックすると新しいペインで開きます。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "o3x39rFynn2dnp7QWePe6Z/oVjEJ00uKLev0Q8M//C8=",
+        "originContent": "Clicking on the name of the note will open it. Ctrl-(or Command-) clicking the note name will open it in a new pane.",
+        "translatedContent": "カレンダーでは単一の日または左側の週番号を選択できます。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "1k+b5bWGxGdx4a/5gWx2/VzsQ4SBRpgm/JBA3crGWyk=",
+        "originContent": "In the calendar you can select the single days or the week number (on the left).",
+        "translatedContent": "日付タイルの背景は、その日に作成または編集されたノートの数を示しています。スケールは設定で指定された1日あたりの平均ノート数にも依存します。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "g4AHb0BGs8aVJOJ6DMcbI+/1jiz1o2H3qcvMYaV5zug=",
+        "originContent": "The days tiles background gives an indication about how many notes were created or edited that day. The scale depends also on the average number of daily notes set in the settings.",
+        "translatedContent": "# Obsidian Syncの問題"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Obsidian Syncを使用している場合、同期されたファイルの作成日時が他のマシンに同期された日時になることに気づいたかもしれません。"
+      },
+      {
+        "row": 26,
+        "rowsha": "+JFUc9/xHcRPLkTJ6yOMYDk3gDnFNn6w9q44MPMUhvw=",
+        "originContent": "# Obsidian Sync Issues",
+        "translatedContent": "バージョン1.1.9では、この問題を回避するために（オプションで）ファイルメタデータから実際のノート作成日時を読み取る設定が追加されました。"
+      },
+      {
+        "row": 27,
+        "rowsha": "sOKDJ7GyPXOY8hx7/GMkqub1dAU8RaGMUpPTgLylycE=",
+        "originContent": "If you have Obsidian Sync, you might have noticed that synced file will have a creation timestamp corresponding to when they were synced to the other machines.",
+        "translatedContent": "すべてのノートがメタデータに作成/変更日時を持つ必要はなく、欠落している場合はプラグインがファイルの作成または変更日時にフォールバックします。"
+      },
+      {
+        "row": 28,
+        "rowsha": "Y9IXBZkDp+NqKtI+k55fZ5nqJVJSlYp6Lx9/1oWasws=",
+        "originContent": "In version 1.1.9 a couple of settings were added in order to work around this issue by (optionally) reading from the file metadata the actual creation date of the note.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "/EctBkJlNSXWQjthayBjiWYR/6hiuyV+FjHxJRk+jYI=",
+        "originContent": "It is not mandatory that every note has a creation/modification date in the metadata, if it is missing the plugin will fallback to the file creation or modification date.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

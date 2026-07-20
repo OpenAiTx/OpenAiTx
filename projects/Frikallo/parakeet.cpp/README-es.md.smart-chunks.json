@@ -1,0 +1,1759 @@
+[
+  {
+    "Id": 1,
+    "Content": "# parakeet.cpp\n\nFast speech recognition with NVIDIA's [Parakeet](https://huggingface.co/collections/nvidia/parakeet) models in pure C++.\n\nBuilt on [axiom](https://github.com/frikallo/axiom) — a lightweight tensor library with automatic Metal GPU acceleration. No ONNX runtime, no Python runtime, no heavyweight dependencies. Just C++ and one tensor library that outruns PyTorch MPS.\n\n**~27ms encoder inference on Apple Silicon GPU** for 10s audio (110M model) — 96x faster than CPU. FP16 support for ~2x memory reduction.\n\n## Supported Models\n\n| Model | Class | Size | Type | Description |\n|-------|-------|------|------|-------------|\n| `tdt-ctc-110m` | `ParakeetTDTCTC` | 110M | Offline | English, dual CTC/TDT decoder heads |\n| `tdt-600m` | `ParakeetTDT` | 600M | Offline | Multilingual, TDT decoder |\n| `eou-120m` | `ParakeetEOU` | 120M | Streaming | English, RNNT with end-of-utterance detection |\n| `nemotron-600m` | `ParakeetNemotron` | 600M | Streaming | Multilingual, configurable latency (80ms–1120ms) |\n| `sortformer` | `Sortformer` | 117M | Streaming | Speaker diarization (up to 4 speakers) |\n| `diarized` | `DiarizedTranscriber` | 110M+117M | Offline | ASR + diarization → speaker-attributed words |\n\nAll ASR models share the same audio pipeline: 16kHz mono WAV → 80-bin Mel spectrogram → FastConformer encoder.\n\n## Quick Start\n",
+    "ContentSha": "pLBhGh8t6+nElNQ46s8WoNJ3P+UUBQ3yVqE1JEw2Yxg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# parakeet.cpp\n\nReconocimiento de voz rápido con los modelos [Parakeet](https://huggingface.co/collections/nvidia/parakeet) de NVIDIA en C++ puro.\n\nConstruido sobre [axiom](https://github.com/frikallo/axiom) — una biblioteca ligera de tensores con aceleración automática Metal GPU. Sin runtime ONNX, sin runtime Python, sin dependencias pesadas. Solo C++ y una biblioteca de tensores que supera a PyTorch MPS.\n\n**~27ms de inferencia del codificador en GPU Apple Silicon** para audio de 10s (modelo 110M) — 96 veces más rápido que CPU. Soporte FP16 para ~2x reducción de memoria.\n\n## Modelos Soportados\n\n| Modelo | Clase | Tamaño | Tipo | Descripción |\n|--------|-------|--------|------|-------------|\n| `tdt-ctc-110m` | `ParakeetTDTCTC` | 110M | Offline | Inglés, decodificadores duales CTC/TDT |\n| `tdt-600m` | `ParakeetTDT` | 600M | Offline | Multilingüe, decodificador TDT |\n| `eou-120m` | `ParakeetEOU` | 120M | Streaming | Inglés, RNNT con detección de fin de enunciado |\n| `nemotron-600m` | `ParakeetNemotron` | 600M | Streaming | Multilingüe, latencia configurable (80ms–1120ms) |\n| `sortformer` | `Sortformer` | 117M | Streaming | Diarización de hablantes (hasta 4) |\n| `diarized` | `DiarizedTranscriber` | 110M+117M | Offline | ASR + diarización → palabras con atribución a hablantes |\n\nTodos los modelos ASR comparten la misma pipeline de audio: WAV mono 16kHz → espectrograma Mel de 80 bins → codificador FastConformer.\n\n## Inicio Rápido\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Tkh4DPHH/k6HKkSV3RnS/UPZ74Sby8Jc+NKll/jR21I=",
+        "originContent": "# parakeet.cpp",
+        "translatedContent": "# parakeet.cpp"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Co1WQqACOESJ8HhnL+KLlC/5W8BqCtQ17bSlNbFZhio=",
+        "originContent": "Fast speech recognition with NVIDIA's [Parakeet](https://huggingface.co/collections/nvidia/parakeet) models in pure C++.",
+        "translatedContent": "Reconocimiento de voz rápido con los modelos [Parakeet](https://huggingface.co/collections/nvidia/parakeet) de NVIDIA en C++ puro."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "rlvlb3maBlfUuBpOimOR1y0EaoMIVCN73Us3rDWpyc8=",
+        "originContent": "Built on [axiom](https://github.com/frikallo/axiom) — a lightweight tensor library with automatic Metal GPU acceleration. No ONNX runtime, no Python runtime, no heavyweight dependencies. Just C++ and one tensor library that outruns PyTorch MPS.",
+        "translatedContent": "Construido sobre [axiom](https://github.com/frikallo/axiom) — una biblioteca ligera de tensores con aceleración automática Metal GPU. Sin runtime ONNX, sin runtime Python, sin dependencias pesadas. Solo C++ y una biblioteca de tensores que supera a PyTorch MPS."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "FIMDYr7/y/Ir+eWanggE2M66o7Yx8u0inRFxsDDj+60=",
+        "originContent": "**~27ms encoder inference on Apple Silicon GPU** for 10s audio (110M model) — 96x faster than CPU. FP16 support for ~2x memory reduction.",
+        "translatedContent": "**~27ms de inferencia del codificador en GPU Apple Silicon** para audio de 10s (modelo 110M) — 96 veces más rápido que CPU. Soporte FP16 para ~2x reducción de memoria."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "kNFCKuk4wBbxs/+j8gunXHofSkegWkVkXLqu1F3+9EQ=",
+        "originContent": "## Supported Models",
+        "translatedContent": "## Modelos Soportados"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "0gu3Iqfpt6XFmKEL+awZd+9wct3ceC0w8ah0g38IW+w=",
+        "originContent": "| Model | Class | Size | Type | Description |",
+        "translatedContent": "| Modelo | Clase | Tamaño | Tipo | Descripción |"
+      },
+      {
+        "row": 12,
+        "rowsha": "bQckuUv9PzirT73a8o9fS05viboUDptWblMQx2g2n+0=",
+        "originContent": "|-------|-------|------|------|-------------|",
+        "translatedContent": "|--------|-------|--------|------|-------------|"
+      },
+      {
+        "row": 13,
+        "rowsha": "XOuSHT2thE8P7SGCOryj3GvHabrNMjyc7tI8d3fXDIs=",
+        "originContent": "| `tdt-ctc-110m` | `ParakeetTDTCTC` | 110M | Offline | English, dual CTC/TDT decoder heads |",
+        "translatedContent": "| `tdt-ctc-110m` | `ParakeetTDTCTC` | 110M | Offline | Inglés, decodificadores duales CTC/TDT |"
+      },
+      {
+        "row": 14,
+        "rowsha": "CVA3ru7xsiOoyJQ5u9YAQbeqpibSBNoA3Pi7UbdplQE=",
+        "originContent": "| `tdt-600m` | `ParakeetTDT` | 600M | Offline | Multilingual, TDT decoder |",
+        "translatedContent": "| `tdt-600m` | `ParakeetTDT` | 600M | Offline | Multilingüe, decodificador TDT |"
+      },
+      {
+        "row": 15,
+        "rowsha": "ujtf4z3491EQnbsJvPStiIpkFzJofNN0RQav63K99cY=",
+        "originContent": "| `eou-120m` | `ParakeetEOU` | 120M | Streaming | English, RNNT with end-of-utterance detection |",
+        "translatedContent": "| `eou-120m` | `ParakeetEOU` | 120M | Streaming | Inglés, RNNT con detección de fin de enunciado |"
+      },
+      {
+        "row": 16,
+        "rowsha": "Q8xE+2ApfJmPEsKdxHzOujgur7Nb+54XcA9m3xHOKm4=",
+        "originContent": "| `nemotron-600m` | `ParakeetNemotron` | 600M | Streaming | Multilingual, configurable latency (80ms–1120ms) |",
+        "translatedContent": "| `nemotron-600m` | `ParakeetNemotron` | 600M | Streaming | Multilingüe, latencia configurable (80ms–1120ms) |"
+      },
+      {
+        "row": 17,
+        "rowsha": "D9yE5O+ylWgNfcw4FmEJ+ozzwsP2wUB7AoCoXg1fmqw=",
+        "originContent": "| `sortformer` | `Sortformer` | 117M | Streaming | Speaker diarization (up to 4 speakers) |",
+        "translatedContent": "| `sortformer` | `Sortformer` | 117M | Streaming | Diarización de hablantes (hasta 4) |"
+      },
+      {
+        "row": 18,
+        "rowsha": "L2Zi6A9najEYxPh5YablABbL4N3BSO//ar4NyyFeALk=",
+        "originContent": "| `diarized` | `DiarizedTranscriber` | 110M+117M | Offline | ASR + diarization → speaker-attributed words |",
+        "translatedContent": "| `diarized` | `DiarizedTranscriber` | 110M+117M | Offline | ASR + diarización → palabras con atribución a hablantes |"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "iThfT1SXA7lRVp5z6L8hev8dxmkNxPdn2mq9g/tiVFo=",
+        "originContent": "All ASR models share the same audio pipeline: 16kHz mono WAV → 80-bin Mel spectrogram → FastConformer encoder.",
+        "translatedContent": "Todos los modelos ASR comparten la misma pipeline de audio: WAV mono 16kHz → espectrograma Mel de 80 bins → codificador FastConformer."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Inicio Rápido"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```cpp\n#include <parakeet/parakeet.hpp>\n\nparakeet::Transcriber t(\"model.safetensors\", \"vocab.txt\");\nt.to_gpu();   // optional — Metal acceleration\nt.to_half();  // optional — FP16 inference (~2x memory reduction)\n\nauto result = t.transcribe(\"audio.wav\");\nstd::cout << result.text << std::endl;\n```",
+    "ContentSha": "z7CRICZu0Rbt0xm30DLAZJjN2hv2PSrmRfYamOz1v4w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cpp\n#include <parakeet/parakeet.hpp>\n\nparakeet::Transcriber t(\"model.safetensors\", \"vocab.txt\");\nt.to_gpu();   // optional — Metal acceleration\nt.to_half();  // optional — FP16 inference (~2x memory reduction)\n\nauto result = t.transcribe(\"audio.wav\");\nstd::cout << result.text << std::endl;\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "p9kHAsnrYsj1u+Xw/CDKCanha99nrkZazj/wyJwtzUE=",
+        "originContent": "```cpp",
+        "translatedContent": "```cpp"
+      },
+      {
+        "row": 2,
+        "rowsha": "rVfzVsIvLgBih6O2Ygds+0RfLZ+Mwb8tdggNez9tQXo=",
+        "originContent": "#include <parakeet/parakeet.hpp>",
+        "translatedContent": "#include <parakeet/parakeet.hpp>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "If9t/xJFuH/B+13StI0FMOyRdYQFyoBKZM2Yuw3rxqI=",
+        "originContent": "parakeet::Transcriber t(\"model.safetensors\", \"vocab.txt\");",
+        "translatedContent": "parakeet::Transcriber t(\"model.safetensors\", \"vocab.txt\");"
+      },
+      {
+        "row": 5,
+        "rowsha": "QD+b8HK8BcaVR3vCttwjqKl2KWRUUmqTQX+CSPrJpyk=",
+        "originContent": "t.to_gpu();   // optional — Metal acceleration",
+        "translatedContent": "t.to_gpu();   // optional — Metal acceleration"
+      },
+      {
+        "row": 6,
+        "rowsha": "5Z4D8HW4RsgDPjNZfEHmoF7Xk6XnH0eNxXShcKjCduA=",
+        "originContent": "t.to_half();  // optional — FP16 inference (~2x memory reduction)",
+        "translatedContent": "t.to_half();  // optional — FP16 inference (~2x memory reduction)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "/mqM5SnTHqP7x8Y1JyxILhdXhft3QpjdWxURio+XFVI=",
+        "originContent": "auto result = t.transcribe(\"audio.wav\");",
+        "translatedContent": "auto result = t.transcribe(\"audio.wav\");"
+      },
+      {
+        "row": 9,
+        "rowsha": "duBxjRPiFMTzdWTFpz/pKW4S0nAXQ4Q1qzQQ+CfHJYE=",
+        "originContent": "std::cout << result.text << std::endl;",
+        "translatedContent": "std::cout << result.text << std::endl;"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Features\n\n- **Multiple decoders** — CTC greedy, TDT greedy, CTC beam search, TDT beam search (switch at call site)\n- **Word timestamps** — Per-word start/end times and confidence scores on all decoders\n- **Beam search + LM** — CTC and TDT beam search with optional ARPA n-gram language model fusion\n- **Phrase boosting** — Context biasing via token-level trie for domain-specific vocabulary\n- **Batch transcription** — Multiple files in one batched encoder forward pass\n- **VAD preprocessing** — Silero VAD strips silence before ASR; timestamps auto-remapped\n- **GPU acceleration** — Metal via axiom's MPSGraph compiler (96x speedup on Apple Silicon)\n- **FP16 inference** — Half-precision weights and compute (~2x memory reduction)\n- **Streaming** — EOU and Nemotron models with chunked audio input\n- **Speaker diarization** — Sortformer (up to 4 speakers), combinable with ASR for speaker-attributed words\n- **C API** — Flat `extern \"C\"` FFI for Python, Swift, Go, Rust, and other languages\n- **Multi-format audio** — WAV, FLAC, MP3, OGG with automatic resampling\n\nSee [examples/](examples/) for code demonstrating each feature.\n\n## Install\n\nPrebuilt binaries are attached to each [GitHub release](https://github.com/Frikallo/parakeet.cpp/releases) for macOS arm64, macOS x86_64, and Linux x86_64. Download the tarball for your platform and extract:\n",
+    "ContentSha": "0zLW8qoM+uQ0Dy2kwYKuW4UaFtKTxNdblphrnw2kta0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Características\n\n- **Múltiples decodificadores** — Decodificador CTC greedy, TDT greedy, búsqueda en haz CTC, búsqueda en haz TDT (cambio en el punto de llamada)\n- **Tiempos de palabras** — Tiempos de inicio/fin y puntuaciones de confianza por palabra en todos los decodificadores\n- **Búsqueda en haz + LM** — Búsqueda en haz CTC y TDT con fusión opcional de modelo de lenguaje n-grama ARPA\n- **Impulso de frases** — Sesgo de contexto mediante trie a nivel de token para vocabulario específico del dominio\n- **Transcripción por lotes** — Múltiples archivos en una sola pasada hacia adelante del codificador por lotes\n- **Preprocesamiento VAD** — Silero VAD elimina el silencio antes del ASR; los tiempos se reasignan automáticamente\n- **Aceleración GPU** — Metal mediante el compilador MPSGraph de axiom (aceleración de 96x en Apple Silicon)\n- **Inferencia FP16** — Pesos y cálculos en media precisión (~2x reducción de memoria)\n- **Streaming** — Modelos EOU y Nemotron con entrada de audio en fragmentos\n- **Diarización de hablantes** — Sortformer (hasta 4 hablantes), combinable con ASR para palabras atribuidas a hablantes\n- **API C** — FFI plano `extern \"C\"` para Python, Swift, Go, Rust y otros lenguajes\n- **Audio multi-formato** — WAV, FLAC, MP3, OGG con remuestreo automático\n\nVea [examples/](examples/) para código que demuestra cada característica.\n\n## Instalación\n\nLos binarios precompilados están adjuntos a cada [lanzamiento de GitHub](https://github.com/Frikallo/parakeet.cpp/releases) para macOS arm64, macOS x86_64 y Linux x86_64. Descargue el archivo tarball para su plataforma y extraiga:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Características"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "cn+e8QaolfDe0anyS7xf410ut1tNXyTi4skjPIkO7k0=",
+        "originContent": "- **Multiple decoders** — CTC greedy, TDT greedy, CTC beam search, TDT beam search (switch at call site)",
+        "translatedContent": "- **Múltiples decodificadores** — Decodificador CTC greedy, TDT greedy, búsqueda en haz CTC, búsqueda en haz TDT (cambio en el punto de llamada)"
+      },
+      {
+        "row": 5,
+        "rowsha": "Gq8j2lkjXCd1rzBAqvNCB0QDqaUmm62Tr4QIJfBfCxo=",
+        "originContent": "- **Word timestamps** — Per-word start/end times and confidence scores on all decoders",
+        "translatedContent": "- **Tiempos de palabras** — Tiempos de inicio/fin y puntuaciones de confianza por palabra en todos los decodificadores"
+      },
+      {
+        "row": 6,
+        "rowsha": "BBEyVuP42rhzRWZnGDJ9cO72x5oNg+PfONFB2bbVBns=",
+        "originContent": "- **Beam search + LM** — CTC and TDT beam search with optional ARPA n-gram language model fusion",
+        "translatedContent": "- **Búsqueda en haz + LM** — Búsqueda en haz CTC y TDT con fusión opcional de modelo de lenguaje n-grama ARPA"
+      },
+      {
+        "row": 7,
+        "rowsha": "niMg8TfIs8HwMNYitzFLorySoUhqYun4MF1z+Caz1GY=",
+        "originContent": "- **Phrase boosting** — Context biasing via token-level trie for domain-specific vocabulary",
+        "translatedContent": "- **Impulso de frases** — Sesgo de contexto mediante trie a nivel de token para vocabulario específico del dominio"
+      },
+      {
+        "row": 8,
+        "rowsha": "HRkGFxFWqd167gm+LLanHfF6qON030OlLaVV7kXnfqw=",
+        "originContent": "- **Batch transcription** — Multiple files in one batched encoder forward pass",
+        "translatedContent": "- **Transcripción por lotes** — Múltiples archivos en una sola pasada hacia adelante del codificador por lotes"
+      },
+      {
+        "row": 9,
+        "rowsha": "ITWP/W9oaGnF3PwDS9xwtP6vxgdHS+JtZJUlOIv/hbI=",
+        "originContent": "- **VAD preprocessing** — Silero VAD strips silence before ASR; timestamps auto-remapped",
+        "translatedContent": "- **Preprocesamiento VAD** — Silero VAD elimina el silencio antes del ASR; los tiempos se reasignan automáticamente"
+      },
+      {
+        "row": 10,
+        "rowsha": "rIQbFKj6jk3Ih/aJPZZQXgqdm76qZxFyuqVxRi8rGwY=",
+        "originContent": "- **GPU acceleration** — Metal via axiom's MPSGraph compiler (96x speedup on Apple Silicon)",
+        "translatedContent": "- **Aceleración GPU** — Metal mediante el compilador MPSGraph de axiom (aceleración de 96x en Apple Silicon)"
+      },
+      {
+        "row": 11,
+        "rowsha": "AbFY6x+4OJiFGtwHcCa1kC4Z5KewrUgFogczC36HU5s=",
+        "originContent": "- **FP16 inference** — Half-precision weights and compute (~2x memory reduction)",
+        "translatedContent": "- **Inferencia FP16** — Pesos y cálculos en media precisión (~2x reducción de memoria)"
+      },
+      {
+        "row": 12,
+        "rowsha": "UYDlOoFy+AkrZYAGe5JXDAGxSg2PSnyhUT4s62g25Hs=",
+        "originContent": "- **Streaming** — EOU and Nemotron models with chunked audio input",
+        "translatedContent": "- **Streaming** — Modelos EOU y Nemotron con entrada de audio en fragmentos"
+      },
+      {
+        "row": 13,
+        "rowsha": "ELZVpz2VW/Kj5R7ek6TdS2tqWPdVXmspJT94lMeZxNA=",
+        "originContent": "- **Speaker diarization** — Sortformer (up to 4 speakers), combinable with ASR for speaker-attributed words",
+        "translatedContent": "- **Diarización de hablantes** — Sortformer (hasta 4 hablantes), combinable con ASR para palabras atribuidas a hablantes"
+      },
+      {
+        "row": 14,
+        "rowsha": "xs9Qn2XFxBj3uOHSzvm5E1J3+cyEnaQZVLRWPOWvtvA=",
+        "originContent": "- **C API** — Flat `extern \"C\"` FFI for Python, Swift, Go, Rust, and other languages",
+        "translatedContent": "- **API C** — FFI plano `extern \"C\"` para Python, Swift, Go, Rust y otros lenguajes"
+      },
+      {
+        "row": 15,
+        "rowsha": "KEnNDZDTgnJSlKdC1FfivRhpYwQ3kCBnDKzi5+meqKY=",
+        "originContent": "- **Multi-format audio** — WAV, FLAC, MP3, OGG with automatic resampling",
+        "translatedContent": "- **Audio multi-formato** — WAV, FLAC, MP3, OGG con remuestreo automático"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "juSmpFKZVhSlDsD0YosozvHBzfsgFZ85S2eGm1wtwNU=",
+        "originContent": "See [examples/](examples/) for code demonstrating each feature.",
+        "translatedContent": "Vea [examples/](examples/) para código que demuestra cada característica."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## Instalación"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "PAUOFSFyQAX/fBR+ZR2qpzY6nGJjUC+QdQPaBJKtMxY=",
+        "originContent": "Prebuilt binaries are attached to each [GitHub release](https://github.com/Frikallo/parakeet.cpp/releases) for macOS arm64, macOS x86_64, and Linux x86_64. Download the tarball for your platform and extract:",
+        "translatedContent": "Los binarios precompilados están adjuntos a cada [lanzamiento de GitHub](https://github.com/Frikallo/parakeet.cpp/releases) para macOS arm64, macOS x86_64 y Linux x86_64. Descargue el archivo tarball para su plataforma y extraiga:"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ntar -xzf parakeet-v0.1.0-macos-arm64.tar.gz\ncd parakeet-v0.1.0-macos-arm64\n# On macOS, clear the Gatekeeper quarantine attribute first:\nxattr -dr com.apple.quarantine .\n./bin/parakeet --help\n```",
+    "ContentSha": "c+tvG0PQOSqxUoJKIabCPo0IQGNHT8P1ZMlngPgXxQE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntar -xzf parakeet-v0.1.0-macos-arm64.tar.gz\ncd parakeet-v0.1.0-macos-arm64\n# On macOS, clear the Gatekeeper quarantine attribute first:\nxattr -dr com.apple.quarantine .\n./bin/parakeet --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "AXOTbPyBx51ZZ0YjlJ22f2gWHOjsT0Er41Q88JFDRZs=",
+        "originContent": "tar -xzf parakeet-v0.1.0-macos-arm64.tar.gz",
+        "translatedContent": "tar -xzf parakeet-v0.1.0-macos-arm64.tar.gz"
+      },
+      {
+        "row": 3,
+        "rowsha": "hv8hoFY0h2CRy3C0vEnJk+DJCLwxYxPUZxkoU7OzNg0=",
+        "originContent": "cd parakeet-v0.1.0-macos-arm64",
+        "translatedContent": "cd parakeet-v0.1.0-macos-arm64"
+      },
+      {
+        "row": 4,
+        "rowsha": "WEZCQfxk1IF0UvnD/jKbAPN6zjJp6e+Q+4462mHJCi0=",
+        "originContent": "# On macOS, clear the Gatekeeper quarantine attribute first:",
+        "translatedContent": "# On macOS, clear the Gatekeeper quarantine attribute first:"
+      },
+      {
+        "row": 5,
+        "rowsha": "KqcTyRElU81SzdZSe6h+Hs+2p76dJum2ScyS/hjZ+Lw=",
+        "originContent": "xattr -dr com.apple.quarantine .",
+        "translatedContent": "xattr -dr com.apple.quarantine ."
+      },
+      {
+        "row": 6,
+        "rowsha": "YUBfkzqzBXE3okipeBg15NXMHDOg57DGGnao8vNTcUg=",
+        "originContent": "./bin/parakeet --help",
+        "translatedContent": "./bin/parakeet --help"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nThe archive ships a self-contained `bin/parakeet` (and `bin/example-server`) plus `lib/libaxiom` with `@rpath`/`$ORIGIN` set so the binaries resolve their dependencies relative to the install dir — drop the directory anywhere. The C-API headers under `include/parakeet/` are included for embedders.\n\n## Build from source\n",
+    "ContentSha": "cMkqYslZtZJLwupUKRexHMvY8LyJos2OFa1B3X+Uk/o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEl archivo incluye un `bin/parakeet` autónomo (y `bin/example-server`) más `lib/libaxiom` con `@rpath`/`$ORIGIN` configurados para que los binarios resuelvan sus dependencias relativas al directorio de instalación — se puede colocar el directorio en cualquier lugar. Los encabezados de la API en C bajo `include/parakeet/` están incluidos para integradores.\n\n## Construir desde el código fuente\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PdWlmix8RQkb5TfoiVZocFFEbcx15dgLe7DaHMKrGxI=",
+        "originContent": "The archive ships a self-contained `bin/parakeet` (and `bin/example-server`) plus `lib/libaxiom` with `@rpath`/`$ORIGIN` set so the binaries resolve their dependencies relative to the install dir — drop the directory anywhere. The C-API headers under `include/parakeet/` are included for embedders.",
+        "translatedContent": "El archivo incluye un `bin/parakeet` autónomo (y `bin/example-server`) más `lib/libaxiom` con `@rpath`/`$ORIGIN` configurados para que los binarios resuelvan sus dependencias relativas al directorio de instalación — se puede colocar el directorio en cualquier lugar. Los encabezados de la API en C bajo `include/parakeet/` están incluidos para integradores."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VuGIuEpfgyqbJQhqJA1HcbWrpmKxwU5U6IKzzxQrHTI=",
+        "originContent": "## Build from source",
+        "translatedContent": "## Construir desde el código fuente"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ngit clone --recursive https://github.com/frikallo/parakeet.cpp\ncd parakeet.cpp\nmake build\nmake test\n```",
+    "ContentSha": "Ib/8ZuRglRosxqyStQV3A6+Z3ObAiH2we2F9BacSRWo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone --recursive https://github.com/frikallo/parakeet.cpp\ncd parakeet.cpp\nmake build\nmake test\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "kQC4G2JmGFgesOKRLtKoo8AEZj+ctSY02abZFSlgwpY=",
+        "originContent": "git clone --recursive https://github.com/frikallo/parakeet.cpp",
+        "translatedContent": "git clone --recursive https://github.com/frikallo/parakeet.cpp"
+      },
+      {
+        "row": 3,
+        "rowsha": "oiXkgJfsQ98FQ3gOOqgfoA5ogtgVrEUEyn27vftI/GY=",
+        "originContent": "cd parakeet.cpp",
+        "translatedContent": "cd parakeet.cpp"
+      },
+      {
+        "row": 4,
+        "rowsha": "0RIeNfp62rFw/h7ktiJuS9UFlTXiTcR2fxvyti2Vc5k=",
+        "originContent": "make build",
+        "translatedContent": "make build"
+      },
+      {
+        "row": 5,
+        "rowsha": "Isxmqn0mJLTrTVthZYYUzWwyR3sSOvv328f8PX0PNxM=",
+        "originContent": "make test",
+        "translatedContent": "make test"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nRequirements: C++20 (Clang 14+ or GCC 12+), CMake 3.20+, macOS 13+ for Metal GPU.\n\n> **macOS:** building requires the **full Xcode** install (not just Command Line Tools), because axiom compiles its Metal shaders with `xcrun metal` and `xcrun metallib` — those ship only with Xcode. If you just want to run parakeet, use the prebuilt tarball above; the `.metallib` is embedded into the shipped `libaxiom.dylib` and runs without any Xcode/CLT install on the user side.\n\n## Convert Weights\n",
+    "ContentSha": "XzzuS2PrlI8dKqCO8UNoV6zKnSCN1dVDnA1vlTATUSQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nRequisitos: C++20 (Clang 14+ o GCC 12+), CMake 3.20+, macOS 13+ para GPU Metal.\n\n> **macOS:** la compilación requiere la instalación **completa de Xcode** (no solo las Herramientas de Línea de Comandos), porque axiom compila sus shaders Metal con `xcrun metal` y `xcrun metallib` — estos solo se incluyen con Xcode. Si solo quieres ejecutar parakeet, usa el tarball precompilado arriba; el `.metallib` está incrustado en el `libaxiom.dylib` distribuido y se ejecuta sin necesidad de instalar Xcode/CLT en el lado del usuario.\n\n## Convertir Pesos\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LkXWp8ifc3CUSdoiP9QGOjd6zU4vLX0rp6QWDlh2L7c=",
+        "originContent": "Requirements: C++20 (Clang 14+ or GCC 12+), CMake 3.20+, macOS 13+ for Metal GPU.",
+        "translatedContent": "Requisitos: C++20 (Clang 14+ o GCC 12+), CMake 3.20+, macOS 13+ para GPU Metal."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "LFayTuZpX4tr+4/8VCrWlC54lnvepmSjckVU42MbcLQ=",
+        "originContent": "> **macOS:** building requires the **full Xcode** install (not just Command Line Tools), because axiom compiles its Metal shaders with `xcrun metal` and `xcrun metallib` — those ship only with Xcode. If you just want to run parakeet, use the prebuilt tarball above; the `.metallib` is embedded into the shipped `libaxiom.dylib` and runs without any Xcode/CLT install on the user side.",
+        "translatedContent": "> **macOS:** la compilación requiere la instalación **completa de Xcode** (no solo las Herramientas de Línea de Comandos), porque axiom compila sus shaders Metal con `xcrun metal` y `xcrun metallib` — estos solo se incluyen con Xcode. Si solo quieres ejecutar parakeet, usa el tarball precompilado arriba; el `.metallib` está incrustado en el `libaxiom.dylib` distribuido y se ejecuta sin necesidad de instalar Xcode/CLT en el lado del usuario."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "kU9ovUt0Rk5x8G6iUHQEXNnzD/kc/hlB1gUeBuGtlqM=",
+        "originContent": "## Convert Weights",
+        "translatedContent": "## Convertir Pesos"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n# Download from HuggingFace\nhuggingface-cli download nvidia/parakeet-tdt_ctc-110m --include \"*.nemo\" --local-dir .\n\n# Convert to safetensors\npip install safetensors torch\npython scripts/convert_nemo.py parakeet-tdt_ctc-110m.nemo -o model.safetensors\n```",
+    "ContentSha": "oDrkv5GFO8ZkKKeA97JlmlHCOkmjwsS1kZuHzIWGDIw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Download from HuggingFace\nhuggingface-cli download nvidia/parakeet-tdt_ctc-110m --include \"*.nemo\" --local-dir .\n\n# Convert to safetensors\npip install safetensors torch\npython scripts/convert_nemo.py parakeet-tdt_ctc-110m.nemo -o model.safetensors\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5Ubs7VLTPhTBDfrEeBon7gFo2rEE9XUuuYZ0cXLglig=",
+        "originContent": "# Download from HuggingFace",
+        "translatedContent": "# Download from HuggingFace"
+      },
+      {
+        "row": 3,
+        "rowsha": "7+RYPxxoI2GbnYX0ZcvwvDY0A4rS/Edsvk3CUv2+DtE=",
+        "originContent": "huggingface-cli download nvidia/parakeet-tdt_ctc-110m --include \"*.nemo\" --local-dir .",
+        "translatedContent": "huggingface-cli download nvidia/parakeet-tdt_ctc-110m --include \"*.nemo\" --local-dir ."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8rGJyYz+FnF0TGb/vFQqBx0JHrpop/2wR9B+k856EZo=",
+        "originContent": "# Convert to safetensors",
+        "translatedContent": "# Convert to safetensors"
+      },
+      {
+        "row": 6,
+        "rowsha": "SVaUiaGhTHIeLhpNQMger8P3Sy8Numt8OARppVw/Edc=",
+        "originContent": "pip install safetensors torch",
+        "translatedContent": "pip install safetensors torch"
+      },
+      {
+        "row": 7,
+        "rowsha": "pe5gaytndtndUCXvtIq83Sd17yHxEyyqcXjOqKrWzVo=",
+        "originContent": "python scripts/convert_nemo.py parakeet-tdt_ctc-110m.nemo -o model.safetensors",
+        "translatedContent": "python scripts/convert_nemo.py parakeet-tdt_ctc-110m.nemo -o model.safetensors"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nThe converter supports all model types: `110m-tdt-ctc` (default), `600m-tdt`, `eou-120m`, `nemotron-600m`, `sortformer`.\n",
+    "ContentSha": "qztLlgRGLvTXftGWUWsU+pYzIFBbhk0bWTzPwHBbz0w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEl convertidor admite todos los tipos de modelos: `110m-tdt-ctc` (predeterminado), `600m-tdt`, `eou-120m`, `nemotron-600m`, `sortformer`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wiPOVdV5EYQwOXiqiN2ADIWzsD8mODEJ5nNn5zZBTPk=",
+        "originContent": "The converter supports all model types: `110m-tdt-ctc` (default), `600m-tdt`, `eou-120m`, `nemotron-600m`, `sortformer`.",
+        "translatedContent": "El convertidor admite todos los tipos de modelos: `110m-tdt-ctc` (predeterminado), `600m-tdt`, `eou-120m`, `nemotron-600m`, `sortformer`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\npython scripts/convert_nemo.py checkpoint.nemo -o model.safetensors --model 600m-tdt\n```",
+    "ContentSha": "mZY/GHX6/Vm1s51IHHqPPcH/rEAQSTCCS2bp0zM6/bU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython scripts/convert_nemo.py checkpoint.nemo -o model.safetensors --model 600m-tdt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "kJhRWTeCrDNkAlbGNDIXPTuACMIceByx6l8w7mY2oqk=",
+        "originContent": "python scripts/convert_nemo.py checkpoint.nemo -o model.safetensors --model 600m-tdt",
+        "translatedContent": "python scripts/convert_nemo.py checkpoint.nemo -o model.safetensors --model 600m-tdt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nSilero VAD weights:",
+    "ContentSha": "GeL/t3ecUd+sCj9dF4cFxo4ZlBauGhLLeLhaIBP9+Fc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Pesos de Silero VAD:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Pesos de Silero VAD:"
+      },
+      {
+        "row": 2,
+        "rowsha": "fi8X+bEgj8SLy51W0T6sDGKgvtIPpjYTa9DblCmmsgI=",
+        "originContent": "Silero VAD weights:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\npython scripts/convert_silero_vad.py -o silero_vad_v5.safetensors\n```",
+    "ContentSha": "AIfosoILzlJGFJf1IvoR7Ya85Y7rq1AlUyZcmKOxZTc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython scripts/convert_silero_vad.py -o silero_vad_v5.safetensors\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "MKxcbEdqwdBYnw+PfTFEZHuGvlTtb015k+FYNF1cPyE=",
+        "originContent": "python scripts/convert_silero_vad.py -o silero_vad_v5.safetensors",
+        "translatedContent": "python scripts/convert_silero_vad.py -o silero_vad_v5.safetensors"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Examples\n\n| Example | Description |\n|---------|-------------|\n| [basic](examples/basic/) | Simplest transcription (~20 lines) |\n| [timestamps](examples/timestamps/) | Word/token timestamps with confidence |\n| [beam-search](examples/beam-search/) | CTC/TDT beam search with optional ARPA LM |\n| [phrase-boost](examples/phrase-boost/) | Context biasing for domain vocabulary |\n| [batch](examples/batch/) | Batch transcription of multiple files |\n| [vad](examples/vad/) | Standalone VAD and ASR+VAD preprocessing |\n| [gpu](examples/gpu/) | Metal GPU + FP16 with timing comparison |\n| [stream](examples/stream/) | EOU streaming transcription |\n| [nemotron](examples/nemotron/) | Nemotron streaming with latency modes |\n| [diarize](examples/diarize/) | Sortformer speaker diarization |\n| [diarized-transcription](examples/diarized-transcription/) | ASR + diarization combined |\n| [c-api](examples/c-api/) | Pure C99 FFI usage |\n| [cli](examples/cli/) | Full CLI with all options |\n\n## Using as a Library\n\n### CMake `find_package`\n\nAfter installing (`make install` or `cmake --install build`):\n",
+    "ContentSha": "l3bYNU8ZqODGOa77UdR7z4l/wLPlvme5m+96Ahq94v8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Ejemplos\n\n| Ejemplo | Descripción |\n|---------|-------------|\n| [basic](examples/basic/) | Transcripción más simple (~20 líneas) |\n| [timestamps](examples/timestamps/) | Marcas de tiempo de palabras/tokens con confianza |\n| [beam-search](examples/beam-search/) | Búsqueda beam CTC/TDT con LM ARPA opcional |\n| [phrase-boost](examples/phrase-boost/) | Sesgo contextual para vocabulario de dominio |\n| [batch](examples/batch/) | Transcripción por lotes de múltiples archivos |\n| [vad](examples/vad/) | VAD independiente y preprocesamiento ASR+VAD |\n| [gpu](examples/gpu/) | GPU Metal + FP16 con comparación de tiempos |\n| [stream](examples/stream/) | Transcripción en streaming EOU |\n| [nemotron](examples/nemotron/) | Streaming Nemotron con modos de latencia |\n| [diarize](examples/diarize/) | Diarización de hablantes Sortformer |\n| [diarized-transcription](examples/diarized-transcription/) | ASR + diarización combinados |\n| [c-api](examples/c-api/) | Uso FFI puro C99 |\n| [cli](examples/cli/) | CLI completo con todas las opciones |\n\n## Uso como Biblioteca\n\n### CMake `find_package`\n\nDespués de la instalación (`make install` o `cmake --install build`):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": "## Ejemplos"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "XW69QoAdLzyGu2vPV54czE/EbNa8Z5JK1+xPEri6+C4=",
+        "originContent": "| Example | Description |",
+        "translatedContent": "| Ejemplo | Descripción |"
+      },
+      {
+        "row": 5,
+        "rowsha": "gZZrvc4DyBVOhqMtRyPspS6oKwB1KkzkgrCtPdqMto0=",
+        "originContent": "|---------|-------------|",
+        "translatedContent": "|---------|-------------|"
+      },
+      {
+        "row": 6,
+        "rowsha": "9+HkJ0/X+BND3YDahU/GStDROcFArAV1tBWyNANvhVE=",
+        "originContent": "| [basic](examples/basic/) | Simplest transcription (~20 lines) |",
+        "translatedContent": "| [basic](examples/basic/) | Transcripción más simple (~20 líneas) |"
+      },
+      {
+        "row": 7,
+        "rowsha": "YPntBZaVUcF0/biQRkzggVcyiehOb0SyaA0d2C6SSlg=",
+        "originContent": "| [timestamps](examples/timestamps/) | Word/token timestamps with confidence |",
+        "translatedContent": "| [timestamps](examples/timestamps/) | Marcas de tiempo de palabras/tokens con confianza |"
+      },
+      {
+        "row": 8,
+        "rowsha": "PSYFSjIgqRuVj/3Pi3lf76HZhlejBV02epnuhgPLcmY=",
+        "originContent": "| [beam-search](examples/beam-search/) | CTC/TDT beam search with optional ARPA LM |",
+        "translatedContent": "| [beam-search](examples/beam-search/) | Búsqueda beam CTC/TDT con LM ARPA opcional |"
+      },
+      {
+        "row": 9,
+        "rowsha": "Fbxonze7tDFCVgYcyxsYybEQO5ihvZqX1r0y6FIrYz0=",
+        "originContent": "| [phrase-boost](examples/phrase-boost/) | Context biasing for domain vocabulary |",
+        "translatedContent": "| [phrase-boost](examples/phrase-boost/) | Sesgo contextual para vocabulario de dominio |"
+      },
+      {
+        "row": 10,
+        "rowsha": "SY9LdEZlfNYC9/0RtR8Tb6UFilYuTcEb8pEqag64Nj0=",
+        "originContent": "| [batch](examples/batch/) | Batch transcription of multiple files |",
+        "translatedContent": "| [batch](examples/batch/) | Transcripción por lotes de múltiples archivos |"
+      },
+      {
+        "row": 11,
+        "rowsha": "DyuuQrLmbcFYu9skJv83sOF6bMgVda1qvar5SkOpzwc=",
+        "originContent": "| [vad](examples/vad/) | Standalone VAD and ASR+VAD preprocessing |",
+        "translatedContent": "| [vad](examples/vad/) | VAD independiente y preprocesamiento ASR+VAD |"
+      },
+      {
+        "row": 12,
+        "rowsha": "dmNYGmeWSY78MCxQRf/sLciiHq9OZixECLozwfVsLgA=",
+        "originContent": "| [gpu](examples/gpu/) | Metal GPU + FP16 with timing comparison |",
+        "translatedContent": "| [gpu](examples/gpu/) | GPU Metal + FP16 con comparación de tiempos |"
+      },
+      {
+        "row": 13,
+        "rowsha": "+2vEQTipNZ7+b/EuVvfVeJv73oge47+p/scL88OsARk=",
+        "originContent": "| [stream](examples/stream/) | EOU streaming transcription |",
+        "translatedContent": "| [stream](examples/stream/) | Transcripción en streaming EOU |"
+      },
+      {
+        "row": 14,
+        "rowsha": "qJkOjL4FICNt687yQkRuonmNaxaf/mAgr+BeX+o1iWg=",
+        "originContent": "| [nemotron](examples/nemotron/) | Nemotron streaming with latency modes |",
+        "translatedContent": "| [nemotron](examples/nemotron/) | Streaming Nemotron con modos de latencia |"
+      },
+      {
+        "row": 15,
+        "rowsha": "FN6A4tJa5l3qWmgxakVVHIEmXXIxsGIotzIZJTT9kKw=",
+        "originContent": "| [diarize](examples/diarize/) | Sortformer speaker diarization |",
+        "translatedContent": "| [diarize](examples/diarize/) | Diarización de hablantes Sortformer |"
+      },
+      {
+        "row": 16,
+        "rowsha": "YOapXZThQ/CouAgn5QbNUdb82Vo66CyG2dVfFxC02ro=",
+        "originContent": "| [diarized-transcription](examples/diarized-transcription/) | ASR + diarization combined |",
+        "translatedContent": "| [diarized-transcription](examples/diarized-transcription/) | ASR + diarización combinados |"
+      },
+      {
+        "row": 17,
+        "rowsha": "3qujNLKltz1YA5CXqbdlmIkIBFkUjPGpUKaOcwXJB80=",
+        "originContent": "| [c-api](examples/c-api/) | Pure C99 FFI usage |",
+        "translatedContent": "| [c-api](examples/c-api/) | Uso FFI puro C99 |"
+      },
+      {
+        "row": 18,
+        "rowsha": "lGhq7A21CYiF3rDpp/cWYqny3GZdF0fpOBBqQh+DnaY=",
+        "originContent": "| [cli](examples/cli/) | Full CLI with all options |",
+        "translatedContent": "| [cli](examples/cli/) | CLI completo con todas las opciones |"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "qilobfe9CfTQMjtvdZxKFA5pgqGkA/eOl19FF3lLaqA=",
+        "originContent": "## Using as a Library",
+        "translatedContent": "## Uso como Biblioteca"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "dvalWFohKVCaziEnyJ+HnGwnM8FgzTBWuepH4EobQ/A=",
+        "originContent": "### CMake `find_package`",
+        "translatedContent": "### CMake `find_package`"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "KFUbB57CZBZXjto2tfu+g0uaNyW14XvOUVaz44Zx5G4=",
+        "originContent": "After installing (`make install` or `cmake --install build`):",
+        "translatedContent": "Después de la instalación (`make install` o `cmake --install build`):"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```cmake\nfind_package(Parakeet REQUIRED)\ntarget_link_libraries(myapp PRIVATE Parakeet::parakeet)\n```",
+    "ContentSha": "GaIlE43d2OxxVDHAaqNzo1k05wPKKDgewIWb0wfqU7Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cmake\nfind_package(Parakeet REQUIRED)\ntarget_link_libraries(myapp PRIVATE Parakeet::parakeet)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "W+63107Hl+0X81S5ZFRqZTkxe8HKRP2Gy4902QKz6jo=",
+        "originContent": "```cmake",
+        "translatedContent": "```cmake"
+      },
+      {
+        "row": 2,
+        "rowsha": "hsov2vcPCIiKzQcaCRLDzlHOq0wy27HTs5wCDjAZjhA=",
+        "originContent": "find_package(Parakeet REQUIRED)",
+        "translatedContent": "find_package(Parakeet REQUIRED)"
+      },
+      {
+        "row": 3,
+        "rowsha": "AMTUX1zg3to2ygBSP7TLNoryohvkBtDd2FODFTpT7rc=",
+        "originContent": "target_link_libraries(myapp PRIVATE Parakeet::parakeet)",
+        "translatedContent": "target_link_libraries(myapp PRIVATE Parakeet::parakeet)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### CMake `add_subdirectory`\n",
+    "ContentSha": "czJpxCeTeMbmX+1ZMrmItRDtV3SyFYnirIr7Ib1mw8M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### CMake `add_subdirectory`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WdaqiFMQbPL/zGMhIOM/Hse7sCKsgRieCAm3vbBiWBs=",
+        "originContent": "### CMake `add_subdirectory`",
+        "translatedContent": "### CMake `add_subdirectory`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```cmake\nadd_subdirectory(third_party/parakeet.cpp)\ntarget_link_libraries(myapp PRIVATE Parakeet::parakeet)\n```",
+    "ContentSha": "m3Ab7kIgNlALutbr7FaZRjTvcdJHSYebJArpzjE3i3o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cmake\nadd_subdirectory(third_party/parakeet.cpp)\ntarget_link_libraries(myapp PRIVATE Parakeet::parakeet)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "W+63107Hl+0X81S5ZFRqZTkxe8HKRP2Gy4902QKz6jo=",
+        "originContent": "```cmake",
+        "translatedContent": "```cmake"
+      },
+      {
+        "row": 2,
+        "rowsha": "gT1IxLemKOSfpI8ktjPo1UqTv7kZSodf36OfXCvv6gE=",
+        "originContent": "add_subdirectory(third_party/parakeet.cpp)",
+        "translatedContent": "add_subdirectory(third_party/parakeet.cpp)"
+      },
+      {
+        "row": 3,
+        "rowsha": "AMTUX1zg3to2ygBSP7TLNoryohvkBtDd2FODFTpT7rc=",
+        "originContent": "target_link_libraries(myapp PRIVATE Parakeet::parakeet)",
+        "translatedContent": "target_link_libraries(myapp PRIVATE Parakeet::parakeet)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### pkg-config\n",
+    "ContentSha": "0ni+DBIUVCLdu7Jby3fxN34MqhKTHN0GHtfMfIRTdsg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### pkg-config\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "d/U18fIxIPM04T0idbkFWCm6erLnx7QzwOVqhYCdE58=",
+        "originContent": "### pkg-config",
+        "translatedContent": "### pkg-config"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\ng++ -std=c++20 myapp.cpp $(pkg-config --cflags --libs parakeet) -o myapp\n```",
+    "ContentSha": "nixHkAizrP7kfx6Rm2mcEqzmCg+tYjISTPsehd+bjE8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ng++ -std=c++20 myapp.cpp $(pkg-config --cflags --libs parakeet) -o myapp\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "P/7f/H5Axgdh7cgTK/5H+TEaLBLbM+cSJzPr2BYpOlw=",
+        "originContent": "g++ -std=c++20 myapp.cpp $(pkg-config --cflags --libs parakeet) -o myapp",
+        "translatedContent": "g++ -std=c++20 myapp.cpp $(pkg-config --cflags --libs parakeet) -o myapp"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n## Architecture\n\n### Offline Models\n\nBuilt on a shared FastConformer encoder (Conv2d 8x subsampling → N Conformer blocks with relative positional attention):\n\n| Model | Class | Decoder | Use case |\n|-------|-------|---------|----------|\n| CTC | `ParakeetCTC` | Greedy argmax or beam search (+LM) | Fast, English-only |\n| RNNT | `ParakeetRNNT` | Autoregressive LSTM | Streaming capable |\n| TDT | `ParakeetTDT` | LSTM + duration prediction, greedy or beam search (+LM) | Better accuracy than RNNT |\n| TDT-CTC | `ParakeetTDTCTC` | Both TDT and CTC heads | Switch decoder at inference |\n\n### Streaming Models\n\nBuilt on a cache-aware streaming FastConformer encoder with causal convolutions and bounded-context attention:\n\n| Model | Class | Decoder | Use case |\n|-------|-------|---------|----------|\n| EOU | `ParakeetEOU` | Streaming RNNT | End-of-utterance detection |\n| Nemotron | `ParakeetNemotron` | Streaming TDT | Configurable latency streaming |\n\n### Diarization\n\n| Model | Class | Architecture | Use case |\n|-------|-------|-------------|----------|\n| Sortformer | `Sortformer` | NEST encoder → Transformer → sigmoid | Speaker diarization (up to 4 speakers) |\n\n## Benchmarks\n\nMeasured on Apple M3 16GB with simulated audio input (`Tensor::randn`). Times are per-encoder-forward-pass (Sortformer: full forward pass).\n\n**Encoder throughput — 10s audio:**\n\n| Model | Params | CPU (ms) | GPU (ms) | GPU Speedup |\n|-------|--------|----------|----------|-------------|\n| 110m (TDT-CTC) | 110M | 2,581 | 27 | **96x** |\n| tdt-600m | 600M | 10,779 | 520 | **21x** |\n| rnnt-600m | 600M | 10,648 | 1,468 | **7x** |",
+    "ContentSha": "DpeYYyWNLsdKpDCo6uiip0khQFFLW7YLe91xHdnmjtc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Arquitectura\n\n### Modelos Offline\n\nConstruidos sobre un codificador FastConformer compartido (Conv2d con submuestreo 8x → N bloques Conformer con atención posicional relativa):\n\n| Modelo | Clase | Decodificador | Caso de uso |\n|--------|-------|---------------|-------------|\n| CTC | `ParakeetCTC` | Argmax voraz o búsqueda con haz (+LM) | Rápido, solo inglés |\n| RNNT | `ParakeetRNNT` | LSTM autorregresivo | Capaz de transmisión |\n| TDT | `ParakeetTDT` | LSTM + predicción de duración, voraz o búsqueda con haz (+LM) | Mejor precisión que RNNT |\n| TDT-CTC | `ParakeetTDTCTC` | Cabezas TDT y CTC | Cambiar decodificador en inferencia |\n\n### Modelos de Streaming\n\nConstruidos sobre un codificador FastConformer de streaming con caché, convoluciones causales y atención con contexto limitado:\n\n| Modelo | Clase | Decodificador | Caso de uso |\n|--------|-------|---------------|-------------|\n| EOU | `ParakeetEOU` | RNNT en streaming | Detección de fin de enunciado |\n| Nemotron | `ParakeetNemotron` | TDT en streaming | Streaming con latencia configurable |\n\n### Diarización\n\n| Modelo | Clase | Arquitectura | Caso de uso |\n|--------|-------|--------------|-------------|\n| Sortformer | `Sortformer` | Codificador NEST → Transformer → sigmoide | Diarización de hablantes (hasta 4 hablantes) |\n\n## Benchmarks\n\nMedido en Apple M3 16GB con entrada de audio simulada (`Tensor::randn`). Los tiempos son por paso de avance del codificador (Sortformer: paso completo).\n\n**Rendimiento del codificador — audio de 10s:**\n\n| Modelo | Parámetros | CPU (ms) | GPU (ms) | Aceleración GPU |\n|--------|------------|----------|----------|-----------------|\n| 110m (TDT-CTC) | 110M | 2,581 | 27 | **96x** |\n| tdt-600m | 600M | 10,779 | 520 | **21x** |\n| rnnt-600m | 600M | 10,648 | 1,468 | **7x** |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+        "originContent": "## Architecture",
+        "translatedContent": "## Arquitectura"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "f8JjwNjatBuEaRanaGnTwpi91SINkQAVwI9qUcjkKE4=",
+        "originContent": "### Offline Models",
+        "translatedContent": "### Modelos Offline"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "0qvLxgqFG96fiGb9mADutOFAtnlqBk6S/SvDZPDB0tw=",
+        "originContent": "Built on a shared FastConformer encoder (Conv2d 8x subsampling → N Conformer blocks with relative positional attention):",
+        "translatedContent": "Construidos sobre un codificador FastConformer compartido (Conv2d con submuestreo 8x → N bloques Conformer con atención posicional relativa):"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "rfwxL1tmLua/vxaiTWTFAlvJz7oBcoFy3b3rTRJAvNg=",
+        "originContent": "| Model | Class | Decoder | Use case |",
+        "translatedContent": "| Modelo | Clase | Decodificador | Caso de uso |"
+      },
+      {
+        "row": 9,
+        "rowsha": "AvzWN1CIKcQjSs5CIaSs34Grq0/LF66rseduJks70Lw=",
+        "originContent": "|-------|-------|---------|----------|",
+        "translatedContent": "|--------|-------|---------------|-------------|"
+      },
+      {
+        "row": 10,
+        "rowsha": "OC3KmAOQtjemTwiGPdxkV83Q7zJnvfsJL6390tq5dD0=",
+        "originContent": "| CTC | `ParakeetCTC` | Greedy argmax or beam search (+LM) | Fast, English-only |",
+        "translatedContent": "| CTC | `ParakeetCTC` | Argmax voraz o búsqueda con haz (+LM) | Rápido, solo inglés |"
+      },
+      {
+        "row": 11,
+        "rowsha": "eZrgVgMW7IfUQOFCuAdFE5xrpYUh9w2oYhuzwNtcz8w=",
+        "originContent": "| RNNT | `ParakeetRNNT` | Autoregressive LSTM | Streaming capable |",
+        "translatedContent": "| RNNT | `ParakeetRNNT` | LSTM autorregresivo | Capaz de transmisión |"
+      },
+      {
+        "row": 12,
+        "rowsha": "8Y0L8q4agLZwH22AhQeHIXQH6SZnYG7GhjLFgIIrwrA=",
+        "originContent": "| TDT | `ParakeetTDT` | LSTM + duration prediction, greedy or beam search (+LM) | Better accuracy than RNNT |",
+        "translatedContent": "| TDT | `ParakeetTDT` | LSTM + predicción de duración, voraz o búsqueda con haz (+LM) | Mejor precisión que RNNT |"
+      },
+      {
+        "row": 13,
+        "rowsha": "CLbmsyVfjc1NetJRZvCD9JZoUH6RwROgZOUY19htQGc=",
+        "originContent": "| TDT-CTC | `ParakeetTDTCTC` | Both TDT and CTC heads | Switch decoder at inference |",
+        "translatedContent": "| TDT-CTC | `ParakeetTDTCTC` | Cabezas TDT y CTC | Cambiar decodificador en inferencia |"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "UZTO3GIxZ+AR2JkJT58RuySb/ucWAiLMnsz5FeBVF/w=",
+        "originContent": "### Streaming Models",
+        "translatedContent": "### Modelos de Streaming"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "z/GJHkpA2KjMDa66uNlaadwZ5QN1wA+R4LgdfGLfCYM=",
+        "originContent": "Built on a cache-aware streaming FastConformer encoder with causal convolutions and bounded-context attention:",
+        "translatedContent": "Construidos sobre un codificador FastConformer de streaming con caché, convoluciones causales y atención con contexto limitado:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "rfwxL1tmLua/vxaiTWTFAlvJz7oBcoFy3b3rTRJAvNg=",
+        "originContent": "| Model | Class | Decoder | Use case |",
+        "translatedContent": "| Modelo | Clase | Decodificador | Caso de uso |"
+      },
+      {
+        "row": 20,
+        "rowsha": "AvzWN1CIKcQjSs5CIaSs34Grq0/LF66rseduJks70Lw=",
+        "originContent": "|-------|-------|---------|----------|",
+        "translatedContent": "|--------|-------|---------------|-------------|"
+      },
+      {
+        "row": 21,
+        "rowsha": "LgqZaeNyTg4+Nc2HzKQ5lmVIG8YPX0hit87IvfKWV0Y=",
+        "originContent": "| EOU | `ParakeetEOU` | Streaming RNNT | End-of-utterance detection |",
+        "translatedContent": "| EOU | `ParakeetEOU` | RNNT en streaming | Detección de fin de enunciado |"
+      },
+      {
+        "row": 22,
+        "rowsha": "kboU/UidQ3Pm13r9Cpx/bw4QNG3ljFSciwUgrvRVuwg=",
+        "originContent": "| Nemotron | `ParakeetNemotron` | Streaming TDT | Configurable latency streaming |",
+        "translatedContent": "| Nemotron | `ParakeetNemotron` | TDT en streaming | Streaming con latencia configurable |"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "HZBkpME1xN2v3TUdYOgZkPfMPp+otN63UKsFWlg02b0=",
+        "originContent": "### Diarization",
+        "translatedContent": "### Diarización"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "kbA3YzDhXdZ3fnAq5cTivuGiw7SF1Iet+457y4xLdmI=",
+        "originContent": "| Model | Class | Architecture | Use case |",
+        "translatedContent": "| Modelo | Clase | Arquitectura | Caso de uso |"
+      },
+      {
+        "row": 27,
+        "rowsha": "kPXutZaGeC6A895XTzWSiaJcbr2tK7TqtU0jUkCnkiQ=",
+        "originContent": "|-------|-------|-------------|----------|",
+        "translatedContent": "|--------|-------|--------------|-------------|"
+      },
+      {
+        "row": 28,
+        "rowsha": "BnM9LBiQZ71BbwVEt+rxIwwn5Jw6QrHUmcge+QEwwpk=",
+        "originContent": "| Sortformer | `Sortformer` | NEST encoder → Transformer → sigmoid | Speaker diarization (up to 4 speakers) |",
+        "translatedContent": "| Sortformer | `Sortformer` | Codificador NEST → Transformer → sigmoide | Diarización de hablantes (hasta 4 hablantes) |"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "ZrB6WAnr2MUw+xxeGHyQMYA7Rp0gMGJzZS08QrJ5eE8=",
+        "originContent": "## Benchmarks",
+        "translatedContent": "## Benchmarks"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "GrGO4N1eaa8lhLSs4lRJPdNlPpkdQmbuLC/8RBCEfA0=",
+        "originContent": "Measured on Apple M3 16GB with simulated audio input (`Tensor::randn`). Times are per-encoder-forward-pass (Sortformer: full forward pass).",
+        "translatedContent": "Medido en Apple M3 16GB con entrada de audio simulada (`Tensor::randn`). Los tiempos son por paso de avance del codificador (Sortformer: paso completo)."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "wqlWc1r8m0lx0spt7V4fb9GXqzre4w6CUJA/2Ey6N9E=",
+        "originContent": "**Encoder throughput — 10s audio:**",
+        "translatedContent": "**Rendimiento del codificador — audio de 10s:**"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "IAbWlsKywqP1k+hM6X8LU5gXMcpN0kPbPJ8UmbPnBtk=",
+        "originContent": "| Model | Params | CPU (ms) | GPU (ms) | GPU Speedup |",
+        "translatedContent": "| Modelo | Parámetros | CPU (ms) | GPU (ms) | Aceleración GPU |"
+      },
+      {
+        "row": 37,
+        "rowsha": "10uXAHPAY6UVxBpNFpbHSLCgZu28T2rQtNEsgdEfKxY=",
+        "originContent": "|-------|--------|----------|----------|-------------|",
+        "translatedContent": "|--------|------------|----------|----------|-----------------|"
+      },
+      {
+        "row": 38,
+        "rowsha": "rL8KsMmUr6TtrBvpxjzzGu38TPmeS2kOWwL8MLSzd8M=",
+        "originContent": "| 110m (TDT-CTC) | 110M | 2,581 | 27 | **96x** |",
+        "translatedContent": "| 110m (TDT-CTC) | 110M | 2,581 | 27 | **96x** |"
+      },
+      {
+        "row": 39,
+        "rowsha": "rC86vy40gzSUYibT0Unfx3nEXymtdCOjIwz5jz0Lxf0=",
+        "originContent": "| tdt-600m | 600M | 10,779 | 520 | **21x** |",
+        "translatedContent": "| tdt-600m | 600M | 10,779 | 520 | **21x** |"
+      },
+      {
+        "row": 40,
+        "rowsha": "HJSilP9H6Ek4z4ZWyW5dDXcS81RECoSIwXlSFh6BWVU=",
+        "originContent": "| rnnt-600m | 600M | 10,648 | 1,468 | **7x** |",
+        "translatedContent": "| rnnt-600m | 600M | 10,648 | 1,468 | **7x** |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "| sortformer | 117M | 3,195 | 479 | **7x** |\n\n**110m GPU scaling across audio lengths:**\n\n| Audio | CPU (ms) | GPU (ms) | RTF | Throughput |\n|-------|----------|----------|-----|------------|\n| 1s | 262 | 24 | 0.024 | 41x |\n| 5s | 1,222 | 26 | 0.005 | 190x |\n| 10s | 2,581 | 27 | 0.003 | 370x |\n| 30s | 10,061 | 32 | 0.001 | 935x |\n| 60s | 26,559 | 72 | 0.001 | 833x |\n\nGPU acceleration powered by axiom's Metal graph compiler which fuses the full encoder into optimized MPSGraph operations.\n",
+    "ContentSha": "mfeiM7toQb25VM3KYxMLSbNB1IA0rLZsbwHDirTH2GU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| sortformer | 117M | 3,195 | 479 | **7x** |\n\n**Escalado de GPU de 110m a través de duraciones de audio:**\n\n| Audio | CPU (ms) | GPU (ms) | RTF | Rendimiento |\n|-------|----------|----------|-----|-------------|\n| 1s | 262 | 24 | 0.024 | 41x |\n| 5s | 1,222 | 26 | 0.005 | 190x |\n| 10s | 2,581 | 27 | 0.003 | 370x |\n| 30s | 10,061 | 32 | 0.001 | 935x |\n| 60s | 26,559 | 72 | 0.001 | 833x |\n\nAceleración GPU impulsada por el compilador de gráficos Metal de axiom, que fusiona el codificador completo en operaciones MPSGraph optimizadas.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ICQpA9qGOHBBswcBF/+K514AozevkZgcxRRyrMFrrho=",
+        "originContent": "| sortformer | 117M | 3,195 | 479 | **7x** |",
+        "translatedContent": "| sortformer | 117M | 3,195 | 479 | **7x** |"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "h/+GDvxnQZYjPbJUz1CvHwJp4WCPAE6Emdr5zMRsoB8=",
+        "originContent": "**110m GPU scaling across audio lengths:**",
+        "translatedContent": "**Escalado de GPU de 110m a través de duraciones de audio:**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "QvyE19AqKbpgOfHZL+ombPcj0RY/iGevpri5JS3m1qA=",
+        "originContent": "| Audio | CPU (ms) | GPU (ms) | RTF | Throughput |",
+        "translatedContent": "| Audio | CPU (ms) | GPU (ms) | RTF | Rendimiento |"
+      },
+      {
+        "row": 6,
+        "rowsha": "uD8dJvB9l9Ebmgn0NlrvpqY15P5FF7KhX1IJgf5wxME=",
+        "originContent": "|-------|----------|----------|-----|------------|",
+        "translatedContent": "|-------|----------|----------|-----|-------------|"
+      },
+      {
+        "row": 7,
+        "rowsha": "5jXFNh6a3phV2VwIjtHn/5tZlDgff/xR0On3GcxvitA=",
+        "originContent": "| 1s | 262 | 24 | 0.024 | 41x |",
+        "translatedContent": "| 1s | 262 | 24 | 0.024 | 41x |"
+      },
+      {
+        "row": 8,
+        "rowsha": "Hdg03rXrh1OO0dD9Y9r4HyeRdmpJO7ZmwHmQ0z5mAzY=",
+        "originContent": "| 5s | 1,222 | 26 | 0.005 | 190x |",
+        "translatedContent": "| 5s | 1,222 | 26 | 0.005 | 190x |"
+      },
+      {
+        "row": 9,
+        "rowsha": "BhmlJv/p4UYG5loxv0yV/hqldpGcXAmyroqkEWolHQY=",
+        "originContent": "| 10s | 2,581 | 27 | 0.003 | 370x |",
+        "translatedContent": "| 10s | 2,581 | 27 | 0.003 | 370x |"
+      },
+      {
+        "row": 10,
+        "rowsha": "RcU/QK82zUho9l2fuPOzeRmIl2lsgovWfiriDEhZ+oU=",
+        "originContent": "| 30s | 10,061 | 32 | 0.001 | 935x |",
+        "translatedContent": "| 30s | 10,061 | 32 | 0.001 | 935x |"
+      },
+      {
+        "row": 11,
+        "rowsha": "zLrtrxUwgayWhSoKhzcamAPkYMq9UqP63ANOYDN2Eow=",
+        "originContent": "| 60s | 26,559 | 72 | 0.001 | 833x |",
+        "translatedContent": "| 60s | 26,559 | 72 | 0.001 | 833x |"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "QUhHl62kZwNz9d1H64CTUVMQjapKGe7eLirLszvi3rc=",
+        "originContent": "GPU acceleration powered by axiom's Metal graph compiler which fuses the full encoder into optimized MPSGraph operations.",
+        "translatedContent": "Aceleración GPU impulsada por el compilador de gráficos Metal de axiom, que fusiona el codificador completo en operaciones MPSGraph optimizadas."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```bash\nmake bench ARGS=\"--110m=models/model.safetensors --tdt-600m=models/tdt.safetensors\"\n```",
+    "ContentSha": "s+mnkPq4Neco25Ki50HU5eKfAQAYuo+j8Px6nDd0YBo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmake bench ARGS=\"--110m=models/model.safetensors --tdt-600m=models/tdt.safetensors\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "URAY6Yu5YpBRRw7vw/6VABL4cVossKxWqGfhM1j93nw=",
+        "originContent": "make bench ARGS=\"--110m=models/model.safetensors --tdt-600m=models/tdt.safetensors\"",
+        "translatedContent": "make bench ARGS=\"--110m=models/model.safetensors --tdt-600m=models/tdt.safetensors\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\n## Roadmap\n\n### Tier 1 — High Impact\n\n- [x] **Confidence scores** — Per-token and per-word confidence from token log-probs\n- [x] **Phrase boosting** — Token-level trie context biasing during decode\n- [x] **Beam search** — CTC prefix beam search and TDT time-synchronous beam search\n- [x] **N-gram LM fusion** — ARPA language models scored at word boundaries\n\n### Audio & I/O\n\n- [x] **Multi-format audio** — WAV, FLAC, MP3, OGG via dr_libs + stb_vorbis\n- [x] **Automatic resampling** — Windowed sinc interpolation (Kaiser, 16-tap)\n- [x] **Load from memory** — `read_audio(bytes, len)`, float/int16 buffers\n- [ ] **Audio duration query** — Header-only duration without full decode\n- [ ] **Progress callbacks** — Stage reporting for long files\n- [ ] **Streaming from raw PCM** — Direct microphone buffer feeding\n\n### Tier 2 — Production Readiness\n\n- [x] **Diarized transcription** — ASR + Sortformer → speaker-attributed words\n- [x] **VAD** — Silero VAD v5, standalone + ASR preprocessing\n- [x] **Batch inference** — Padded multi-file encoder forward pass\n- [ ] **Long-form chunking** — Overlapping windows for audio >30s\n- [ ] **Neural LM rescoring** — N-best reranking with Transformer LM\n\n### Tier 3 — Ecosystem\n\n- [x] **C API** — Flat C interface for FFI from any language\n- [x] **FP16 inference** — Half-precision weights and compute\n- [ ] **Model quantization** — INT8/INT4 for mobile deployment\n- [ ] **Hotword detection** — Trigger phrase detection\n- [ ] **Speaker embeddings** — Speaker verification from Sortformer/TitaNet\n\n## Notes\n\n- Audio: 16kHz mono (WAV, FLAC, MP3, OGG — auto-detected and resampled)\n- Offline models have ~4-5 minute audio length limits; use streaming models for longer audio\n- GPU acceleration requires Apple Silicon with Metal support",
+    "ContentSha": "5ezVCpp09IXKOxSILT0szps1q0wTX0YBhnevK/idWjg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Hoja de ruta\n\n### Nivel 1 — Alto Impacto\n\n- [x] **Puntuaciones de confianza** — Confianza por token y por palabra a partir de log-probs de tokens  \n- [x] **Impulso de frases** — Sesgo de contexto en trie a nivel de token durante la decodificación  \n- [x] **Búsqueda en haz** — Búsqueda en haz de prefijo CTC y búsqueda en haz síncrona en tiempo TDT  \n- [x] **Fusión de LM N-gram** — Modelos de lenguaje ARPA evaluados en límites de palabra  \n\n### Audio & E/S\n\n- [x] **Audio multi-formato** — WAV, FLAC, MP3, OGG vía dr_libs + stb_vorbis  \n- [x] **Remuestreo automático** — Interpolación sinc con ventana (Kaiser, 16-taps)  \n- [x] **Carga desde memoria** — `read_audio(bytes, len)`, buffers float/int16  \n- [ ] **Consulta duración audio** — Duración solo cabecera sin decodificación completa  \n- [ ] **Callbacks de progreso** — Reporte de etapas para archivos largos  \n- [ ] **Streaming desde PCM bruto** — Alimentación directa de buffer de micrófono  \n\n### Nivel 2 — Preparación para Producción\n\n- [x] **Transcripción diarizada** — ASR + Sortformer → palabras atribuidas a oradores  \n- [x] **VAD** — Silero VAD v5, independiente + preprocesamiento ASR  \n- [x] **Inferencia por lotes** — Paso hacia adelante codificador multi-archivo con padding  \n- [ ] **Segmentación para audio largo** — Ventanas solapadas para audio >30s  \n- [ ] **Reevaluación con LM neuronal** — Reordenamiento N-mejores con LM Transformer  \n\n### Nivel 3 — Ecosistema\n\n- [x] **API C** — Interfaz C plana para FFI desde cualquier lenguaje  \n- [x] **Inferencia FP16** — Pesos y cómputo en media precisión  \n- [ ] **Cuantización de modelo** — INT8/INT4 para despliegue móvil  \n- [ ] **Detección de palabras clave** — Detección de frase disparadora  \n- [ ] **Embeddings de orador** — Verificación de orador desde Sortformer/TitaNet  \n\n## Notas\n\n- Audio: 16kHz mono (WAV, FLAC, MP3, OGG — auto-detectados y remuestreados)  \n- Modelos offline tienen límites de longitud de audio de ~4-5 minutos; usar modelos streaming para audio más largo  \n- Aceleración GPU requiere Apple Silicon con soporte Metal\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Hoja de ruta"
+      },
+      {
+        "row": 2,
+        "rowsha": "uRQ4dBQEv6RHmBfuRiXr10ur0TwKlFiD+9olmuSkhDY=",
+        "originContent": "## Roadmap",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Nivel 1 — Alto Impacto"
+      },
+      {
+        "row": 4,
+        "rowsha": "HlV6Hz6Wt0gQNyaKTMTLB4+qmxtFEiwm7Ni7zZ6UoiY=",
+        "originContent": "### Tier 1 — High Impact",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] **Puntuaciones de confianza** — Confianza por token y por palabra a partir de log-probs de tokens  "
+      },
+      {
+        "row": 6,
+        "rowsha": "bKu7wiTE8TPDwf6hEwoWkqNTr1Dvu4CtE1YseyGjjC4=",
+        "originContent": "- [x] **Confidence scores** — Per-token and per-word confidence from token log-probs",
+        "translatedContent": "- [x] **Impulso de frases** — Sesgo de contexto en trie a nivel de token durante la decodificación  "
+      },
+      {
+        "row": 7,
+        "rowsha": "1aLLQRcKSkHmlbYXhM9ovdhuSXbXlnE9xRBHv+02Cec=",
+        "originContent": "- [x] **Phrase boosting** — Token-level trie context biasing during decode",
+        "translatedContent": "- [x] **Búsqueda en haz** — Búsqueda en haz de prefijo CTC y búsqueda en haz síncrona en tiempo TDT  "
+      },
+      {
+        "row": 8,
+        "rowsha": "nXmBgkqKzSNYsrXSCTjQpCLHyhC1zrLrfDWFNgTMhcw=",
+        "originContent": "- [x] **Beam search** — CTC prefix beam search and TDT time-synchronous beam search",
+        "translatedContent": "- [x] **Fusión de LM N-gram** — Modelos de lenguaje ARPA evaluados en límites de palabra  "
+      },
+      {
+        "row": 9,
+        "rowsha": "5CRQ06P8vnquDNaQfIWpOiZiAUFpJCaCNtAK7QI3dzU=",
+        "originContent": "- [x] **N-gram LM fusion** — ARPA language models scored at word boundaries",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Audio & E/S"
+      },
+      {
+        "row": 11,
+        "rowsha": "UOyq4ytygdNVxEyG+hwxBhCIDhLVj2mxQZTRybklFZs=",
+        "originContent": "### Audio & I/O",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] **Audio multi-formato** — WAV, FLAC, MP3, OGG vía dr_libs + stb_vorbis  "
+      },
+      {
+        "row": 13,
+        "rowsha": "s0gU+NeprbLAo8/REMqgiVlqDGrtg+/FhVTPP5Bz+0k=",
+        "originContent": "- [x] **Multi-format audio** — WAV, FLAC, MP3, OGG via dr_libs + stb_vorbis",
+        "translatedContent": "- [x] **Remuestreo automático** — Interpolación sinc con ventana (Kaiser, 16-taps)  "
+      },
+      {
+        "row": 14,
+        "rowsha": "X+nzm1+I3uGea+fv+n3szHttjtdfH94fJakbqjhICtQ=",
+        "originContent": "- [x] **Automatic resampling** — Windowed sinc interpolation (Kaiser, 16-tap)",
+        "translatedContent": "- [x] **Carga desde memoria** — `read_audio(bytes, len)`, buffers float/int16  "
+      },
+      {
+        "row": 15,
+        "rowsha": "MJHKztMgB87hiXeo7I6439wBV0fAZdZSoG3OOEflEBw=",
+        "originContent": "- [x] **Load from memory** — `read_audio(bytes, len)`, float/int16 buffers",
+        "translatedContent": "- [ ] **Consulta duración audio** — Duración solo cabecera sin decodificación completa  "
+      },
+      {
+        "row": 16,
+        "rowsha": "CDVp5QTwfQn2g4trlT+EWZVjSNsYCRSGIV75lQ36LRI=",
+        "originContent": "- [ ] **Audio duration query** — Header-only duration without full decode",
+        "translatedContent": "- [ ] **Callbacks de progreso** — Reporte de etapas para archivos largos  "
+      },
+      {
+        "row": 17,
+        "rowsha": "jY7W9y7xp6RdyG0cqOSN6/uXhpgG0E/IsJK2lCnp0Y4=",
+        "originContent": "- [ ] **Progress callbacks** — Stage reporting for long files",
+        "translatedContent": "- [ ] **Streaming desde PCM bruto** — Alimentación directa de buffer de micrófono  "
+      },
+      {
+        "row": 18,
+        "rowsha": "+xWTcpTsloG3slk7qBGRbhF7XpOk8AIBVd1F/XLW9OQ=",
+        "originContent": "- [ ] **Streaming from raw PCM** — Direct microphone buffer feeding",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Nivel 2 — Preparación para Producción"
+      },
+      {
+        "row": 20,
+        "rowsha": "U9ZsqhWapNZHdahpdiI1ptLIzf9uIcRDG7DjjnFdXsg=",
+        "originContent": "### Tier 2 — Production Readiness",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] **Transcripción diarizada** — ASR + Sortformer → palabras atribuidas a oradores  "
+      },
+      {
+        "row": 22,
+        "rowsha": "btaqxuV1AOZtIb0A8UQEiVLAVHRVAosdQBiaoYV/ND4=",
+        "originContent": "- [x] **Diarized transcription** — ASR + Sortformer → speaker-attributed words",
+        "translatedContent": "- [x] **VAD** — Silero VAD v5, independiente + preprocesamiento ASR  "
+      },
+      {
+        "row": 23,
+        "rowsha": "ghiHdZX2wSeDGgIaPdgSpLZaQvEc4GVU0I2LpNf8SFs=",
+        "originContent": "- [x] **VAD** — Silero VAD v5, standalone + ASR preprocessing",
+        "translatedContent": "- [x] **Inferencia por lotes** — Paso hacia adelante codificador multi-archivo con padding  "
+      },
+      {
+        "row": 24,
+        "rowsha": "+XicMGSZl4wnDJUzO7vxt/ZO8Jx9Kgp0jqWj2FePEqw=",
+        "originContent": "- [x] **Batch inference** — Padded multi-file encoder forward pass",
+        "translatedContent": "- [ ] **Segmentación para audio largo** — Ventanas solapadas para audio >30s  "
+      },
+      {
+        "row": 25,
+        "rowsha": "veNtF4+FoYkkOXymRYDa8SHg4pamBGrQDtSAKmPdQOU=",
+        "originContent": "- [ ] **Long-form chunking** — Overlapping windows for audio >30s",
+        "translatedContent": "- [ ] **Reevaluación con LM neuronal** — Reordenamiento N-mejores con LM Transformer  "
+      },
+      {
+        "row": 26,
+        "rowsha": "JAvRiWZgqmP7yUF8E/529WCYeVC4AW/GBHwUqSgioSU=",
+        "originContent": "- [ ] **Neural LM rescoring** — N-best reranking with Transformer LM",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Nivel 3 — Ecosistema"
+      },
+      {
+        "row": 28,
+        "rowsha": "2UbeoZS4NefbMeMD9XKTqH6Xzvrx9DtNapZN5yEH+KE=",
+        "originContent": "### Tier 3 — Ecosystem",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] **API C** — Interfaz C plana para FFI desde cualquier lenguaje  "
+      },
+      {
+        "row": 30,
+        "rowsha": "aPFU05hp27o8uL75mepE2syNxnBbhLUbcPGGvGhsj6c=",
+        "originContent": "- [x] **C API** — Flat C interface for FFI from any language",
+        "translatedContent": "- [x] **Inferencia FP16** — Pesos y cómputo en media precisión  "
+      },
+      {
+        "row": 31,
+        "rowsha": "PWWCXhzTXcIImqDfaoiLndhqdNJ1p3z5OHZgRs4Yql8=",
+        "originContent": "- [x] **FP16 inference** — Half-precision weights and compute",
+        "translatedContent": "- [ ] **Cuantización de modelo** — INT8/INT4 para despliegue móvil  "
+      },
+      {
+        "row": 32,
+        "rowsha": "gB2Uq5Ac2oDLcCZyCZxpvKrkP7/AcWZlD48ghYPq6Yk=",
+        "originContent": "- [ ] **Model quantization** — INT8/INT4 for mobile deployment",
+        "translatedContent": "- [ ] **Detección de palabras clave** — Detección de frase disparadora  "
+      },
+      {
+        "row": 33,
+        "rowsha": "Bf4uS/3nb6I7j3er21njaD9eqxf5/vW3kWBuwJFyM7Q=",
+        "originContent": "- [ ] **Hotword detection** — Trigger phrase detection",
+        "translatedContent": "- [ ] **Embeddings de orador** — Verificación de orador desde Sortformer/TitaNet  "
+      },
+      {
+        "row": 34,
+        "rowsha": "vKtCeHfwVRd4I80PRIalC93Dl7879qtMUZ2QZ0FgFVE=",
+        "originContent": "- [ ] **Speaker embeddings** — Speaker verification from Sortformer/TitaNet",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Notas"
+      },
+      {
+        "row": 36,
+        "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+        "originContent": "## Notes",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Audio: 16kHz mono (WAV, FLAC, MP3, OGG — auto-detectados y remuestreados)  "
+      },
+      {
+        "row": 38,
+        "rowsha": "4Icy0Wg2NMG/6zxirju6CbKLxE3bP4V9ljTx2DC44rk=",
+        "originContent": "- Audio: 16kHz mono (WAV, FLAC, MP3, OGG — auto-detected and resampled)",
+        "translatedContent": "- Modelos offline tienen límites de longitud de audio de ~4-5 minutos; usar modelos streaming para audio más largo  "
+      },
+      {
+        "row": 39,
+        "rowsha": "rb4nlhUN6ix8Z8Y/0vaseu3D6QNgPrgcbkK01IJNvJc=",
+        "originContent": "- Offline models have ~4-5 minute audio length limits; use streaming models for longer audio",
+        "translatedContent": "- Aceleración GPU requiere Apple Silicon con soporte Metal"
+      },
+      {
+        "row": 40,
+        "rowsha": "mzXBp4IpBGM4WVJleLJ2solfnHmC7dVU8tkEeA67TNY=",
+        "originContent": "- GPU acceleration requires Apple Silicon with Metal support",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "\n## License\n\nMIT\n",
+    "ContentSha": "CRheEjOCyHQDRWFfjZlfYv6OUzdqsmYaGU2wBmjIn9I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## License\n\nMIT\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": "MIT"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
