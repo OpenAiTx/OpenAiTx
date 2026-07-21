@@ -1,0 +1,1546 @@
+[
+  {
+    "Id": 1,
+    "Content": "## Jelly Music App (JMA)\n\nA lightweight & elegant music interface for Jellyfin. Made to be intuitive and minimal with great attention to detail, a clutter-free web app centered on music playback. Using the Jellyfin API, it provides seamless access to your personal music library. [Demo](https://stannnnn.github.io/jelly-app/login?demo=1)\n\n**Looking for a video player?** Check out [Jelly Video App](https://github.com/Stannnnn/jelly-video-app/) - the video-focused version for your Jellyfin library!\n\n<br/>\n\n<div>\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/light-variant.webp\" alt=\"Light variant\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/dark-variant.webp\" alt=\"Dark variant\" width=\"49%\">\n</div>\n<br/>\n\n<details>\n  <summary>Additional screenshots</summary>\n  <br/>\n  <b>Sidenav search</b>\n  <p>Search for tracks, artists, albums, playlists, genres</p>\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-light-variant.png\" alt=\"Sidenav search light variant\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-dark-variant.png\" alt=\"Sidenav search dark variant\" width=\"49%\">\n  <br/>\n  <br/>\n  <b>Search results</b>\n  <p>View additional search results in a dedicated window</p>\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-results-light-variant.webp\" alt=\"Search results light variant\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-results-dark-variant.webp\" alt=\"Search results dark variant\" width=\"49%\">\n  <br/>\n  <br/>\n  <b>Artists</b>\n  <p>Features most played songs, albums, and other collaborations</p>\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/artist-light-variant.webp\" alt=\"Artist light variant\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/artist-dark-variant.webp\" alt=\"Artist dark variant\" width=\"49%\">\n  <br/>\n  <br/>\n  <b>Playlists</b>\n  <p>Playlist view, with it's own numbered tracklist</p>\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/playlist-light-variant.webp\" alt=\"Playlist light variant\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/playlist-dark-variant.webp\" alt=\"Playlist dark variant\" width=\"49%\">\n</details>",
+    "ContentSha": "OlIpFolYWqahuuMkIYJXurAWmmTCVwtS/wKpSlSzhrg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Jelly Music App (JMA)\n\nUne interface musicale légère et élégante pour Jellyfin. Conçue pour être intuitive et minimaliste avec une grande attention aux détails, une application web épurée centrée sur la lecture musicale. Utilisant l'API Jellyfin, elle offre un accès fluide à votre bibliothèque musicale personnelle. [Démo](https://stannnnn.github.io/jelly-app/login?demo=1)\n\n**Vous cherchez un lecteur vidéo ?** Découvrez [Jelly Video App](https://github.com/Stannnnn/jelly-video-app/) - la version axée sur la vidéo pour votre bibliothèque Jellyfin !\n\n<br/>\n\n<div>\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/light-variant.webp\" alt=\"Variante claire\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/dark-variant.webp\" alt=\"Variante sombre\" width=\"49%\">\n</div>\n<br/>\n\n<details>\n  <summary>Captures d'écran supplémentaires</summary>\n  <br/>\n  <b>Recherche dans la barre latérale</b>\n  <p>Recherchez des morceaux, artistes, albums, playlists, genres</p>\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-light-variant.png\" alt=\"Recherche dans la barre latérale variante claire\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-dark-variant.png\" alt=\"Recherche dans la barre latérale variante sombre\" width=\"49%\">\n  <br/>\n  <br/>\n  <b>Résultats de recherche</b>\n  <p>Voir des résultats de recherche supplémentaires dans une fenêtre dédiée</p>\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-results-light-variant.webp\" alt=\"Résultats de recherche variante claire\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-results-dark-variant.webp\" alt=\"Résultats de recherche variante sombre\" width=\"49%\">\n  <br/>\n  <br/>\n  <b>Artistes</b>\n  <p>Présente les chansons les plus jouées, albums et autres collaborations</p>\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/artist-light-variant.webp\" alt=\"Artiste variante claire\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/artist-dark-variant.webp\" alt=\"Artiste variante sombre\" width=\"49%\">\n  <br/>\n  <br/>\n  <b>Playlists</b>\n  <p>Vue des playlists, avec sa propre liste de morceaux numérotée</p>\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/playlist-light-variant.webp\" alt=\"Playlist variante claire\" width=\"49%\">\n  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/playlist-dark-variant.webp\" alt=\"Playlist variante sombre\" width=\"49%\">\n</details>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EvQCfqVnzPyienSL8svsy6wP7XrTKgXovPA6a31U7mU=",
+        "originContent": "## Jelly Music App (JMA)",
+        "translatedContent": "## Jelly Music App (JMA)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "koiIVj7oLt/qVHOq2dEmsHQUOcwtpxM2ei2ilNaSGzQ=",
+        "originContent": "A lightweight & elegant music interface for Jellyfin. Made to be intuitive and minimal with great attention to detail, a clutter-free web app centered on music playback. Using the Jellyfin API, it provides seamless access to your personal music library. [Demo](https://stannnnn.github.io/jelly-app/login?demo=1)",
+        "translatedContent": "Une interface musicale légère et élégante pour Jellyfin. Conçue pour être intuitive et minimaliste avec une grande attention aux détails, une application web épurée centrée sur la lecture musicale. Utilisant l'API Jellyfin, elle offre un accès fluide à votre bibliothèque musicale personnelle. [Démo](https://stannnnn.github.io/jelly-app/login?demo=1)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "X8HpVEA+mnE3UmSVDD1hcRJiQ+GnOSnj6sStbVpvlQo=",
+        "originContent": "**Looking for a video player?** Check out [Jelly Video App](https://github.com/Stannnnn/jelly-video-app/) - the video-focused version for your Jellyfin library!",
+        "translatedContent": "**Vous cherchez un lecteur vidéo ?** Découvrez [Jelly Video App](https://github.com/Stannnnn/jelly-video-app/) - la version axée sur la vidéo pour votre bibliothèque Jellyfin !"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nkUn+xN/CzcfeDtOk14RpAo9+3G9PEheeFaPGaNcIe4=",
+        "originContent": "<div>",
+        "translatedContent": "<div>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Fv0WODe6hT42SEBaaud8TVmR4Bf7Gk4jhZnxEkSBdJs=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/light-variant.webp\" alt=\"Light variant\" width=\"49%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/light-variant.webp\" alt=\"Variante claire\" width=\"49%\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "IrJZWKNz5hL10LYpCBP98pYZQDKW6DjoSKj2dKra/GA=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/dark-variant.webp\" alt=\"Dark variant\" width=\"49%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/dark-variant.webp\" alt=\"Variante sombre\" width=\"49%\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 13,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 16,
+        "rowsha": "dZkmxmbrB2V7mUVANScikN8xFW5aqw9jxjCSb6b2KAM=",
+        "originContent": "  <summary>Additional screenshots</summary>",
+        "translatedContent": "  <summary>Captures d'écran supplémentaires</summary>"
+      },
+      {
+        "row": 17,
+        "rowsha": "fg0QoxpK2vHpC4Hk2JStz8AU27gMhcHNe3pAop2mDsA=",
+        "originContent": "  <br/>",
+        "translatedContent": "  <br/>"
+      },
+      {
+        "row": 18,
+        "rowsha": "LUR9GYixwehQOPx9VeU/pnq96KOAEYm1EmYvqTd3LEM=",
+        "originContent": "  <b>Sidenav search</b>",
+        "translatedContent": "  <b>Recherche dans la barre latérale</b>"
+      },
+      {
+        "row": 19,
+        "rowsha": "qVbRIaeIva/dNfEbGbtLfvidBenu+PZru/XOOjT2MpU=",
+        "originContent": "  <p>Search for tracks, artists, albums, playlists, genres</p>",
+        "translatedContent": "  <p>Recherchez des morceaux, artistes, albums, playlists, genres</p>"
+      },
+      {
+        "row": 20,
+        "rowsha": "aYCmpJ8XmLveE5Xbz2is/yZioFvDMNsQlWX6AsbVv4s=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-light-variant.png\" alt=\"Sidenav search light variant\" width=\"49%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-light-variant.png\" alt=\"Recherche dans la barre latérale variante claire\" width=\"49%\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "TOI2K6iDNXgei8ghdBzwuJLB3UyfrwR6XRB7ir0cmSE=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-dark-variant.png\" alt=\"Sidenav search dark variant\" width=\"49%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-dark-variant.png\" alt=\"Recherche dans la barre latérale variante sombre\" width=\"49%\">"
+      },
+      {
+        "row": 22,
+        "rowsha": "fg0QoxpK2vHpC4Hk2JStz8AU27gMhcHNe3pAop2mDsA=",
+        "originContent": "  <br/>",
+        "translatedContent": "  <br/>"
+      },
+      {
+        "row": 23,
+        "rowsha": "fg0QoxpK2vHpC4Hk2JStz8AU27gMhcHNe3pAop2mDsA=",
+        "originContent": "  <br/>",
+        "translatedContent": "  <br/>"
+      },
+      {
+        "row": 24,
+        "rowsha": "cdE7cxvS0D/xkifL0nw20X07spW+RzH1rUd7mtCxJqQ=",
+        "originContent": "  <b>Search results</b>",
+        "translatedContent": "  <b>Résultats de recherche</b>"
+      },
+      {
+        "row": 25,
+        "rowsha": "GuyDXewGnrFMfaeZph8LuvDnXy7RixM0Wv5Y2TokKP8=",
+        "originContent": "  <p>View additional search results in a dedicated window</p>",
+        "translatedContent": "  <p>Voir des résultats de recherche supplémentaires dans une fenêtre dédiée</p>"
+      },
+      {
+        "row": 26,
+        "rowsha": "TOs1SKxy0FpS3H7jH02dpja0znoUld68TCwcfDU4X5o=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-results-light-variant.webp\" alt=\"Search results light variant\" width=\"49%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-results-light-variant.webp\" alt=\"Résultats de recherche variante claire\" width=\"49%\">"
+      },
+      {
+        "row": 27,
+        "rowsha": "lZxqKFimrz/g8HG0+b/s4nwh1+9uKiuoTmbmBGa11f8=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-results-dark-variant.webp\" alt=\"Search results dark variant\" width=\"49%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/search-results-dark-variant.webp\" alt=\"Résultats de recherche variante sombre\" width=\"49%\">"
+      },
+      {
+        "row": 28,
+        "rowsha": "fg0QoxpK2vHpC4Hk2JStz8AU27gMhcHNe3pAop2mDsA=",
+        "originContent": "  <br/>",
+        "translatedContent": "  <br/>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fg0QoxpK2vHpC4Hk2JStz8AU27gMhcHNe3pAop2mDsA=",
+        "originContent": "  <br/>",
+        "translatedContent": "  <br/>"
+      },
+      {
+        "row": 30,
+        "rowsha": "Yx4hfLtx3faGUZZoIprH1RXjfsiiBdYRc1hCJd1HXMA=",
+        "originContent": "  <b>Artists</b>",
+        "translatedContent": "  <b>Artistes</b>"
+      },
+      {
+        "row": 31,
+        "rowsha": "Fq/k2HNXsD1Vbwo/RXi/AzOEWDmuHu93h7cFJd/W70I=",
+        "originContent": "  <p>Features most played songs, albums, and other collaborations</p>",
+        "translatedContent": "  <p>Présente les chansons les plus jouées, albums et autres collaborations</p>"
+      },
+      {
+        "row": 32,
+        "rowsha": "fA4SyRi7LxYRMFF287EK7g5oNSzjMWHWfvli3+2hjGE=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/artist-light-variant.webp\" alt=\"Artist light variant\" width=\"49%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/artist-light-variant.webp\" alt=\"Artiste variante claire\" width=\"49%\">"
+      },
+      {
+        "row": 33,
+        "rowsha": "gw0ME6X+n/GPRijqXaP0fYonfi6wLkxWsbLnkNHXaaI=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/artist-dark-variant.webp\" alt=\"Artist dark variant\" width=\"49%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/artist-dark-variant.webp\" alt=\"Artiste variante sombre\" width=\"49%\">"
+      },
+      {
+        "row": 34,
+        "rowsha": "fg0QoxpK2vHpC4Hk2JStz8AU27gMhcHNe3pAop2mDsA=",
+        "originContent": "  <br/>",
+        "translatedContent": "  <br/>"
+      },
+      {
+        "row": 35,
+        "rowsha": "fg0QoxpK2vHpC4Hk2JStz8AU27gMhcHNe3pAop2mDsA=",
+        "originContent": "  <br/>",
+        "translatedContent": "  <br/>"
+      },
+      {
+        "row": 36,
+        "rowsha": "rRzq2113tt66rpS+DmeXODzhbKx7HG8tiodtYpbKqb4=",
+        "originContent": "  <b>Playlists</b>",
+        "translatedContent": "  <b>Playlists</b>"
+      },
+      {
+        "row": 37,
+        "rowsha": "CMv2xQ3+5gHZ3XoL9GsSdrFeaTFkvl1oGoC3KmGoKZc=",
+        "originContent": "  <p>Playlist view, with it's own numbered tracklist</p>",
+        "translatedContent": "  <p>Vue des playlists, avec sa propre liste de morceaux numérotée</p>"
+      },
+      {
+        "row": 38,
+        "rowsha": "cvrUnQ5fNhAJDtyRbiSS/mlETTocd2GOeWkR7DkA/MU=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/playlist-light-variant.webp\" alt=\"Playlist light variant\" width=\"49%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/playlist-light-variant.webp\" alt=\"Playlist variante claire\" width=\"49%\">"
+      },
+      {
+        "row": 39,
+        "rowsha": "r91uNtq+L8QvLUSfbyuQbbgfeprXVPus61UsjFvIbsM=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/playlist-dark-variant.webp\" alt=\"Playlist dark variant\" width=\"49%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/playlist-dark-variant.webp\" alt=\"Playlist variante sombre\" width=\"49%\">"
+      },
+      {
+        "row": 40,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n### Features\n\n- **Elegant & Simple Design:** A clean, clutter-free interface that makes music playback effortless and enjoyable. Built with modern tools like React for a snappy, reliable experience.\n- **Device Friendly:** Enjoy a smooth, app-like experience on mobile and desktop alike, installable as a PWA for instant access.\n- **Seamless Library Access:** Connect to your Jellyfin server to explore your personal music collection with ease.\n- **Discover Your Favorites:**\n    - **Home:** Jump back in with recently played tracks, your most-played favorites, and newly added media.\n    - **Artists:** Browse top tracks, albums, and collaborations for any artist in your library.\n    - **Playlists:** View playlists with a clear, numbered tracklist for quick navigation.\n    - **Quick Search:** Find tracks, artists, albums, playlists, or genres effortlessly with a sidenav search or dedicated results page.\n    - **Instant Mix:** Enjoy curated playlists directly from your music library on a standalone page.\n- **Queue:** Effortlessly manage and reorder tracks with the enhanced and improved Queue functionality.\n- **Crossfade:** Smoothly transition between tracks for a seamless and immersive listening experience.\n- **Preload:** Intelligently preload the next track in advance to ensure smooth, uninterrupted playback without buffering delays.\n- **Synchronized Lyrics:** Enjoy your favorite songs in a new way with a spectacular UI showing perfectly timed lyrics that appear line-by-line as you listen.\n- **Smart Fetching:** Caches your music efficiently for instant, smooth playback.\n- **Offline Sync:** Download individual songs, full albums, playlists, or artists for offline playback.\n    - **Auto-Sync:** Automatically downloads newly added tracks to any previously saved playlist, album, or artist.\n    - **Persistent Queue:** Downloads are managed with a local queue that resumes seamlessly across sessions.\n    - **Transcoded or Direct Streams:** Supports both original quality and transcoded downloads based on your selected bitrate.\n- **Docker Support:** Pull and deploy the app using a pre-built Docker image with a pre-configured Jellyfin server URL for seamless self-hosting.\n\n### Installation\n\nJelly Music App can be installed as a dedicated desktop app, available on our [GitHub release page](https://github.com/Stannnnn/jelly-app/releases). You can also get the latest production build from there and deploy it on your web server by placing the archived folder's contents in a web-accessible directory.\n<br/>\nIt's also available as a **docker image** for easy deployment, see docker details below.\n<br/>\n<br/>\n\n[Yarn](https://classic.yarnpkg.com/lang/en/docs/install) (`npm i -g yarn`) is required if you wish to build the project or run the development server yourself.\n\n#### Build from Source\n\n1. Clone the repository:",
+    "ContentSha": "LwHAhp/objI4EaSgU7IZUxpMvKUFExxiQnC8SA3yTKA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Fonctionnalités\n\n- **Design élégant et simple :** Une interface épurée et sans encombrement qui rend la lecture de musique facile et agréable. Construit avec des outils modernes comme React pour une expérience rapide et fiable.\n- **Compatible appareils :** Profitez d’une expérience fluide, semblable à une application, sur mobile et bureau, installable en tant que PWA pour un accès instantané.\n- **Accès fluide à la bibliothèque :** Connectez-vous à votre serveur Jellyfin pour explorer facilement votre collection musicale personnelle.\n- **Découvrez vos favoris :**\n    - **Accueil :** Reprenez rapidement avec les morceaux récemment joués, vos favoris les plus écoutés et les médias nouvellement ajoutés.\n    - **Artistes :** Parcourez les meilleurs morceaux, albums et collaborations pour tout artiste de votre bibliothèque.\n    - **Playlists :** Visualisez les playlists avec une liste de pistes claire et numérotée pour une navigation rapide.\n    - **Recherche rapide :** Trouvez facilement morceaux, artistes, albums, playlists ou genres via une recherche dans la barre latérale ou une page de résultats dédiée.\n    - **Mix instantané :** Profitez de playlists sélectionnées directement depuis votre bibliothèque musicale sur une page autonome.\n- **File d’attente :** Gérez et réorganisez aisément les pistes grâce à la fonctionnalité améliorée et optimisée de la file d’attente.\n- **Fondu enchaîné :** Transition fluide entre les morceaux pour une expérience d’écoute immersive et continue.\n- **Préchargement :** Précharge intelligemment la piste suivante à l’avance pour garantir une lecture fluide et ininterrompue sans temps de buffering.\n- **Paroles synchronisées :** Appréciez vos chansons préférées d’une nouvelle manière avec une interface spectaculaire affichant les paroles parfaitement synchronisées, ligne par ligne, au fur et à mesure de l’écoute.\n- **Récupération intelligente :** Met en cache votre musique efficacement pour une lecture instantanée et fluide.\n- **Synchronisation hors ligne :** Téléchargez des chansons individuelles, albums complets, playlists ou artistes pour une lecture hors ligne.\n    - **Synchronisation automatique :** Télécharge automatiquement les morceaux nouvellement ajoutés à toute playlist, album ou artiste déjà sauvegardé.\n    - **File d’attente persistante :** Les téléchargements sont gérés via une file d’attente locale qui reprend parfaitement entre les sessions.\n    - **Flux transcodés ou directs :** Supporte les téléchargements en qualité originale ou transcodée selon le débit sélectionné.\n- **Support Docker :** Téléchargez et déployez l’application avec une image Docker préconstruite incluant une URL serveur Jellyfin préconfigurée pour un auto-hébergement sans accroc.\n\n### Installation\n\nL’application Jelly Music peut être installée en tant qu’application de bureau dédiée, disponible sur notre [page de release GitHub](https://github.com/Stannnnn/jelly-app/releases). Vous pouvez également obtenir la dernière version stable à partir de là et la déployer sur votre serveur web en plaçant le contenu du dossier archivé dans un répertoire accessible via le web.\n<br/>\nElle est aussi disponible en **image docker** pour un déploiement facile, voir les détails docker ci-dessous.\n<br/>\n<br/>\n\n[Yarn](https://classic.yarnpkg.com/lang/en/docs/install) (`npm i -g yarn`) est requis si vous souhaitez construire le projet ou exécuter le serveur de développement vous-même.\n\n#### Construire depuis la source\n\n1. Clonez le dépôt :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Fonctionnalités"
+      },
+      {
+        "row": 2,
+        "rowsha": "Va7ER4dHPfmt1CvLSeep2AEpy33nUzxb+6qMZz++7BQ=",
+        "originContent": "### Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Design élégant et simple :** Une interface épurée et sans encombrement qui rend la lecture de musique facile et agréable. Construit avec des outils modernes comme React pour une expérience rapide et fiable."
+      },
+      {
+        "row": 4,
+        "rowsha": "fVTpzBysk+cN2gMpOxsgxLcPvQvRk4b022HwB56/sLc=",
+        "originContent": "- **Elegant & Simple Design:** A clean, clutter-free interface that makes music playback effortless and enjoyable. Built with modern tools like React for a snappy, reliable experience.",
+        "translatedContent": "- **Compatible appareils :** Profitez d’une expérience fluide, semblable à une application, sur mobile et bureau, installable en tant que PWA pour un accès instantané."
+      },
+      {
+        "row": 5,
+        "rowsha": "ySxKssQNLU6ulZqk2kuwwVgqBdY51CGeS+DDBZPvhe4=",
+        "originContent": "- **Device Friendly:** Enjoy a smooth, app-like experience on mobile and desktop alike, installable as a PWA for instant access.",
+        "translatedContent": "- **Accès fluide à la bibliothèque :** Connectez-vous à votre serveur Jellyfin pour explorer facilement votre collection musicale personnelle."
+      },
+      {
+        "row": 6,
+        "rowsha": "2VxGzRcn5LBPnbrd5+PspXNdanum1BWiE3uG6E0qaGI=",
+        "originContent": "- **Seamless Library Access:** Connect to your Jellyfin server to explore your personal music collection with ease.",
+        "translatedContent": "- **Découvrez vos favoris :**"
+      },
+      {
+        "row": 7,
+        "rowsha": "1GhjAnVqhomQWslpIpr6LxtcNHtER+qSf6DkSHK0KSk=",
+        "originContent": "- **Discover Your Favorites:**",
+        "translatedContent": "    - **Accueil :** Reprenez rapidement avec les morceaux récemment joués, vos favoris les plus écoutés et les médias nouvellement ajoutés."
+      },
+      {
+        "row": 8,
+        "rowsha": "+mBwziu0k0Sm3cfPipRRTHO0UI1fEpCHfxbKiqa38Ls=",
+        "originContent": "    - **Home:** Jump back in with recently played tracks, your most-played favorites, and newly added media.",
+        "translatedContent": "    - **Artistes :** Parcourez les meilleurs morceaux, albums et collaborations pour tout artiste de votre bibliothèque."
+      },
+      {
+        "row": 9,
+        "rowsha": "SlCBdU2aZq8lGmtIQmBQ7NN9o+J7pxKjJGR4RPGtV7o=",
+        "originContent": "    - **Artists:** Browse top tracks, albums, and collaborations for any artist in your library.",
+        "translatedContent": "    - **Playlists :** Visualisez les playlists avec une liste de pistes claire et numérotée pour une navigation rapide."
+      },
+      {
+        "row": 10,
+        "rowsha": "3EtcRqmeCsEM5VSg2O/vk6DXh7yRa9A2BM1B/3g0J1Y=",
+        "originContent": "    - **Playlists:** View playlists with a clear, numbered tracklist for quick navigation.",
+        "translatedContent": "    - **Recherche rapide :** Trouvez facilement morceaux, artistes, albums, playlists ou genres via une recherche dans la barre latérale ou une page de résultats dédiée."
+      },
+      {
+        "row": 11,
+        "rowsha": "kp1mTKCyRINYwGrzHkcbVDG3trVahE2mbSt/ETmEEZ4=",
+        "originContent": "    - **Quick Search:** Find tracks, artists, albums, playlists, or genres effortlessly with a sidenav search or dedicated results page.",
+        "translatedContent": "    - **Mix instantané :** Profitez de playlists sélectionnées directement depuis votre bibliothèque musicale sur une page autonome."
+      },
+      {
+        "row": 12,
+        "rowsha": "eKI44oodl86DiG5F4r3mArcOJtqol3ZAdfXL7ugHPbs=",
+        "originContent": "    - **Instant Mix:** Enjoy curated playlists directly from your music library on a standalone page.",
+        "translatedContent": "- **File d’attente :** Gérez et réorganisez aisément les pistes grâce à la fonctionnalité améliorée et optimisée de la file d’attente."
+      },
+      {
+        "row": 13,
+        "rowsha": "VdhDNrxAg9oZDUsbcZZjMjDfNWUkoR7obK2XDhGQ3QY=",
+        "originContent": "- **Queue:** Effortlessly manage and reorder tracks with the enhanced and improved Queue functionality.",
+        "translatedContent": "- **Fondu enchaîné :** Transition fluide entre les morceaux pour une expérience d’écoute immersive et continue."
+      },
+      {
+        "row": 14,
+        "rowsha": "MuiEXCBTWuoOCQUJ7C5MYuviCQdl+17a2XNqG5FUV1w=",
+        "originContent": "- **Crossfade:** Smoothly transition between tracks for a seamless and immersive listening experience.",
+        "translatedContent": "- **Préchargement :** Précharge intelligemment la piste suivante à l’avance pour garantir une lecture fluide et ininterrompue sans temps de buffering."
+      },
+      {
+        "row": 15,
+        "rowsha": "0Xy+b7Iijk8olwTeVbwSQ+sHDBWqLBB1ixy4hYC/aZQ=",
+        "originContent": "- **Preload:** Intelligently preload the next track in advance to ensure smooth, uninterrupted playback without buffering delays.",
+        "translatedContent": "- **Paroles synchronisées :** Appréciez vos chansons préférées d’une nouvelle manière avec une interface spectaculaire affichant les paroles parfaitement synchronisées, ligne par ligne, au fur et à mesure de l’écoute."
+      },
+      {
+        "row": 16,
+        "rowsha": "CzhIpBO1W4okUwiknOUCBzu+7VAynHLXkS7atRp+Qnw=",
+        "originContent": "- **Synchronized Lyrics:** Enjoy your favorite songs in a new way with a spectacular UI showing perfectly timed lyrics that appear line-by-line as you listen.",
+        "translatedContent": "- **Récupération intelligente :** Met en cache votre musique efficacement pour une lecture instantanée et fluide."
+      },
+      {
+        "row": 17,
+        "rowsha": "25oreNSt6gbrOvEwYNfOI9OVdiK4Y2ZKSAC2ubK+PRQ=",
+        "originContent": "- **Smart Fetching:** Caches your music efficiently for instant, smooth playback.",
+        "translatedContent": "- **Synchronisation hors ligne :** Téléchargez des chansons individuelles, albums complets, playlists ou artistes pour une lecture hors ligne."
+      },
+      {
+        "row": 18,
+        "rowsha": "gb+5yflIus+d3A7UD7Jg/ajX8VRrebwoIHY63NZQi4I=",
+        "originContent": "- **Offline Sync:** Download individual songs, full albums, playlists, or artists for offline playback.",
+        "translatedContent": "    - **Synchronisation automatique :** Télécharge automatiquement les morceaux nouvellement ajoutés à toute playlist, album ou artiste déjà sauvegardé."
+      },
+      {
+        "row": 19,
+        "rowsha": "52ROxYJ+3T8x62JJ6H5kwIxms8JJLheWY5pznIWVIIM=",
+        "originContent": "    - **Auto-Sync:** Automatically downloads newly added tracks to any previously saved playlist, album, or artist.",
+        "translatedContent": "    - **File d’attente persistante :** Les téléchargements sont gérés via une file d’attente locale qui reprend parfaitement entre les sessions."
+      },
+      {
+        "row": 20,
+        "rowsha": "6gYVQXRhX0s/b+1Ho8p2EPm2GeA8Qw6RqUWYGIoc/xo=",
+        "originContent": "    - **Persistent Queue:** Downloads are managed with a local queue that resumes seamlessly across sessions.",
+        "translatedContent": "    - **Flux transcodés ou directs :** Supporte les téléchargements en qualité originale ou transcodée selon le débit sélectionné."
+      },
+      {
+        "row": 21,
+        "rowsha": "+GVn9OqubJUR4IuVlGwVP7Vz4x3QG80be2o1B2q1sKc=",
+        "originContent": "    - **Transcoded or Direct Streams:** Supports both original quality and transcoded downloads based on your selected bitrate.",
+        "translatedContent": "- **Support Docker :** Téléchargez et déployez l’application avec une image Docker préconstruite incluant une URL serveur Jellyfin préconfigurée pour un auto-hébergement sans accroc."
+      },
+      {
+        "row": 22,
+        "rowsha": "mPZlKGUB0SuBZ/QdmiI5Wj/Ih4n8v2hrxj8PBxQKLok=",
+        "originContent": "- **Docker Support:** Pull and deploy the app using a pre-built Docker image with a pre-configured Jellyfin server URL for seamless self-hosting.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Installation"
+      },
+      {
+        "row": 24,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "L’application Jelly Music peut être installée en tant qu’application de bureau dédiée, disponible sur notre [page de release GitHub](https://github.com/Stannnnn/jelly-app/releases). Vous pouvez également obtenir la dernière version stable à partir de là et la déployer sur votre serveur web en plaçant le contenu du dossier archivé dans un répertoire accessible via le web."
+      },
+      {
+        "row": 26,
+        "rowsha": "NBXFvM5QZ4gOK2jpXakptfYRnJKVYLlb5Lw8Wwx+jNk=",
+        "originContent": "Jelly Music App can be installed as a dedicated desktop app, available on our [GitHub release page](https://github.com/Stannnnn/jelly-app/releases). You can also get the latest production build from there and deploy it on your web server by placing the archived folder's contents in a web-accessible directory.",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 27,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "Elle est aussi disponible en **image docker** pour un déploiement facile, voir les détails docker ci-dessous."
+      },
+      {
+        "row": 28,
+        "rowsha": "d+hAurOG0JxkjjLq/2ErwWFRxKH2Ep8ludnAP2PgfNw=",
+        "originContent": "It's also available as a **docker image** for easy deployment, see docker details below.",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 29,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 30,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Yarn](https://classic.yarnpkg.com/lang/en/docs/install) (`npm i -g yarn`) est requis si vous souhaitez construire le projet ou exécuter le serveur de développement vous-même."
+      },
+      {
+        "row": 32,
+        "rowsha": "P37kvIEtIXMGJStnkUnXqtN7DEZo6cK21NbrQACctzA=",
+        "originContent": "[Yarn](https://classic.yarnpkg.com/lang/en/docs/install) (`npm i -g yarn`) is required if you wish to build the project or run the development server yourself.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Construire depuis la source"
+      },
+      {
+        "row": 34,
+        "rowsha": "WUvP3HUqIQFtCwNhRTlquuBec/AvHlqwzYthxp5+T0w=",
+        "originContent": "#### Build from Source",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Clonez le dépôt :"
+      },
+      {
+        "row": 36,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "    ```bash\n    git clone https://github.com/Stannnnn/jelly-app.git\n    ```",
+    "ContentSha": "1VSEtevYa5yUekXnOXDgF62QuloKe7bfVqiXIeMEw7Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    git clone https://github.com/Stannnnn/jelly-app.git\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "H+KU0cyAXXEX6tM4NQVEMVmLqb+mO3+0ZZUuODOp34M=",
+        "originContent": "    git clone https://github.com/Stannnnn/jelly-app.git",
+        "translatedContent": "    git clone https://github.com/Stannnnn/jelly-app.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "2. Install dependencies:",
+    "ContentSha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Installer les dépendances :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+        "originContent": "2. Install dependencies:",
+        "translatedContent": "2. Installer les dépendances :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "    ```bash\n    yarn\n    ```",
+    "ContentSha": "YrUOfab2EdtXsXnW8yvY/I4prA330Ilctt8d9CB3r4c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    yarn\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "r9RxU8ws5S4hYIm0dq9Qv5xbL93SO2qm2wUvoEElbk4=",
+        "originContent": "    yarn",
+        "translatedContent": "    yarn"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "3. Build the production files:",
+    "ContentSha": "CneLCr9yP0f3upjuIl8jeVIjMevQW9yrArEgvq8Wm3g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Construisez les fichiers de production :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CneLCr9yP0f3upjuIl8jeVIjMevQW9yrArEgvq8Wm3g=",
+        "originContent": "3. Build the production files:",
+        "translatedContent": "3. Construisez les fichiers de production :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "    ```bash\n    yarn build\n    ```",
+    "ContentSha": "yUWqNSP0VzwUi6uPh9SgeKjpFFNL7lUU94QFHU+aq8M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    yarn build\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "jmt8dbshPtVTnweaqFLEKklC4QG7kU7/Ok32uNwD8PE=",
+        "originContent": "    yarn build",
+        "translatedContent": "    yarn build"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "4. Deploy the contents of the `dist` folder to a web-accessible directory.\n\nAlternatively, you can run the development server directly: `yarn dev` or `yarn dev:nocache`\n\nIf you wish to use a base path for the application other than root (`/`), you must build it manually while setting `URL_BASE_PATH` to your preferred base path.\n\nLeave the configuration as the default, or change [`config.json`](https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/config.json) as needed. Configurations are explained on the [App Configuration Section](#app-configuration).\nThe `config.json` file can be changed directly in the built application afterwards. There is no need to rebuild if only changing a configuration variable.\n\n### Docker\n\nYou can easily host Jelly Music App using Docker with the prebuilt image from ghcr.io:\n\n#### Pull the docker image\n",
+    "ContentSha": "tjTpyBZdOvFjx7LiwrjFuNeeaWPDznjf4k7YKHvs1BA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. Déployez le contenu du dossier `dist` dans un répertoire accessible via le web.\n\nAlternativement, vous pouvez lancer le serveur de développement directement : `yarn dev` ou `yarn dev:nocache`\n\nSi vous souhaitez utiliser un chemin de base pour l'application autre que la racine (`/`), vous devez la construire manuellement en définissant `URL_BASE_PATH` sur le chemin de base souhaité.\n\nLaissez la configuration par défaut, ou modifiez [`config.json`](https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/config.json) selon vos besoins. Les configurations sont expliquées dans la [section Configuration de l'Application](#app-configuration).\nLe fichier `config.json` peut être modifié directement dans l'application construite par la suite. Il n'est pas nécessaire de reconstruire si vous ne changez qu'une variable de configuration.\n\n### Docker\n\nVous pouvez facilement héberger Jelly Music App en utilisant Docker avec l'image préconstruite depuis ghcr.io :\n\n#### Récupérer l'image docker\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j6NUyFEKWdwPoqbtIgc3AUSLo37RbFNW8qtDF4msFro=",
+        "originContent": "4. Deploy the contents of the `dist` folder to a web-accessible directory.",
+        "translatedContent": "4. Déployez le contenu du dossier `dist` dans un répertoire accessible via le web."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "t+DHPxrMsHxWSDHcVfOi3WwbAYJqtWokQyDIIIAY7/g=",
+        "originContent": "Alternatively, you can run the development server directly: `yarn dev` or `yarn dev:nocache`",
+        "translatedContent": "Alternativement, vous pouvez lancer le serveur de développement directement : `yarn dev` ou `yarn dev:nocache`"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Xvd03TqEc8dCArJs8T0LE0Biltq1/Dz3n9um5HHe3h4=",
+        "originContent": "If you wish to use a base path for the application other than root (`/`), you must build it manually while setting `URL_BASE_PATH` to your preferred base path.",
+        "translatedContent": "Si vous souhaitez utiliser un chemin de base pour l'application autre que la racine (`/`), vous devez la construire manuellement en définissant `URL_BASE_PATH` sur le chemin de base souhaité."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lJ+/CuHLBHy3NHO+/TigQayygGZ/7hg1w+ou/d8JFTM=",
+        "originContent": "Leave the configuration as the default, or change [`config.json`](https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/config.json) as needed. Configurations are explained on the [App Configuration Section](#app-configuration).",
+        "translatedContent": "Laissez la configuration par défaut, ou modifiez [`config.json`](https://raw.githubusercontent.com/Stannnnn/jelly-app/main/public/config.json) selon vos besoins. Les configurations sont expliquées dans la [section Configuration de l'Application](#app-configuration)."
+      },
+      {
+        "row": 8,
+        "rowsha": "vZ179DRN73jrn/hlYwk2hZ2TLfPCJWLso6/nQMPX3bc=",
+        "originContent": "The `config.json` file can be changed directly in the built application afterwards. There is no need to rebuild if only changing a configuration variable.",
+        "translatedContent": "Le fichier `config.json` peut être modifié directement dans l'application construite par la suite. Il n'est pas nécessaire de reconstruire si vous ne changez qu'une variable de configuration."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "rJkp0SR6AFuVEobhFmXJXexK+tjY3K/G58vFhiH70GA=",
+        "originContent": "### Docker",
+        "translatedContent": "### Docker"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "gQizt5ROffk9vdb081aAZzkPQUwyO5ggJlRuGH258cA=",
+        "originContent": "You can easily host Jelly Music App using Docker with the prebuilt image from ghcr.io:",
+        "translatedContent": "Vous pouvez facilement héberger Jelly Music App en utilisant Docker avec l'image préconstruite depuis ghcr.io :"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "FHk6YH+r41YlsmAcNrmOxuPgSwlHD0CVbp4GfabaGvg=",
+        "originContent": "#### Pull the docker image",
+        "translatedContent": "#### Récupérer l'image docker"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\ndocker pull ghcr.io/stannnnn/jelly-music-app:latest\n```",
+    "ContentSha": "HXZOnSTFrMg+BIN8Y2c3LJZRM54Mhs3aTdcMoBCd1k8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker pull ghcr.io/stannnnn/jelly-music-app:latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "skAf5BoDQbh4F8mYWWeQ+w7bFTP7+kfWzAyQu1Qizuo=",
+        "originContent": "docker pull ghcr.io/stannnnn/jelly-music-app:latest",
+        "translatedContent": "docker pull ghcr.io/stannnnn/jelly-music-app:latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n#### Run the docker image\n",
+    "ContentSha": "LGjH3C3RMFshjeFPCKrnA5pVE/lcvezR7LAPqvyP5Gw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Exécuter l'image docker\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9uPKeLdK+VXUGAFz90nuNwgL8umMElvQGsgJwk7V8kQ=",
+        "originContent": "#### Run the docker image",
+        "translatedContent": "#### Exécuter l'image docker"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```bash\ndocker run --rm -p 80:80 ghcr.io/stannnnn/jelly-music-app:latest\n```",
+    "ContentSha": "MzUH1eNDxYVbaJHou0VSaG7kHNTUSdGkA33svNu64bk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker run --rm -p 80:80 ghcr.io/stannnnn/jelly-music-app:latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "M4yZ8478jdRhK8Tt6l14avhWu9t6R9GJCkDHHlQCfeY=",
+        "originContent": "docker run --rm -p 80:80 ghcr.io/stannnnn/jelly-music-app:latest",
+        "translatedContent": "docker run --rm -p 80:80 ghcr.io/stannnnn/jelly-music-app:latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nDocker image can also be run in the background by adding the -d flag `docker run -d ...`\n\n#### Run the docker image with configuration variables\n",
+    "ContentSha": "hdB3yK+32hkzTh1Gviazx2D57pHjctpbxy1sZVS+Msc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nL'image Docker peut également être exécutée en arrière-plan en ajoutant l'option -d `docker run -d ...`\n\n#### Exécuter l'image docker avec des variables de configuration\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tVrTlaH6HDpUcQhwboiVfbPxs5p3hHf41MZipwHQb1g=",
+        "originContent": "Docker image can also be run in the background by adding the -d flag `docker run -d ...`",
+        "translatedContent": "L'image Docker peut également être exécutée en arrière-plan en ajoutant l'option -d `docker run -d ...`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ei0EwSCNe7iyniDU8uwHOAtBPnpjTc745Rwr+6hDM7k=",
+        "originContent": "#### Run the docker image with configuration variables",
+        "translatedContent": "#### Exécuter l'image docker avec des variables de configuration"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```bash\ndocker run --rm \\\n    -e DEFAULT_JELLYFIN_URL=https://demo.jellyfin.org/stable \\\n    -e LOCK_JELLYFIN_URL=false \\\n    -p 80:80 ghcr.io/stannnnn/jelly-music-app:latest\n```",
+    "ContentSha": "mCrRAWJeihyRdeTVCabTlYh0ljKhlIg45SD5AtUPW9k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker run --rm \\\n    -e DEFAULT_JELLYFIN_URL=https://demo.jellyfin.org/stable \\\n    -e LOCK_JELLYFIN_URL=false \\\n    -p 80:80 ghcr.io/stannnnn/jelly-music-app:latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "dt40hBUMAnUDVecgwyuqQlmPHa2KrFWZwDpKYuAfkII=",
+        "originContent": "docker run --rm \\",
+        "translatedContent": "docker run --rm \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "PG0WvjIbMYdpv9fBbWGN5cD3FFdB+oPDkI3/yGCNzHs=",
+        "originContent": "    -e DEFAULT_JELLYFIN_URL=https://demo.jellyfin.org/stable \\",
+        "translatedContent": "    -e DEFAULT_JELLYFIN_URL=https://demo.jellyfin.org/stable \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "8ZTd8A+gHIzEKhOgcH0oIG44JS0jj5qDL1YXhLW3TOA=",
+        "originContent": "    -e LOCK_JELLYFIN_URL=false \\",
+        "translatedContent": "    -e LOCK_JELLYFIN_URL=false \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "l5tR+Onum0enuQiBQaz4L67fessv1jDkmSOYAar5Vh0=",
+        "originContent": "    -p 80:80 ghcr.io/stannnnn/jelly-music-app:latest",
+        "translatedContent": "    -p 80:80 ghcr.io/stannnnn/jelly-music-app:latest"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n<br/>\n\nThe following are the available tags for docker:\n\n| Tag    | Description                |\n| ------ | -------------------------- |\n| latest | Tracks most recent release |\n| main   | Tracks the main branch     |\n| vX.X.X | Version specific tags      |\n\nE.g: `ghcr.io/stannnnn/jelly-music-app:latest`\n\n#### Docker Container Build\n\nYou can also build Jelly Music App using Docker.\n\n1.  Build the Docker image:\n",
+    "ContentSha": "cYIYzvy4e8xGpjRiT3j0EsIFe3wrB/C7mbVLKiW5KWg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<br/>\n\nVoici les tags disponibles pour docker :\n\n| Tag    | Description                |\n| ------ | -------------------------- |\n| latest | Suit la version la plus récente |\n| main   | Suit la branche principale     |\n| vX.X.X | Tags spécifiques à une version  |\n\nExemple : `ghcr.io/stannnnn/jelly-music-app:latest`\n\n#### Construction du conteneur Docker\n\nVous pouvez également construire Jelly Music App en utilisant Docker.\n\n1.  Construisez l’image Docker :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 2,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Voici les tags disponibles pour docker :"
+      },
+      {
+        "row": 4,
+        "rowsha": "lf03DfUimCrOb5vigb/AXqDukIIQervsqxKNc3Pacgw=",
+        "originContent": "The following are the available tags for docker:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Tag    | Description                |"
+      },
+      {
+        "row": 6,
+        "rowsha": "3Maxw11Et5G0zwz7tp6AdSqSU3xe6dFfB/cvXrMAWR8=",
+        "originContent": "| Tag    | Description                |",
+        "translatedContent": "| ------ | -------------------------- |"
+      },
+      {
+        "row": 7,
+        "rowsha": "fG9f1wihobZOIGreM7yZCfnXVWidKHy/PZmf85mAbzM=",
+        "originContent": "| ------ | -------------------------- |",
+        "translatedContent": "| latest | Suit la version la plus récente |"
+      },
+      {
+        "row": 8,
+        "rowsha": "/bVDVMa4u0EZRQ+TnMaQCiDnWRg6QJMvyuy9tfLDUds=",
+        "originContent": "| latest | Tracks most recent release |",
+        "translatedContent": "| main   | Suit la branche principale     |"
+      },
+      {
+        "row": 9,
+        "rowsha": "Rb6Ie+VTUBRAxHYRFgB6xfzA3hHrSJAiH1EizTULO0I=",
+        "originContent": "| main   | Tracks the main branch     |",
+        "translatedContent": "| vX.X.X | Tags spécifiques à une version  |"
+      },
+      {
+        "row": 10,
+        "rowsha": "CFv3mQ9nfV3BujB7M6qiOQRSeXT3Wv4RZxNd/7Dgu3I=",
+        "originContent": "| vX.X.X | Version specific tags      |",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Exemple : `ghcr.io/stannnnn/jelly-music-app:latest`"
+      },
+      {
+        "row": 12,
+        "rowsha": "hmGxtQqfczGQb/oFNqS6y+beT1bJpE3MGDT/6sED20o=",
+        "originContent": "E.g: `ghcr.io/stannnnn/jelly-music-app:latest`",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Construction du conteneur Docker"
+      },
+      {
+        "row": 14,
+        "rowsha": "15gpU1XTq2uC8WlBQkJsuez8mbidGmWz4x9ZeeyPads=",
+        "originContent": "#### Docker Container Build",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Vous pouvez également construire Jelly Music App en utilisant Docker."
+      },
+      {
+        "row": 16,
+        "rowsha": "JF6gOFOy1DlHalsr1H7prxZ9Q/bYUAz56HbVkhMCp88=",
+        "originContent": "You can also build Jelly Music App using Docker.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1.  Construisez l’image Docker :"
+      },
+      {
+        "row": 18,
+        "rowsha": "F+UBhUzvXQWDmr8pchKS6xHzgREWYZ2pC7+NCK8poEU=",
+        "originContent": "1.  Build the Docker image:",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "    ```bash\n    docker build . --tag jelly-music-app\n    ```",
+    "ContentSha": "BctlBzVK8IYpDBthpluzVP7VC6g/jLsdMGZZdF74D8Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    docker build . --tag jelly-music-app\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RyjF51Hz9y5WGI4k3VCez0fnJI+0bPAVKNEiPzWT3+g=",
+        "originContent": "    docker build . --tag jelly-music-app",
+        "translatedContent": "    docker build . --tag jelly-music-app"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n2.  Run the Docker container:\n",
+    "ContentSha": "5QsF7Tx35o4kKzoxrKBpUrrw8bqz96mZm/RXNKfSpew=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2.  Exécutez le conteneur Docker :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "oQOBU1lzuVDQMRzhqW9EE6RaazA0NrvexyBxlFlNCeQ=",
+        "originContent": "2.  Run the Docker container:",
+        "translatedContent": "2.  Exécutez le conteneur Docker :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "    ```bash\n    docker run --rm -p 80:80 jelly-music-app:latest\n    ```",
+    "ContentSha": "hWYSUKNp9Mtt6ZRW3jvDtXWNGauts1rUPMxQQmVPCpI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    docker run --rm -p 80:80 jelly-music-app:latest\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "oqg8E5V3vTmomdwEFvQvS9wf5+zwAMdW+wDgSrXjPzc=",
+        "originContent": "    docker run --rm -p 80:80 jelly-music-app:latest",
+        "translatedContent": "    docker run --rm -p 80:80 jelly-music-app:latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n    You can also provide configuration using environment variables.\n",
+    "ContentSha": "mHkl2hwtvyrFtSGoKq843QRwGIcwXm5BmVQPJizSni4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n    Vous pouvez également fournir la configuration en utilisant des variables d'environnement.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "38iS4MfBBodjFqmEai7N1tINJ3sKt4gkAgj7GzX+tog=",
+        "originContent": "    You can also provide configuration using environment variables.",
+        "translatedContent": "    Vous pouvez également fournir la configuration en utilisant des variables d'environnement."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "    ```bash\n    docker run --rm \\\n        -e DEFAULT_JELLYFIN_URL=https://demo.jellyfin.org/stable \\\n        -e LOCK_JELLYFIN_URL=false \\\n        -p 80:80 jelly-music-app:latest\n    ```",
+    "ContentSha": "kN7xttPc96K7Yzw+HshdaEQGHe6KEmdvQlyxL3SEiEI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    docker run --rm \\\n        -e DEFAULT_JELLYFIN_URL=https://demo.jellyfin.org/stable \\\n        -e LOCK_JELLYFIN_URL=false \\\n        -p 80:80 jelly-music-app:latest\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "hjWxJZ74HdJqKjTxKbVyJK+jHWZavWtRLTmkXGUvfgc=",
+        "originContent": "    docker run --rm \\",
+        "translatedContent": "    docker run --rm \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "OxuN2dxnOvPM8w4bQwjhkC+5uwVlMmF+8o5Jff22BoU=",
+        "originContent": "        -e DEFAULT_JELLYFIN_URL=https://demo.jellyfin.org/stable \\",
+        "translatedContent": "        -e DEFAULT_JELLYFIN_URL=https://demo.jellyfin.org/stable \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "TNjAB/RXtd6VZWU0ctUTdbHsyHbi+a5WLF8fjP9LtqY=",
+        "originContent": "        -e LOCK_JELLYFIN_URL=false \\",
+        "translatedContent": "        -e LOCK_JELLYFIN_URL=false \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "HqNY9wnUvlvCvHPM8sEdbeXxW2Oi1kF0l8a7xoCRuGs=",
+        "originContent": "        -p 80:80 jelly-music-app:latest",
+        "translatedContent": "        -p 80:80 jelly-music-app:latest"
+      },
+      {
+        "row": 6,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\n#### Docker Compose\n\nFor easier container management, you can use Docker Compose. A `docker-compose.yaml` file is provided in the repository with sensible defaults.\n\n1.  Copy the example environment file and customize it for your setup:\n",
+    "ContentSha": "J8bK+vq9rCIE4bNro80O0UP4krq+gA4d88SJysW0k8A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Docker Compose\n\nPour une gestion plus facile des conteneurs, vous pouvez utiliser Docker Compose. Un fichier `docker-compose.yaml` est fourni dans le dépôt avec des paramètres par défaut raisonnables.\n\n1.  Copiez le fichier d'exemple d'environnement et personnalisez-le pour votre configuration :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "dWrOGvzPJUVbFZpxg9RTt8RSqcfyCVMuOoDkgSc7GEA=",
+        "originContent": "#### Docker Compose",
+        "translatedContent": "#### Docker Compose"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "O8kelGUp/h+c+Tfp5LMiH7Ber4TzExp1JPi66T1VzGE=",
+        "originContent": "For easier container management, you can use Docker Compose. A `docker-compose.yaml` file is provided in the repository with sensible defaults.",
+        "translatedContent": "Pour une gestion plus facile des conteneurs, vous pouvez utiliser Docker Compose. Un fichier `docker-compose.yaml` est fourni dans le dépôt avec des paramètres par défaut raisonnables."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "09oKqPu+KsMG7l8dngRQYD+IDcwCCOTZKdg+o/3SflI=",
+        "originContent": "1.  Copy the example environment file and customize it for your setup:",
+        "translatedContent": "1.  Copiez le fichier d'exemple d'environnement et personnalisez-le pour votre configuration :"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "    ```bash\n    cp .env.example .env\n    ```",
+    "ContentSha": "PgNg3gEnRmRXxg7s8gx2/34mqQy2mKlA2iCpWP5DGSY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    cp .env.example .env\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5zruuHYAfIogrPcUgtiURyohEX28sDhgg6G/r0W/ZPc=",
+        "originContent": "    cp .env.example .env",
+        "translatedContent": "    cp .env.example .env"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\n2.  Edit the `.env` file with your Jellyfin server URL and preferences:\n",
+    "ContentSha": "1YfLjnV/IQZiiqsAczlu8gdImsFDqv4F1LCDbgpYQww=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2.  Modifiez le fichier `.env` avec l'URL de votre serveur Jellyfin et vos préférences :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "IzvzQtt+SUNe4RODYduk2Fih8WOV22d5u590uVh7LpQ=",
+        "originContent": "2.  Edit the `.env` file with your Jellyfin server URL and preferences:",
+        "translatedContent": "2.  Modifiez le fichier `.env` avec l'URL de votre serveur Jellyfin et vos préférences :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "    ```env\n    JELLYAPP_PORT=80\n    JELLYAPP_DEFAULT_URL=https://demo.jellyfin.org/stable\n    JELLYAPP_LOCK_URL=true\n    ```",
+    "ContentSha": "D1Dvnf9F0cExngZacJf0w5vgnZdZD181pGbWhytL9so=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```env\n    JELLYAPP_PORT=80\n    JELLYAPP_DEFAULT_URL=https://demo.jellyfin.org/stable\n    JELLYAPP_LOCK_URL=true\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QKePe3J0XsrTA4idIeRUiXBop6e9rX5lpD0+LZsc5R0=",
+        "originContent": "    ```env",
+        "translatedContent": "    ```env"
+      },
+      {
+        "row": 2,
+        "rowsha": "q7Sd2YLJBF5lbOB4ZOEJn/6yI2L/l2s6seubOxBUWWA=",
+        "originContent": "    JELLYAPP_PORT=80",
+        "translatedContent": "    JELLYAPP_PORT=80"
+      },
+      {
+        "row": 3,
+        "rowsha": "58EYSAnNDhJjp7jz0EtsPOaixZliAs0mJfvvpPI6rqY=",
+        "originContent": "    JELLYAPP_DEFAULT_URL=https://demo.jellyfin.org/stable",
+        "translatedContent": "    JELLYAPP_DEFAULT_URL=https://demo.jellyfin.org/stable"
+      },
+      {
+        "row": 4,
+        "rowsha": "zhGpRgIXuQQ+/H74gUZqpND7AiB3rjHJYTyMlwnevu4=",
+        "originContent": "    JELLYAPP_LOCK_URL=true",
+        "translatedContent": "    JELLYAPP_LOCK_URL=true"
+      },
+      {
+        "row": 5,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "\n3.  Start the container using Docker Compose:\n",
+    "ContentSha": "mukhKwNWR7g27WQkQLeVeAEATZQViGp8TfWP4Vr73Ek=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3.  Démarrez le conteneur en utilisant Docker Compose :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "y4VGx22ndpJ7B66p4GcXtYgWwMUpZro7mXLkzZAzYrg=",
+        "originContent": "3.  Start the container using Docker Compose:",
+        "translatedContent": "3.  Démarrez le conteneur en utilisant Docker Compose :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 25,
+    "Content": "    ```bash\n    docker-compose up -d\n    ```",
+    "ContentSha": "LQH5LC7WDNJC/PO8NugX11mSSbPxZxtRoL4R42REvPo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```bash\n    docker-compose up -d\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S7nEzVArg6C6TspYFuMUz99BG48kmz2TfKb0lMAEDq0=",
+        "originContent": "    ```bash",
+        "translatedContent": "    ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "GTHDXBuvKW4Hmm0wzDKKcAoiYtSYo9XUsaoXCSZI858=",
+        "originContent": "    docker-compose up -d",
+        "translatedContent": "    docker-compose up -d"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 26,
+    "Content": "\nThe `docker-compose.yaml` file uses environment variables with the following defaults:\n\n- `JELLYAPP_PORT`: External port to expose (default: `80`)\n- `JELLYAPP_DEFAULT_URL`: Default Jellyfin server URL (default: `https://demo.jellyfin.org/stable`)\n- `JELLYAPP_LOCK_URL`: Lock the Jellyfin URL input (default: `false`)\n\n### App Configuration\n\nApp configuration can be modified by editing the `config.json` file during the build process or in the release files. When using Docker, configurations can be provided as environment variables. The available configuration options are as follows:\n\n- `DEFAULT_JELLYFIN_URL`: Sets the default Jellyfin server URL loaded on first app access if no URL is stored in Local Storage.\n- `LOCK_JELLYFIN_URL`: If set to `true`, removes the URL input field and enforces the default URL (`DEFAULT_JELLYFIN_URL`) for all connections, ideal for self-hosted instances tied to a single server.\n\n### Contributing\n\nWe're open to pull requests, please merge them to the `develop` branch. If you have any suggestions or improvements, feel free to open an issue or submit a pull request. Your contributions are welcome and appreciated!\n",
+    "ContentSha": "op351pQ1Fi/qjYPPjGKiKKAzB641wdYTINGE8rZX+rI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLe fichier `docker-compose.yaml` utilise des variables d'environnement avec les valeurs par défaut suivantes :\n\n- `JELLYAPP_PORT` : Port externe à exposer (par défaut : `80`)\n- `JELLYAPP_DEFAULT_URL` : URL par défaut du serveur Jellyfin (par défaut : `https://demo.jellyfin.org/stable`)\n- `JELLYAPP_LOCK_URL` : Verrouille le champ de saisie de l'URL Jellyfin (par défaut : `false`)\n\n### Configuration de l'application\n\nLa configuration de l'application peut être modifiée en éditant le fichier `config.json` lors du processus de build ou dans les fichiers de release. Lors de l'utilisation de Docker, les configurations peuvent être fournies sous forme de variables d'environnement. Les options de configuration disponibles sont les suivantes :\n\n- `DEFAULT_JELLYFIN_URL` : Définit l'URL par défaut du serveur Jellyfin chargée lors du premier accès à l'application si aucune URL n'est stockée dans le stockage local.\n- `LOCK_JELLYFIN_URL` : Si défini à `true`, supprime le champ de saisie de l'URL et impose l'URL par défaut (`DEFAULT_JELLYFIN_URL`) pour toutes les connexions, idéal pour les instances auto-hébergées liées à un seul serveur.\n\n### Contribution\n\nNous sommes ouverts aux pull requests, veuillez les fusionner dans la branche `develop`. Si vous avez des suggestions ou des améliorations, n'hésitez pas à ouvrir un ticket ou à soumettre une pull request. Vos contributions sont les bienvenues et appréciées !\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1fskpI2CpAvXhpBwZGFzRzPwt8vIZ/8GQtqQXwMLK2Q=",
+        "originContent": "The `docker-compose.yaml` file uses environment variables with the following defaults:",
+        "translatedContent": "Le fichier `docker-compose.yaml` utilise des variables d'environnement avec les valeurs par défaut suivantes :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "cVWA0Su9k37iZ8zCqYHDzY/TMyOLL8umQoF0eLq4R18=",
+        "originContent": "- `JELLYAPP_PORT`: External port to expose (default: `80`)",
+        "translatedContent": "- `JELLYAPP_PORT` : Port externe à exposer (par défaut : `80`)"
+      },
+      {
+        "row": 5,
+        "rowsha": "bTPKRMyEWpLs4/mEEBRUEBeESF9y9xenB1Y7AqMtamw=",
+        "originContent": "- `JELLYAPP_DEFAULT_URL`: Default Jellyfin server URL (default: `https://demo.jellyfin.org/stable`)",
+        "translatedContent": "- `JELLYAPP_DEFAULT_URL` : URL par défaut du serveur Jellyfin (par défaut : `https://demo.jellyfin.org/stable`)"
+      },
+      {
+        "row": 6,
+        "rowsha": "k+u3rYa7Ad15jCRH5yA9YRVl7durngUK8eXLT0yYK3E=",
+        "originContent": "- `JELLYAPP_LOCK_URL`: Lock the Jellyfin URL input (default: `false`)",
+        "translatedContent": "- `JELLYAPP_LOCK_URL` : Verrouille le champ de saisie de l'URL Jellyfin (par défaut : `false`)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "OBYS14+pj7TwNRhIMfGA66+CnGT4Nf2uUsz6rV+EMI4=",
+        "originContent": "### App Configuration",
+        "translatedContent": "### Configuration de l'application"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "6MwfkGRuK3k0QS2Y9WvToosAuZeDKM8o/CGQ4/VmCWQ=",
+        "originContent": "App configuration can be modified by editing the `config.json` file during the build process or in the release files. When using Docker, configurations can be provided as environment variables. The available configuration options are as follows:",
+        "translatedContent": "La configuration de l'application peut être modifiée en éditant le fichier `config.json` lors du processus de build ou dans les fichiers de release. Lors de l'utilisation de Docker, les configurations peuvent être fournies sous forme de variables d'environnement. Les options de configuration disponibles sont les suivantes :"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "9aU3/304HmfOf5EC93O8pdQccX1c6lFvAoZMgeW6ePo=",
+        "originContent": "- `DEFAULT_JELLYFIN_URL`: Sets the default Jellyfin server URL loaded on first app access if no URL is stored in Local Storage.",
+        "translatedContent": "- `DEFAULT_JELLYFIN_URL` : Définit l'URL par défaut du serveur Jellyfin chargée lors du premier accès à l'application si aucune URL n'est stockée dans le stockage local."
+      },
+      {
+        "row": 13,
+        "rowsha": "m+D8zrfIhk7uTh+xlTAkWpUc+xeJDXhGOBg+5lz2mJM=",
+        "originContent": "- `LOCK_JELLYFIN_URL`: If set to `true`, removes the URL input field and enforces the default URL (`DEFAULT_JELLYFIN_URL`) for all connections, ideal for self-hosted instances tied to a single server.",
+        "translatedContent": "- `LOCK_JELLYFIN_URL` : Si défini à `true`, supprime le champ de saisie de l'URL et impose l'URL par défaut (`DEFAULT_JELLYFIN_URL`) pour toutes les connexions, idéal pour les instances auto-hébergées liées à un seul serveur."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "5ww9yAUhltb679bzey3v6rRmdriJbfvnrASADmXR90c=",
+        "originContent": "### Contributing",
+        "translatedContent": "### Contribution"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "nyiUFi7yap7m2RtH1EcjchRaAIt2IfFsFxtHYsm9mDg=",
+        "originContent": "We're open to pull requests, please merge them to the `develop` branch. If you have any suggestions or improvements, feel free to open an issue or submit a pull request. Your contributions are welcome and appreciated!",
+        "translatedContent": "Nous sommes ouverts aux pull requests, veuillez les fusionner dans la branche `develop`. Si vous avez des suggestions ou des améliorations, n'hésitez pas à ouvrir un ticket ou à soumettre une pull request. Vos contributions sont les bienvenues et appréciées !"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
