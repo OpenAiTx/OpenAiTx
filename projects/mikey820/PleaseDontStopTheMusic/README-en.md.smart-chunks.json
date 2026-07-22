@@ -1,0 +1,485 @@
+[
+  {
+    "Id": 1,
+    "Content": "# PleaseDontStopTheMusic\n\nAn iOS tweak that allows multiple audio sources to play simultaneously by preventing audio session interruptions.\n\n## ❤️ Support the Project\n\nIf you find this project useful and would like to support development, donations are appreciated.\n\n### Litecoin\n**Network:** Litecoin (LTC)  \n**Address:** `ltc1qaz2zqcc5usl4ueg7w5m8kqcmvrfqurpn6wqyfa`\n\nPlease double-check that you're sending on the **Litecoin** network.\n\nThank you for your support!\n\n---\n\n## Overview\n\n**PleaseDontStopTheMusic** is a tweak that hooks into iOS's `AVAudioSession` to enable audio mixing. This allows your currently playing audio (music, podcasts, etc.) to continue uninterrupted when other apps request audio playback, instead of the usual behavior where the system pauses your audio and plays only the new source.\n\n## Features\n\n- **Continuous Playback** - Your audio keeps playing even when other apps want to play sound.\n- **Audio Mixing** - Multiple audio sources blend together using the `MixWithOthers` option.\n- **Universal Support** - Works with rootful, rootless, and jailed installations.\n- **Lightweight** - Minimal overhead, purely hook-based implementation.\n\n## How It Works\n\nThe tweak intercepts `AVAudioSession` configuration calls and, **only when another app is already playing audio** (`isOtherAudioPlaying`), applies the `AVAudioSessionCategoryOptionMixWithOthers` option to the incoming app's session. This tells iOS to mix the new audio with existing playback rather than interrupting it.\n\nCrucially, it does **not** force mixing on whichever app is the primary music source. An app that opts into `MixWithOthers` is treated by iOS as a *secondary* source and loses its lock screen / Control Center \"Now Playing\" transport controls. By leaving the first/primary app untouched, that app keeps full lock-screen skip & pause controls, while later apps (TikTok, games, etc.) are forced to mix in quietly without interrupting it.\n\n### Hooked Methods\n\n- `setCategory:error:`\n- `setCategory:mode:options:error:`\n- `setCategory:mode:routeSharingPolicy:options:error:` *(the modern API used by TikTok and most current apps)*",
+    "ContentSha": "wf+N9QmYlJ0qnfHfMfaAnG4l8v46mndlgzTyYWJ0Fkw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# PleaseDontStopTheMusic\n\nAn iOS tweak that allows multiple audio sources to play simultaneously by preventing audio session interruptions.\n\n## ❤️ Support the Project\n\nIf you find this project useful and would like to support development, donations are appreciated.\n\n### Litecoin\n**Network:** Litecoin (LTC)  \n**Address:** `ltc1qaz2zqcc5usl4ueg7w5m8kqcmvrfqurpn6wqyfa`\n\nPlease double-check that you're sending on the **Litecoin** network.\n\nThank you for your support!\n\n---\n\n## Overview\n\n**PleaseDontStopTheMusic** is a tweak that hooks into iOS's `AVAudioSession` to enable audio mixing. This allows your currently playing audio (music, podcasts, etc.) to continue uninterrupted when other apps request audio playback, instead of the usual behavior where the system pauses your audio and plays only the new source.\n\n## Features\n\n- **Continuous Playback** - Your audio keeps playing even when other apps want to play sound.\n- **Audio Mixing** - Multiple audio sources blend together using the `MixWithOthers` option.\n- **Universal Support** - Works with rootful, rootless, and jailed installations.\n- **Lightweight** - Minimal overhead, purely hook-based implementation.\n\n## How It Works\n\nThe tweak intercepts `AVAudioSession` configuration calls and, **only when another app is already playing audio** (`isOtherAudioPlaying`), applies the `AVAudioSessionCategoryOptionMixWithOthers` option to the incoming app's session. This tells iOS to mix the new audio with existing playback rather than interrupting it.\n\nCrucially, it does **not** force mixing on whichever app is the primary music source. An app that opts into `MixWithOthers` is treated by iOS as a *secondary* source and loses its lock screen / Control Center \"Now Playing\" transport controls. By leaving the first/primary app untouched, that app keeps full lock-screen skip & pause controls, while later apps (TikTok, games, etc.) are forced to mix in quietly without interrupting it.\n\n### Hooked Methods\n\n- `setCategory:error:`\n- `setCategory:mode:options:error:`\n- `setCategory:mode:routeSharingPolicy:options:error:` *(the modern API used by TikTok and most current apps)*",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "F5c5S9iNHSmQq3Ui0KrG/TJSAT0BrmdSSpXSzFkSv5s=",
+        "originContent": "# PleaseDontStopTheMusic",
+        "translatedContent": "# PleaseDontStopTheMusic"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "2idyI6ReEs+kT68dx+5QBL9xdvWtZEuO5RalbTOC3rc=",
+        "originContent": "An iOS tweak that allows multiple audio sources to play simultaneously by preventing audio session interruptions.",
+        "translatedContent": "An iOS tweak that allows multiple audio sources to play simultaneously by preventing audio session interruptions."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Sz01sCDINCgT4bD+aXSBB40/jihTNWJhkTwkBYaIMJQ=",
+        "originContent": "## ❤️ Support the Project",
+        "translatedContent": "## ❤️ Support the Project"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "TTT/P33whQI39rTY11AKwxqn9VIRK8guvdLlD1NT1Io=",
+        "originContent": "If you find this project useful and would like to support development, donations are appreciated.",
+        "translatedContent": "If you find this project useful and would like to support development, donations are appreciated."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "BmvFAjful73eJpplVgiAELiuhW9g45ZPe45m/pdd2kc=",
+        "originContent": "### Litecoin",
+        "translatedContent": "### Litecoin"
+      },
+      {
+        "row": 10,
+        "rowsha": "Gg+szEj9tJGde4Pwn8Jog93ZLZsIihuJuKX+LJFEXWM=",
+        "originContent": "**Network:** Litecoin (LTC)  ",
+        "translatedContent": "**Network:** Litecoin (LTC)  "
+      },
+      {
+        "row": 11,
+        "rowsha": "GY/pGrHzGJGKdXgd0ZsixC9fJMv4iDTUUqJmLCMnhcQ=",
+        "originContent": "**Address:** `ltc1qaz2zqcc5usl4ueg7w5m8kqcmvrfqurpn6wqyfa`",
+        "translatedContent": "**Address:** `ltc1qaz2zqcc5usl4ueg7w5m8kqcmvrfqurpn6wqyfa`"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "bDIDDBEkxTJOQpOS8shB0wQa2bdzPLzzFN30KgwPMLc=",
+        "originContent": "Please double-check that you're sending on the **Litecoin** network.",
+        "translatedContent": "Please double-check that you're sending on the **Litecoin** network."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "4k5TYjCd5BoEPOCsrxjbq78inhQkd0Z3A5+V+HejPFI=",
+        "originContent": "Thank you for your support!",
+        "translatedContent": "Thank you for your support!"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## Overview"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "sBZgATvAiKvPslN8FN8c25szbgtBxk6p7YmhaUwzZdw=",
+        "originContent": "**PleaseDontStopTheMusic** is a tweak that hooks into iOS's `AVAudioSession` to enable audio mixing. This allows your currently playing audio (music, podcasts, etc.) to continue uninterrupted when other apps request audio playback, instead of the usual behavior where the system pauses your audio and plays only the new source.",
+        "translatedContent": "**PleaseDontStopTheMusic** is a tweak that hooks into iOS's `AVAudioSession` to enable audio mixing. This allows your currently playing audio (music, podcasts, etc.) to continue uninterrupted when other apps request audio playback, instead of the usual behavior where the system pauses your audio and plays only the new source."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Features"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "m93ORtIUroTYG1lBuzEEYikGERxOnLFTInUDPyO0YR0=",
+        "originContent": "- **Continuous Playback** - Your audio keeps playing even when other apps want to play sound.",
+        "translatedContent": "- **Continuous Playback** - Your audio keeps playing even when other apps want to play sound."
+      },
+      {
+        "row": 26,
+        "rowsha": "eN60NTAtFeGGxzMKnY6h2HzWaa8x5BYADRTb7eDC7NU=",
+        "originContent": "- **Audio Mixing** - Multiple audio sources blend together using the `MixWithOthers` option.",
+        "translatedContent": "- **Audio Mixing** - Multiple audio sources blend together using the `MixWithOthers` option."
+      },
+      {
+        "row": 27,
+        "rowsha": "PKbjCY/rS2D7j+t25bGNcUmMSPChlESDLQempo8dsW0=",
+        "originContent": "- **Universal Support** - Works with rootful, rootless, and jailed installations.",
+        "translatedContent": "- **Universal Support** - Works with rootful, rootless, and jailed installations."
+      },
+      {
+        "row": 28,
+        "rowsha": "tTQLxVl3PZcgtcIJPrJLcEyvP0PFTaaFADt82kcM1Xo=",
+        "originContent": "- **Lightweight** - Minimal overhead, purely hook-based implementation.",
+        "translatedContent": "- **Lightweight** - Minimal overhead, purely hook-based implementation."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": "## How It Works"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "09Sa32SLWMkRWL714YFPX5SjFeOHJJiRa6HUGxLA4J4=",
+        "originContent": "The tweak intercepts `AVAudioSession` configuration calls and, **only when another app is already playing audio** (`isOtherAudioPlaying`), applies the `AVAudioSessionCategoryOptionMixWithOthers` option to the incoming app's session. This tells iOS to mix the new audio with existing playback rather than interrupting it.",
+        "translatedContent": "The tweak intercepts `AVAudioSession` configuration calls and, **only when another app is already playing audio** (`isOtherAudioPlaying`), applies the `AVAudioSessionCategoryOptionMixWithOthers` option to the incoming app's session. This tells iOS to mix the new audio with existing playback rather than interrupting it."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "fTU9elwrwKqhn6gysQ0sUOuv60BSXOCMcGd1YoMjotM=",
+        "originContent": "Crucially, it does **not** force mixing on whichever app is the primary music source. An app that opts into `MixWithOthers` is treated by iOS as a *secondary* source and loses its lock screen / Control Center \"Now Playing\" transport controls. By leaving the first/primary app untouched, that app keeps full lock-screen skip & pause controls, while later apps (TikTok, games, etc.) are forced to mix in quietly without interrupting it.",
+        "translatedContent": "Crucially, it does **not** force mixing on whichever app is the primary music source. An app that opts into `MixWithOthers` is treated by iOS as a *secondary* source and loses its lock screen / Control Center \"Now Playing\" transport controls. By leaving the first/primary app untouched, that app keeps full lock-screen skip & pause controls, while later apps (TikTok, games, etc.) are forced to mix in quietly without interrupting it."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "Dzx4/KkDjvESUdJtoqyZ5xw3SecCGE5xkEovXXIy0Co=",
+        "originContent": "### Hooked Methods",
+        "translatedContent": "### Hooked Methods"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "kYgRXaLV/RRRzZSfnyDQHMJSK6fsnr3VLc1lWaeTIIA=",
+        "originContent": "- `setCategory:error:`",
+        "translatedContent": "- `setCategory:error:`"
+      },
+      {
+        "row": 39,
+        "rowsha": "0/1OqvDSNC+1pYOSQHMtNEXdHJljUf0/Cm9xdZFc0YA=",
+        "originContent": "- `setCategory:mode:options:error:`",
+        "translatedContent": "- `setCategory:mode:options:error:`"
+      },
+      {
+        "row": 40,
+        "rowsha": "6PKCHUmwftLlBkR+vPbXtVeUAEBcSrM9DVFufqdH8r8=",
+        "originContent": "- `setCategory:mode:routeSharingPolicy:options:error:` *(the modern API used by TikTok and most current apps)*",
+        "translatedContent": "- `setCategory:mode:routeSharingPolicy:options:error:` *(the modern API used by TikTok and most current apps)*"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- `setCategory:withOptions:error:`\n- `setActive:error:`\n- `setActive:withOptions:error:`\n\n`SoloAmbient` sessions (which cannot mix) are transparently swapped to `Ambient` when another app is playing, so they no longer silence your music.\n\n---\n\n## Installation Guide\n\nChoose the method below that applies to your device configuration.\n\n### Method 1: Non-Jailbroken (Sideloading)\nUse this method if your device is not jailbroken. You will need to inject the tweak `.dylib` from releases into your target application's IPA file.\n\n1. **Prepare:** Ensure you have the `PleaseDontStopTheMusic.dylib` file.\n2. **Select Tool:** Use a sideloading tool such as **Esign**, **Feather**, or **Sideloadly**.\n3. **Inject:** Import your target application's (the app you want to listen to media on, eg if i want to listen to spotify while playing roblox i would inject it into roblox) IPA into the tool, select the `.dylib` for injection, and sign the app.\n4. **Install:** Install the resulting modified IPA to your device.\n\n### Method 2: Jailbroken\nUse this method if your device is jailbroken.\n\n1. **Add Repo:** Open https://repo.chariz.com/ and press the button to add it to your perferred package manager (this should be a defult repo but if you dont have it add it)\n2. **Install:** Navigate to the repo on your list to grab it, or search for \"PleaseDontStopTheMusic\"\n3. **Finalize:** Perform a **respring** of your device to apply the hooks. \n\n---\n\nIf you have any problems or questions, feel free to dm me on discord! dc: fuseegelee\n",
+    "ContentSha": "rIH5bvgndNqkZjJfjRKEN0OwRtGy34/8GhJ03fbrhtU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- `setCategory:withOptions:error:`\n- `setActive:error:`\n- `setActive:withOptions:error:`\n\n`SoloAmbient` sessions (which cannot mix) are transparently swapped to `Ambient` when another app is playing, so they no longer silence your music.\n\n---\n\n## Installation Guide\n\nChoose the method below that applies to your device configuration.\n\n### Method 1: Non-Jailbroken (Sideloading)\nUse this method if your device is not jailbroken. You will need to inject the tweak `.dylib` from releases into your target application's IPA file.\n\n1. **Prepare:** Ensure you have the `PleaseDontStopTheMusic.dylib` file.\n2. **Select Tool:** Use a sideloading tool such as **Esign**, **Feather**, or **Sideloadly**.\n3. **Inject:** Import your target application's (the app you want to listen to media on, eg if i want to listen to spotify while playing roblox i would inject it into roblox) IPA into the tool, select the `.dylib` for injection, and sign the app.\n4. **Install:** Install the resulting modified IPA to your device.\n\n### Method 2: Jailbroken\nUse this method if your device is jailbroken.\n\n1. **Add Repo:** Open https://repo.chariz.com/ and press the button to add it to your perferred package manager (this should be a defult repo but if you dont have it add it)\n2. **Install:** Navigate to the repo on your list to grab it, or search for \"PleaseDontStopTheMusic\"\n3. **Finalize:** Perform a **respring** of your device to apply the hooks. \n\n---\n\nIf you have any problems or questions, feel free to dm me on discord! dc: fuseegelee\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "OZTn4PBJqAwEZqWA7wIFfYbnPiD4mhGWuVciggCiC1M=",
+        "originContent": "- `setCategory:withOptions:error:`",
+        "translatedContent": "- `setCategory:withOptions:error:`"
+      },
+      {
+        "row": 2,
+        "rowsha": "beB5MNTz/vLFQ/eCCHo1CFk6YJC9MozN7ZjosgJPVTo=",
+        "originContent": "- `setActive:error:`",
+        "translatedContent": "- `setActive:error:`"
+      },
+      {
+        "row": 3,
+        "rowsha": "RpCO7q1DuVTfrZJpx2HNNRIFUu3vunKi1Siwsos0Dc4=",
+        "originContent": "- `setActive:withOptions:error:`",
+        "translatedContent": "- `setActive:withOptions:error:`"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "uM26KQhHawa6jB7ekdkqHpdGHcksmSC+TSBjM/jDDnA=",
+        "originContent": "`SoloAmbient` sessions (which cannot mix) are transparently swapped to `Ambient` when another app is playing, so they no longer silence your music.",
+        "translatedContent": "`SoloAmbient` sessions (which cannot mix) are transparently swapped to `Ambient` when another app is playing, so they no longer silence your music."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "XGieMhuFsPzPkn28MJ4tWh/+IaWo0Bu0Nn7BmOlGBxw=",
+        "originContent": "## Installation Guide",
+        "translatedContent": "## Installation Guide"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "KxZMWFqD3TyVLLNfoGaz9pBKSMswkTGMn6P+MnlzH3w=",
+        "originContent": "Choose the method below that applies to your device configuration.",
+        "translatedContent": "Choose the method below that applies to your device configuration."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "VnCO+TqCJQkZ1VqnStf5/dSzxRuApl6KCUkodU6nExI=",
+        "originContent": "### Method 1: Non-Jailbroken (Sideloading)",
+        "translatedContent": "### Method 1: Non-Jailbroken (Sideloading)"
+      },
+      {
+        "row": 14,
+        "rowsha": "xcZj36RHrRJtkDRne/B28o+Nb72t+OWhCs+GqNYs+VA=",
+        "originContent": "Use this method if your device is not jailbroken. You will need to inject the tweak `.dylib` from releases into your target application's IPA file.",
+        "translatedContent": "Use this method if your device is not jailbroken. You will need to inject the tweak `.dylib` from releases into your target application's IPA file."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "dtRJj9FOzYa7pL3EaiyZ7oxslSmtn9ShdIad4p5v7KY=",
+        "originContent": "1. **Prepare:** Ensure you have the `PleaseDontStopTheMusic.dylib` file.",
+        "translatedContent": "1. **Prepare:** Ensure you have the `PleaseDontStopTheMusic.dylib` file."
+      },
+      {
+        "row": 17,
+        "rowsha": "wqkQi5kJVbWXEOw/O0MgQO3rD+56mD8VYb7o9RRplKA=",
+        "originContent": "2. **Select Tool:** Use a sideloading tool such as **Esign**, **Feather**, or **Sideloadly**.",
+        "translatedContent": "2. **Select Tool:** Use a sideloading tool such as **Esign**, **Feather**, or **Sideloadly**."
+      },
+      {
+        "row": 18,
+        "rowsha": "qbqVltpzLyYaTHRgsMKENtggLOMHMH8jqB7RiDOuFkg=",
+        "originContent": "3. **Inject:** Import your target application's (the app you want to listen to media on, eg if i want to listen to spotify while playing roblox i would inject it into roblox) IPA into the tool, select the `.dylib` for injection, and sign the app.",
+        "translatedContent": "3. **Inject:** Import your target application's (the app you want to listen to media on, eg if i want to listen to spotify while playing roblox i would inject it into roblox) IPA into the tool, select the `.dylib` for injection, and sign the app."
+      },
+      {
+        "row": 19,
+        "rowsha": "Ty0fungQTENe0dEADogrUnlB9pipP3IkCQck5Xl9Rps=",
+        "originContent": "4. **Install:** Install the resulting modified IPA to your device.",
+        "translatedContent": "4. **Install:** Install the resulting modified IPA to your device."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "OqwBl7AnIrgKZo6j33jsMjKqvL1J25yy4DZPiqJhYHM=",
+        "originContent": "### Method 2: Jailbroken",
+        "translatedContent": "### Method 2: Jailbroken"
+      },
+      {
+        "row": 22,
+        "rowsha": "JM+4r/j4N8s183ODFFcmNDZIhh4haib2JusXkjZTbW0=",
+        "originContent": "Use this method if your device is jailbroken.",
+        "translatedContent": "Use this method if your device is jailbroken."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "K/hWPMHST8pa0leZHZ7LVc2NIjXwjsfo6MAWS4zU3sk=",
+        "originContent": "1. **Add Repo:** Open https://repo.chariz.com/ and press the button to add it to your perferred package manager (this should be a defult repo but if you dont have it add it)",
+        "translatedContent": "1. **Add Repo:** Open https://repo.chariz.com/ and press the button to add it to your perferred package manager (this should be a defult repo but if you dont have it add it)"
+      },
+      {
+        "row": 25,
+        "rowsha": "TU/r/ixVNIkI3XPxO1X/gst7zvybuzniL98ndf7ioKM=",
+        "originContent": "2. **Install:** Navigate to the repo on your list to grab it, or search for \"PleaseDontStopTheMusic\"",
+        "translatedContent": "2. **Install:** Navigate to the repo on your list to grab it, or search for \"PleaseDontStopTheMusic\""
+      },
+      {
+        "row": 26,
+        "rowsha": "E0OHWNF9Md99tYrpo77mMIvrLV00+vHXEtGFL5sT0Ng=",
+        "originContent": "3. **Finalize:** Perform a **respring** of your device to apply the hooks. ",
+        "translatedContent": "3. **Finalize:** Perform a **respring** of your device to apply the hooks. "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "PD8AOuNGPqvZmTrsCVsja2ESKymLYSBsGTgR8NFq/sY=",
+        "originContent": "If you have any problems or questions, feel free to dm me on discord! dc: fuseegelee",
+        "translatedContent": "If you have any problems or questions, feel free to dm me on discord! dc: fuseegelee"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\nmake all\n",
+    "ContentSha": "2PCXQxxzyysGX3JVEoARCoNGLCaLKAtGAhdzb1VIxEg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmake all\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "LQfcxJ27+wlAa5DFg5phTBtLevI8+tkazRA4ZS7PiUA=",
+        "originContent": "make all",
+        "translatedContent": "make all"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
