@@ -1,0 +1,531 @@
+[
+  {
+    "Id": 1,
+    "Content": "# jerry-list\n\nA curated wordlist built and refined through real-world bug bounty hunting. This is my personal collection that I have been using privately for a long time and is now being released publicly to help the security community.\n\n---\n\n## What is this\n\njerry-list is the main wordlist in this repository, covering a wide range of paths, parameters, endpoints, and patterns that have proven effective in active bug bounty hunting. Every entry in this list has been shaped by real engagement experience, not just automated generation or recycled public sources. This is the list that helped me land multiple P1 and P2 findings across various programs.\n\nA private DNS wordlist is also on the way. That list is something I have relied on heavily to discover unique subdomains that most conventional tools and public wordlists completely miss. It will be published here once cleaned up and ready for release.\n\n---\n\n## Contents\n\n| File | Description |\n|---|---|\n| jerry-list.txt | Main wordlist for directory, path, and endpoint fuzzing |\n| jerry-dns.txt | DNS subdomain wordlist — coming soon |\n\n---\n\n## Usage\n\nWorks with any standard fuzzing tool. A few quick examples:\n\n**ffuf**",
+    "ContentSha": "x749XD2norO1RACu1tw/R7S1mQyBv186oQc6yCGMhLE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# jerry-list\n\n실제 버그 바운티 헌팅을 통해 구축되고 다듬어진 엄선된 워드리스트입니다. 이는 제가 오랫동안 개인적으로 사용해온 컬렉션이며 이제 보안 커뮤니티를 돕기 위해 공개합니다.\n\n---\n\n## 이것이란\n\njerry-list는 이 저장소의 주요 워드리스트로서, 활동적인 버그 바운티 헌팅에서 효과가 입증된 다양한 경로, 매개변수, 엔드포인트, 패턴을 포괄합니다. 이 목록의 모든 항목은 단순한 자동 생성이나 재활용된 공개 소스가 아니라 실제 참여 경험에 의해 형성되었습니다. 이 리스트는 제가 여러 프로그램에서 P1 및 P2 발견을 여러 차례 달성하는 데 도움을 준 목록입니다.\n\n개인용 DNS 워드리스트도 곧 공개됩니다. 이 목록은 대부분의 기존 도구와 공개 워드리스트가 완전히 놓치는 고유한 서브도메인을 발견하는 데 제가 크게 의존해온 것입니다. 정리되고 공개 준비가 완료되는 대로 여기서 발표할 예정입니다.\n\n---\n\n## 구성\n\n| 파일 | 설명 |\n|---|---|\n| jerry-list.txt | 디렉터리, 경로, 엔드포인트 퍼징을 위한 주요 워드리스트 |\n| jerry-dns.txt | DNS 서브도메인 워드리스트 — 곧 공개 예정 |\n\n---\n\n## 사용법\n\n표준 퍼징 도구와 함께 작동합니다. 몇 가지 빠른 예시:\n\n**ffuf**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oMfLfGX1PRVMFWb9WI3nuZdepSBj6wZUL3XitHeqW2Y=",
+        "originContent": "# jerry-list",
+        "translatedContent": "# jerry-list"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "RHprdp6b8fHUg7ayeFUpKvK010tLQFVmpx2Eg3YIqTU=",
+        "originContent": "A curated wordlist built and refined through real-world bug bounty hunting. This is my personal collection that I have been using privately for a long time and is now being released publicly to help the security community.",
+        "translatedContent": "실제 버그 바운티 헌팅을 통해 구축되고 다듬어진 엄선된 워드리스트입니다. 이는 제가 오랫동안 개인적으로 사용해온 컬렉션이며 이제 보안 커뮤니티를 돕기 위해 공개합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "4OzpDx3eVGZZu4yhWHIonq4VwkZK+Kj+5wSeeESzg+A=",
+        "originContent": "## What is this",
+        "translatedContent": "## 이것이란"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "6xCrZ5IM9RRdALuMSemLkAs4+at54ksfagFDy/Y8mgw=",
+        "originContent": "jerry-list is the main wordlist in this repository, covering a wide range of paths, parameters, endpoints, and patterns that have proven effective in active bug bounty hunting. Every entry in this list has been shaped by real engagement experience, not just automated generation or recycled public sources. This is the list that helped me land multiple P1 and P2 findings across various programs.",
+        "translatedContent": "jerry-list는 이 저장소의 주요 워드리스트로서, 활동적인 버그 바운티 헌팅에서 효과가 입증된 다양한 경로, 매개변수, 엔드포인트, 패턴을 포괄합니다. 이 목록의 모든 항목은 단순한 자동 생성이나 재활용된 공개 소스가 아니라 실제 참여 경험에 의해 형성되었습니다. 이 리스트는 제가 여러 프로그램에서 P1 및 P2 발견을 여러 차례 달성하는 데 도움을 준 목록입니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "IQiPxwo5PJW1QEnpN6kQ1uHT1m5X8I6Srnv7YJ95l5g=",
+        "originContent": "A private DNS wordlist is also on the way. That list is something I have relied on heavily to discover unique subdomains that most conventional tools and public wordlists completely miss. It will be published here once cleaned up and ready for release.",
+        "translatedContent": "개인용 DNS 워드리스트도 곧 공개됩니다. 이 목록은 대부분의 기존 도구와 공개 워드리스트가 완전히 놓치는 고유한 서브도메인을 발견하는 데 제가 크게 의존해온 것입니다. 정리되고 공개 준비가 완료되는 대로 여기서 발표할 예정입니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Yk5cZ3S6lnsBfRjsT/4ud8HP+iWBYqbxG0YlzTcI+ew=",
+        "originContent": "## Contents",
+        "translatedContent": "## 구성"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "NwPle9lfsJ8u9AA0CTz0WkAjbLM3BJ06zZJJdbGXahc=",
+        "originContent": "| File | Description |",
+        "translatedContent": "| 파일 | 설명 |"
+      },
+      {
+        "row": 18,
+        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
+        "originContent": "|---|---|",
+        "translatedContent": "|---|---|"
+      },
+      {
+        "row": 19,
+        "rowsha": "O3m89HQUqoOrSKbay0KLbo/yTtVzh2C6ID2J1jByT9I=",
+        "originContent": "| jerry-list.txt | Main wordlist for directory, path, and endpoint fuzzing |",
+        "translatedContent": "| jerry-list.txt | 디렉터리, 경로, 엔드포인트 퍼징을 위한 주요 워드리스트 |"
+      },
+      {
+        "row": 20,
+        "rowsha": "95PEMXpsYikvOGDCok4dnhe3mlVos+vR/6vwqmlfBLE=",
+        "originContent": "| jerry-dns.txt | DNS subdomain wordlist — coming soon |",
+        "translatedContent": "| jerry-dns.txt | DNS 서브도메인 워드리스트 — 곧 공개 예정 |"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "eVVnevnmPnUcrMEUrnrRN/X6G6og1A3tgF1Ww3vFrMg=",
+        "originContent": "Works with any standard fuzzing tool. A few quick examples:",
+        "translatedContent": "표준 퍼징 도구와 함께 작동합니다. 몇 가지 빠른 예시:"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "+T/b+rVRqXyZ+R8ULkc7RBMA7jIu5tAuk0MkL5b1NOM=",
+        "originContent": "**ffuf**",
+        "translatedContent": "**ffuf**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nffuf -u https://target.com/FUZZ -w jerry-list.txt -mc 200,301,302,403,500\n```",
+    "ContentSha": "+uFZa3GFFbYmSoZjSviUs1qgzJVNPhHp2xJe7lCXuxg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nffuf -u https://target.com/FUZZ -w jerry-list.txt -mc 200,301,302,403,500\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "B+UTAp6bjC79qNoT2f4D+48aGBETwuaa2Zlv4A2IRS8=",
+        "originContent": "ffuf -u https://target.com/FUZZ -w jerry-list.txt -mc 200,301,302,403,500",
+        "translatedContent": "ffuf -u https://target.com/FUZZ -w jerry-list.txt -mc 200,301,302,403,500"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**gobuster**",
+    "ContentSha": "7aNGL86waRKdHU26AnzfmJQ1qNXKkWuk8PbYTOktl2U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**고버스터**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZFZy+bA0W12dLTWfyVPEG8m3YDNwcg2H1UZpUx6RKIU=",
+        "originContent": "**gobuster**",
+        "translatedContent": "**고버스터**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ngobuster dir -u https://target.com -w jerry-list.txt\n```",
+    "ContentSha": "Kag46zYtHbpCoBGCzB6Yhcu6hKoTv3OJfR6s6TOAtYI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngobuster dir -u https://target.com -w jerry-list.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "8CxhUS6XRY+bVsp5bcvXhQ3W9ee3PLZpRj5WyD3G5vg=",
+        "originContent": "gobuster dir -u https://target.com -w jerry-list.txt",
+        "translatedContent": "gobuster dir -u https://target.com -w jerry-list.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n**subfinder / DNS brute (once dns list drops)**",
+    "ContentSha": "p6dLZbvdqvLe0MgwBRIGzbn6XmOKEMrVa665rpkFtjY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**subfinder / DNS 무차별 대입 (dns 목록이 떨어지면 실행)**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Lp91t3a+vPdGRnkHHx1s4G+PKtVCN1Eyp3ael+HRfJ0=",
+        "originContent": "**subfinder / DNS brute (once dns list drops)**",
+        "translatedContent": "**subfinder / DNS 무차별 대입 (dns 목록이 떨어지면 실행)**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\npuredns brute target.com -w jerry-dns.txt\n```",
+    "ContentSha": "kXXVp6fssVPCUYp0aazd3x7lsofEJpZVyNoTCoWyEZs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npuredns brute target.com -w jerry-dns.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "X/HUi3lHdXZ925XRMZXlqB5zFcxHXbC6YtkhYZqzY54=",
+        "originContent": "puredns brute target.com -w jerry-dns.txt",
+        "translatedContent": "puredns brute target.com -w jerry-dns.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n---\n\n## Results\n\nThese wordlists have directly contributed to finding multiple P1 and P2 vulnerabilities throughout my bug bounty journey. The DNS list in particular has been one of my most consistent tools for surfacing unique subdomains that lead to high impact findings.\n\n---\n\n## Upcoming\n\n- jerry-dns.txt — private DNS wordlist release\n- Possible parameter fuzzing list based on real observed parameters\n\n---\n\n## Contributing\n\nThis is a personal list so I am not accepting pull requests at this time. If you find something useful or land a bug using this list, feel free to drop a star or reach out.\n\n---\n\n## Disclaimer\n\nThese wordlists are intended for authorized security testing and bug bounty programs only. Only use them against targets you have explicit permission to test. The author is not responsible for any misuse.\n\n---\n\n## Author\n\n--**Jerry1319**\n",
+    "ContentSha": "FUOb3C4V5OJpT2YES3iNLEuWgZTgwMpZTzozc4U0bgQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 결과\n\n이 단어 목록들은 버그 바운티 여정 내내 여러 P1 및 P2 취약점을 발견하는 데 직접적으로 기여했습니다. 특히 DNS 목록은 고유한 서브도메인을 찾아내는 데 가장 일관된 도구 중 하나로, 높은 영향도의 결과를 도출하는 데 도움을 주었습니다.\n\n---\n\n## 예정\n\n- jerry-dns.txt — 비공개 DNS 단어 목록 공개 예정\n- 실제 관찰된 매개변수를 기반으로 한 파라미터 퍼징 목록 가능성\n\n---\n\n## 기여\n\n이 목록은 개인용이므로 현재 풀 리퀘스트를 받지 않습니다. 이 목록을 사용해 유용한 점을 발견하거나 버그를 찾았다면, 별을 눌러주시거나 연락해 주세요.\n\n---\n\n## 면책 조항\n\n이 단어 목록들은 허가받은 보안 테스트 및 버그 바운티 프로그램 용도로만 사용됩니다. 명시적 허가를 받은 대상에 대해서만 사용하세요. 저자는 오용에 대해 책임지지 않습니다.\n\n---\n\n## 작성자\n\n--**Jerry1319**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ADZF0L9rtq2tkWbztn3EyxwOmpQH3q6vf/weI+xNHKQ=",
+        "originContent": "## Results",
+        "translatedContent": "## 결과"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hsA26ivga6Y2jijwTL5qmLybpFbt0F2qopRQusa8y2M=",
+        "originContent": "These wordlists have directly contributed to finding multiple P1 and P2 vulnerabilities throughout my bug bounty journey. The DNS list in particular has been one of my most consistent tools for surfacing unique subdomains that lead to high impact findings.",
+        "translatedContent": "이 단어 목록들은 버그 바운티 여정 내내 여러 P1 및 P2 취약점을 발견하는 데 직접적으로 기여했습니다. 특히 DNS 목록은 고유한 서브도메인을 찾아내는 데 가장 일관된 도구 중 하나로, 높은 영향도의 결과를 도출하는 데 도움을 주었습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Fnos79vtnwTEcXdTt/syosdNDNVt/i0OxGOWR9ZQk8U=",
+        "originContent": "## Upcoming",
+        "translatedContent": "## 예정"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "4soqR8vumk7qgiANHyIDuAAXf+JSEZgaz74JjUWGGFE=",
+        "originContent": "- jerry-dns.txt — private DNS wordlist release",
+        "translatedContent": "- jerry-dns.txt — 비공개 DNS 단어 목록 공개 예정"
+      },
+      {
+        "row": 13,
+        "rowsha": "2yAzUmKGHdNwteRy/jFmnrXpTTTcJSQzHShjvd5MjE8=",
+        "originContent": "- Possible parameter fuzzing list based on real observed parameters",
+        "translatedContent": "- 실제 관찰된 매개변수를 기반으로 한 파라미터 퍼징 목록 가능성"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 기여"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "7ee7QJ1DAMMj/j4DYuORIeyCCTl8qY9IkAJ3+meuwic=",
+        "originContent": "This is a personal list so I am not accepting pull requests at this time. If you find something useful or land a bug using this list, feel free to drop a star or reach out.",
+        "translatedContent": "이 목록은 개인용이므로 현재 풀 리퀘스트를 받지 않습니다. 이 목록을 사용해 유용한 점을 발견하거나 버그를 찾았다면, 별을 눌러주시거나 연락해 주세요."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": "## 면책 조항"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "1xEGb+AWElaejA5HtQVWFJUIKQy2BOCtTE6Au+WeOi8=",
+        "originContent": "These wordlists are intended for authorized security testing and bug bounty programs only. Only use them against targets you have explicit permission to test. The author is not responsible for any misuse.",
+        "translatedContent": "이 단어 목록들은 허가받은 보안 테스트 및 버그 바운티 프로그램 용도로만 사용됩니다. 명시적 허가를 받은 대상에 대해서만 사용하세요. 저자는 오용에 대해 책임지지 않습니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "/lJ7vsDcUGNTwbzMlvGpyMrTh1D9NOPyP9aFA7E/nEw=",
+        "originContent": "## Author",
+        "translatedContent": "## 작성자"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Kar59W7943hPT0TeZCAJqIOWrZzb2iRDDiiO2pPLnbc=",
+        "originContent": "--**Jerry1319**",
+        "translatedContent": "--**Jerry1319**"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,594 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Jujutsu TUI\n[![nix](https://github.com/faldor20/jj_tui/actions/workflows/build-nix.yml/badge.svg)](https://github.com/faldor20/jj_tui/actions/workflows/build-nix.yml)\n\nA TUI for the Jujutsu version control system\nOur focus here is on:\n- **Performance**: jj_tui should start fast and never slow you down, it should feel extremely snappy to browse your commits and files\n- **Intuitive**: Keybindings should be easily memorizable and quick to commit to muscle memory without uneeded popups\n- **Interactivity**: jj_tui completely re-implements jj's renderer so we can show realtime previews of the graph while you figure out how your rebase should look ( Use `r`ebase `p`review to try it out!)\n\n![jj_tui-ezgif com-optimize](https://github.com/faldor20/jj_tui/assets/26968035/fb053320-484a-4d6f-9b66-e5b9d0d49e5d)\n\n\nPress `?` to show the help. (commands are different between graph and files view).\n`Arrows` or `hjkl` to navigate windows/items\n`Space` to select/deselect revisions (multi-select in graph view)\n`Enter` to widen the diff and scroll through it\n\n## Key features\n\n### Normal jj operations\n- `c`ommiting\n- `r`ebasing\n- `g`it pushing and pulling\n- Adding, moving and deleting `b`ookmarks\n- `s`quashing and `s`plitting commits\n- `space` can be used to select multiple commits for copying, rebasing etc, starting a `n`ew commit on top of etc \n\n### Creating commits from the file view:\n- `space` can be used to select files to `c`ommit seperately or `m`ove to different commit\n- Files and be sent to `N`ext or `P`revious commits\n\n### filtering by revsets \n- `f`ilter by any revest you like\n\nList of graph commands:\n\n![jj_tui commands](https://github.com/user-attachments/assets/1e446a3d-1736-4207-b311-29d8e4bdc333)\n\n## Installing\n`linux`: Grab the latest release. It's statically linked and should work on any linux machine.",
+    "ContentSha": "c1wcVuQgBlNgQNIRkOMWvbY5xT8s8HViD0YH58xTKK8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 咒术师 TUI\n[![nix](https://github.com/faldor20/jj_tui/actions/workflows/build-nix.yml/badge.svg)](https://github.com/faldor20/jj_tui/actions/workflows/build-nix.yml)\n\n咒术版本控制系统的 TUI\n我们的关注点是：\n- **性能**：jj_tui 启动快速，永远不会拖慢你的速度，浏览提交和文件时应感觉极其流畅\n- **直观**：快捷键应易于记忆，快速形成肌肉记忆，无需不必要的弹窗\n- **交互性**：jj_tui 完全重新实现了 jj 的渲染器，因此我们可以在你规划变基时实时显示图形预览（使用 `r`ebase `p`review 试试！）\n\n![jj_tui-ezgif com-optimize](https://github.com/faldor20/jj_tui/assets/26968035/fb053320-484a-4d6f-9b66-e5b9d0d49e5d)\n\n\n按 `?` 显示帮助。（图形和文件视图的命令不同）。\n用 `方向键` 或 `hjkl` 导航窗口/项目\n按 `空格` 选择/取消选择修订（图形视图支持多选）\n按 `回车` 展开差异并滚动查看\n\n## 主要功能\n\n### 常规 jj 操作\n- `c` 提交\n- `r` 变基\n- `g` Git 推送和拉取\n- 添加、移动和删除 `b` 书签\n- `s` 合并和 `s` 拆分提交\n- `空格` 可用于多选提交以复制、变基等，在其上启动 `n` 新提交等\n\n### 从文件视图创建提交：\n- `空格` 可用于选择文件以单独 `c` 提交或 `m` 移动到不同提交\n- 文件可以发送到 `N` 下一次或 `P` 上一次提交\n\n### 按修订集过滤\n- `f` 按你喜欢的任何修订集过滤\n\n图形命令列表：\n\n![jj_tui commands](https://github.com/user-attachments/assets/1e446a3d-1736-4207-b311-29d8e4bdc333)\n\n## 安装\n`linux`：下载最新版本。它是静态链接的，应该可以在任何 Linux 机器上运行。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wrQpnwBB6OfdhQ3f4utVkWA21P3XDqKC0g6Lo2SNJuU=",
+        "originContent": "# Jujutsu TUI",
+        "translatedContent": "# 咒术师 TUI"
+      },
+      {
+        "row": 2,
+        "rowsha": "TZbItyUb/RUsAPAYnP0pB/5VZzfoMZ7m6iKZO8iC1Qk=",
+        "originContent": "[![nix](https://github.com/faldor20/jj_tui/actions/workflows/build-nix.yml/badge.svg)](https://github.com/faldor20/jj_tui/actions/workflows/build-nix.yml)",
+        "translatedContent": "[![nix](https://github.com/faldor20/jj_tui/actions/workflows/build-nix.yml/badge.svg)](https://github.com/faldor20/jj_tui/actions/workflows/build-nix.yml)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wKLR/os9ql5l4MkvNJA8Jf37602zuUHYG72zEhW3toA=",
+        "originContent": "A TUI for the Jujutsu version control system",
+        "translatedContent": "咒术版本控制系统的 TUI"
+      },
+      {
+        "row": 5,
+        "rowsha": "97PaPg3jhz3UoI1qxzK8muKUpanjZL09JbIRon5SrJU=",
+        "originContent": "Our focus here is on:",
+        "translatedContent": "我们的关注点是："
+      },
+      {
+        "row": 6,
+        "rowsha": "nAIRpIbtiB2ST8jWt+Z/sgdTyhHl1i7j2Ot6uYaPrgg=",
+        "originContent": "- **Performance**: jj_tui should start fast and never slow you down, it should feel extremely snappy to browse your commits and files",
+        "translatedContent": "- **性能**：jj_tui 启动快速，永远不会拖慢你的速度，浏览提交和文件时应感觉极其流畅"
+      },
+      {
+        "row": 7,
+        "rowsha": "1N3BwUqTqC+4HoKQEPe8yIyMz4ei2jFNm1cXa/qddPI=",
+        "originContent": "- **Intuitive**: Keybindings should be easily memorizable and quick to commit to muscle memory without uneeded popups",
+        "translatedContent": "- **直观**：快捷键应易于记忆，快速形成肌肉记忆，无需不必要的弹窗"
+      },
+      {
+        "row": 8,
+        "rowsha": "MO+hf1F6jM1zIt16UVUYdr7fcowXNFL/ScOyTfA6lfw=",
+        "originContent": "- **Interactivity**: jj_tui completely re-implements jj's renderer so we can show realtime previews of the graph while you figure out how your rebase should look ( Use `r`ebase `p`review to try it out!)",
+        "translatedContent": "- **交互性**：jj_tui 完全重新实现了 jj 的渲染器，因此我们可以在你规划变基时实时显示图形预览（使用 `r`ebase `p`review 试试！）"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "dAHdfyDrHIsaJcRX4aAwIOaihpyzaiaUo8uK7gRPjMs=",
+        "originContent": "![jj_tui-ezgif com-optimize](https://github.com/faldor20/jj_tui/assets/26968035/fb053320-484a-4d6f-9b66-e5b9d0d49e5d)",
+        "translatedContent": "![jj_tui-ezgif com-optimize](https://github.com/faldor20/jj_tui/assets/26968035/fb053320-484a-4d6f-9b66-e5b9d0d49e5d)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "9QH7Rs8GCIj88KFCEDDYyk55FiQz504/Cq32zGNqAeE=",
+        "originContent": "Press `?` to show the help. (commands are different between graph and files view).",
+        "translatedContent": "按 `?` 显示帮助。（图形和文件视图的命令不同）。"
+      },
+      {
+        "row": 14,
+        "rowsha": "hsH8G3+PYXFelROs2dtSdYUDvHMFiCuPPh5xEaXN840=",
+        "originContent": "`Arrows` or `hjkl` to navigate windows/items",
+        "translatedContent": "用 `方向键` 或 `hjkl` 导航窗口/项目"
+      },
+      {
+        "row": 15,
+        "rowsha": "Z2kwia2NT0lZf0ZKjAxBcjtkjT/505NQ7lqHz1lDMps=",
+        "originContent": "`Space` to select/deselect revisions (multi-select in graph view)",
+        "translatedContent": "按 `空格` 选择/取消选择修订（图形视图支持多选）"
+      },
+      {
+        "row": 16,
+        "rowsha": "hygrZLQu6/nrWKnmsPKI0d023F42o7QFOcUwRyZ2kUE=",
+        "originContent": "`Enter` to widen the diff and scroll through it",
+        "translatedContent": "按 `回车` 展开差异并滚动查看"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "bj++NyYad/vNXYFGMQKW5uG99lfc9OzUMqSKc0EKuN8=",
+        "originContent": "## Key features",
+        "translatedContent": "## 主要功能"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "yUrbVnBwC486M7c6GLZPWTjLKIDTM54q3OAGeQjM978=",
+        "originContent": "### Normal jj operations",
+        "translatedContent": "### 常规 jj 操作"
+      },
+      {
+        "row": 21,
+        "rowsha": "4MzBt6aRidZ+rQah/zzakYOyuESIJ+T/Dqiq1wjtm64=",
+        "originContent": "- `c`ommiting",
+        "translatedContent": "- `c` 提交"
+      },
+      {
+        "row": 22,
+        "rowsha": "gs4pVkC/we7HPoY5lycETt4Sx4jKfY7ODl06eKph5xo=",
+        "originContent": "- `r`ebasing",
+        "translatedContent": "- `r` 变基"
+      },
+      {
+        "row": 23,
+        "rowsha": "f0ucHvkNENjnaSiRpK+AjrkYmKIJ8yvfrxVGWPwp25A=",
+        "originContent": "- `g`it pushing and pulling",
+        "translatedContent": "- `g` Git 推送和拉取"
+      },
+      {
+        "row": 24,
+        "rowsha": "50XG8CazpI50EI6arzhKPmB7qq/2IPxhrRO1IW5RfYk=",
+        "originContent": "- Adding, moving and deleting `b`ookmarks",
+        "translatedContent": "- 添加、移动和删除 `b` 书签"
+      },
+      {
+        "row": 25,
+        "rowsha": "EA1q9/b7lG8te3J/rdoHow0gc2UvW8c/AmUoxM/9JRE=",
+        "originContent": "- `s`quashing and `s`plitting commits",
+        "translatedContent": "- `s` 合并和 `s` 拆分提交"
+      },
+      {
+        "row": 26,
+        "rowsha": "BcNnxop9IwsPXlsrikb9B+6ks2pFnHjMUQP8hzXVnbc=",
+        "originContent": "- `space` can be used to select multiple commits for copying, rebasing etc, starting a `n`ew commit on top of etc ",
+        "translatedContent": "- `空格` 可用于多选提交以复制、变基等，在其上启动 `n` 新提交等"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "1XoBWJJnPEf6rUyn3F3QsVN0+3ne56/DFhlRd1rl47A=",
+        "originContent": "### Creating commits from the file view:",
+        "translatedContent": "### 从文件视图创建提交："
+      },
+      {
+        "row": 29,
+        "rowsha": "244rQBWET2rTx+KuR0I8SpABZEItWS2ql5bQDenHjKA=",
+        "originContent": "- `space` can be used to select files to `c`ommit seperately or `m`ove to different commit",
+        "translatedContent": "- `空格` 可用于选择文件以单独 `c` 提交或 `m` 移动到不同提交"
+      },
+      {
+        "row": 30,
+        "rowsha": "U4sO11Mm6LfjKuz5/qJdkUVoKUVIQ5Cho7cG9N/bZ8g=",
+        "originContent": "- Files and be sent to `N`ext or `P`revious commits",
+        "translatedContent": "- 文件可以发送到 `N` 下一次或 `P` 上一次提交"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "KJM0aNlo3iLLh+D9uG9SsuUElTZeKXj291L/z5kE7os=",
+        "originContent": "### filtering by revsets ",
+        "translatedContent": "### 按修订集过滤"
+      },
+      {
+        "row": 33,
+        "rowsha": "ow8KIH52QGhkKAPar8BL/KN8hX549dNLFD/i7vL8L2g=",
+        "originContent": "- `f`ilter by any revest you like",
+        "translatedContent": "- `f` 按你喜欢的任何修订集过滤"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "VuxS0wCWeMV4kHgd19N+P6XF35kULoqEmlWRT3EgNks=",
+        "originContent": "List of graph commands:",
+        "translatedContent": "图形命令列表："
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "Lx6UGh2CP32WHaULAFF98effCfvi7tp+E/Vh2TnaT4s=",
+        "originContent": "![jj_tui commands](https://github.com/user-attachments/assets/1e446a3d-1736-4207-b311-29d8e4bdc333)",
+        "translatedContent": "![jj_tui commands](https://github.com/user-attachments/assets/1e446a3d-1736-4207-b311-29d8e4bdc333)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "oDVP3SR/aiqGlwC3MYkKbuw/xKWgDvrUk2CdNhgTxg4=",
+        "originContent": "## Installing",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 40,
+        "rowsha": "rAlbxqDFdN70HkiGFrCaZT6AIclqdi4PHq3wej3iSyg=",
+        "originContent": "`linux`: Grab the latest release. It's statically linked and should work on any linux machine.",
+        "translatedContent": "`linux`：下载最新版本。它是静态链接的，应该可以在任何 Linux 机器上运行。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "`mac`: Grab a prebuild. Let me know if you have any issues as I can't test on a mac.\n\nTo open a shell with jj_tui on nix: `nix shell github:faldor20/jj_tui`\n\n## Dependencies\nThe jujutsu CLI (minimum version 0.30.0)\nI haven't tested on windows or Mac.\nI believe it won't work outside Unix so Windows users will currently have to use wsl.\n\n\n# Config file:\nYou can make a `config.yaml` config file in the following directories to customize key inputs\n`linux`: $XDG_CONFIG_HOME/jj_tui/\n`macos`: ~/Library/preferences/jj_tui/\nSee `./jj_tui/lib/key_map.ml` for a spec for the keymap and `./jj_tui/lib/config.ml` for the config\nThe keymap config lets you fully customize all the commands and their sub menus as well as remap the arrow keys.\n\nEg:",
+    "ContentSha": "wNuOCzXfqT5EZ4Ho51CqOuXDy6xyd4iTUagDpw00b1A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`mac`：获取一个预构建版本。如果你遇到任何问题，请告诉我，因为我无法在 Mac 上测试。\n\n在 nix 上使用 jj_tui 打开 shell：`nix shell github:faldor20/jj_tui`\n\n## 依赖项\njujutsu CLI（最低版本 0.30.0）\n我尚未在 Windows 或 Mac 上测试。\n我认为它在 Unix 以外无法工作，因此 Windows 用户目前必须使用 wsl。\n\n# 配置文件：\n你可以在以下目录中创建一个 `config.yaml` 配置文件，以自定义按键输入\n`linux`：$XDG_CONFIG_HOME/jj_tui/\n`macos`：~/Library/preferences/jj_tui/\n请参见 `./jj_tui/lib/key_map.ml` 中的键映射规范和 `./jj_tui/lib/config.ml` 中的配置\n键映射配置允许你完全自定义所有命令及其子菜单，并重新映射箭头键。\n\n例如：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xt/GBi/zAy9UUPT0JAT1YgSiHQ0mimgWg50GjEtr1BQ=",
+        "originContent": "`mac`: Grab a prebuild. Let me know if you have any issues as I can't test on a mac.",
+        "translatedContent": "`mac`：获取一个预构建版本。如果你遇到任何问题，请告诉我，因为我无法在 Mac 上测试。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "TC5LIKdpJY8Bei4Mvb0bO1j7UKyhq8ggzu7R8YhK4AY=",
+        "originContent": "To open a shell with jj_tui on nix: `nix shell github:faldor20/jj_tui`",
+        "translatedContent": "在 nix 上使用 jj_tui 打开 shell：`nix shell github:faldor20/jj_tui`"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "1GG6RzhUQg6MWK7hzadJlvIKgJovz9zWw6FnPT8QVK0=",
+        "originContent": "## Dependencies",
+        "translatedContent": "## 依赖项"
+      },
+      {
+        "row": 6,
+        "rowsha": "Gt1f0zEnQQjN6p11i5MoDOoKbc2WDQ7QuUBWPFj0qSI=",
+        "originContent": "The jujutsu CLI (minimum version 0.30.0)",
+        "translatedContent": "jujutsu CLI（最低版本 0.30.0）"
+      },
+      {
+        "row": 7,
+        "rowsha": "5WJURYJ2mpbNXMk1g2n+LRM18f38YUnLQuKEWYqHpYM=",
+        "originContent": "I haven't tested on windows or Mac.",
+        "translatedContent": "我尚未在 Windows 或 Mac 上测试。"
+      },
+      {
+        "row": 8,
+        "rowsha": "4WnI3l9alk2XNvP2neRr7rFDWuOUo+625aWS7HsBI14=",
+        "originContent": "I believe it won't work outside Unix so Windows users will currently have to use wsl.",
+        "translatedContent": "我认为它在 Unix 以外无法工作，因此 Windows 用户目前必须使用 wsl。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 配置文件："
+      },
+      {
+        "row": 11,
+        "rowsha": "eU//mDGm3pX/3p9tf5mFDAGqJWD9nfbZG4BJbpcMzS8=",
+        "originContent": "# Config file:",
+        "translatedContent": "你可以在以下目录中创建一个 `config.yaml` 配置文件，以自定义按键输入"
+      },
+      {
+        "row": 12,
+        "rowsha": "5Pvv6/1tZoz7p4jIQUR9W3gFdFl6r4eK+m86qN0h6Tc=",
+        "originContent": "You can make a `config.yaml` config file in the following directories to customize key inputs",
+        "translatedContent": "`linux`：$XDG_CONFIG_HOME/jj_tui/"
+      },
+      {
+        "row": 13,
+        "rowsha": "pzFgpzQaFzibUPqD2m5WHkECNa1+OlPLxY33/G9mic0=",
+        "originContent": "`linux`: $XDG_CONFIG_HOME/jj_tui/",
+        "translatedContent": "`macos`：~/Library/preferences/jj_tui/"
+      },
+      {
+        "row": 14,
+        "rowsha": "Wh0bfzj7gAHKAc42e/sYBm8qJEZM6PRw5/N3yszF7tI=",
+        "originContent": "`macos`: ~/Library/preferences/jj_tui/",
+        "translatedContent": "请参见 `./jj_tui/lib/key_map.ml` 中的键映射规范和 `./jj_tui/lib/config.ml` 中的配置"
+      },
+      {
+        "row": 15,
+        "rowsha": "i2RpUabjLgT6kCkLXsvT7W6bjAbiMmDi79ZE6IBqfIs=",
+        "originContent": "See `./jj_tui/lib/key_map.ml` for a spec for the keymap and `./jj_tui/lib/config.ml` for the config",
+        "translatedContent": "键映射配置允许你完全自定义所有命令及其子菜单，并重新映射箭头键。"
+      },
+      {
+        "row": 16,
+        "rowsha": "n19gruQPp/XkqV7PHIo1xLlFwlR2BG3XoAnYsAWhLCE=",
+        "originContent": "The keymap config lets you fully customize all the commands and their sub menus as well as remap the arrow keys.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "例如："
+      },
+      {
+        "row": 18,
+        "rowsha": "AGFzuhhY3KwNk3NHSY2Fncg+X+7vB17r4Jgfhx4O1Nw=",
+        "originContent": "Eg:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "``` yaml\nkey_map:\n  remap:\n   h: \"left\"\n   j: \"down\"\n   k: \"up\"\n   l: \"right\"\n  graph:\n    #Simple mapping from key to command_id\n    p: prev\n    #Command sub menu\n    s:\n      title: \"Squash\"\n      sub:\n        # sub menu command\n        s: \"squash_into_parent\"\n# If the terminal is smaller than this width, the UI will change to a single pane view\nsingle_pane_width_threshold: 110\n# Sets the limit to how many commits are ever rendered in jj_tui. Usefull for not slowing down too much when viewing 'all()' revest.\nmax_commits: 100\n```",
+    "ContentSha": "CANRRsxHb5UE8lcYwXp+icIYo/cmPcko4nVx8YtzdlM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` yaml\nkey_map:\n  remap:\n   h: \"left\"\n   j: \"down\"\n   k: \"up\"\n   l: \"right\"\n  graph:\n    #Simple mapping from key to command_id\n    p: prev\n    #Command sub menu\n    s:\n      title: \"Squash\"\n      sub:\n        # sub menu command\n        s: \"squash_into_parent\"\n# If the terminal is smaller than this width, the UI will change to a single pane view\nsingle_pane_width_threshold: 110\n# Sets the limit to how many commits are ever rendered in jj_tui. Usefull for not slowing down too much when viewing 'all()' revest.\nmax_commits: 100\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qAjrfpJ3gwN3XmjZVnPh4NzYFmAQlfpROO5XYgh6yPs=",
+        "originContent": "``` yaml",
+        "translatedContent": "``` yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "DQaTZtz5LeTc4st+C/NaIgJlyxVqMPGOgT4KIevIwR8=",
+        "originContent": "key_map:",
+        "translatedContent": "key_map:"
+      },
+      {
+        "row": 3,
+        "rowsha": "hZv4xOMAXWAkAHFmj6f9Q7lk0GJtiqJivZ/PiEZXWuk=",
+        "originContent": "  remap:",
+        "translatedContent": "  remap:"
+      },
+      {
+        "row": 4,
+        "rowsha": "3VzHk5xQLpCc3IzBFTv7KSGYJsQAVaXCEG9wkn2+wWQ=",
+        "originContent": "   h: \"left\"",
+        "translatedContent": "   h: \"left\""
+      },
+      {
+        "row": 5,
+        "rowsha": "5UsROPNAXe00uMMaKEIdAYQiQ1VyUNRZie7l/oIRpOY=",
+        "originContent": "   j: \"down\"",
+        "translatedContent": "   j: \"down\""
+      },
+      {
+        "row": 6,
+        "rowsha": "uh4Oy+l7stvaZF1L+cvSJ/ENJ5W+rD8hSb/MjeDQ4tA=",
+        "originContent": "   k: \"up\"",
+        "translatedContent": "   k: \"up\""
+      },
+      {
+        "row": 7,
+        "rowsha": "rCJDKsYFmAtMz2QjOptMzyAy6DUhdEhj/tmz4zTUdNU=",
+        "originContent": "   l: \"right\"",
+        "translatedContent": "   l: \"right\""
+      },
+      {
+        "row": 8,
+        "rowsha": "Oe2lHPsF/t7zGEaMTuOxvKXXRk25RYO8PZ13/flMxUc=",
+        "originContent": "  graph:",
+        "translatedContent": "  graph:"
+      },
+      {
+        "row": 9,
+        "rowsha": "qyhNi3RBjFW2GNlZlkMGkaHsuuvVgRoiFGzzL/MNBts=",
+        "originContent": "    #Simple mapping from key to command_id",
+        "translatedContent": "    #Simple mapping from key to command_id"
+      },
+      {
+        "row": 10,
+        "rowsha": "0lRk+mf8fCJ6MxtWap5mur/SME27/X4duIPpbWnfPLI=",
+        "originContent": "    p: prev",
+        "translatedContent": "    p: prev"
+      },
+      {
+        "row": 11,
+        "rowsha": "WerKLIrbp8ZAIdyiLeWgmg7QHq3lhRkKHmMlCPaqh1Y=",
+        "originContent": "    #Command sub menu",
+        "translatedContent": "    #Command sub menu"
+      },
+      {
+        "row": 12,
+        "rowsha": "oAyazixw+JpRHhn+pujrCXtu8L72LqrPNEL9cvJ+oBw=",
+        "originContent": "    s:",
+        "translatedContent": "    s:"
+      },
+      {
+        "row": 13,
+        "rowsha": "QvaXlo8NH+Wra3Pc/DafFrFBCFjzFbFZITlkIzIuL64=",
+        "originContent": "      title: \"Squash\"",
+        "translatedContent": "      title: \"Squash\""
+      },
+      {
+        "row": 14,
+        "rowsha": "gdZP4wMafFtZiKG6jIBZJx/ZdN7i6qbCtvxe+dicP9s=",
+        "originContent": "      sub:",
+        "translatedContent": "      sub:"
+      },
+      {
+        "row": 15,
+        "rowsha": "M6ZrOrpL4TGbGbu+IwnmNdSMwzC6fz7PyNGTda+ucyw=",
+        "originContent": "        # sub menu command",
+        "translatedContent": "        # sub menu command"
+      },
+      {
+        "row": 16,
+        "rowsha": "PP6iAKhyZ+FlfyjUVTWacKSLHKBr0vg7Hq4RstT67Fw=",
+        "originContent": "        s: \"squash_into_parent\"",
+        "translatedContent": "        s: \"squash_into_parent\""
+      },
+      {
+        "row": 17,
+        "rowsha": "PF2+gI1HZqVhRrjoKvIONexEtOFhBGXz1LAsxaqx85Y=",
+        "originContent": "# If the terminal is smaller than this width, the UI will change to a single pane view",
+        "translatedContent": "# If the terminal is smaller than this width, the UI will change to a single pane view"
+      },
+      {
+        "row": 18,
+        "rowsha": "srU4ERtK4PPf6Utt3l52cc3UIbtdTclmvbhHtvrMFvE=",
+        "originContent": "single_pane_width_threshold: 110",
+        "translatedContent": "single_pane_width_threshold: 110"
+      },
+      {
+        "row": 19,
+        "rowsha": "nIOAnRKwcGxFfGfrjQ/SqI0moBshRsQTud0q7/C9Ktw=",
+        "originContent": "# Sets the limit to how many commits are ever rendered in jj_tui. Usefull for not slowing down too much when viewing 'all()' revest.",
+        "translatedContent": "# Sets the limit to how many commits are ever rendered in jj_tui. Usefull for not slowing down too much when viewing 'all()' revest."
+      },
+      {
+        "row": 20,
+        "rowsha": "/phrG5dLnpdwYb3wHka1G81qPYnActAkXaySedDVheA=",
+        "originContent": "max_commits: 100",
+        "translatedContent": "max_commits: 100"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "For a full list of commands ids see [`jj_tui/bin/graph_commands.ml`](https://raw.githubusercontent.com/faldor20/jj_tui/main/jj_tui/bin/graph_commands.ml) and [`jj_tui/bin/file_commands.ml`](https://raw.githubusercontent.com/faldor20/jj_tui/main/jj_tui/bin/file_commands.ml)\n\n# logs:\n`linux`: $XDG_STATE_HOME/jj_tui/\n`macos`: ~/Library/logs/jj_tui/\n\n# Dev\nCan be built with nix `nix build` or open a nix shell with `nix develop`\nNOTE: if you are using the nix dev shell and would like to build with dune use `dune build --pkg disabled` to build using the deps provided by nix\nCan also be built directly with Dune package management via `dune build`.\n",
+    "ContentSha": "TEmJqfGoKOs45At1iuf/MVDm5eIeuLTlLlbMDzdvHaA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "完整的命令 ID 列表请参见 [`jj_tui/bin/graph_commands.ml`](https://raw.githubusercontent.com/faldor20/jj_tui/main/jj_tui/bin/graph_commands.ml) 和 [`jj_tui/bin/file_commands.ml`](https://raw.githubusercontent.com/faldor20/jj_tui/main/jj_tui/bin/file_commands.ml)\n\n# 日志：\n`linux`：$XDG_STATE_HOME/jj_tui/\n`macos`：~/Library/logs/jj_tui/\n\n# 开发\n可以通过 nix 构建 `nix build` 或使用 `nix develop` 打开 nix shell\n注意：如果您使用 nix 开发 shell 并希望使用 dune 构建，请使用 `dune build --pkg disabled` 以使用 nix 提供的依赖进行构建\n也可以直接通过 Dune 包管理使用 `dune build` 构建。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "p9a6FLzjs212BMJP0g5UX8toTifGQews6eI3lW0Grso=",
+        "originContent": "For a full list of commands ids see [`jj_tui/bin/graph_commands.ml`](https://raw.githubusercontent.com/faldor20/jj_tui/main/jj_tui/bin/graph_commands.ml) and [`jj_tui/bin/file_commands.ml`](https://raw.githubusercontent.com/faldor20/jj_tui/main/jj_tui/bin/file_commands.ml)",
+        "translatedContent": "完整的命令 ID 列表请参见 [`jj_tui/bin/graph_commands.ml`](https://raw.githubusercontent.com/faldor20/jj_tui/main/jj_tui/bin/graph_commands.ml) 和 [`jj_tui/bin/file_commands.ml`](https://raw.githubusercontent.com/faldor20/jj_tui/main/jj_tui/bin/file_commands.ml)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "XVYbMZBBxK8Z8EAgN0PIzI3K58FJ6vgRzWKVy+mFMQk=",
+        "originContent": "# logs:",
+        "translatedContent": "# 日志："
+      },
+      {
+        "row": 4,
+        "rowsha": "rCWknoCJQ9cdbDtuWfB05tEpY7vAscGLCQ7BMiE0bGI=",
+        "originContent": "`linux`: $XDG_STATE_HOME/jj_tui/",
+        "translatedContent": "`linux`：$XDG_STATE_HOME/jj_tui/"
+      },
+      {
+        "row": 5,
+        "rowsha": "WEqaXHnu1sjs4V+dNTPDAh1LkQm5YJL5p8q4ptKMPSM=",
+        "originContent": "`macos`: ~/Library/logs/jj_tui/",
+        "translatedContent": "`macos`：~/Library/logs/jj_tui/"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yS1dLZG85IcYt2jNcJqqAt58i0pO1NAGOWO/4gpJPFg=",
+        "originContent": "# Dev",
+        "translatedContent": "# 开发"
+      },
+      {
+        "row": 8,
+        "rowsha": "Q4Dwk8IonwWJ7SVaRdBtU8tXiwipBg4cpbmtcS1R1Qw=",
+        "originContent": "Can be built with nix `nix build` or open a nix shell with `nix develop`",
+        "translatedContent": "可以通过 nix 构建 `nix build` 或使用 `nix develop` 打开 nix shell"
+      },
+      {
+        "row": 9,
+        "rowsha": "yIeafxLL02C4J8I19xm+lbEg+DqrOzuWyCtrwCmM0bQ=",
+        "originContent": "NOTE: if you are using the nix dev shell and would like to build with dune use `dune build --pkg disabled` to build using the deps provided by nix",
+        "translatedContent": "注意：如果您使用 nix 开发 shell 并希望使用 dune 构建，请使用 `dune build --pkg disabled` 以使用 nix 提供的依赖进行构建"
+      },
+      {
+        "row": 10,
+        "rowsha": "RHjr7jzgMVcVnBv01NFxJyKX0B3nZeBYwY0/29/zOSE=",
+        "originContent": "Can also be built directly with Dune package management via `dune build`.",
+        "translatedContent": "也可以直接通过 Dune 包管理使用 `dune build` 构建。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
