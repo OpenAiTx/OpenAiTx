@@ -47,35 +47,34 @@
   </tr>
 </table>
 
-## Контакты 📫
-> Основной участник этого репозитория — магистрант, выпускающийся в 2026 году. Не стесняйтесь обращаться для сотрудничества или по вопросам возможностей.
->
-> Основной вкладчик данного репозитория — магистрант 2026 года выпуска, рады сотрудничеству и обмену возможностями.
+Мы **настоятельно рекомендуем** использовать нашу специализированную модель для получения наилучшего опыта работы с агентом. Согласно нашим экспериментам, она **значительно превосходит существующие модели с открытым исходным кодом**.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
-</div>
+| Формат | HuggingFace | ModelScope |
+|--------|-------------|------------|
+| GGUF (Квантованная) | [Forceless/DeepPresenter-9B-GGUF](https://huggingface.co/Forceless/DeepPresenter-9B-GGUF) | [forceless/DeepPresenter-9B-GGUF](https://modelscope.cn/models/forceless/DeepPresenter-9B-GGUF) |
+| Полные веса | [Forceless/DeepPresenter-9B](https://huggingface.co/Forceless/DeepPresenter-9B) | [forceless/DeepPresenter-9B](https://modelscope.cn/models/forceless/DeepPresenter-9B) |
 
-## Новости 📅
-- [2026/03]: Теперь мы поддерживаем CLI и опубликовали наши дообученные модели на [Hugging Face 🤗](https://huggingface.co/collections/ICIP/deeppresenter)!
-- [2026/01]: Поддержка свободной и шаблонной генерации с экспортом в PPTX, теперь доступен оффлайн-режим! Добавлено управление контекстом для предотвращения его переполнения.
-- [2025/12]: 🔥 Выпущена V2 с крупными улучшениями — глубокая интеграция исследований, свободный визуальный дизайн, автономное создание ассетов, генерация изображений из текста и агентная среда с песочницей и 20+ инструментами.
-- [2025/09]: 🛠️ Добавлена поддержка MCP сервера — см. [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) для деталей конфигурации
-- [2025/09]: 🚀 Выпущена версия v2 с основными улучшениями — подробности в [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0)
-- [2025/08]: 🎉 Статья принята на **EMNLP 2025**!
-- [2025/05]: ✨ Выпущена версия v1 с основным функционалом и 🌟 прорывом: достигли 1 000 звёзд на GitHub! — подробности в [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0)
-- [2025/01]: 🔓 Открыт исходный код, экспериментальный код заархивирован в [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+## 📅 Новости
+
+- **[2026/04]** 🎉 [DeepPresenter](https://arxiv.org/abs/2602.22839) принят на **ACL 2026**!
+- **[2026/03]** 🤗 Мы выпустили специализированные модели и набор задач на [Hugging Face](https://huggingface.co/collections/ICIP/deeppresenter).
+- **[2026/01]** 🆕 Генерация в свободной форме и по шаблону теперь поддерживает экспорт в PPTX и оффлайн режим. Добавлено управление контекстом для предотвращения переполнения.
+- **[2025/12]** 🔥 Выпущен код DeepPresenter с крупными обновлениями — интеграция исследований, свободный визуальный дизайн, автономное создание ассетов, генерация текста в изображение и агентная среда с песочницей и 20+ инструментами.
+- **[2025/09]** 🛠️ Добавлена поддержка MCP сервера — см. [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) для подробностей конфигурации.
+- **[2025/08]** 🎉 [PPTAgent](https://arxiv.org/abs/2501.03936) принят на **EMNLP 2025**!
+- **[2025/05]** ⭐ Достигли **1,000 звезд** на GitHub!
+- **[2025/01]** 🔓 Исходный код PPTAgent открыт.
 
 ## Использование 📖
 
 > [!ВАЖНО]
-> Windows не поддерживается. Если вы используете Windows, пожалуйста, используйте WSL.
+> Windows не поддерживается. Если вы используете Windows, пожалуйста, воспользуйтесь WSL.
 >
-> Настоятельно рекомендуем начать с CLI и минимальной задачи, чтобы убедиться, что зависимости и среда настроены правильно.
+> Мы настоятельно рекомендуем начать с CLI и минимального задания, чтобы убедиться, что зависимости и окружение настроены правильно.
 
 ### Конфигурация
 
-Если вы используете CLI, команда `pptagent onboard` поможет интерактивно создать и обновить эти конфигурации. Если вы используете Docker Compose или собираете из исходников, подготовьте их вручную:
+Если вы используете CLI, `pptagent onboard` поможет интерактивно создать и обновить эти конфигурации. Если вы используете Docker Compose или собираете из исходников, подготовьте их вручную:
 
 ```bash
 cp deeppresenter/config.yaml.example deeppresenter/config.yaml
@@ -122,17 +121,26 @@ uvx pptagent generate "Q4 Report" \
   -o report.pptx
 ```
 
-| Команда               | Описание                                           |
-| --------------------- | ------------------------------------------------- |
-| `pptagent onboard`    | Интерактивный мастер настройки                     |
-| `pptagent generate`   | Генерация презентаций                              |
-| `pptagent config`     | Просмотр текущей конфигурации                      |
-| `pptagent reset`      | Сброс конфигурации                                 |
-| `pptagent serve`      | Запуск локального сервиса инференса для CLI        |
+| Команда                 | Описание                                            |
+| ----------------------- | -------------------------------------------------- |
+| `pptagent onboard`      | Интерактивный мастер настройки                      |
+| `pptagent generate`     | Генерация презентаций                               |
+| `pptagent config`       | Просмотр текущей конфигурации                       |
+| `pptagent reset`        | Сброс конфигурации                                  |
+| `pptagent serve`        | Запуск локального сервиса инференса, используемого CLI |
 
-### 2. Минимальная настройка / Разработка: Сборка из исходников
+### Docker-образы
 
-Используйте этот режим, если вам нужна минимальная абстракция и полный контроль над зависимостями в ходе разработки.
+DeepPresenter публикует два образа среды выполнения:
+
+| Локальное имя образа | Назначение | Docker Hub | Зеркало 1ms.run |
+| --- | --- | --- | --- |
+| `deeppresenter-host` | Хост-сервис для веб-интерфейса и среды оркестрации | [`forceless/deeppresenter-host`](https://hub.docker.com/r/forceless/deeppresenter-host) | [`docker.1ms.run/forceless/deeppresenter-host`](https://1ms.run/r/forceless/deeppresenter-host) |
+| `deeppresenter-sandbox` | Образ-песочница, используемый средой выполнения для изолированного запуска инструментов | [`forceless/deeppresenter-sandbox`](https://hub.docker.com/r/forceless/deeppresenter-sandbox) | [`docker.1ms.run/forceless/deeppresenter-sandbox`](https://1ms.run/r/forceless/deeppresenter-sandbox) |
+
+### 2. Минимальная установка / Разработка: сборка из исходников
+
+Используйте этот режим, если вам нужен минимальный уровень абстракции и полный контроль над зависимостями в процессе разработки.
 
 ```bash
 uv pip install -e .
@@ -144,9 +152,17 @@ modelscope download forceless/fasttext-language-id
 docker pull forceless/deeppresenter-sandbox
 docker pull forceless/deeppresenter-host
 docker tag forceless/deeppresenter-sandbox deeppresenter-sandbox
+docker tag forceless/deeppresenter-host deeppresenter-host
+
+# or pull through the 1ms.run mirror
+docker pull docker.1ms.run/forceless/deeppresenter-sandbox
+docker pull docker.1ms.run/forceless/deeppresenter-host
+docker tag docker.1ms.run/forceless/deeppresenter-sandbox deeppresenter-sandbox
+docker tag docker.1ms.run/forceless/deeppresenter-host deeppresenter-host
 
 # or build from dockerfile
 docker build -t deeppresenter-sandbox -f deeppresenter/docker/SandBox.Dockerfile .
+docker build -t deeppresenter-host -f deeppresenter/docker/Host.Dockerfile .
 ```
 
 Запустите приложение:
@@ -162,10 +178,19 @@ python webui.py
 ```bash
 # Pull the public images to avoid build from source
 docker pull forceless/deeppresenter-sandbox
+docker pull forceless/deeppresenter-host
 docker tag forceless/deeppresenter-sandbox deeppresenter-sandbox
+docker tag forceless/deeppresenter-host deeppresenter-host
+
+# Or pull through the 1ms.run mirror
+docker pull docker.1ms.run/forceless/deeppresenter-sandbox
+docker pull docker.1ms.run/forceless/deeppresenter-host
+docker tag docker.1ms.run/forceless/deeppresenter-sandbox deeppresenter-sandbox
+docker tag docker.1ms.run/forceless/deeppresenter-host deeppresenter-host
 
 # Or build from source
 docker build -t deeppresenter-sandbox -f deeppresenter/docker/SandBox.Dockerfile .
+docker build -t deeppresenter-host -f deeppresenter/docker/Host.Dockerfile .
 
 # Start the host service
 docker compose up -d
@@ -250,7 +275,7 @@ The service exposes the web UI on `http://localhost:7861`.
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0013.jpg" alt="图片13" width="200"/>
 
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0014.jpg" alt="图片14" width="200"/>
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="图片15" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="Картинка15" width="200"/>
 
 </div>
 
@@ -282,27 +307,48 @@ The service exposes the web UI on `http://localhost:7861`.
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/imHuZijian>
+            <img src=https://avatars.githubusercontent.com/u/97173940?v=4 width="80;"  alt=BrandonHu/>
+            <br />
+            <sub style="font-size:14px"><b>BrandonHu</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+
         <a href=https://github.com/Dnoob>
             <img src=https://avatars.githubusercontent.com/u/92987618?v=4 width="80;"  alt=Dnoob/>
             <br />
             <sub style="font-size:14px"><b>Dnoob</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
-
         <a href=https://github.com/Sadahlu>
             <img src=https://avatars.githubusercontent.com/u/126563707?v=4 width="80;"  alt=Sadahlu/>
             <br />
             <sub style="font-size:14px"><b>Sadahlu</b></sub>
         </a>
     </td>
-</tr>
-<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/lnennnn>
+            <img src=https://avatars.githubusercontent.com/u/124434018?v=4 width="80;"  alt=lnennnn/>
+            <br />
+            <sub style="font-size:14px"><b>lnennnn</b></sub>
+        </a>
+    </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/KurisuMakiseSame>
             <img src=https://avatars.githubusercontent.com/u/168447425?v=4 width="80;"  alt=KurisuMakiseSame/>
             <br />
             <sub style="font-size:14px"><b>KurisuMakiseSame</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/RheagalFire>
+            <img src=https://avatars.githubusercontent.com/u/60213893?v=4 width="80;"  alt=Aarish Alam/>
+            <br />
+            <sub style="font-size:14px"><b>Aarish Alam</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
@@ -312,18 +358,13 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>Angelen</b></sub>
         </a>
     </td>
-    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
-        <a href=https://github.com/imHuZijian>
-            <img src=https://avatars.githubusercontent.com/u/97173940?v=4 width="80;"  alt=BrandonHu/>
-            <br />
-            <sub style="font-size:14px"><b>BrandonHu</b></sub>
-        </a>
-    </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/kylooh>
             <img src=https://avatars.githubusercontent.com/u/26456650?v=4 width="80;"  alt=Eliot White/>
             <br />
-            <sub style="font-size:14px"><b>Eliot White</b></sub>
+            <sub style="font-size:14px"><b>Элиот Уайт</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
@@ -333,8 +374,6 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>EvolvedGhost</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/ISCAS-zwl>
             <img src=https://avatars.githubusercontent.com/u/179820048?v=4 width="80;"  alt=ISCAS-zwl/>
@@ -344,9 +383,9 @@ The service exposes the web UI on `http://localhost:7861`.
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/James4Ever0>
-            <img src=https://avatars.githubusercontent.com/u/103997068?v=4 width="80;"  alt=James Brown/>
+            <img src=https://avatars.githubusercontent.com/u/103997068?v=4 width="80;"  alt=白雨 | James Brown/>
             <br />
-            <sub style="font-size:14px"><b>Джеймс Браун</b></sub>
+            <sub style="font-size:14px"><b>白雨 | Джеймс Браун</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
@@ -356,6 +395,8 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>JunZhang</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/openaitx-system>
             <img src=https://avatars.githubusercontent.com/u/215529505?v=4 width="80;"  alt=Open AI Tx/>
@@ -370,8 +411,6 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>Sense_wang</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/DeJeune>
             <img src=https://avatars.githubusercontent.com/u/67425183?v=4 width="80;"  alt=SuYao/>
@@ -393,13 +432,6 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>Zhenyu</b></sub>
         </a>
     </td>
-    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
-        <a href=https://github.com/lnennnn>
-            <img src=https://avatars.githubusercontent.com/u/124434018?v=4 width="80;"  alt=lnennnn/>
-            <br />
-            <sub style="font-size:14px"><b>lnennnn</b></sub>
-        </a>
-    </td>
 </tr>
 </table>
 
@@ -407,7 +439,7 @@ The service exposes the web UI on `http://localhost:7861`.
 
 ## Цитирование 🙏
 
-Если вы считаете этот проект полезным, пожалуйста, используйте следующее для его цитирования:
+Если этот проект оказался для вас полезным, пожалуйста, используйте следующее для цитирования:
 ```bibtex
 @inproceedings{zheng-etal-2025-pptagent,
     title = "{PPTA}gent: Generating and Evaluating Presentations Beyond Text-to-Slides",
@@ -451,6 +483,6 @@ The service exposes the web UI on `http://localhost:7861`.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-24
 
 ---

@@ -47,35 +47,34 @@
   </tr>
 </table>
 
-## Contatti 📫
-> Il principale contributore di questo repository è uno studente magistrale che si laureerà nel 2026, sentiti libero di contattare per collaborazioni o opportunità.
->
-> 本仓库的主要贡献者是一名 2026 届硕士毕业生，欢迎联系合作或交流机会。
+**Raccomandiamo vivamente** di distribuire il nostro modello fine-tuned per ottenere la migliore esperienza con il nostro progetto agent. Secondo i nostri esperimenti, **supera significativamente i modelli open-source esistenti**.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
-</div>
+| Formato | HuggingFace | ModelScope |
+|---------|-------------|------------|
+| GGUF (Quantizzato) | [Forceless/DeepPresenter-9B-GGUF](https://huggingface.co/Forceless/DeepPresenter-9B-GGUF) | [forceless/DeepPresenter-9B-GGUF](https://modelscope.cn/models/forceless/DeepPresenter-9B-GGUF) |
+| Pesi Completi | [Forceless/DeepPresenter-9B](https://huggingface.co/Forceless/DeepPresenter-9B) | [forceless/DeepPresenter-9B](https://modelscope.cn/models/forceless/DeepPresenter-9B) |
 
-## Novità 📅
-- [2026/03]: Ora supportiamo la CLI e abbiamo rilasciato i nostri modelli ottimizzati su [Hugging Face 🤗](https://huggingface.co/collections/ICIP/deeppresenter)!
-- [2026/01]: Supportiamo la generazione libera e tramite template, esportazione PPTX, ora anche in modalità offline! La gestione del contesto è stata aggiunta per evitare overflow di contesto.
-- [2025/12]: 🔥 Rilasciata la V2 con miglioramenti significativi - Integrazione Profonda della Ricerca, Design Visivo Libero, Creazione Autonoma di Risorse, Generazione Testo-immagine e Ambiente Agent con sandbox e 20+ strumenti.
-- [2025/09]: 🛠️ Aggiunto il supporto al server MCP - vedi [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) per dettagli sulla configurazione
-- [2025/09]: 🚀 Rilasciata la v2 con importanti miglioramenti - vedi [note di rilascio](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) per dettagli
-- [2025/08]: 🎉 Articolo accettato a **EMNLP 2025**!
-- [2025/05]: ✨ Rilasciata la v1 con funzionalità principali e 🌟 traguardo: raggiunte 1.000 stelle su GitHub! - vedi [note di rilascio](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) per dettagli
-- [2025/01]: 🔓 Codice reso open-source, con codice sperimentale archiviato alla [release sperimentale](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+## 📅 Novità
+
+- **[2026/04]** 🎉 [DeepPresenter](https://arxiv.org/abs/2602.22839) accettato a **ACL 2026**!
+- **[2026/03]** 🤗 Abbiamo rilasciato i modelli fine-tuned e il taskset su [Hugging Face](https://huggingface.co/collections/ICIP/deeppresenter).
+- **[2026/01]** 🆕 Generazione libera e tramite template ora supportano l’esportazione PPTX e la modalità offline. Aggiunta gestione del contesto per prevenire overflow del contesto.
+- **[2025/12]** 🔥 Rilasciato il codice di **DeepPresenter** con importanti aggiornamenti — Deep Research Integration, Free-Form Visual Design, Autonomous Asset Creation, Text-to-Image Generation e un Agent Environment con sandbox e oltre 20 strumenti.
+- **[2025/09]** 🛠️ Aggiunto supporto server MCP — vedi [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) per dettagli di configurazione.
+- **[2025/08]** 🎉 [PPTAgent](https://arxiv.org/abs/2501.03936) accettato a **EMNLP 2025**!
+- **[2025/05]** ⭐ Raggiunte **1.000 stelle** su GitHub!
+- **[2025/01]** 🔓 Rilasciato come open source il codice di PPTAgent.
 
 ## Utilizzo 📖
 
 > [!IMPORTANTE]
-> Windows non è supportato. Se usi Windows, utilizza WSL.
+> Windows non è supportato. Se sei su Windows, usa WSL.
 >
-> Raccomandiamo vivamente di iniziare con la CLI e il task minimo per confermare che le dipendenze e l’ambiente siano configurati correttamente.
+> Raccomandiamo fortemente di iniziare dalla CLI e con il task minimo per confermare che le dipendenze e l’ambiente siano configurati correttamente.
 
 ### Configurazione
 
-Se utilizzi la CLI, `pptagent onboard` può aiutare a creare e aggiornare queste configurazioni in modo interattivo. Se usi Docker Compose o compili dal sorgente, dovrai prepararle manualmente:
+Se usi la CLI, `pptagent onboard` può aiutarti a creare e aggiornare queste configurazioni in modo interattivo. Se usi Docker Compose o compili dal sorgente, dovrai prepararle manualmente:
 
 ```bash
 cp deeppresenter/config.yaml.example deeppresenter/config.yaml
@@ -126,11 +125,20 @@ uvx pptagent generate "Q4 Report" \
 | ------------------- | ------------------------------------------------- |
 | `pptagent onboard`  | Procedura guidata di configurazione interattiva    |
 | `pptagent generate` | Genera presentazioni                              |
-| `pptagent config`   | Visualizza la configurazione corrente              |
+| `pptagent config`   | Visualizza la configurazione attuale              |
 | `pptagent reset`    | Reimposta la configurazione                       |
-| `pptagent serve`    | Avvia il servizio di inferenza locale usato dal CLI |
+| `pptagent serve`    | Avvia il servizio locale di inferenza usato dalla CLI |
 
-### 2. Configurazione minima / Sviluppo: Compilazione dal sorgente
+### Immagini Docker
+
+DeepPresenter pubblica due immagini runtime:
+
+| Nome immagine locale | Scopo | Docker Hub | Mirror 1ms.run |
+| --- | --- | --- | --- |
+| `deeppresenter-host` | Servizio host per la UI web e il runtime di orchestrazione | [`forceless/deeppresenter-host`](https://hub.docker.com/r/forceless/deeppresenter-host) | [`docker.1ms.run/forceless/deeppresenter-host`](https://1ms.run/r/forceless/deeppresenter-host) |
+| `deeppresenter-sandbox` | Immagine sandbox usata dal runtime per l'esecuzione isolata degli strumenti | [`forceless/deeppresenter-sandbox`](https://hub.docker.com/r/forceless/deeppresenter-sandbox) | [`docker.1ms.run/forceless/deeppresenter-sandbox`](https://1ms.run/r/forceless/deeppresenter-sandbox) |
+
+### 2. Configurazione minima / Sviluppo: Compila dal sorgente
 
 Usa questa modalità se desideri il livello di astrazione più piccolo e il pieno controllo sulle dipendenze durante lo sviluppo.
 
@@ -144,9 +152,17 @@ modelscope download forceless/fasttext-language-id
 docker pull forceless/deeppresenter-sandbox
 docker pull forceless/deeppresenter-host
 docker tag forceless/deeppresenter-sandbox deeppresenter-sandbox
+docker tag forceless/deeppresenter-host deeppresenter-host
+
+# or pull through the 1ms.run mirror
+docker pull docker.1ms.run/forceless/deeppresenter-sandbox
+docker pull docker.1ms.run/forceless/deeppresenter-host
+docker tag docker.1ms.run/forceless/deeppresenter-sandbox deeppresenter-sandbox
+docker tag docker.1ms.run/forceless/deeppresenter-host deeppresenter-host
 
 # or build from dockerfile
 docker build -t deeppresenter-sandbox -f deeppresenter/docker/SandBox.Dockerfile .
+docker build -t deeppresenter-host -f deeppresenter/docker/Host.Dockerfile .
 ```
 
 Avvia l'app:
@@ -162,10 +178,19 @@ Utilizza questa modalità per un ambiente server stabile con dipendenze esplicit
 ```bash
 # Pull the public images to avoid build from source
 docker pull forceless/deeppresenter-sandbox
+docker pull forceless/deeppresenter-host
 docker tag forceless/deeppresenter-sandbox deeppresenter-sandbox
+docker tag forceless/deeppresenter-host deeppresenter-host
+
+# Or pull through the 1ms.run mirror
+docker pull docker.1ms.run/forceless/deeppresenter-sandbox
+docker pull docker.1ms.run/forceless/deeppresenter-host
+docker tag docker.1ms.run/forceless/deeppresenter-sandbox deeppresenter-sandbox
+docker tag docker.1ms.run/forceless/deeppresenter-host deeppresenter-host
 
 # Or build from source
 docker build -t deeppresenter-sandbox -f deeppresenter/docker/SandBox.Dockerfile .
+docker build -t deeppresenter-host -f deeppresenter/docker/Host.Dockerfile .
 
 # Start the host service
 docker compose up -d
@@ -250,13 +275,14 @@ The service exposes the web UI on `http://localhost:7861`.
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0013.jpg" alt="图片13" width="200"/>
 
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0014.jpg" alt="图片14" width="200"/>
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="图片15" width="200"/>
+
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="Immagine15" width="200"/>
 
 </div>
 
 ---
 
-## Contributori 🌟
+## Collaboratori 🌟
 
 <table>
 <tr>
@@ -282,27 +308,47 @@ The service exposes the web UI on `http://localhost:7861`.
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/imHuZijian>
+            <img src=https://avatars.githubusercontent.com/u/97173940?v=4 width="80;"  alt=BrandonHu/>
+            <br />
+            <sub style="font-size:14px"><b>BrandonHu</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/Dnoob>
             <img src=https://avatars.githubusercontent.com/u/92987618?v=4 width="80;"  alt=Dnoob/>
             <br />
             <sub style="font-size:14px"><b>Dnoob</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
-
         <a href=https://github.com/Sadahlu>
             <img src=https://avatars.githubusercontent.com/u/126563707?v=4 width="80;"  alt=Sadahlu/>
             <br />
             <sub style="font-size:14px"><b>Sadahlu</b></sub>
         </a>
     </td>
-</tr>
-<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/lnennnn>
+            <img src=https://avatars.githubusercontent.com/u/124434018?v=4 width="80;"  alt=lnennnn/>
+            <br />
+            <sub style="font-size:14px"><b>lnennnn</b></sub>
+        </a>
+    </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/KurisuMakiseSame>
             <img src=https://avatars.githubusercontent.com/u/168447425?v=4 width="80;"  alt=KurisuMakiseSame/>
             <br />
             <sub style="font-size:14px"><b>KurisuMakiseSame</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/RheagalFire>
+            <img src=https://avatars.githubusercontent.com/u/60213893?v=4 width="80;"  alt=Aarish Alam/>
+            <br />
+            <sub style="font-size:14px"><b>Aarish Alam</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
@@ -312,13 +358,8 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>Angelen</b></sub>
         </a>
     </td>
-    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
-        <a href=https://github.com/imHuZijian>
-            <img src=https://avatars.githubusercontent.com/u/97173940?v=4 width="80;"  alt=BrandonHu/>
-            <br />
-            <sub style="font-size:14px"><b>BrandonHu</b></sub>
-        </a>
-    </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/kylooh>
             <img src=https://avatars.githubusercontent.com/u/26456650?v=4 width="80;"  alt=Eliot White/>
@@ -333,8 +374,6 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>EvolvedGhost</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/ISCAS-zwl>
             <img src=https://avatars.githubusercontent.com/u/179820048?v=4 width="80;"  alt=ISCAS-zwl/>
@@ -344,9 +383,9 @@ The service exposes the web UI on `http://localhost:7861`.
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/James4Ever0>
-            <img src=https://avatars.githubusercontent.com/u/103997068?v=4 width="80;"  alt=James Brown/>
+            <img src=https://avatars.githubusercontent.com/u/103997068?v=4 width="80;"  alt=白雨 | James Brown/>
             <br />
-            <sub style="font-size:14px"><b>James Brown</b></sub>
+            <sub style="font-size:14px"><b>白雨 | James Brown</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
@@ -356,6 +395,8 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>JunZhang</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/openaitx-system>
             <img src=https://avatars.githubusercontent.com/u/215529505?v=4 width="80;"  alt=Open AI Tx/>
@@ -370,8 +411,6 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>Sense_wang</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/DeJeune>
             <img src=https://avatars.githubusercontent.com/u/67425183?v=4 width="80;"  alt=SuYao/>
@@ -393,21 +432,14 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>Zhenyu</b></sub>
         </a>
     </td>
-    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
-        <a href=https://github.com/lnennnn>
-            <img src=https://avatars.githubusercontent.com/u/124434018?v=4 width="80;"  alt=lnennnn/>
-            <br />
-            <sub style="font-size:14px"><b>lnennnn</b></sub>
-        </a>
-    </td>
 </tr>
 </table>
 
-[![Grafico della storia delle stelle](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)
+[![Grafico della Storia delle Stelle](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)
 
 ## Citazione 🙏
 
-Se ritieni che questo progetto sia utile, utilizza il seguente per citarlo:
+Se trovi utile questo progetto, utilizza quanto segue per citarlo:
 ```bibtex
 @inproceedings{zheng-etal-2025-pptagent,
     title = "{PPTA}gent: Generating and Evaluating Presentations Beyond Text-to-Slides",
@@ -451,6 +483,6 @@ Se ritieni che questo progetto sia utile, utilizza il seguente per citarlo:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-24
 
 ---

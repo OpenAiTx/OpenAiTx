@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <!-- markdownlint-disable MD033 MD036 MD041 MD045 -->
 <div align="center">
   <a href="https://v2.nonebot.dev/store">
@@ -21,7 +53,7 @@ _✨ NoneBot DeepSeek プラグイン ✨_
 <a href="">
   <img src="https://img.shields.io/pypi/v/nonebot-plugin-deepseek.svg" alt="pypi" />
 </a>
-<img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="python">
+<img src="https://img.shields.io/badge/python-3.12+-blue.svg" alt="python">
 <a href="https://github.com/astral-sh/uv">
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json" alt="uv-managed">
 </a>
@@ -44,7 +76,7 @@ _✨ NoneBot DeepSeek プラグイン ✨_
 </a>
 &nbsp;&nbsp;|&nbsp;&nbsp;
 <a href="#-インストール">
-  <strong>📦️ プラグインをダウンロード</strong>
+  <strong>📦️ プラグインのダウンロード</strong>
 </a>
 &nbsp;&nbsp;|&nbsp;&nbsp;
 <a href="https://qm.qq.com/q/Vuipof2zug" target="__blank">
@@ -55,17 +87,17 @@ _✨ NoneBot DeepSeek プラグイン ✨_
 
 ## 📖 紹介 <img src="https://raw.githubusercontent.com/fenxer/llm-things/3eaaba79ddf48a784304493adfbaa614f410d6e6/images/human-coded.svg" width="100" alt="Human coded" />
 
-NoneBot DeepSeek プラグイン。DeepSeek モデルを接続し、インテリジェントな対話とQ&A機能を提供します
+NoneBot DeepSeek プラグイン。DeepSeek モデルを接続し、インテリジェントな対話およびQ&A機能を提供します
 
 Wiki: 👉 [ポータル](https://github.com/KomoriDev/nonebot-plugin-deepseek/wiki)
 
 > [!IMPORTANT]
-> **プロジェクトをお気に入り登録**すると、GitHub からすべてのリリース通知を遅延なく受け取れます～⭐️
+> **プロジェクトをお気に入りに追加**すると、GitHubからすべてのリリース通知を即座に受け取ることができます～⭐️
 
 <img width="100%" src="https://starify.komoridevs.icu/api/starify?owner=KomoriDev&repo=nonebot-plugin-deepseek" alt="starify" />
 
 <details>
-  <summary><kbd>Star履歴</kbd></summary>
+  <summary><kbd>Star History</kbd></summary>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=KomoriDev/nonebot-plugin-deepseek&theme=dark&type=Date" />
     <img width="100%" src="https://star-history.com/#KomoriDev/nonebot-plugin-deepseek&Date" />
@@ -74,14 +106,14 @@ Wiki: 👉 [ポータル](https://github.com/KomoriDev/nonebot-plugin-deepseek/w
 
 ## 💿 インストール
 
-以下に挙げる方法のうち **いずれか一つ** を選択してください
+以下の方法のうち **いずれか一つ** を選んでください
 
 > [!TIP]
-> Markdown を画像に変換する機能を有効にするには、`nonebot-plugin-deepseek[image]` をインストールする必要があります
-<details open>
-<summary>[推奨] nb-cli を使用してインストール</summary>
-Bot のルートディレクトリでコマンドラインを開き、以下のコマンドを入力してインストールします
+> Markdown画像変換機能を有効にしたい場合、`nonebot-plugin-deepseek[image]` をインストールしてください
 
+<details open>
+<summary>[推奨] nb-cliを使ったインストール</summary>
+Botのルートディレクトリでコマンドラインを開き、以下のコマンドを入力してインストールしてください
 
 ```shell
 nb plugin install nonebot-plugin-deepseek
@@ -104,34 +136,34 @@ NoneBot プロジェクトのルートディレクトリにある設定ファイ
 ```toml
 plugins = ["nonebot_plugin_deepseek"]
 ```
-
 </details>
 
 ## ⚙️ 設定
 
-プロジェクトの設定ファイルに以下の設定を追加してください
+プロジェクトの設定ファイルに下記の設定を追加してください
 
 > [!note]
 > `api_key` は [DeepSeek オープンプラットフォーム](https://platform.deepseek.com/) から取得してください  
-> `enable_models` は [`CustomModel`](https://github.com/KomoriDev/nonebot-plugin-deepseek/blob/ee9f0b0f0568eedb3eb87423e6c1bf271787ab76/nonebot_plugin_deepseek/config.py#L34) 構造の辞書であり、ローカルモデルを接続しない場合は変更不要です  
-> ローカルモデルを接続する場合は、こちらを参照してください：👉 [Wiki - ローカルモデルの接続](https://github.com/KomoriDev/nonebot-plugin-deepseek/wiki/本地模型)  
+> `enable_models` は [`CustomModel`](https://github.com/KomoriDev/nonebot-plugin-deepseek/blob/ee9f0b0f0568eedb3eb87423e6c1bf271787ab76/nonebot_plugin_deepseek/config.py#L34) 構造の辞書です。ローカルモデルの接続が不要な場合は修正不要です  
+> ローカルモデルの接続方法については、👉 [Wiki - ローカルモデルの接続](https://github.com/KomoriDev/nonebot-plugin-deepseek/wiki/本地模型) を参照してください  
 
 |              設定項目              | 必須  |                             デフォルト値                             |                                                                          説明                                                                          |
 | :------------------------------: | :---: | :------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: |
 |        deepseek__api_key         |  はい   |                               なし                               |                                                                        APIキー                                                                         |
-|     deepseek__enable_models      |  いいえ   | [{ "name": "deepseek-chat" }, { "name": "deepseek-reasoner" }] | 有効なモデル [設定説明](https://github.com/KomoriDev/nonebot-plugin-deepseek/wiki/%E9%85%8D%E7%BD%AE#enable_models-%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E) |
-|         deepseek__prompt         |  いいえ   |                               なし                               |                                                                        モデルのプリセット                                                                        |
-|         deepseek__stream         |  いいえ   |                             False                              |                                                                    ストリーミング転送を有効にするか                                                                    |
-|        deepseek__timeout         |  いいえ   |             {"api_request": 100, "user_input": 60}             |                                                                        タイムアウト設定                                                                        |
-|       deepseek__md_to_pic        |  いいえ   |                             False                              |                                                                Markdown を画像に変換するか                                                                |
-|  deepseek__enable_send_thinking  |  いいえ   |                             False                              |                                                                     思考チェーンを送信するか                                                                     |
+|     deepseek__enable_models      |  いいえ   | [{ "name": "deepseek-v4-flash" }, { "name": "deepseek-v4-pro" }] | 有効化するモデル [設定説明](https://github.com/KomoriDev/nonebot-plugin-deepseek/wiki/%E9%85%8D%E7%BD%AE#enable_models-%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E) |
+|         deepseek__prompt         |  いいえ   |                               なし                               |                                                                        モデルプリセット                                                                |
+|         deepseek__stream         |  いいえ   |                             False                              |                                                                   ストリーミング転送を有効にするか                                                      |
+|        deepseek__timeout         |  いいえ   |             {"api_request": 100, "user_input": 60}             |                                                                        タイムアウト設定                                                                |
+|       deepseek__md_to_pic        |  いいえ   |                             False                              |                                                                Markdown から画像への変換を有効にするか                                                |
+|  deepseek__enable_send_thinking  |  いいえ   |                             False                              |                                                                     シンキングチェーンを送信するか                                                      |
 
 ## 🎉 使い方
 
 > [!note]
-> `COMMAND_START` と上記の設定項目を確認してください。ここではデフォルトで `/` を使用しています
+> `COMMAND_START` と上記の設定項目を確認してください。ここでは `/` をデフォルトとします
 
 ### ヘルプ
+
 
 ```bash
 deepseek --help
@@ -167,7 +199,7 @@ deepseek --help
 ### 深い思考
 
 ```bash
-/deepseek [内容] --use-model deepseek-reasoner
+/deepseek [内容] --use-model deepseek-v4-pro
 ```
 
 快捷指令：`/深度思考 [内容]`
@@ -213,10 +245,10 @@ deepseek --help
 例子:
 
 ```bash
-user: /deepseek --shortcut /chat /deepseek --use-model deepseek-chat
+user: /deepseek --shortcut /chat /deepseek --use-model deepseek-v4-flash
 bot: deepseek::deepseek 的快捷指令: "/chat" 添加成功
 user: /chat
-bot: (使用模型 deepseek-chat)
+bot: (使用模型 deepseek-v4-flash)
 ```
 ## 📸 効果図
 
@@ -267,6 +299,6 @@ SOFTWARE.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-24
 
 ---

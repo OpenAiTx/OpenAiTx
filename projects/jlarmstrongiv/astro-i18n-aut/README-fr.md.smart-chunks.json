@@ -1,0 +1,1832 @@
+[
+  {
+    "Id": 1,
+    "Content": "# `astro-i18n-aut` The i18n integration for Astro 🧑‍🚀\n\n<p align=\"center\">\n  <a href=\"https://github.com/jlarmstrongiv/astro-i18n-aut#readme\" target=\"_blank\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/main/logos/astro-i18n-aut-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/main/logos/astro-i18n-aut-light.svg\">\n      <img alt=\"astro-i18n-aut\" src=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/HEAD/logos/astro-i18n-aut-light.svg\" width=\"400\" height=\"225\" style=\"max-width: 100%;\">\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  Built with ❤️ for all Astro crewmates 🧑‍🚀\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/astro-i18n-aut\"><img src=\"https://img.shields.io/npm/dt/astro-i18n-aut.svg\" alt=\"Total Downloads\"></a>\n  <!-- https://github.com/astro-i18n-aut/astro-i18n-aut/releases -->\n  <a href=\"https://www.npmjs.com/package/astro-i18n-aut?activeTab=versions\"><img src=\"https://img.shields.io/npm/v/astro-i18n-aut.svg\" alt=\"Latest Release\"></a>\n  <a href=\"https://github.com/jlarmstrongiv/astro-i18n-aut/blob/main/LICENSE.md\"><img src=\"https://img.shields.io/npm/l/astro-i18n-aut.svg\" alt=\"License\"></a>\n</p>\n\n---\n\n## Motivation\n\nProvide an internationalization (i18n) integration for Astro that:\n\n- Supports the `defaultLocale`\n- Avoids template file duplication\n- Is adapter agnostic\n- Is UI framework agnostic\n- Is compatible with [`@astrojs/sitemap`](https://www.npmjs.com/package/@astrojs/sitemap)\n\n## Quick start\n\n### Install\n\nInstall via [npm](https://www.npmjs.com/package/astro-i18n-aut):",
+    "ContentSha": "mdJmQKAA3Cx2jG/Dx8WghkMo5vfUIapUJSDWZY3utdE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# `astro-i18n-aut` L’intégration i18n pour Astro 🧑‍🚀\n\n<p align=\"center\">\n  <a href=\"https://github.com/jlarmstrongiv/astro-i18n-aut#readme\" target=\"_blank\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/main/logos/astro-i18n-aut-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/main/logos/astro-i18n-aut-light.svg\">\n      <img alt=\"astro-i18n-aut\" src=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/HEAD/logos/astro-i18n-aut-light.svg\" width=\"400\" height=\"225\" style=\"max-width: 100%;\">\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  Construit avec ❤️ pour tous les membres de l’équipage Astro 🧑‍🚀\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/astro-i18n-aut\"><img src=\"https://img.shields.io/npm/dt/astro-i18n-aut.svg\" alt=\"Total des téléchargements\"></a>\n  <!-- https://github.com/astro-i18n-aut/astro-i18n-aut/releases -->\n  <a href=\"https://www.npmjs.com/package/astro-i18n-aut?activeTab=versions\"><img src=\"https://img.shields.io/npm/v/astro-i18n-aut.svg\" alt=\"Dernière version\"></a>\n  <a href=\"https://github.com/jlarmstrongiv/astro-i18n-aut/blob/main/LICENSE.md\"><img src=\"https://img.shields.io/npm/l/astro-i18n-aut.svg\" alt=\"Licence\"></a>\n</p>\n\n---\n\n## Motivation\n\nFournir une intégration d’internationalisation (i18n) pour Astro qui :\n\n- Prend en charge le `defaultLocale`\n- Évite la duplication des fichiers de template\n- Est indépendante de l’adaptateur\n- Est indépendante du framework UI\n- Est compatible avec [`@astrojs/sitemap`](https://www.npmjs.com/package/@astrojs/sitemap)\n\n## Démarrage rapide\n\n### Installer\n\nInstaller via [npm](https://www.npmjs.com/package/astro-i18n-aut) :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TSBpLVeo4aGFeQ/kHfFdRfOV3bqM/XrmIHfmg7M0aQc=",
+        "originContent": "# `astro-i18n-aut` The i18n integration for Astro 🧑‍🚀",
+        "translatedContent": "# `astro-i18n-aut` L’intégration i18n pour Astro 🧑‍🚀"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "jLTvv3ZSM6xDvdw/g8NK7fGJS+nr43KhK6TashjS91E=",
+        "originContent": "  <a href=\"https://github.com/jlarmstrongiv/astro-i18n-aut#readme\" target=\"_blank\">",
+        "translatedContent": "  <a href=\"https://github.com/jlarmstrongiv/astro-i18n-aut#readme\" target=\"_blank\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "Q+M7PRMBBE7zaEHpl/LBH+86XEBmcIehzVpL3N4sntY=",
+        "originContent": "    <picture>",
+        "translatedContent": "    <picture>"
+      },
+      {
+        "row": 6,
+        "rowsha": "oT6RkPCaHwWS1hxv9gCP79v3xC/JaUJIq6uBnYxVCdU=",
+        "originContent": "      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/main/logos/astro-i18n-aut-dark.svg\">",
+        "translatedContent": "      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/main/logos/astro-i18n-aut-dark.svg\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "D7bcN0289BRQeB1pd3h5bfSICjwGO2U6a2kB1Kyl9PY=",
+        "originContent": "      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/main/logos/astro-i18n-aut-light.svg\">",
+        "translatedContent": "      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/main/logos/astro-i18n-aut-light.svg\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "QsLz9vfTAHa3JPzeZ/eAAjMK9b+NqZ1n+N4Ykf7e01M=",
+        "originContent": "      <img alt=\"astro-i18n-aut\" src=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/HEAD/logos/astro-i18n-aut-light.svg\" width=\"400\" height=\"225\" style=\"max-width: 100%;\">",
+        "translatedContent": "      <img alt=\"astro-i18n-aut\" src=\"https://raw.githubusercontent.com/jlarmstrongiv/astro-i18n-aut/HEAD/logos/astro-i18n-aut-light.svg\" width=\"400\" height=\"225\" style=\"max-width: 100%;\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "idmeZWEf6Z/7xrCErmtdJHw/btCXZ91wC0xZyoz3LM0=",
+        "originContent": "    </picture>",
+        "translatedContent": "    </picture>"
+      },
+      {
+        "row": 10,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "qfOiFUCZJQX0426wQwOe02C7wIFQdKFxfyQMRti1+iw=",
+        "originContent": "  Built with ❤️ for all Astro crewmates 🧑‍🚀",
+        "translatedContent": "  Construit avec ❤️ pour tous les membres de l’équipage Astro 🧑‍🚀"
+      },
+      {
+        "row": 15,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "ftLOYpIIEEWX0PqgRUd2jXIXlZImBp5Zoe2HLPVl9qg=",
+        "originContent": "  <a href=\"https://www.npmjs.com/package/astro-i18n-aut\"><img src=\"https://img.shields.io/npm/dt/astro-i18n-aut.svg\" alt=\"Total Downloads\"></a>",
+        "translatedContent": "  <a href=\"https://www.npmjs.com/package/astro-i18n-aut\"><img src=\"https://img.shields.io/npm/dt/astro-i18n-aut.svg\" alt=\"Total des téléchargements\"></a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "yPozGtqnyGH+vGkSVsTNcVNeOPKt32s6y6bEngVxDew=",
+        "originContent": "  <!-- https://github.com/astro-i18n-aut/astro-i18n-aut/releases -->",
+        "translatedContent": "  <!-- https://github.com/astro-i18n-aut/astro-i18n-aut/releases -->"
+      },
+      {
+        "row": 20,
+        "rowsha": "lMq65JyMyJh/XaoEiDonig+AtJ3KBgB+rA88xUsPwUY=",
+        "originContent": "  <a href=\"https://www.npmjs.com/package/astro-i18n-aut?activeTab=versions\"><img src=\"https://img.shields.io/npm/v/astro-i18n-aut.svg\" alt=\"Latest Release\"></a>",
+        "translatedContent": "  <a href=\"https://www.npmjs.com/package/astro-i18n-aut?activeTab=versions\"><img src=\"https://img.shields.io/npm/v/astro-i18n-aut.svg\" alt=\"Dernière version\"></a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "hZTSusdazYkFfGKbrph75AQTlkeP5bn0QlRpJf3JQ/c=",
+        "originContent": "  <a href=\"https://github.com/jlarmstrongiv/astro-i18n-aut/blob/main/LICENSE.md\"><img src=\"https://img.shields.io/npm/l/astro-i18n-aut.svg\" alt=\"License\"></a>",
+        "translatedContent": "  <a href=\"https://github.com/jlarmstrongiv/astro-i18n-aut/blob/main/LICENSE.md\"><img src=\"https://img.shields.io/npm/l/astro-i18n-aut.svg\" alt=\"Licence\"></a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+        "originContent": "## Motivation",
+        "translatedContent": "## Motivation"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "Nz8fbz+rMCtaQSKwRpWsMnIDOopbXrEujOfpDpa/z6o=",
+        "originContent": "Provide an internationalization (i18n) integration for Astro that:",
+        "translatedContent": "Fournir une intégration d’internationalisation (i18n) pour Astro qui :"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "E48FRMEE7v0gPeLhZUqmPAc10Jm5tNJ2RU5C7Wv6Y0Y=",
+        "originContent": "- Supports the `defaultLocale`",
+        "translatedContent": "- Prend en charge le `defaultLocale`"
+      },
+      {
+        "row": 31,
+        "rowsha": "1QVUjDlNjDmpSUkzDiyMh5W9s7fDE4py6f8znTGC00o=",
+        "originContent": "- Avoids template file duplication",
+        "translatedContent": "- Évite la duplication des fichiers de template"
+      },
+      {
+        "row": 32,
+        "rowsha": "rPDPs0Q1+PHQmQeH7+xsX1kxaS4lrMooY4z05NwM4zY=",
+        "originContent": "- Is adapter agnostic",
+        "translatedContent": "- Est indépendante de l’adaptateur"
+      },
+      {
+        "row": 33,
+        "rowsha": "w1NbBGKrVkY+D3EMRsco70ufBtjHXEHgGsFFrTT/9t8=",
+        "originContent": "- Is UI framework agnostic",
+        "translatedContent": "- Est indépendante du framework UI"
+      },
+      {
+        "row": 34,
+        "rowsha": "VKi+6KHqzSUCC3Kr0L47kI8DUlZ3/1n8f8LcXQmpAtg=",
+        "originContent": "- Is compatible with [`@astrojs/sitemap`](https://www.npmjs.com/package/@astrojs/sitemap)",
+        "translatedContent": "- Est compatible avec [`@astrojs/sitemap`](https://www.npmjs.com/package/@astrojs/sitemap)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "lTWxC+mrt6h3iMP1EHwhgic0pFB660ZPhxD7jEhmuWU=",
+        "originContent": "## Quick start",
+        "translatedContent": "## Démarrage rapide"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "WPRKX2XRNZpatcp1gn+ZLNcp43Lm5byiNgmEVjLzKd0=",
+        "originContent": "### Install",
+        "translatedContent": "### Installer"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "aHsDi5OxHifs1lTHcT30FBRqyEFXBZMIQ/v093tW20Y=",
+        "originContent": "Install via [npm](https://www.npmjs.com/package/astro-i18n-aut):",
+        "translatedContent": "Installer via [npm](https://www.npmjs.com/package/astro-i18n-aut) :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```shell\nnpm install astro-i18n-aut\n```",
+    "ContentSha": "BhZMsVz0difDi6P18yeds+uZ+EnFCQqq5cym4VKFlGs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnpm install astro-i18n-aut\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "ndrEY7/I3BdUoqZf41hox6W2R+gL1i2lriJ2iOnklpg=",
+        "originContent": "npm install astro-i18n-aut",
+        "translatedContent": "npm install astro-i18n-aut"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### Configure\n\nIn your Astro [config](https://docs.astro.build/en/guides/configuring-astro/#supported-config-file-types) file:\n",
+    "ContentSha": "IS+Wt4nf19Wmp2S9qGjQIleAhioeLrz9ZJAWB2Z+Z7Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Configurer\n\nDans votre fichier [config](https://docs.astro.build/en/guides/configuring-astro/#supported-config-file-types) Astro :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "n65HywGvF1pYfOdTOmDgW7IRLWY/eJFLPJyhwpIlggM=",
+        "originContent": "### Configure",
+        "translatedContent": "### Configurer"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "TElJNx1CV7lfIpW95J9YFpUUnPsSB9QSuLDnrjwybHM=",
+        "originContent": "In your Astro [config](https://docs.astro.build/en/guides/configuring-astro/#supported-config-file-types) file:",
+        "translatedContent": "Dans votre fichier [config](https://docs.astro.build/en/guides/configuring-astro/#supported-config-file-types) Astro :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```ts\nimport { defineConfig } from \"astro/config\";\nimport { i18n, filterSitemapByDefaultLocale } from \"astro-i18n-aut/integration\";\nimport sitemap from \"@astrojs/sitemap\";\n\nconst defaultLocale = \"en\";\nconst locales = {\n  en: \"en-US\", // the `defaultLocale` value must present in `locales` keys\n  es: \"es-ES\",\n  fr: \"fr-CA\",\n};\n\nexport default defineConfig({\n  site: \"https://example.com/\",\n  trailingSlash: \"always\",\n  build: {\n    format: \"directory\",\n  },\n  integrations: [\n    i18n({\n      locales,\n      defaultLocale,\n    }),\n    sitemap({\n      i18n: {\n        locales,\n        defaultLocale,\n      },\n      filter: filterSitemapByDefaultLocale({ defaultLocale }),\n    }),\n  ],\n});\n```",
+    "ContentSha": "DY0aUhQjWV2yRoQFZIffzqTOLM2CYssXovn1rpG8oW8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ts\nimport { defineConfig } from \"astro/config\";\nimport { i18n, filterSitemapByDefaultLocale } from \"astro-i18n-aut/integration\";\nimport sitemap from \"@astrojs/sitemap\";\n\nconst defaultLocale = \"en\";\nconst locales = {\n  en: \"en-US\", // the `defaultLocale` value must present in `locales` keys\n  es: \"es-ES\",\n  fr: \"fr-CA\",\n};\n\nexport default defineConfig({\n  site: \"https://example.com/\",\n  trailingSlash: \"always\",\n  build: {\n    format: \"directory\",\n  },\n  integrations: [\n    i18n({\n      locales,\n      defaultLocale,\n    }),\n    sitemap({\n      i18n: {\n        locales,\n        defaultLocale,\n      },\n      filter: filterSitemapByDefaultLocale({ defaultLocale }),\n    }),\n  ],\n});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wBgRKHhGgYr2NL03UCGza3nc2bR+8fO3ER5l5F6RvXE=",
+        "originContent": "```ts",
+        "translatedContent": "```ts"
+      },
+      {
+        "row": 2,
+        "rowsha": "k668p6m3vLrt0hvrbORIk1Xx9dnSylH6oGgOya5rrCk=",
+        "originContent": "import { defineConfig } from \"astro/config\";",
+        "translatedContent": "import { defineConfig } from \"astro/config\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "l9xLpRqQCok7wywyeCvzAZjHh4kgvs30YvskEJbW5g8=",
+        "originContent": "import { i18n, filterSitemapByDefaultLocale } from \"astro-i18n-aut/integration\";",
+        "translatedContent": "import { i18n, filterSitemapByDefaultLocale } from \"astro-i18n-aut/integration\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "/fMxOSqO60omqx/vLUDEO2Lz6T+oFWG7dhLSXgPz4P0=",
+        "originContent": "import sitemap from \"@astrojs/sitemap\";",
+        "translatedContent": "import sitemap from \"@astrojs/sitemap\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "SGK6BepSXzypScdCLLEHq6UaV9SG5HbJcuUuWoLYFzQ=",
+        "originContent": "const defaultLocale = \"en\";",
+        "translatedContent": "const defaultLocale = \"en\";"
+      },
+      {
+        "row": 7,
+        "rowsha": "WBdAYRXbQz3swPeXykFiqFPi8slicTrsfYWLRd81nuM=",
+        "originContent": "const locales = {",
+        "translatedContent": "const locales = {"
+      },
+      {
+        "row": 8,
+        "rowsha": "6D6Frsbv2lbt7SXm/2zPXB9f6TgDQSwHSFW4sxp3ZC4=",
+        "originContent": "  en: \"en-US\", // the `defaultLocale` value must present in `locales` keys",
+        "translatedContent": "  en: \"en-US\", // the `defaultLocale` value must present in `locales` keys"
+      },
+      {
+        "row": 9,
+        "rowsha": "BMFKIrNt543pagAE8/+uu5f9Nxl1BeApFI5hcjNUYmI=",
+        "originContent": "  es: \"es-ES\",",
+        "translatedContent": "  es: \"es-ES\","
+      },
+      {
+        "row": 10,
+        "rowsha": "xQ1+5Gbc4xuo59fcBBc63prAWCUt/CfKo9FyHZ4rmlM=",
+        "originContent": "  fr: \"fr-CA\",",
+        "translatedContent": "  fr: \"fr-CA\","
+      },
+      {
+        "row": 11,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "pxlmGtYe1w1KMBva5rp+lHF+7Z+LH5UVh4Ii/ZGTQo8=",
+        "originContent": "export default defineConfig({",
+        "translatedContent": "export default defineConfig({"
+      },
+      {
+        "row": 14,
+        "rowsha": "NurgZ/lsT1uvFI+cVw5g2sayWSEm6hUhU9+hSAjNIjU=",
+        "originContent": "  site: \"https://example.com/\",",
+        "translatedContent": "  site: \"https://example.com/\","
+      },
+      {
+        "row": 15,
+        "rowsha": "9wKTgAyQYiT8I/DpusXDqSyURmpSIFXv6f2xHkjsNT8=",
+        "originContent": "  trailingSlash: \"always\",",
+        "translatedContent": "  trailingSlash: \"always\","
+      },
+      {
+        "row": 16,
+        "rowsha": "vt/FLtyZrN14Wa571aloZl7QbUpOsoFfwwiNcaKv4YM=",
+        "originContent": "  build: {",
+        "translatedContent": "  build: {"
+      },
+      {
+        "row": 17,
+        "rowsha": "xuaDEaV6TFy+P2XnkC+MSv7e2tOEzzP1dh7dLl3ThlA=",
+        "originContent": "    format: \"directory\",",
+        "translatedContent": "    format: \"directory\","
+      },
+      {
+        "row": 18,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 19,
+        "rowsha": "rybTVbpRRxYcMjQ/RQ/P0FUPoTpGdgl1iyYSFoxjanE=",
+        "originContent": "  integrations: [",
+        "translatedContent": "  integrations: ["
+      },
+      {
+        "row": 20,
+        "rowsha": "0rT0CdAuJLThRkZaO99tlDCVkEX8kDHeEor8gACWmYI=",
+        "originContent": "    i18n({",
+        "translatedContent": "    i18n({"
+      },
+      {
+        "row": 21,
+        "rowsha": "tFgE2bSl7HcA7MMyvzQdJBiJDYwLy6TACVmdebq9xgI=",
+        "originContent": "      locales,",
+        "translatedContent": "      locales,"
+      },
+      {
+        "row": 22,
+        "rowsha": "x9+Urevl7pf53fFQwqgV/bqjU/PE3twUzSUgLJfo9kI=",
+        "originContent": "      defaultLocale,",
+        "translatedContent": "      defaultLocale,"
+      },
+      {
+        "row": 23,
+        "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+        "originContent": "    }),",
+        "translatedContent": "    }),"
+      },
+      {
+        "row": 24,
+        "rowsha": "NJurfcGJJ1e6WNkNE4QF3ihibJF6Rad4pad+dBCfpL0=",
+        "originContent": "    sitemap({",
+        "translatedContent": "    sitemap({"
+      },
+      {
+        "row": 25,
+        "rowsha": "ku0DCE/mM83B9W8jj6mkOld8n38kVCbP0aEwuju0J0o=",
+        "originContent": "      i18n: {",
+        "translatedContent": "      i18n: {"
+      },
+      {
+        "row": 26,
+        "rowsha": "I3+UJ+lYysR8fcVsLEV3vUwjSfvOnqXh7Rc6+Pks3S0=",
+        "originContent": "        locales,",
+        "translatedContent": "        locales,"
+      },
+      {
+        "row": 27,
+        "rowsha": "ZYqHjAvB/+TUn74Z4dg4rcMPQJOJ6jXSVuaVLA5YC7o=",
+        "originContent": "        defaultLocale,",
+        "translatedContent": "        defaultLocale,"
+      },
+      {
+        "row": 28,
+        "rowsha": "euaO1Z8MLc/SOkuuMtKc6rM9oqkPDopPb+0KueTy3G4=",
+        "originContent": "      },",
+        "translatedContent": "      },"
+      },
+      {
+        "row": 29,
+        "rowsha": "r6YiNqKF/q2RZkJINbqmwwDLx+AVAFpBn2J/7nPlfz8=",
+        "originContent": "      filter: filterSitemapByDefaultLocale({ defaultLocale }),",
+        "translatedContent": "      filter: filterSitemapByDefaultLocale({ defaultLocale }),"
+      },
+      {
+        "row": 30,
+        "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+        "originContent": "    }),",
+        "translatedContent": "    }),"
+      },
+      {
+        "row": 31,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 32,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 33,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nIn your `.gitignore` file:\n",
+    "ContentSha": "96UrXPpzeMGcg5aonGNs8nnIe2mSdlBuOts8cHotFEE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nDans votre fichier `.gitignore` :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bWKC6KxO0kkC2xHoNi8IzVpoICTKvYDKm+ThTzKS7+s=",
+        "originContent": "In your `.gitignore` file:",
+        "translatedContent": "Dans votre fichier `.gitignore` :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```gitignore\nastro_tmp_pages_*\n```",
+    "ContentSha": "98/5DTrfXeWPMpwMwLzPMy5jLJ4zoUp7K3pCuFoQuM0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```gitignore\nastro_tmp_pages_*\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "J33Foax/nQfKfheaUFJV/nmZnh9GXU1T3miBZFjDCUU=",
+        "originContent": "```gitignore",
+        "translatedContent": "```gitignore"
+      },
+      {
+        "row": 2,
+        "rowsha": "jANeGfM5W36IUq8lq5dzTCfYrIcf/AJSThI5DoIIdFs=",
+        "originContent": "astro_tmp_pages_*",
+        "translatedContent": "astro_tmp_pages_*"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### Usage\n\nNow that you have set up the config, each `.astro` page will have additional renders with your other languages. For example, `src/pages/about.astro` will render as:\n\n- `/about/`\n- `/es/about/`\n- `/fr/about/`\n\nIf you have enabled `redirectDefaultLocale` (`true` by default), redirects will be:\n\n- `/en/about/` => `/about/`\n\nPlease note that the `getStaticPaths()` function will only run once. This limitation means that you cannot have translated urls, such as `/es/acerca-de/` for `/about/`. However, it also ensures compatibility with [`@astrojs/sitemap`](https://www.npmjs.com/package/@astrojs/sitemap).\n\nThe Astro frontmatter and page content is re-run for every translated page. For example, the `Astro.url.pathname` will be:\n\n- `/about/`\n- `/es/about/`\n- `/fr/about/`\n\nIt is up to you to detect which language is being rendered. You can use Astro [content collections](https://docs.astro.build/en/guides/content-collections/) or any i18n UI framework, such as [`react-i18next`](https://www.npmjs.com/package/react-i18next), for your translations. Here is a pure `Hello World` example:\n",
+    "ContentSha": "+fy/EhGQ7KF4l61Vc3wEDdaG2xWXS8IoEHpf7lVWxQU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Utilisation\n\nMaintenant que vous avez configuré le fichier, chaque page `.astro` aura des rendus supplémentaires avec vos autres langues. Par exemple, `src/pages/about.astro` sera rendu comme :\n\n- `/about/`\n- `/es/about/`\n- `/fr/about/`\n\nSi vous avez activé `redirectDefaultLocale` (`true` par défaut), les redirections seront :\n\n- `/en/about/` => `/about/`\n\nVeuillez noter que la fonction `getStaticPaths()` ne s'exécutera qu'une seule fois. Cette limitation signifie que vous ne pouvez pas avoir d’URL traduites, telles que `/es/acerca-de/` pour `/about/`. Cependant, cela garantit également la compatibilité avec [`@astrojs/sitemap`](https://www.npmjs.com/package/@astrojs/sitemap).\n\nLe frontmatter Astro et le contenu de la page sont réexécutés pour chaque page traduite. Par exemple, `Astro.url.pathname` sera :\n\n- `/about/`\n- `/es/about/`\n- `/fr/about/`\n\nIl vous appartient de détecter la langue qui est rendue. Vous pouvez utiliser les [collections de contenu](https://docs.astro.build/en/guides/content-collections/) Astro ou tout framework i18n UI, comme [`react-i18next`](https://www.npmjs.com/package/react-i18next), pour vos traductions. Voici un exemple simple de `Hello World` :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Utilisation"
+      },
+      {
+        "row": 2,
+        "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+        "originContent": "### Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Maintenant que vous avez configuré le fichier, chaque page `.astro` aura des rendus supplémentaires avec vos autres langues. Par exemple, `src/pages/about.astro` sera rendu comme :"
+      },
+      {
+        "row": 4,
+        "rowsha": "Su847y7cXTigUHHkCtaHi7IIz5cyMbb3aX1zjOh1y1I=",
+        "originContent": "Now that you have set up the config, each `.astro` page will have additional renders with your other languages. For example, `src/pages/about.astro` will render as:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `/about/`"
+      },
+      {
+        "row": 6,
+        "rowsha": "gl5NhZLo1BD/Hgu1/Yw2Oy+Atof3EWj6pqkyQ+t0LQE=",
+        "originContent": "- `/about/`",
+        "translatedContent": "- `/es/about/`"
+      },
+      {
+        "row": 7,
+        "rowsha": "gmRq0zfscF639ij98eaQOQZtPUBMSTHu/F8jAPBRomo=",
+        "originContent": "- `/es/about/`",
+        "translatedContent": "- `/fr/about/`"
+      },
+      {
+        "row": 8,
+        "rowsha": "d5ln/sZ+zgN+bCGphlAF1XURkje61iUr2LSG/uVO2Lo=",
+        "originContent": "- `/fr/about/`",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Si vous avez activé `redirectDefaultLocale` (`true` par défaut), les redirections seront :"
+      },
+      {
+        "row": 10,
+        "rowsha": "iFPNV9e+UtnruO2eyBgu4tER8xpup3XVV7chIplSy/A=",
+        "originContent": "If you have enabled `redirectDefaultLocale` (`true` by default), redirects will be:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `/en/about/` => `/about/`"
+      },
+      {
+        "row": 12,
+        "rowsha": "xB3T0EEMOGWYgbz9K0Xx9u2ATayxgUDCkSIGEbCfYRw=",
+        "originContent": "- `/en/about/` => `/about/`",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Veuillez noter que la fonction `getStaticPaths()` ne s'exécutera qu'une seule fois. Cette limitation signifie que vous ne pouvez pas avoir d’URL traduites, telles que `/es/acerca-de/` pour `/about/`. Cependant, cela garantit également la compatibilité avec [`@astrojs/sitemap`](https://www.npmjs.com/package/@astrojs/sitemap)."
+      },
+      {
+        "row": 14,
+        "rowsha": "98Q891aRDoTIFgQnGg6ha7+y6ubpe3lnvZjGLIVb5po=",
+        "originContent": "Please note that the `getStaticPaths()` function will only run once. This limitation means that you cannot have translated urls, such as `/es/acerca-de/` for `/about/`. However, it also ensures compatibility with [`@astrojs/sitemap`](https://www.npmjs.com/package/@astrojs/sitemap).",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Le frontmatter Astro et le contenu de la page sont réexécutés pour chaque page traduite. Par exemple, `Astro.url.pathname` sera :"
+      },
+      {
+        "row": 16,
+        "rowsha": "eyku0Bq/V+mELlbcQn+AJ6yilTY5LBs8oG2cD6Jbm78=",
+        "originContent": "The Astro frontmatter and page content is re-run for every translated page. For example, the `Astro.url.pathname` will be:",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `/about/`"
+      },
+      {
+        "row": 18,
+        "rowsha": "gl5NhZLo1BD/Hgu1/Yw2Oy+Atof3EWj6pqkyQ+t0LQE=",
+        "originContent": "- `/about/`",
+        "translatedContent": "- `/es/about/`"
+      },
+      {
+        "row": 19,
+        "rowsha": "gmRq0zfscF639ij98eaQOQZtPUBMSTHu/F8jAPBRomo=",
+        "originContent": "- `/es/about/`",
+        "translatedContent": "- `/fr/about/`"
+      },
+      {
+        "row": 20,
+        "rowsha": "d5ln/sZ+zgN+bCGphlAF1XURkje61iUr2LSG/uVO2Lo=",
+        "originContent": "- `/fr/about/`",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Il vous appartient de détecter la langue qui est rendue. Vous pouvez utiliser les [collections de contenu](https://docs.astro.build/en/guides/content-collections/) Astro ou tout framework i18n UI, comme [`react-i18next`](https://www.npmjs.com/package/react-i18next), pour vos traductions. Voici un exemple simple de `Hello World` :"
+      },
+      {
+        "row": 22,
+        "rowsha": "OSJ4X6iULYH8SEH90JFDhm0DHXD8L5/qi6XXQ6gah6s=",
+        "originContent": "It is up to you to detect which language is being rendered. You can use Astro [content collections](https://docs.astro.build/en/guides/content-collections/) or any i18n UI framework, such as [`react-i18next`](https://www.npmjs.com/package/react-i18next), for your translations. Here is a pure `Hello World` example:",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```astro\n---\nimport { getLocale } from \"astro-i18n-aut\";\nimport Layout from \"../layouts/Layout.astro\";\n\nconst locale = getLocale(Astro.url);\n\nlet title: string;\nswitch (locale) {\n  case \"es\":\n    title = \"¡Hola Mundo!\";\n    break;\n  case \"fr\":\n    title = \"Bonjour Monde!\";\n    break;\n  default:\n    title = \"Hello World!\";\n}\n---\n\n<Layout title={title}>\n  <h1>{title}</h1>\n</Layout>\n```",
+    "ContentSha": "z8sEFQJGPJ0AM5CvJSEulM5lTolE9R3z1xzvsh2Gt38=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```astro\n---\nimport { getLocale } from \"astro-i18n-aut\";\nimport Layout from \"../layouts/Layout.astro\";\n\nconst locale = getLocale(Astro.url);\n\nlet title: string;\nswitch (locale) {\n  case \"es\":\n    title = \"¡Hola Mundo!\";\n    break;\n  case \"fr\":\n    title = \"Bonjour Monde!\";\n    break;\n  default:\n    title = \"Hello World!\";\n}\n---\n\n<Layout title={title}>\n  <h1>{title}</h1>\n</Layout>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tJ+wK/WRCJN1YCBgQ9Z2UPz9lEc3tUq7LSxOSljFMBE=",
+        "originContent": "```astro",
+        "translatedContent": "```astro"
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "RPzYWL4ypkqUbZo6A41k8STg64perOhUcqEkuQbKHUY=",
+        "originContent": "import { getLocale } from \"astro-i18n-aut\";",
+        "translatedContent": "import { getLocale } from \"astro-i18n-aut\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "lQElVrOQwhzY5mV3wVOmts1PQHEwd75g/1S2XZROJpg=",
+        "originContent": "import Layout from \"../layouts/Layout.astro\";",
+        "translatedContent": "import Layout from \"../layouts/Layout.astro\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Yz3MQI4jxtJrS4IcrAxlRxJsWGTwShgraVaJz+pJyLE=",
+        "originContent": "const locale = getLocale(Astro.url);",
+        "translatedContent": "const locale = getLocale(Astro.url);"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "xaugwt9/A2z/r2e7rB3QgR+wuOw57qa1M+apPA2zSbk=",
+        "originContent": "let title: string;",
+        "translatedContent": "let title: string;"
+      },
+      {
+        "row": 9,
+        "rowsha": "eaYfY6h9BZ7j+l91Qt1Bee1NGberE5zcLyrQcsBscrk=",
+        "originContent": "switch (locale) {",
+        "translatedContent": "switch (locale) {"
+      },
+      {
+        "row": 10,
+        "rowsha": "zUqZ3N/qyK4fon4HUD1Wfm6RSNSnmV7tHt23YPskgoM=",
+        "originContent": "  case \"es\":",
+        "translatedContent": "  case \"es\":"
+      },
+      {
+        "row": 11,
+        "rowsha": "pbPX/VcFPwjGMHEduSn6j9NuQeVOO2pgqlaiyuMmP5Y=",
+        "originContent": "    title = \"¡Hola Mundo!\";",
+        "translatedContent": "    title = \"¡Hola Mundo!\";"
+      },
+      {
+        "row": 12,
+        "rowsha": "8KlroqGzmsuUS8wIQ/gsOapU0BM0jX8m/Ta0QO+IZcQ=",
+        "originContent": "    break;",
+        "translatedContent": "    break;"
+      },
+      {
+        "row": 13,
+        "rowsha": "k9bGeLMzaN9GACHcDIw1CVeuzg2/73pwZ1XLC5gdeLc=",
+        "originContent": "  case \"fr\":",
+        "translatedContent": "  case \"fr\":"
+      },
+      {
+        "row": 14,
+        "rowsha": "lEDEPJE8lWadqmtvg/nIN72HsVDSOWgEKwWzrcavqFY=",
+        "originContent": "    title = \"Bonjour Monde!\";",
+        "translatedContent": "    title = \"Bonjour Monde!\";"
+      },
+      {
+        "row": 15,
+        "rowsha": "8KlroqGzmsuUS8wIQ/gsOapU0BM0jX8m/Ta0QO+IZcQ=",
+        "originContent": "    break;",
+        "translatedContent": "    break;"
+      },
+      {
+        "row": 16,
+        "rowsha": "lXknu4h2D9aH3mxRfVriDLC2pdpV+duQx07OGNnFYA8=",
+        "originContent": "  default:",
+        "translatedContent": "  default:"
+      },
+      {
+        "row": 17,
+        "rowsha": "nnqSqljX9q/knyZeoh6uk6EzxJSDstSHYxlKN7iwK1A=",
+        "originContent": "    title = \"Hello World!\";",
+        "translatedContent": "    title = \"Hello World!\";"
+      },
+      {
+        "row": 18,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 19,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Y6feSgw3tJ8rBm3ZIriVuT277INB/MJ9huiR462aJEo=",
+        "originContent": "<Layout title={title}>",
+        "translatedContent": "<Layout title={title}>"
+      },
+      {
+        "row": 22,
+        "rowsha": "S7vwMKjHRGOgFH0tRKTU57ajbciEh5qq5foQ3mkrWwU=",
+        "originContent": "  <h1>{title}</h1>",
+        "translatedContent": "  <h1>{title}</h1>"
+      },
+      {
+        "row": 23,
+        "rowsha": "cIWpqq+Ax0S5Gf6yr6HLZQUUn+gP3mNFkum7miEJ1KU=",
+        "originContent": "</Layout>",
+        "translatedContent": "</Layout>"
+      },
+      {
+        "row": 24,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nSeveral helper functions are included to make handling locales easier.\n\n### Astro config options\n\nPlease see the official Astro docs for more details:\n\n- [`site`](https://docs.astro.build/en/reference/configuration-reference/#site)\n- [`trailingSlash`](https://docs.astro.build/en/reference/configuration-reference/#trailingslash)\n- [`format`](https://docs.astro.build/en/reference/configuration-reference/#buildformat)\n\nYou must set either:\n\n- ```js\n  {\n    site: \"https://example.com/\",\n    trailingSlash: \"always\",\n    build: {\n      format: \"directory\",\n    },\n  }",
+    "ContentSha": "6zmjHVtiPqzRu4+56+CPLtxFqeQTTmCQnCMyTTuQKjY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Plusieurs fonctions utilitaires sont incluses pour faciliter la gestion des paramètres régionaux.\n\n### Options de configuration Astro\n\nVeuillez consulter la documentation officielle d'Astro pour plus de détails :\n\n- [`site`](https://docs.astro.build/en/reference/configuration-reference/#site)\n- [`trailingSlash`](https://docs.astro.build/en/reference/configuration-reference/#trailingslash)\n- [`format`](https://docs.astro.build/en/reference/configuration-reference/#buildformat)\n\nVous devez définir soit :\n\n- ```js\n  {\n    site: \"https://example.com/\",\n    trailingSlash: \"always\",\n    build: {\n      format: \"directory\",\n    },\n  }\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Plusieurs fonctions utilitaires sont incluses pour faciliter la gestion des paramètres régionaux."
+      },
+      {
+        "row": 2,
+        "rowsha": "DQI9+/CrT6SLHA6wDzONwdMEQ3FYIPBjlV3OPZvOsd0=",
+        "originContent": "Several helper functions are included to make handling locales easier.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Options de configuration Astro"
+      },
+      {
+        "row": 4,
+        "rowsha": "WzTXkTZWIFKi9ZToSC3VZeb4JlkDsID1YBi3qYvEZ64=",
+        "originContent": "### Astro config options",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Veuillez consulter la documentation officielle d'Astro pour plus de détails :"
+      },
+      {
+        "row": 6,
+        "rowsha": "p07s81BQnEvnzR81M95SzQKFeD8TgkY2v5uy9SvG9uY=",
+        "originContent": "Please see the official Astro docs for more details:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [`site`](https://docs.astro.build/en/reference/configuration-reference/#site)"
+      },
+      {
+        "row": 8,
+        "rowsha": "dYBAloOc7K8qNvZwHqgzM50AepV0zed/Cx9BCwtrkNU=",
+        "originContent": "- [`site`](https://docs.astro.build/en/reference/configuration-reference/#site)",
+        "translatedContent": "- [`trailingSlash`](https://docs.astro.build/en/reference/configuration-reference/#trailingslash)"
+      },
+      {
+        "row": 9,
+        "rowsha": "4O9m1ChOVBlyalPHqmOonvE28iPM+f58d5+HyaOG7Rs=",
+        "originContent": "- [`trailingSlash`](https://docs.astro.build/en/reference/configuration-reference/#trailingslash)",
+        "translatedContent": "- [`format`](https://docs.astro.build/en/reference/configuration-reference/#buildformat)"
+      },
+      {
+        "row": 10,
+        "rowsha": "jbA9WJD9Pna6qBx3GffFfgsqhDbl1PoqyWePUkqMucA=",
+        "originContent": "- [`format`](https://docs.astro.build/en/reference/configuration-reference/#buildformat)",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Vous devez définir soit :"
+      },
+      {
+        "row": 12,
+        "rowsha": "b2yPb+MOeh8QYoqa034BGDNA8RE1179EVBB4UJu66z8=",
+        "originContent": "You must set either:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- ```js"
+      },
+      {
+        "row": 14,
+        "rowsha": "DQNdt236p9UNwSC+j/+u5suZOqZVa18QV40LLJGFbXM=",
+        "originContent": "- ```js",
+        "translatedContent": "  {"
+      },
+      {
+        "row": 15,
+        "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+        "originContent": "  {",
+        "translatedContent": "    site: \"https://example.com/\","
+      },
+      {
+        "row": 16,
+        "rowsha": "VhCfWf1Tcno6aQQnUXztexH2gC7/XcTAKJcykI0R8dQ=",
+        "originContent": "    site: \"https://example.com/\",",
+        "translatedContent": "    trailingSlash: \"always\","
+      },
+      {
+        "row": 17,
+        "rowsha": "Wawfg3/bQN6xQ+yaVnlNva+sM69gSU8O1mizT+xGP8M=",
+        "originContent": "    trailingSlash: \"always\",",
+        "translatedContent": "    build: {"
+      },
+      {
+        "row": 18,
+        "rowsha": "3oknUAAy4W6yHHDg7p3a2jbA7ZAdCJ3MfQsn/SsN5xQ=",
+        "originContent": "    build: {",
+        "translatedContent": "      format: \"directory\","
+      },
+      {
+        "row": 19,
+        "rowsha": "0dAENqyvrSP18jxsSTqRtIjQ05Lygn+29y7o7K1gWqE=",
+        "originContent": "      format: \"directory\",",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 20,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 21,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "  ```\n\n- ```js\n  {\n    site: \"https://example.com\",\n    trailingSlash: \"never\",\n    build: {\n      format: \"file\",\n    },\n  }\n  ```",
+    "ContentSha": "94xTVoPwmtZgusoNTW2sVkfdyjfhyMNSQamSctmC/6Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n\n- ```js\n  {\n    site: \"https://example.com\",\n    trailingSlash: \"never\",\n    build: {\n      format: \"file\",\n    },\n  }\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "DQNdt236p9UNwSC+j/+u5suZOqZVa18QV40LLJGFbXM=",
+        "originContent": "- ```js",
+        "translatedContent": "- ```js"
+      },
+      {
+        "row": 4,
+        "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+        "originContent": "  {",
+        "translatedContent": "  {"
+      },
+      {
+        "row": 5,
+        "rowsha": "B0kZNnv6cLz3wHRaciBCqLkLZTEp6YAAnYHwBo1vKAQ=",
+        "originContent": "    site: \"https://example.com\",",
+        "translatedContent": "    site: \"https://example.com\","
+      },
+      {
+        "row": 6,
+        "rowsha": "93k718R2lWSmGDQLzYaU3Gs2BY9lvJxlggjMyPQkrbo=",
+        "originContent": "    trailingSlash: \"never\",",
+        "translatedContent": "    trailingSlash: \"never\","
+      },
+      {
+        "row": 7,
+        "rowsha": "3oknUAAy4W6yHHDg7p3a2jbA7ZAdCJ3MfQsn/SsN5xQ=",
+        "originContent": "    build: {",
+        "translatedContent": "    build: {"
+      },
+      {
+        "row": 8,
+        "rowsha": "/QEUXkVeya06DSa/Gp0eMJD3vLmePDZN2UjyRXP2Xk8=",
+        "originContent": "      format: \"file\",",
+        "translatedContent": "      format: \"file\","
+      },
+      {
+        "row": 9,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 10,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 11,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nAll these options are related and must be set together. They affect whether your urls are:\n\n- `/about/`\n- `/about`\n\nIf you choose `/about/`, then `/about` will 404 and vice versa.\n\n### Integration options\n\n- `locales`: A record of all language locales.\n- `defaultLocale`: The default language locale. The value must present in `locales` keys.\n- `redirectDefaultLocale` - Assuming the `defaultLocale: \"en\"`, whether `/en/about/` redirects to `/about/` (default: `308`).\n- `include`: Glob pattern(s) to include (default: `[\"pages/**/*\"]`).\n- `exclude`: Glob pattern(s) to exclude (default: `[\"pages/api/**/*\"]`).\n\n### Compatibility\n\n#### Page file types\n\nOther Astro page file types:\n\n- ✅ `.astro`\n- ❌ `.md`\n- ❌ `.mdx` (with the MDX Integration installed)\n- ❌ `.html`\n- ❌ `.js` / `.ts` (as endpoints)\n\ncannot be translated. If you choose to use them in the `pages` directory, please add them to the ignore glob patterns. For example:\n",
+    "ContentSha": "t9/1qv4RO+rLaEQ1tXgrKZCao03/b6BhjGmyTb7hTVU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nToutes ces options sont liées et doivent être définies ensemble. Elles affectent si vos URL sont :\n\n- `/about/`\n- `/about`\n\nSi vous choisissez `/about/`, alors `/about` renverra une erreur 404 et vice versa.\n\n### Options d'intégration\n\n- `locales` : Un enregistrement de toutes les locales linguistiques.\n- `defaultLocale` : La locale linguistique par défaut. La valeur doit être présente dans les clés de `locales`.\n- `redirectDefaultLocale` - En supposant `defaultLocale: \"en\"`, si `/en/about/` redirige vers `/about/` (par défaut : `308`).\n- `include` : Motif(s) glob à inclure (par défaut : `[\"pages/**/*\"]`).\n- `exclude` : Motif(s) glob à exclure (par défaut : `[\"pages/api/**/*\"]`).\n\n### Compatibilité\n\n#### Types de fichiers de page\n\nAutres types de fichiers de page Astro :\n\n- ✅ `.astro`\n- ❌ `.md`\n- ❌ `.mdx` (avec l’intégration MDX installée)\n- ❌ `.html`\n- ❌ `.js` / `.ts` (en tant que points de terminaison)\n\nne peuvent pas être traduits. Si vous choisissez de les utiliser dans le répertoire `pages`, veuillez les ajouter aux motifs glob à ignorer. Par exemple :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MUgH29EMf5Ltz7Ikpze7LUGGUhMTahsISAANBOaqDLQ=",
+        "originContent": "All these options are related and must be set together. They affect whether your urls are:",
+        "translatedContent": "Toutes ces options sont liées et doivent être définies ensemble. Elles affectent si vos URL sont :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "gl5NhZLo1BD/Hgu1/Yw2Oy+Atof3EWj6pqkyQ+t0LQE=",
+        "originContent": "- `/about/`",
+        "translatedContent": "- `/about/`"
+      },
+      {
+        "row": 5,
+        "rowsha": "hwGZ8sH9g/EJHfGnBzwhiizNVX0i+D8cWLAGG5BVQZ4=",
+        "originContent": "- `/about`",
+        "translatedContent": "- `/about`"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "WgCoQY5TkabD+m/UA5LOhf7vF3sQ3sckHk1M4BLgq34=",
+        "originContent": "If you choose `/about/`, then `/about` will 404 and vice versa.",
+        "translatedContent": "Si vous choisissez `/about/`, alors `/about` renverra une erreur 404 et vice versa."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "79c8N09YrK3K3ORCIbRzqanKKPJMZeCOIevSs40XDSk=",
+        "originContent": "### Integration options",
+        "translatedContent": "### Options d'intégration"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Nzo7JOHC3jjnEj7sl6b1VWa84UibUKPNFiNTP8MSbbk=",
+        "originContent": "- `locales`: A record of all language locales.",
+        "translatedContent": "- `locales` : Un enregistrement de toutes les locales linguistiques."
+      },
+      {
+        "row": 12,
+        "rowsha": "5uSLo1YiClfJw9KA4V67WDkBD8jr8mssH73GbOZ07iQ=",
+        "originContent": "- `defaultLocale`: The default language locale. The value must present in `locales` keys.",
+        "translatedContent": "- `defaultLocale` : La locale linguistique par défaut. La valeur doit être présente dans les clés de `locales`."
+      },
+      {
+        "row": 13,
+        "rowsha": "TdN5xlH3sNUGkeR4aENGqw+Anc8yFbNCSkm/oJEN8AQ=",
+        "originContent": "- `redirectDefaultLocale` - Assuming the `defaultLocale: \"en\"`, whether `/en/about/` redirects to `/about/` (default: `308`).",
+        "translatedContent": "- `redirectDefaultLocale` - En supposant `defaultLocale: \"en\"`, si `/en/about/` redirige vers `/about/` (par défaut : `308`)."
+      },
+      {
+        "row": 14,
+        "rowsha": "S/bTWPjcgs34Tq6AXinkxIYY2PArPFxF9M+tBPu1UhY=",
+        "originContent": "- `include`: Glob pattern(s) to include (default: `[\"pages/**/*\"]`).",
+        "translatedContent": "- `include` : Motif(s) glob à inclure (par défaut : `[\"pages/**/*\"]`)."
+      },
+      {
+        "row": 15,
+        "rowsha": "TzGgOYX0yyGZIvcDiGDjftQoexgbB3h1KZU7McM9Vq0=",
+        "originContent": "- `exclude`: Glob pattern(s) to exclude (default: `[\"pages/api/**/*\"]`).",
+        "translatedContent": "- `exclude` : Motif(s) glob à exclure (par défaut : `[\"pages/api/**/*\"]`)."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "I7j0AivA52Ys8laF9NnfZOdhQsUA7NykLQ9vB+/8zfg=",
+        "originContent": "### Compatibility",
+        "translatedContent": "### Compatibilité"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "GLO8BqiAo0/QSN37fa3GqJLtfmsO8I4QHFRqnn8+5S0=",
+        "originContent": "#### Page file types",
+        "translatedContent": "#### Types de fichiers de page"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "04gt9wyViUaDsaETikNiX8ZddisrNUNFH+po7f8S/hA=",
+        "originContent": "Other Astro page file types:",
+        "translatedContent": "Autres types de fichiers de page Astro :"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "U5GOd2y1IJx+zuc7993ESO3mACZOOgilHgP75ue8G3E=",
+        "originContent": "- ✅ `.astro`",
+        "translatedContent": "- ✅ `.astro`"
+      },
+      {
+        "row": 24,
+        "rowsha": "qCXM0C6GeVgbCSaJBtG5mu7GnrsMmuVlTXPuf6ZZBsc=",
+        "originContent": "- ❌ `.md`",
+        "translatedContent": "- ❌ `.md`"
+      },
+      {
+        "row": 25,
+        "rowsha": "QGChDYf8F7nBep0dsyzMzM3kHFuwDWEtnkI7Aiu6gQw=",
+        "originContent": "- ❌ `.mdx` (with the MDX Integration installed)",
+        "translatedContent": "- ❌ `.mdx` (avec l’intégration MDX installée)"
+      },
+      {
+        "row": 26,
+        "rowsha": "Koqk69wfQ4b1Xb83s9oRhKgA1Ru89IHAe7SgsQR6LbE=",
+        "originContent": "- ❌ `.html`",
+        "translatedContent": "- ❌ `.html`"
+      },
+      {
+        "row": 27,
+        "rowsha": "SetB68FnGSkVOV9fzOFkXMenBK5PdL6WTLmRLqp6hqg=",
+        "originContent": "- ❌ `.js` / `.ts` (as endpoints)",
+        "translatedContent": "- ❌ `.js` / `.ts` (en tant que points de terminaison)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Edxvz+57Nnqb7NTwLVGKX/fl+hXddwOGnKfrqzEu4uI=",
+        "originContent": "cannot be translated. If you choose to use them in the `pages` directory, please add them to the ignore glob patterns. For example:",
+        "translatedContent": "ne peuvent pas être traduits. Si vous choisissez de les utiliser dans le répertoire `pages`, veuillez les ajouter aux motifs glob à ignorer. Par exemple :"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```js\n[\"pages/api/**/*\", \"pages/**/*.md\"];\n```",
+    "ContentSha": "zCztXuGLw/7zbn3gOUKP5LcFPkaYBGsOmUVBxEjIdRE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n[\"pages/api/**/*\", \"pages/**/*.md\"];\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "bvhIIQOahF2JVvPp8o0kye4JuJ0vJI9BzzmEA4wJzuU=",
+        "originContent": "[\"pages/api/**/*\", \"pages/**/*.md\"];",
+        "translatedContent": "[\"pages/api/**/*\", \"pages/**/*.md\"];"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n#### Excluding pages\n\nIn Astro, the [docs](https://docs.astro.build/en/core-concepts/routing/#excluding-pages) state:\n\n> You can exclude pages or directories from being built by prefixing their names with an underscore (_). Files with the _ prefix won’t be recognized by the router and won’t be placed into the dist/ directory.\n>\n> You can use this to temporarily disable pages, and also to put tests, utilities, and components in the same folder as their related pages.\n\nUnfortunately, this [excluding pages](https://docs.astro.build/en/core-concepts/routing/#excluding-pages) feature is not supported. Please only keep pages in your pages directory.\n\nYou can still exclude pages prefixed with an underscore (`_`) by adding `pages/**/_*` to the ignore glob patterns:\n",
+    "ContentSha": "+AnNk0uw9hiYMPgJ2MDviq7MWrIwNfF0DadVyDHD9Zk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Exclusion de pages\n\nDans Astro, la [documentation](https://docs.astro.build/en/core-concepts/routing/#excluding-pages) indique :\n\n> Vous pouvez exclure des pages ou des répertoires de la construction en préfixant leurs noms par un underscore (_). Les fichiers avec le préfixe _ ne seront pas reconnus par le routeur et ne seront pas placés dans le répertoire dist/.\n>\n> Vous pouvez utiliser cela pour désactiver temporairement des pages, et aussi pour mettre des tests, utilitaires et composants dans le même dossier que leurs pages associées.\n\nMalheureusement, cette fonctionnalité [exclusion de pages](https://docs.astro.build/en/core-concepts/routing/#excluding-pages) n’est pas prise en charge. Veuillez ne conserver que des pages dans votre répertoire pages.\n\nVous pouvez toujours exclure les pages préfixées par un underscore (`_`) en ajoutant `pages/**/_*` aux motifs globaux d’ignorance :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "COY2/CiQ7ZTmRn+mzw+MVzF/XHUXDM8c/omEgXpojlU=",
+        "originContent": "#### Excluding pages",
+        "translatedContent": "#### Exclusion de pages"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "5NLiXCsNs2qT+aIXb1cbOrzgUwVrHoOxFzlxxs3YLf8=",
+        "originContent": "In Astro, the [docs](https://docs.astro.build/en/core-concepts/routing/#excluding-pages) state:",
+        "translatedContent": "Dans Astro, la [documentation](https://docs.astro.build/en/core-concepts/routing/#excluding-pages) indique :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "0qd6bFRFg13iPrZU6qKoOdjZJlcIhaX5K1tnStTikdo=",
+        "originContent": "> You can exclude pages or directories from being built by prefixing their names with an underscore (_). Files with the _ prefix won’t be recognized by the router and won’t be placed into the dist/ directory.",
+        "translatedContent": "> Vous pouvez exclure des pages ou des répertoires de la construction en préfixant leurs noms par un underscore (_). Les fichiers avec le préfixe _ ne seront pas reconnus par le routeur et ne seront pas placés dans le répertoire dist/."
+      },
+      {
+        "row": 7,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 8,
+        "rowsha": "yJU47OEpAw6XKw9weZupOz/EaxI+UtKDxoMmbTbaWMo=",
+        "originContent": "> You can use this to temporarily disable pages, and also to put tests, utilities, and components in the same folder as their related pages.",
+        "translatedContent": "> Vous pouvez utiliser cela pour désactiver temporairement des pages, et aussi pour mettre des tests, utilitaires et composants dans le même dossier que leurs pages associées."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "ga1HRURFe4Ll5cZOzs7xQCNqcDKGXRPoICXaFVk7tUE=",
+        "originContent": "Unfortunately, this [excluding pages](https://docs.astro.build/en/core-concepts/routing/#excluding-pages) feature is not supported. Please only keep pages in your pages directory.",
+        "translatedContent": "Malheureusement, cette fonctionnalité [exclusion de pages](https://docs.astro.build/en/core-concepts/routing/#excluding-pages) n’est pas prise en charge. Veuillez ne conserver que des pages dans votre répertoire pages."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "PhIgvcDliPcvrRQOBJfswhAeHvOd6nWMXF25DHl1vD8=",
+        "originContent": "You can still exclude pages prefixed with an underscore (`_`) by adding `pages/**/_*` to the ignore glob patterns:",
+        "translatedContent": "Vous pouvez toujours exclure les pages préfixées par un underscore (`_`) en ajoutant `pages/**/_*` aux motifs globaux d’ignorance :"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```js\n[\"pages/api/**/*\", \"pages/**/_*\"];\n```",
+    "ContentSha": "ZlBJOIbGL1trMTJY8lQRMJdG0/feQI8BbsQslcr/C8M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n[\"pages/api/**/*\", \"pages/**/_*\"];\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "VrLYj/Z5Pfewm/8QSW9dE9XFtNL5uquKnNGRZZ/J+3k=",
+        "originContent": "[\"pages/api/**/*\", \"pages/**/_*\"];",
+        "translatedContent": "[\"pages/api/**/*\", \"pages/**/_*\"];"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n#### Markdown\n\nFor `.md` and `.mdx`, use Astro [Content](https://docs.astro.build/en/guides/content-collections/#organizing-with-subdirectories) [Collections](https://docs.astro.build/en/recipes/i18n/#use-collections-for-translated-content).\n\nWith this library and Astro Content Collections, you can keep your Markdown separate and organized in `content`, while using `pages/blog/index.astro` and `pages/blog/[slug].astro` to render all of your content, even with a `defaultLocale`! Here is an example folder structure:\n",
+    "ContentSha": "9l973msyUMWcQbAYBhG/mNjzCjmdEc6J5k/2m5d0CxI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Markdown\n\nPour les fichiers `.md` et `.mdx`, utilisez les [Collections](https://docs.astro.build/en/recipes/i18n/#use-collections-for-translated-content) [Content](https://docs.astro.build/en/guides/content-collections/#organizing-with-subdirectories) d’Astro.\n\nAvec cette bibliothèque et les Collections Astro Content, vous pouvez garder votre Markdown séparé et organisé dans `content`, tout en utilisant `pages/blog/index.astro` et `pages/blog/[slug].astro` pour afficher tout votre contenu, même avec un `defaultLocale` ! Voici un exemple de structure de dossier :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PtOnxWz0KA/Uhtxrkkx1xgSBWv3LO/5RdcBl2p3p6uk=",
+        "originContent": "#### Markdown",
+        "translatedContent": "#### Markdown"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "jmQaxCArHgEAPplHN0dX+VidQ94PbBKC90wPjxo+Xe0=",
+        "originContent": "For `.md` and `.mdx`, use Astro [Content](https://docs.astro.build/en/guides/content-collections/#organizing-with-subdirectories) [Collections](https://docs.astro.build/en/recipes/i18n/#use-collections-for-translated-content).",
+        "translatedContent": "Pour les fichiers `.md` et `.mdx`, utilisez les [Collections](https://docs.astro.build/en/recipes/i18n/#use-collections-for-translated-content) [Content](https://docs.astro.build/en/guides/content-collections/#organizing-with-subdirectories) d’Astro."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qBvDptrdIa4u3J5DmnhXWO8mOQQzJQwdkyMbjTQAuCw=",
+        "originContent": "With this library and Astro Content Collections, you can keep your Markdown separate and organized in `content`, while using `pages/blog/index.astro` and `pages/blog/[slug].astro` to render all of your content, even with a `defaultLocale`! Here is an example folder structure:",
+        "translatedContent": "Avec cette bibliothèque et les Collections Astro Content, vous pouvez garder votre Markdown séparé et organisé dans `content`, tout en utilisant `pages/blog/index.astro` et `pages/blog/[slug].astro` pour afficher tout votre contenu, même avec un `defaultLocale` ! Voici un exemple de structure de dossier :"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```\n.\n└── astro-project/\n    └── src/\n        ├── pages/\n        │   └── blog/\n        │       ├── index.astro\n        │       └── [id].astro\n        └── content/\n            └── blog/\n                ├── en/\n                │   ├── post-1.md\n                │   └── post-2.md\n                ├── es/\n                │   ├── post-1.md\n                │   └── post-2.md\n                └── fr/\n                    ├── post-1.md\n                    └── post-2.md\n```",
+    "ContentSha": "SL5S2MdU7qP6o1mNNzv1OQIXkSEyuEfvPr2Hxlel7nY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n.\n└── astro-project/\n    └── src/\n        ├── pages/\n        │   └── blog/\n        │       ├── index.astro\n        │       └── [id].astro\n        └── content/\n            └── blog/\n                ├── en/\n                │   ├── post-1.md\n                │   └── post-2.md\n                ├── es/\n                │   ├── post-1.md\n                │   └── post-2.md\n                └── fr/\n                    ├── post-1.md\n                    └── post-2.md\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zbTuKuppzGqDMxu+ltwsqpopnSEynvsDNvwCqC4YOag=",
+        "originContent": ".",
+        "translatedContent": "."
+      },
+      {
+        "row": 3,
+        "rowsha": "FaVwk7gR/eTCNqhivpj90qPjsnhmToKryYFtzAfueEg=",
+        "originContent": "└── astro-project/",
+        "translatedContent": "└── astro-project/"
+      },
+      {
+        "row": 4,
+        "rowsha": "BPF06AuelpGrNRq6BfH4P0SaWdV6VrJ4aj79l9CrcEc=",
+        "originContent": "    └── src/",
+        "translatedContent": "    └── src/"
+      },
+      {
+        "row": 5,
+        "rowsha": "D/lE/8bm5nU5hSXR9maLvH5itzx5aKVWCyautVy6p+4=",
+        "originContent": "        ├── pages/",
+        "translatedContent": "        ├── pages/"
+      },
+      {
+        "row": 6,
+        "rowsha": "WAZqe8jWPnF0OJDDbqBfw0ORqTuiLJq33w1Z2kimL2o=",
+        "originContent": "        │   └── blog/",
+        "translatedContent": "        │   └── blog/"
+      },
+      {
+        "row": 7,
+        "rowsha": "xrVTmLOwExX+IvZKQ/4HlF7NxEN3+corCuhsyLXa4PY=",
+        "originContent": "        │       ├── index.astro",
+        "translatedContent": "        │       ├── index.astro"
+      },
+      {
+        "row": 8,
+        "rowsha": "duYN2/Rub4sUKRzi8u3ZhevWt9hKDqdwzWLCMVqaRGg=",
+        "originContent": "        │       └── [id].astro",
+        "translatedContent": "        │       └── [id].astro"
+      },
+      {
+        "row": 9,
+        "rowsha": "PHMtKy7VwODCSb6wJR+kKaHtBfq38+PE1aYe+QEodL4=",
+        "originContent": "        └── content/",
+        "translatedContent": "        └── content/"
+      },
+      {
+        "row": 10,
+        "rowsha": "jB69aSpSRhfAZ8mCc7nntnqVMkR80FI0i47Q8o92+fQ=",
+        "originContent": "            └── blog/",
+        "translatedContent": "            └── blog/"
+      },
+      {
+        "row": 11,
+        "rowsha": "gjgF4V9VJDZ9fbawC1xTUEzX4i6Ip43X3mRj9X/Gu2M=",
+        "originContent": "                ├── en/",
+        "translatedContent": "                ├── en/"
+      },
+      {
+        "row": 12,
+        "rowsha": "wulugumKhhbq4Zzzfb/o8MZP0eajbvVetgDQZJ/ONLE=",
+        "originContent": "                │   ├── post-1.md",
+        "translatedContent": "                │   ├── post-1.md"
+      },
+      {
+        "row": 13,
+        "rowsha": "cKRCRlLbI7E0QOnW+duj/5ZwYTGbHJJ0QEm3UkuNcBo=",
+        "originContent": "                │   └── post-2.md",
+        "translatedContent": "                │   └── post-2.md"
+      },
+      {
+        "row": 14,
+        "rowsha": "3okZm3j98J3MjgLJBW7vGGJ+2XGfFk4xTHzKDFnRqHI=",
+        "originContent": "                ├── es/",
+        "translatedContent": "                ├── es/"
+      },
+      {
+        "row": 15,
+        "rowsha": "wulugumKhhbq4Zzzfb/o8MZP0eajbvVetgDQZJ/ONLE=",
+        "originContent": "                │   ├── post-1.md",
+        "translatedContent": "                │   ├── post-1.md"
+      },
+      {
+        "row": 16,
+        "rowsha": "cKRCRlLbI7E0QOnW+duj/5ZwYTGbHJJ0QEm3UkuNcBo=",
+        "originContent": "                │   └── post-2.md",
+        "translatedContent": "                │   └── post-2.md"
+      },
+      {
+        "row": 17,
+        "rowsha": "rCi9IgLR1A2puGscvGHRT0yNva9r7FkOvrOocUpHCAg=",
+        "originContent": "                └── fr/",
+        "translatedContent": "                └── fr/"
+      },
+      {
+        "row": 18,
+        "rowsha": "KregXsjlDUoMWyegs1DEXBeBuK6VEINgRoGwojR7zJw=",
+        "originContent": "                    ├── post-1.md",
+        "translatedContent": "                    ├── post-1.md"
+      },
+      {
+        "row": 19,
+        "rowsha": "Ig6hKjiSVboeobaNBFtI+AIa+1mvHST/5sVnCtgeZck=",
+        "originContent": "                    └── post-2.md",
+        "translatedContent": "                    └── post-2.md"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n#### UI frameworks\n\nAstro does not support `.tsx` or `.jsx` as page file types.\n\nFor UI frameworks like React and Vue, use them how you [normally](https://docs.astro.build/en/core-concepts/framework-components/) would with Astro by importing them as components.\n\nFeel free to pass the translated content `title={t('title')}` or locale `locale={locale}` as props.\n\n#### Endpoints\n\nBy default, all pages in `pages/api/**/*` are ignored.\n\nFor `.ts` and `.js` endpoints, how you handle multiple locales is up to you. As endpoints are not user-facing and there are many different ways to use endpoints, we leave the implementation up to your preferences.\n\n## License\n\nMIT Licensed\n\n## Contributing\n\nPRs welcome! Thank you for your help. Read more in the [contributing guide](https://github.com/jlarmstrongiv/astro-i18n-aut/blob/main/CONTRIBUTING.md) for reporting bugs and making PRs.\n",
+    "ContentSha": "vIb/6BcTgs3eGsFH3FwyE8jNkLsoVox3xmnZuzLX96w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Frameworks UI\n\nAstro ne prend pas en charge les fichiers de page `.tsx` ou `.jsx`.\n\nPour les frameworks UI comme React et Vue, utilisez-les comme vous le [feriez normalement](https://docs.astro.build/en/core-concepts/framework-components/) avec Astro en les important comme composants.\n\nN’hésitez pas à passer le contenu traduit `title={t('title')}` ou la locale `locale={locale}` en tant que props.\n\n#### Endpoints\n\nPar défaut, toutes les pages dans `pages/api/**/*` sont ignorées.\n\nPour les endpoints `.ts` et `.js`, la gestion des multiples locales dépend de vous. Comme les endpoints ne sont pas destinés aux utilisateurs finaux et qu’il existe de nombreuses façons de les utiliser, nous laissons l’implémentation à votre appréciation.\n\n## Licence\n\nLicence MIT\n\n## Contribution\n\nLes PR sont les bienvenues ! Merci pour votre aide. Lisez plus dans le [guide de contribution](https://github.com/jlarmstrongiv/astro-i18n-aut/blob/main/CONTRIBUTING.md) pour signaler des bugs et faire des PR.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "aZf/LwGFGsujWoOOQ8+DxxvibwXRUEiLa6/9jzdb7aw=",
+        "originContent": "#### UI frameworks",
+        "translatedContent": "#### Frameworks UI"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VyXj5XDwWPCG3bYQGKXwiuup3IhCIwxYLD6tfTvc7R0=",
+        "originContent": "Astro does not support `.tsx` or `.jsx` as page file types.",
+        "translatedContent": "Astro ne prend pas en charge les fichiers de page `.tsx` ou `.jsx`."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "s615hB2VCL1M/Aq+QC8tcYrsSvQpdqUtLi+MaEiw4iA=",
+        "originContent": "For UI frameworks like React and Vue, use them how you [normally](https://docs.astro.build/en/core-concepts/framework-components/) would with Astro by importing them as components.",
+        "translatedContent": "Pour les frameworks UI comme React et Vue, utilisez-les comme vous le [feriez normalement](https://docs.astro.build/en/core-concepts/framework-components/) avec Astro en les important comme composants."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "W6YMbpDYfOCU5naazR/yqT+6OhbwJ48X8+QoQHn5Cfg=",
+        "originContent": "Feel free to pass the translated content `title={t('title')}` or locale `locale={locale}` as props.",
+        "translatedContent": "N’hésitez pas à passer le contenu traduit `title={t('title')}` ou la locale `locale={locale}` en tant que props."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "i6zKHhgrTduX9jWjrDrXpPYjiat0CCANK9Isgvqp2PA=",
+        "originContent": "#### Endpoints",
+        "translatedContent": "#### Endpoints"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "KdH6JJ1vU/ccQGp35fSdGqfPHv7rdxizNGaP75VV3dI=",
+        "originContent": "By default, all pages in `pages/api/**/*` are ignored.",
+        "translatedContent": "Par défaut, toutes les pages dans `pages/api/**/*` sont ignorées."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "BtdVaQm4rM8J3b+5JDaZxBMgSbzUB0A3hSPoohbPB4k=",
+        "originContent": "For `.ts` and `.js` endpoints, how you handle multiple locales is up to you. As endpoints are not user-facing and there are many different ways to use endpoints, we leave the implementation up to your preferences.",
+        "translatedContent": "Pour les endpoints `.ts` et `.js`, la gestion des multiples locales dépend de vous. Comme les endpoints ne sont pas destinés aux utilisateurs finaux et qu’il existe de nombreuses façons de les utiliser, nous laissons l’implémentation à votre appréciation."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licence"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "DfsxewR99I4JfKJ6afJ6jr9oVVX7jFLBKilQ9g/ui7I=",
+        "originContent": "MIT Licensed",
+        "translatedContent": "Licence MIT"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contribution"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "4hlbnjZOekRH/oVIJ26QUNx++muhhophXJO8ROacAZI=",
+        "originContent": "PRs welcome! Thank you for your help. Read more in the [contributing guide](https://github.com/jlarmstrongiv/astro-i18n-aut/blob/main/CONTRIBUTING.md) for reporting bugs and making PRs.",
+        "translatedContent": "Les PR sont les bienvenues ! Merci pour votre aide. Lisez plus dans le [guide de contribution](https://github.com/jlarmstrongiv/astro-i18n-aut/blob/main/CONTRIBUTING.md) pour signaler des bugs et faire des PR."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,3 +1,34 @@
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=KomoriDev&project=nonebot-plugin-deepseek&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <!-- markdownlint-disable MD033 MD036 MD041 MD045 -->
 <div align="center">
   <a href="https://v2.nonebot.dev/store">
@@ -5,6 +36,7 @@
   </a>
 
 </div>
+
 
 <div align="center">
 
@@ -21,7 +53,7 @@ _✨ NoneBot DeepSeek 插件 ✨_
 <a href="">
   <img src="https://img.shields.io/pypi/v/nonebot-plugin-deepseek.svg" alt="pypi" />
 </a>
-<img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="python">
+<img src="https://img.shields.io/badge/python-3.12+-blue.svg" alt="python">
 <a href="https://github.com/astral-sh/uv">
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json" alt="uv-managed">
 </a>
@@ -32,10 +64,10 @@ _✨ NoneBot DeepSeek 插件 ✨_
 <br/>
 
 <a href="https://registry.nonebot.dev/plugin/nonebot-plugin-deepseek:nonebot_plugin_deepseek">
-  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fnbbdg.lgc2333.top%2Fplugin%2Fnonebot-plugin-deepseek" alt="NoneBot 注册表" />
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fnbbdg.lgc2333.top%2Fplugin%2Fnonebot-plugin-deepseek" alt="NoneBot Registry" />
 </a>
 <a href="https://registry.nonebot.dev/plugin/nonebot-plugin-deepseek:nonebot_plugin_deepseek">
-  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fnbbdg.lgc2333.top%2Fplugin-adapters%2Fnonebot-plugin-deepseek" alt="支持的适配器" />
+  <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fnbbdg.lgc2333.top%2Fplugin-adapters%2Fnonebot-plugin-deepseek" alt="Supported Adapters" />
 </a>
 
 <br />
@@ -81,7 +113,7 @@ Wiki: 👉 [传送门](https://github.com/KomoriDev/nonebot-plugin-deepseek/wiki
 
 <details open>
 <summary>[推荐] 使用 nb-cli 安装</summary>
-在 Bot 的根目录下打开命令行，输入以下指令即可安装
+在 Bot 的根目录下打开命令行, 输入以下指令即可安装
 
 ```shell
 nb plugin install nonebot-plugin-deepseek
@@ -104,22 +136,21 @@ pdm add nonebot-plugin-deepseek
 ```toml
 plugins = ["nonebot_plugin_deepseek"]
 ```
-
 </details>
 
 ## ⚙️ 配置
 
-在项目的配置文件中添加下表中配置
+在项目的配置文件中添加下表中的配置
 
 > [!note]
 > `api_key` 请从 [DeepSeek 开放平台](https://platform.deepseek.com/) 获取  
-> `enable_models` 为 [`CustomModel`](https://github.com/KomoriDev/nonebot-plugin-deepseek/blob/ee9f0b0f0568eedb3eb87423e6c1bf271787ab76/nonebot_plugin_deepseek/config.py#L34) 结构的字典，若无接入本地模型的需要则无需修改  
-> 若要接入本地模型，请参见：👉 [Wiki - 接入本地模型](https://github.com/KomoriDev/nonebot-plugin-deepseek/wiki/本地模型)  
+> `enable_models` 是 [`CustomModel`](https://github.com/KomoriDev/nonebot-plugin-deepseek/blob/ee9f0b0f0568eedb3eb87423e6c1bf271787ab76/nonebot_plugin_deepseek/config.py#L34) 结构的字典，如果没有接入本地模型的需求则无需修改  
+> 如果需要接入本地模型，请参见：👉 [Wiki - 接入本地模型](https://github.com/KomoriDev/nonebot-plugin-deepseek/wiki/本地模型)  
 
 |              配置项              | 必填  |                             默认值                             |                                                                          说明                                                                          |
 | :------------------------------: | :---: | :------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: |
 |        deepseek__api_key         |  是   |                               无                               |                                                                        API Key                                                                         |
-|     deepseek__enable_models      |  否   | [{ "name": "deepseek-chat" }, { "name": "deepseek-reasoner" }] | 启用的模型 [配置说明](https://github.com/KomoriDev/nonebot-plugin-deepseek/wiki/%E9%85%8D%E7%BD%AE#enable_models-%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E) |
+|     deepseek__enable_models      |  否   | [{ "name": "deepseek-v4-flash" }, { "name": "deepseek-v4-pro" }] | 启用的模型 [配置说明](https://github.com/KomoriDev/nonebot-plugin-deepseek/wiki/%E9%85%8D%E7%BD%AE#enable_models-%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E) |
 |         deepseek__prompt         |  否   |                               无                               |                                                                        模型预设                                                                        |
 |         deepseek__stream         |  否   |                             False                              |                                                                    是否启用流式传输                                                                    |
 |        deepseek__timeout         |  否   |             {"api_request": 100, "user_input": 60}             |                                                                        超时设定                                                                        |
@@ -132,6 +163,7 @@ plugins = ["nonebot_plugin_deepseek"]
 > 请检查你的 `COMMAND_START` 以及上述配置项。这里默认使用 `/`
 
 ### 帮助
+
 
 ```bash
 deepseek --help
@@ -167,7 +199,7 @@ deepseek --help
 ### 深度思考
 
 ```bash
-/deepseek [内容] --use-model deepseek-reasoner
+/deepseek [内容] --use-model deepseek-v4-pro
 ```
 
 快捷指令：`/深度思考 [内容]`
@@ -213,10 +245,10 @@ deepseek --help
 例子:
 
 ```bash
-user: /deepseek --shortcut /chat /deepseek --use-model deepseek-chat
+user: /deepseek --shortcut /chat /deepseek --use-model deepseek-v4-flash
 bot: deepseek::deepseek 的快捷指令: "/chat" 添加成功
 user: /chat
-bot: (使用模型 deepseek-chat)
+bot: (使用模型 deepseek-v4-flash)
 ```
 
 ## 📸 效果图
@@ -267,6 +299,6 @@ SOFTWARE.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-07-24
 
 ---

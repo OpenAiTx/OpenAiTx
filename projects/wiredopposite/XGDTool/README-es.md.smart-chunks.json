@@ -1,0 +1,1014 @@
+[
+  {
+    "Id": 1,
+    "Content": "# XGDTool\n<img src=\"https://github.com/wiredopposite/XGDTool/blob/master/resources/Screenshot.png\" alt=\"App\" width=\"700\"/>\n\nXGDTool is an OG Xbox and Xbox 360 disc utility, capable of converting discs to and from any mainstream format. It's available as a GUI or CLI app.\n\nThis program is still in initial testing. If you experience an issue, please report it in the Issues tab and help make this program better!\n\n## Features\n- Supports convertion between following formats:\n    - ISO / XISO\n    - Extracted files (Xex / Xbe / HDD Ready)\n    - GoD / Games on Demand\n    - CCI\n    - CSO\n    - ZAR\n- Seamless conversion, e.g. you can directly extract a GoD image, convert an ISO to ZAR archive, or extracted directory to CCI archive, without writing any temporary files. The only format requiring temporary files is ZAR when provided as input.\n- Image scrubbing (\"Partial Scrub\"), gets rid of random padding and trims the output file to the shortest length possible.\n- Image reauthoring (\"Full Scrub\"), completely rewrites the structure of the disc for the smallest possible output file.\n- Image authoring, takes your extracted files and creates a new image with them.\n- Multithreaded compression for CCI and CSO formats.\n- Batch processing, a folder full of different game formats can be batch converted to a single format.\n- Automatically finds split files when only one part is provided as an input path, assuming they're named in this format: ```name.1.extension``` ```name.2.extension```.\n- Option to select your target app/machine (Xemu, Xenia, OG Xbox, Xbox 360) and let XGDTool decide which settings to use.\n- Attach XBE generation for OG Xbox.\n- Online database lookup for accurate file naming (can be disabled).\n\n## CLI Usage",
+    "ContentSha": "2VqG3mxya/oCqHKQ9MenZK1AhfkaqRXFG02Xynypap0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# XGDTool\n<img src=\"https://github.com/wiredopposite/XGDTool/blob/master/resources/Screenshot.png\" alt=\"App\" width=\"700\"/>\n\nXGDTool es una utilidad para discos de OG Xbox y Xbox 360, capaz de convertir discos hacia y desde cualquier formato popular. Está disponible como una aplicación GUI o CLI.\n\nEste programa aún está en pruebas iniciales. Si experimentas algún problema, por favor repórtalo en la pestaña de Issues y ayuda a mejorar este programa.\n\n## Características\n- Soporta conversión entre los siguientes formatos:\n    - ISO / XISO\n    - Archivos extraídos (Xex / Xbe / HDD Ready)\n    - GoD / Juegos bajo demanda\n    - CCI\n    - CSO\n    - ZAR\n- Conversión sin interrupciones, por ejemplo, puedes extraer directamente una imagen GoD, convertir un ISO a archivo ZAR, o un directorio extraído a archivo CCI, sin escribir archivos temporales. El único formato que requiere archivos temporales es ZAR cuando se proporciona como entrada.\n- Limpieza de imagen (\"Partial Scrub\"), elimina relleno aleatorio y recorta el archivo de salida a la longitud más corta posible.\n- Reautoría de imagen (\"Full Scrub\"), reescribe completamente la estructura del disco para obtener el archivo de salida más pequeño posible.\n- Autoría de imagen, toma tus archivos extraídos y crea una nueva imagen con ellos.\n- Compresión multihilo para formatos CCI y CSO.\n- Procesamiento por lotes, una carpeta llena de diferentes formatos de juegos puede ser convertida por lotes a un solo formato.\n- Encuentra automáticamente archivos divididos cuando solo se proporciona una parte como ruta de entrada, asumiendo que están nombrados en este formato: ```nombre.1.extensión``` ```nombre.2.extensión```.\n- Opción para seleccionar tu aplicación/máquina objetivo (Xemu, Xenia, OG Xbox, Xbox 360) y dejar que XGDTool decida qué configuraciones usar.\n- Generación adjunta de XBE para OG Xbox.\n- Consulta en base de datos en línea para nombrado exacto de archivos (puede deshabilitarse).\n\n## Uso CLI",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ys54piOe5zwPGYwmStnQ5mog7MwwRsl3pOym6HLmHZo=",
+        "originContent": "# XGDTool",
+        "translatedContent": "# XGDTool"
+      },
+      {
+        "row": 2,
+        "rowsha": "uSP2GBPwfyp+4YJa7FJCG6GgIiBOhNqqF1GIQNbrzgE=",
+        "originContent": "<img src=\"https://github.com/wiredopposite/XGDTool/blob/master/resources/Screenshot.png\" alt=\"App\" width=\"700\"/>",
+        "translatedContent": "<img src=\"https://github.com/wiredopposite/XGDTool/blob/master/resources/Screenshot.png\" alt=\"App\" width=\"700\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "BEbtYurIDWPAxZmKI/6y3BcxbzzeGtwIY9yMQBj5LCI=",
+        "originContent": "XGDTool is an OG Xbox and Xbox 360 disc utility, capable of converting discs to and from any mainstream format. It's available as a GUI or CLI app.",
+        "translatedContent": "XGDTool es una utilidad para discos de OG Xbox y Xbox 360, capaz de convertir discos hacia y desde cualquier formato popular. Está disponible como una aplicación GUI o CLI."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "KKOsfqcf/49HaHpuoESkkWOQCpCihojPr4qhgY/820M=",
+        "originContent": "This program is still in initial testing. If you experience an issue, please report it in the Issues tab and help make this program better!",
+        "translatedContent": "Este programa aún está en pruebas iniciales. Si experimentas algún problema, por favor repórtalo en la pestaña de Issues y ayuda a mejorar este programa."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Características"
+      },
+      {
+        "row": 9,
+        "rowsha": "6lwZvb+w//XXHMp+OkdqpC3pRshDk7nwwMoi05AMhzU=",
+        "originContent": "- Supports convertion between following formats:",
+        "translatedContent": "- Soporta conversión entre los siguientes formatos:"
+      },
+      {
+        "row": 10,
+        "rowsha": "pIY1Q9a9ReetN3zx9CKcTcgcH+rkWV0D5nsXGkSyVoM=",
+        "originContent": "    - ISO / XISO",
+        "translatedContent": "    - ISO / XISO"
+      },
+      {
+        "row": 11,
+        "rowsha": "b2EJYipkbND96uw53IYtGksEJDzSJ0Qf05cNz5pdVxM=",
+        "originContent": "    - Extracted files (Xex / Xbe / HDD Ready)",
+        "translatedContent": "    - Archivos extraídos (Xex / Xbe / HDD Ready)"
+      },
+      {
+        "row": 12,
+        "rowsha": "e4VyGCYB2J+IcIIM/7VWbtSAKl/QrnUr8r88AnJEylQ=",
+        "originContent": "    - GoD / Games on Demand",
+        "translatedContent": "    - GoD / Juegos bajo demanda"
+      },
+      {
+        "row": 13,
+        "rowsha": "0QcIey44+qnzvHN2Kqg/ByKRQZSkKfijhp2On6OIlqk=",
+        "originContent": "    - CCI",
+        "translatedContent": "    - CCI"
+      },
+      {
+        "row": 14,
+        "rowsha": "52wLIu4/576bhIES3uJiVcGVlR24bX9zwZcIHM3VDfI=",
+        "originContent": "    - CSO",
+        "translatedContent": "    - CSO"
+      },
+      {
+        "row": 15,
+        "rowsha": "F6RGsQ2OyRr63GGXymnEbh5ZNPKWFCB3z7WAtbR4WUA=",
+        "originContent": "    - ZAR",
+        "translatedContent": "    - ZAR"
+      },
+      {
+        "row": 16,
+        "rowsha": "e3ZMbngTI94u9qA55FW9hb812K/KLW4yN/OpD5gF0do=",
+        "originContent": "- Seamless conversion, e.g. you can directly extract a GoD image, convert an ISO to ZAR archive, or extracted directory to CCI archive, without writing any temporary files. The only format requiring temporary files is ZAR when provided as input.",
+        "translatedContent": "- Conversión sin interrupciones, por ejemplo, puedes extraer directamente una imagen GoD, convertir un ISO a archivo ZAR, o un directorio extraído a archivo CCI, sin escribir archivos temporales. El único formato que requiere archivos temporales es ZAR cuando se proporciona como entrada."
+      },
+      {
+        "row": 17,
+        "rowsha": "3IxLBnn2FgRjcwExamcdTlkc1d/E5n5jHSXk2kJnXXo=",
+        "originContent": "- Image scrubbing (\"Partial Scrub\"), gets rid of random padding and trims the output file to the shortest length possible.",
+        "translatedContent": "- Limpieza de imagen (\"Partial Scrub\"), elimina relleno aleatorio y recorta el archivo de salida a la longitud más corta posible."
+      },
+      {
+        "row": 18,
+        "rowsha": "GqIbg82SGIDEzp9igGrJpyGB1D8LPpoSO11sYsdwcds=",
+        "originContent": "- Image reauthoring (\"Full Scrub\"), completely rewrites the structure of the disc for the smallest possible output file.",
+        "translatedContent": "- Reautoría de imagen (\"Full Scrub\"), reescribe completamente la estructura del disco para obtener el archivo de salida más pequeño posible."
+      },
+      {
+        "row": 19,
+        "rowsha": "x2+lAGRD0xUETPfzbaM/oxSjPyyzrtv+GyRuApq2hTc=",
+        "originContent": "- Image authoring, takes your extracted files and creates a new image with them.",
+        "translatedContent": "- Autoría de imagen, toma tus archivos extraídos y crea una nueva imagen con ellos."
+      },
+      {
+        "row": 20,
+        "rowsha": "GLrCOrPm4Ivukl7N1AitSJlxB23bjMDwQ+REfppJ1Yg=",
+        "originContent": "- Multithreaded compression for CCI and CSO formats.",
+        "translatedContent": "- Compresión multihilo para formatos CCI y CSO."
+      },
+      {
+        "row": 21,
+        "rowsha": "CsMVE9VT1Pd5g69oP2aAug0lZ26uY2Bxje7PMAs1gFc=",
+        "originContent": "- Batch processing, a folder full of different game formats can be batch converted to a single format.",
+        "translatedContent": "- Procesamiento por lotes, una carpeta llena de diferentes formatos de juegos puede ser convertida por lotes a un solo formato."
+      },
+      {
+        "row": 22,
+        "rowsha": "VNo0AH2H5tjrp7SqevucYIfflJvrQWTGsXFO6afGid8=",
+        "originContent": "- Automatically finds split files when only one part is provided as an input path, assuming they're named in this format: ```name.1.extension``` ```name.2.extension```.",
+        "translatedContent": "- Encuentra automáticamente archivos divididos cuando solo se proporciona una parte como ruta de entrada, asumiendo que están nombrados en este formato: ```nombre.1.extensión``` ```nombre.2.extensión```."
+      },
+      {
+        "row": 23,
+        "rowsha": "U1E0ciFFGcAjYhBXCpxlrP4i42IB21mZk4LfAiLMVqY=",
+        "originContent": "- Option to select your target app/machine (Xemu, Xenia, OG Xbox, Xbox 360) and let XGDTool decide which settings to use.",
+        "translatedContent": "- Opción para seleccionar tu aplicación/máquina objetivo (Xemu, Xenia, OG Xbox, Xbox 360) y dejar que XGDTool decida qué configuraciones usar."
+      },
+      {
+        "row": 24,
+        "rowsha": "uIn3CFyW2Tkn5Zwo1oMjKQlfQYgv4H1hxRfGQctv4w8=",
+        "originContent": "- Attach XBE generation for OG Xbox.",
+        "translatedContent": "- Generación adjunta de XBE para OG Xbox."
+      },
+      {
+        "row": 25,
+        "rowsha": "TFGfM7rpyGumTRn97W3SCbZ7Cel9Wc8nhoE2i21pAHI=",
+        "originContent": "- Online database lookup for accurate file naming (can be disabled).",
+        "translatedContent": "- Consulta en base de datos en línea para nombrado exacto de archivos (puede deshabilitarse)."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "DLSniBALTVyRyQUYfHh7y02Jm1dq06zfrJiiu7Uu+RE=",
+        "originContent": "## CLI Usage",
+        "translatedContent": "## Uso CLI"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```XGDTool.exe <output_format> <settings_flags> <input_path> <output_directory>```\n\nor on Linux\n\n```XGDTool <output_format> <settings_flags> <input_path> <output_directory>```",
+    "ContentSha": "w88zObu799PB6/r+5MYQxc1NZqOkmgqMmVdO0XDTE6E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```XGDTool.exe <output_format> <settings_flags> <input_path> <output_directory>```\n\nor on Linux\n\n```XGDTool <output_format> <settings_flags> <input_path> <output_directory>```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9UMhM/0IZZ1ctsF4pzaJuBFknxnP32mi8XRIAi1nPdg=",
+        "originContent": "```XGDTool.exe <output_format> <settings_flags> <input_path> <output_directory>```",
+        "translatedContent": "```XGDTool.exe <output_format> <settings_flags> <input_path> <output_directory>```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "MJZHTyDdrzzWMte+etPkqz3UhuXe1ZGleIDJztZm4zk=",
+        "originContent": "or on Linux",
+        "translatedContent": "or on Linux"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ZL544VqXVfTpjx5eSeBsFaJBzy1MhaJg00anisjugU4=",
+        "originContent": "```XGDTool <output_format> <settings_flags> <input_path> <output_directory>```",
+        "translatedContent": "```XGDTool <output_format> <settings_flags> <input_path> <output_directory>```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nSettings flags and output directory are optional.\n\n### Output format arguments (mutually exclusive)\n- ```--extract```   Extracts all files to a directory\n- ```--xiso```      Creates an Xiso image\n- ```--god```       Creates a Games on Demand image/directory structure\n- ```--cci```       Creates a CCI archive (automatically split if too large for Xbox)\n- ```--cso```       Creates a CSO archive (automatically split if too large for Xbox)\n- ```--zar```       Creates a ZAR archive\n- ```--xbe```       Generates an attach XBE file, does not convert the input file\n- ```--ogxbox```    Automatically choose format and settings for use with OG Xbox\n- ```--xbox360```   Automatically choose format and settings for use with Xbox 360\n- ```--xemu```      Automatically choose format and settings for use with Xemu\n- ```--xenia```     Automatically choose format and settings for use with Xenia\n\nInformation:\n- ```--list```      List contents of input file\n- ```--version```   Print version information\n- ```--help```      Print usage information\n\n### Settings flags\nThese arguments can be stacked, though not all output formats will use them, in that case the option is ignored. If any conflicting settings are provided (e.g. full/partial scrub), the last one will be used. \n- ```--partial-scrub```  Scrubs and trims the output image, random padding data is removed.\n- ```--full-scrub```     Completely reauthor the resulting image, this will produce the smallest file possible.\n- ```--split```          Splits the resulting XISO file if it's too large for OG Xbox.\n- ```--rename```         Patches the title field of resulting XBE files to one found in the database.\n- ```--attach-xbe```     Generates an attach XBE file along with the output file.\n- ```--am-patch```       Patches the \"Allowed Media\" field in resulting XBE files.\n- ```--offline```        Disables online functionality.\n- ```--debug```          Enable debug logging.\n- ```--quiet```          Disable all logging except for warnings and errors.\n\n## Build\nBy default this compiles as a GUI, configure Cmake with ```-DENABLE_GUI=OFF``` to compile for CLI. To compile for x86 there would need to be several changes made to the CmakeLists.txt and cmake/seutp_vcpkg.cmake files to accound for that.\n\n### Windows\nIf you have Cmake and MSVC installed, things should be fairly simple. The project has been setup for Windows so that it will automatically download and build all dependancies with vcpkg inside the project directory by configuring with Cmake. This can take a while depending on your internet speeds and PC specs but only has to happen once.\n\nClone this repo and make a build directory",
+    "ContentSha": "4oQqFLcpnsbSCwlUvz/69T+21lgx40l3qctekqwyboA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  \nLas banderas de configuración y el directorio de salida son opcionales.\n\n### Argumentos de formato de salida (mutuamente excluyentes)\n- ```--extract```   Extrae todos los archivos a un directorio\n- ```--xiso```      Crea una imagen Xiso\n- ```--god```       Crea una imagen/estructura de directorio Games on Demand\n- ```--cci```       Crea un archivo CCI (se divide automáticamente si es demasiado grande para Xbox)\n- ```--cso```       Crea un archivo CSO (se divide automáticamente si es demasiado grande para Xbox)\n- ```--zar```       Crea un archivo ZAR\n- ```--xbe```       Genera un archivo attach XBE, no convierte el archivo de entrada\n- ```--ogxbox```    Elige automáticamente formato y configuraciones para uso con OG Xbox\n- ```--xbox360```   Elige automáticamente formato y configuraciones para uso con Xbox 360\n- ```--xemu```      Elige automáticamente formato y configuraciones para uso con Xemu\n- ```--xenia```     Elige automáticamente formato y configuraciones para uso con Xenia\n\nInformación:\n- ```--list```      Lista el contenido del archivo de entrada\n- ```--version```   Imprime información de la versión\n- ```--help```      Imprime información de uso\n\n### Banderas de configuración\nEstos argumentos pueden apilarse, aunque no todos los formatos de salida los usarán, en ese caso la opción se ignora. Si se proporcionan configuraciones conflictivas (por ejemplo, limpieza completa/parcial), se usará la última. \n- ```--partial-scrub```  Limpia y recorta la imagen de salida, se elimina el relleno aleatorio.\n- ```--full-scrub```     Reautoriza completamente la imagen resultante, esto producirá el archivo más pequeño posible.\n- ```--split```          Divide el archivo XISO resultante si es demasiado grande para OG Xbox.\n- ```--rename```         Parchea el campo de título de los archivos XBE resultantes con uno encontrado en la base de datos.\n- ```--attach-xbe```     Genera un archivo attach XBE junto con el archivo de salida.\n- ```--am-patch```       Parchea el campo \"Allowed Media\" en los archivos XBE resultantes.\n- ```--offline```        Desactiva la funcionalidad en línea.\n- ```--debug```          Habilita el registro de depuración.\n- ```--quiet```          Desactiva todo registro excepto advertencias y errores.\n\n## Compilación\nPor defecto se compila como GUI, configure Cmake con ```-DENABLE_GUI=OFF``` para compilar para CLI. Para compilar para x86 sería necesario hacer varios cambios en los archivos CmakeLists.txt y cmake/setup_vcpkg.cmake para tenerlo en cuenta.\n\n### Windows\nSi tienes Cmake y MSVC instalados, debería ser bastante sencillo. El proyecto está configurado para Windows de modo que descargue y compile automáticamente todas las dependencias con vcpkg dentro del directorio del proyecto configurando con Cmake. Esto puede tardar un tiempo dependiendo de tu velocidad de internet y especificaciones del PC, pero solo debe hacerse una vez.\n\nClona este repositorio y crea un directorio de compilación",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  "
+      },
+      {
+        "row": 2,
+        "rowsha": "iMLZFO2Qz2JIiCseT7dLaAS+bx/BFniewJ7rGpPX9us=",
+        "originContent": "Settings flags and output directory are optional.",
+        "translatedContent": "Las banderas de configuración y el directorio de salida son opcionales."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1al8uNywzDK3AJTSdzf6q3OEF2HaM8sLVCYyWsKGK00=",
+        "originContent": "### Output format arguments (mutually exclusive)",
+        "translatedContent": "### Argumentos de formato de salida (mutuamente excluyentes)"
+      },
+      {
+        "row": 5,
+        "rowsha": "Gb/HeHnb9eaNqMuXjpx8v691pi1rWmAoePjaEfG+HdA=",
+        "originContent": "- ```--extract```   Extracts all files to a directory",
+        "translatedContent": "- ```--extract```   Extrae todos los archivos a un directorio"
+      },
+      {
+        "row": 6,
+        "rowsha": "+mvO9yVdeAwP+ZajAIb90/ayEdFEI9GY+zgbQFxRDnc=",
+        "originContent": "- ```--xiso```      Creates an Xiso image",
+        "translatedContent": "- ```--xiso```      Crea una imagen Xiso"
+      },
+      {
+        "row": 7,
+        "rowsha": "DecMLn0kDkb6yqu8PsxGwcp5hAbDlkQxUm/sWFdp0GM=",
+        "originContent": "- ```--god```       Creates a Games on Demand image/directory structure",
+        "translatedContent": "- ```--god```       Crea una imagen/estructura de directorio Games on Demand"
+      },
+      {
+        "row": 8,
+        "rowsha": "Fgwh+CNAivPZu1dKPS7enMVsB31tkVyQeoCpJqlzYGY=",
+        "originContent": "- ```--cci```       Creates a CCI archive (automatically split if too large for Xbox)",
+        "translatedContent": "- ```--cci```       Crea un archivo CCI (se divide automáticamente si es demasiado grande para Xbox)"
+      },
+      {
+        "row": 9,
+        "rowsha": "O6jZ7aFN7V/PVAG4G135doRrFAx1CEBX71gFyZuVAZw=",
+        "originContent": "- ```--cso```       Creates a CSO archive (automatically split if too large for Xbox)",
+        "translatedContent": "- ```--cso```       Crea un archivo CSO (se divide automáticamente si es demasiado grande para Xbox)"
+      },
+      {
+        "row": 10,
+        "rowsha": "W20xCCVYWcr5MPa4SDXdi7lFB+yJQRg9mC4bQ6uq1/s=",
+        "originContent": "- ```--zar```       Creates a ZAR archive",
+        "translatedContent": "- ```--zar```       Crea un archivo ZAR"
+      },
+      {
+        "row": 11,
+        "rowsha": "Epcch/xGACDQaAvOtBTYlBukVfX7ZVhSCL/TISt+W5Y=",
+        "originContent": "- ```--xbe```       Generates an attach XBE file, does not convert the input file",
+        "translatedContent": "- ```--xbe```       Genera un archivo attach XBE, no convierte el archivo de entrada"
+      },
+      {
+        "row": 12,
+        "rowsha": "TK4y2vHXr68MixBs1drTyafay8W4GUZAzc5gJoXHtVo=",
+        "originContent": "- ```--ogxbox```    Automatically choose format and settings for use with OG Xbox",
+        "translatedContent": "- ```--ogxbox```    Elige automáticamente formato y configuraciones para uso con OG Xbox"
+      },
+      {
+        "row": 13,
+        "rowsha": "+RYmt+BPxxjH5pm1XLJLLInU0Fq1i4eiBClmV+WCvRQ=",
+        "originContent": "- ```--xbox360```   Automatically choose format and settings for use with Xbox 360",
+        "translatedContent": "- ```--xbox360```   Elige automáticamente formato y configuraciones para uso con Xbox 360"
+      },
+      {
+        "row": 14,
+        "rowsha": "SsPnGMhO5hmcDG33gzLvPq4X6gIobc4T1t6vU8J3ZBk=",
+        "originContent": "- ```--xemu```      Automatically choose format and settings for use with Xemu",
+        "translatedContent": "- ```--xemu```      Elige automáticamente formato y configuraciones para uso con Xemu"
+      },
+      {
+        "row": 15,
+        "rowsha": "SuKGe7lCBizgXBXVET9W3YWA8Psr9eM6WJZNYywB2RM=",
+        "originContent": "- ```--xenia```     Automatically choose format and settings for use with Xenia",
+        "translatedContent": "- ```--xenia```     Elige automáticamente formato y configuraciones para uso con Xenia"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "MscZ47JYh/3DWd96MF1gQl1qx/DqVSE2A8j5ZbPMOzA=",
+        "originContent": "Information:",
+        "translatedContent": "Información:"
+      },
+      {
+        "row": 18,
+        "rowsha": "2tLjz4jHu0nobj8pgaJHNUIkOmdykPgxWVOAujiUShQ=",
+        "originContent": "- ```--list```      List contents of input file",
+        "translatedContent": "- ```--list```      Lista el contenido del archivo de entrada"
+      },
+      {
+        "row": 19,
+        "rowsha": "WJN2GCZtiVc9VT5OUpuMB4Uit0znmwnJ8WDavnwJgkM=",
+        "originContent": "- ```--version```   Print version information",
+        "translatedContent": "- ```--version```   Imprime información de la versión"
+      },
+      {
+        "row": 20,
+        "rowsha": "kKxg7hACw7ookV/iFne+R3W7Pg7QKbirAGOW5tMW7jc=",
+        "originContent": "- ```--help```      Print usage information",
+        "translatedContent": "- ```--help```      Imprime información de uso"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "3RjiuoWJPCB2NhHj29zolz7hJNKgmXOpFdYPm3EWUok=",
+        "originContent": "### Settings flags",
+        "translatedContent": "### Banderas de configuración"
+      },
+      {
+        "row": 23,
+        "rowsha": "2+w+ffIUVQsBUdI1JfxTVjQDBq5COjLfF6RrEadpXdg=",
+        "originContent": "These arguments can be stacked, though not all output formats will use them, in that case the option is ignored. If any conflicting settings are provided (e.g. full/partial scrub), the last one will be used. ",
+        "translatedContent": "Estos argumentos pueden apilarse, aunque no todos los formatos de salida los usarán, en ese caso la opción se ignora. Si se proporcionan configuraciones conflictivas (por ejemplo, limpieza completa/parcial), se usará la última. "
+      },
+      {
+        "row": 24,
+        "rowsha": "bqC+QmbDyzuy/Rnk/a1ye49Z4XJyZ9/1sQreGJGfSBc=",
+        "originContent": "- ```--partial-scrub```  Scrubs and trims the output image, random padding data is removed.",
+        "translatedContent": "- ```--partial-scrub```  Limpia y recorta la imagen de salida, se elimina el relleno aleatorio."
+      },
+      {
+        "row": 25,
+        "rowsha": "p0NkrDFUBKq+6Il15nrX4SwOXcrrj1GtUWGO3lXuQNY=",
+        "originContent": "- ```--full-scrub```     Completely reauthor the resulting image, this will produce the smallest file possible.",
+        "translatedContent": "- ```--full-scrub```     Reautoriza completamente la imagen resultante, esto producirá el archivo más pequeño posible."
+      },
+      {
+        "row": 26,
+        "rowsha": "OVeVfN7kKmA9yVIhBnF/J8jxBRYHdN433E6mRs+xmUY=",
+        "originContent": "- ```--split```          Splits the resulting XISO file if it's too large for OG Xbox.",
+        "translatedContent": "- ```--split```          Divide el archivo XISO resultante si es demasiado grande para OG Xbox."
+      },
+      {
+        "row": 27,
+        "rowsha": "FLOUI3YiQhIKWPZ1MLYmpXn5NriqHL/bx2fHtR/4Z78=",
+        "originContent": "- ```--rename```         Patches the title field of resulting XBE files to one found in the database.",
+        "translatedContent": "- ```--rename```         Parchea el campo de título de los archivos XBE resultantes con uno encontrado en la base de datos."
+      },
+      {
+        "row": 28,
+        "rowsha": "Sg1chdMU7WptARbz9WHiuuP0S1xON7gwGurhdjRfgrM=",
+        "originContent": "- ```--attach-xbe```     Generates an attach XBE file along with the output file.",
+        "translatedContent": "- ```--attach-xbe```     Genera un archivo attach XBE junto con el archivo de salida."
+      },
+      {
+        "row": 29,
+        "rowsha": "aWUYIlkidZziLI9MO1/bjpRtrSmY7bZxxV6vaXQ1+MY=",
+        "originContent": "- ```--am-patch```       Patches the \"Allowed Media\" field in resulting XBE files.",
+        "translatedContent": "- ```--am-patch```       Parchea el campo \"Allowed Media\" en los archivos XBE resultantes."
+      },
+      {
+        "row": 30,
+        "rowsha": "Jwfe2lsG3F5VWfhKnVP+jWeuVYKoTYJUQaklZwLJm0I=",
+        "originContent": "- ```--offline```        Disables online functionality.",
+        "translatedContent": "- ```--offline```        Desactiva la funcionalidad en línea."
+      },
+      {
+        "row": 31,
+        "rowsha": "29xCaxLZ4AfPrdLavYNAz585mZYUnuy/fSAbOuSAQhs=",
+        "originContent": "- ```--debug```          Enable debug logging.",
+        "translatedContent": "- ```--debug```          Habilita el registro de depuración."
+      },
+      {
+        "row": 32,
+        "rowsha": "sd65A6loHvwbWWYiMEX31U8fzlTbCbIRIfWG5b5TRHw=",
+        "originContent": "- ```--quiet```          Disable all logging except for warnings and errors.",
+        "translatedContent": "- ```--quiet```          Desactiva todo registro excepto advertencias y errores."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "sJ/yPrjOl4CqqmNX52jV/O9t1ocQUKu6R6aB9zUAdQM=",
+        "originContent": "## Build",
+        "translatedContent": "## Compilación"
+      },
+      {
+        "row": 35,
+        "rowsha": "KCF0MpStobKVwF2vjLK9fdRAv52jy7ju6cQ+Lwgw69k=",
+        "originContent": "By default this compiles as a GUI, configure Cmake with ```-DENABLE_GUI=OFF``` to compile for CLI. To compile for x86 there would need to be several changes made to the CmakeLists.txt and cmake/seutp_vcpkg.cmake files to accound for that.",
+        "translatedContent": "Por defecto se compila como GUI, configure Cmake con ```-DENABLE_GUI=OFF``` para compilar para CLI. Para compilar para x86 sería necesario hacer varios cambios en los archivos CmakeLists.txt y cmake/setup_vcpkg.cmake para tenerlo en cuenta."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### Windows"
+      },
+      {
+        "row": 38,
+        "rowsha": "Tbln4WJtDGPFgArk+n2VMMvlH9Ebjr7QBMMXD9ZWJgM=",
+        "originContent": "If you have Cmake and MSVC installed, things should be fairly simple. The project has been setup for Windows so that it will automatically download and build all dependancies with vcpkg inside the project directory by configuring with Cmake. This can take a while depending on your internet speeds and PC specs but only has to happen once.",
+        "translatedContent": "Si tienes Cmake y MSVC instalados, debería ser bastante sencillo. El proyecto está configurado para Windows de modo que descargue y compile automáticamente todas las dependencias con vcpkg dentro del directorio del proyecto configurando con Cmake. Esto puede tardar un tiempo dependiendo de tu velocidad de internet y especificaciones del PC, pero solo debe hacerse una vez."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "Y/3Tbc2DoKRz+zyLfmLoA6MqCZ33L/Dg6vnFn1k2sFk=",
+        "originContent": "Clone this repo and make a build directory",
+        "translatedContent": "Clona este repositorio y crea un directorio de compilación"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\ngit clone --recursive https://github.com/wiredopposite/XGDTool.git\ncd XGDTool\nmkdir build\ncd build\n```",
+    "ContentSha": "U2tpj/hhi6VmdUBKwL9ps9xKHqfAsneB1zSYc4FA5Rs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone --recursive https://github.com/wiredopposite/XGDTool.git\ncd XGDTool\nmkdir build\ncd build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "yWcDbDSEtG7IULnWi4/9PxbRjIzYeYQK3zboMhensVo=",
+        "originContent": "git clone --recursive https://github.com/wiredopposite/XGDTool.git",
+        "translatedContent": "git clone --recursive https://github.com/wiredopposite/XGDTool.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "vniCvGsKkd7HNCz98ud65qhkv+Q+NFDzv6LSFLWvTO4=",
+        "originContent": "cd XGDTool",
+        "translatedContent": "cd XGDTool"
+      },
+      {
+        "row": 4,
+        "rowsha": "klYXsM14m4nOprfexqnXiyqPlC6FH6Z39Rbt9Y6MgzU=",
+        "originContent": "mkdir build",
+        "translatedContent": "mkdir build"
+      },
+      {
+        "row": 5,
+        "rowsha": "2E91V0MAwN4o4nI9U0XkQPFhdwGamzSnsb7s2xe+3Uw=",
+        "originContent": "cd build",
+        "translatedContent": "cd build"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nConfigure as GUI: ",
+    "ContentSha": "GZUFthgw1tvP4xcY0liXxyWm0ZIiicY+PNf7zdLVX3c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nConfigurar como GUI: ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7XrdyHnqmqVWJqugriFbDVv3xVF7owGq/fMOwQEf+2Y=",
+        "originContent": "Configure as GUI: ",
+        "translatedContent": "Configurar como GUI: "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```\ncmake -S .. -B . -G \"Visual Studio 17 2022\" -A x64\n``` ",
+    "ContentSha": "AiXwBKby/BiiKPfDBcsO1zVGFdTHlgrO/vLhMwBIg54=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncmake -S .. -B . -G \"Visual Studio 17 2022\" -A x64\n``` ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "8eGnTci3aTTpEwnIQuDFIIu8u//SqrZ02Rl3OPW3zws=",
+        "originContent": "cmake -S .. -B . -G \"Visual Studio 17 2022\" -A x64",
+        "translatedContent": "cmake -S .. -B . -G \"Visual Studio 17 2022\" -A x64"
+      },
+      {
+        "row": 3,
+        "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+        "originContent": "``` ",
+        "translatedContent": "``` "
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "or as CLI: ",
+    "ContentSha": "LrVz8pcctNmjKLAZy9XaTCH7kyJVwVvxY4z6R7yDI/s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "o como CLI: ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LrVz8pcctNmjKLAZy9XaTCH7kyJVwVvxY4z6R7yDI/s=",
+        "originContent": "or as CLI: ",
+        "translatedContent": "o como CLI: "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```\ncmake -S .. -B . -DENABLE_GUI=OFF -G \"Visual Studio 17 2022\" -A x64\n```",
+    "ContentSha": "1BIj25OEhEBv4VbrOMgyK+3nxim6FsAwTh3l42MasV4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncmake -S .. -B . -DENABLE_GUI=OFF -G \"Visual Studio 17 2022\" -A x64\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "21g+veUsyXmjRHkRIEIuobA9X87w0K7gexrAJo0nSSI=",
+        "originContent": "cmake -S .. -B . -DENABLE_GUI=OFF -G \"Visual Studio 17 2022\" -A x64",
+        "translatedContent": "cmake -S .. -B . -DENABLE_GUI=OFF -G \"Visual Studio 17 2022\" -A x64"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nBuild",
+    "ContentSha": "PK7lVqeWPVpuOOeVRyNxxieTCXmzrTBJ8ejhxV3l5Rk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Construir\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Construir"
+      },
+      {
+        "row": 2,
+        "rowsha": "vdJUtluqwWn2rFDoF1zm2TDB/LCG3sWYCNPgFwriKR0=",
+        "originContent": "Build",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```\ncmake --build . --config Release\n```",
+    "ContentSha": "6LsGpvFNMeIWEzwUtFUN5l9l9zLxwCN4f9WLaT4dRDA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncmake --build . --config Release\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3eMnTlZC21ucuJ7SmFiaWQs8ddldwg8tmhxKeJb/wpk=",
+        "originContent": "cmake --build . --config Release",
+        "translatedContent": "cmake --build . --config Release"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n### Linux\nThis app has not yet been tested extensively for Linux, Linux also has some quirks with wxWidgets so the GUI doesn't look exactly as it should. It's been tested with Clang, in addition to Clang, Make, and Cmake, you'll need to install some other dependancies:",
+    "ContentSha": "cKTwaXbPrHCKY2itvzXPQhIxF5XN0Y0pbRe+oIvMBzo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Linux\nEsta aplicación aún no ha sido probada exhaustivamente en Linux, Linux también tiene algunas peculiaridades con wxWidgets, por lo que la interfaz gráfica no se ve exactamente como debería. Se ha probado con Clang, además de Clang, Make y Cmake, necesitarás instalar algunas otras dependencias:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": "### Linux"
+      },
+      {
+        "row": 3,
+        "rowsha": "2Mlsjv+gxfk0wD3CDT9NTVk8PEc7UbGsVp4o4xv5w0E=",
+        "originContent": "This app has not yet been tested extensively for Linux, Linux also has some quirks with wxWidgets so the GUI doesn't look exactly as it should. It's been tested with Clang, in addition to Clang, Make, and Cmake, you'll need to install some other dependancies:",
+        "translatedContent": "Esta aplicación aún no ha sido probada exhaustivamente en Linux, Linux también tiene algunas peculiaridades con wxWidgets, por lo que la interfaz gráfica no se ve exactamente como debería. Se ha probado con Clang, además de Clang, Make y Cmake, necesitarás instalar algunas otras dependencias:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```\nsudo apt update\nsudo apt-get install pkg-config liblz4-dev libzstd-dev libssl-dev libcurl4-openssl-dev libwxgtk3.0-gtk3-dev\n```",
+    "ContentSha": "7OhMxR+GiYyqEhxgfOR29Z3ozC/w6RvLqrKoKE83FvE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsudo apt update\nsudo apt-get install pkg-config liblz4-dev libzstd-dev libssl-dev libcurl4-openssl-dev libwxgtk3.0-gtk3-dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "vsYfDMWqUGKl0v9rj6v4u69Jc+N5Z5zxQIom0T0+4Mo=",
+        "originContent": "sudo apt update",
+        "translatedContent": "sudo apt update"
+      },
+      {
+        "row": 3,
+        "rowsha": "Hd0DpeePEe7szU6j06dXOnnnv32LiszGermtZvF2ZfM=",
+        "originContent": "sudo apt-get install pkg-config liblz4-dev libzstd-dev libssl-dev libcurl4-openssl-dev libwxgtk3.0-gtk3-dev",
+        "translatedContent": "sudo apt-get install pkg-config liblz4-dev libzstd-dev libssl-dev libcurl4-openssl-dev libwxgtk3.0-gtk3-dev"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "Clone this repo and make a build directory",
+    "ContentSha": "Y/3Tbc2DoKRz+zyLfmLoA6MqCZ33L/Dg6vnFn1k2sFk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Clona este repositorio y crea un directorio de compilación",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Y/3Tbc2DoKRz+zyLfmLoA6MqCZ33L/Dg6vnFn1k2sFk=",
+        "originContent": "Clone this repo and make a build directory",
+        "translatedContent": "Clona este repositorio y crea un directorio de compilación"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```\ngit clone --recursive https://github.com/wiredopposite/XGDTool.git\ncd XGDTool\nmkdir build\ncd build\n```",
+    "ContentSha": "U2tpj/hhi6VmdUBKwL9ps9xKHqfAsneB1zSYc4FA5Rs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone --recursive https://github.com/wiredopposite/XGDTool.git\ncd XGDTool\nmkdir build\ncd build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "yWcDbDSEtG7IULnWi4/9PxbRjIzYeYQK3zboMhensVo=",
+        "originContent": "git clone --recursive https://github.com/wiredopposite/XGDTool.git",
+        "translatedContent": "git clone --recursive https://github.com/wiredopposite/XGDTool.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "vniCvGsKkd7HNCz98ud65qhkv+Q+NFDzv6LSFLWvTO4=",
+        "originContent": "cd XGDTool",
+        "translatedContent": "cd XGDTool"
+      },
+      {
+        "row": 4,
+        "rowsha": "klYXsM14m4nOprfexqnXiyqPlC6FH6Z39Rbt9Y6MgzU=",
+        "originContent": "mkdir build",
+        "translatedContent": "mkdir build"
+      },
+      {
+        "row": 5,
+        "rowsha": "2E91V0MAwN4o4nI9U0XkQPFhdwGamzSnsb7s2xe+3Uw=",
+        "originContent": "cd build",
+        "translatedContent": "cd build"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "Configure as GUI: ",
+    "ContentSha": "7XrdyHnqmqVWJqugriFbDVv3xVF7owGq/fMOwQEf+2Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Configurar como GUI: ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7XrdyHnqmqVWJqugriFbDVv3xVF7owGq/fMOwQEf+2Y=",
+        "originContent": "Configure as GUI: ",
+        "translatedContent": "Configurar como GUI: "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```\ncmake ..\n``` ",
+    "ContentSha": "V6rq3KAJl72aVCiKEaAysN6KqG0R31U3TuvDVc+pQ0M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncmake ..\n``` ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "V0mtka5lCsTxBGRpE4a14WQSlTI4WajbzQahr8N2sKQ=",
+        "originContent": "cmake ..",
+        "translatedContent": "cmake .."
+      },
+      {
+        "row": 3,
+        "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+        "originContent": "``` ",
+        "translatedContent": "``` "
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "or as CLI: ",
+    "ContentSha": "LrVz8pcctNmjKLAZy9XaTCH7kyJVwVvxY4z6R7yDI/s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "o como CLI: ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LrVz8pcctNmjKLAZy9XaTCH7kyJVwVvxY4z6R7yDI/s=",
+        "originContent": "or as CLI: ",
+        "translatedContent": "o como CLI: "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```\ncmake -DENABLE_GUI=OFF ..\n```",
+    "ContentSha": "b4T9PhpTgkdXs1UfBjkrVQFrRCzcjatuVL92eUUc4Bo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncmake -DENABLE_GUI=OFF ..\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "9rSI3quC6Pi6HsPM304tMeM+TOrjWSrLCUD3OdtX1wc=",
+        "originContent": "cmake -DENABLE_GUI=OFF ..",
+        "translatedContent": "cmake -DENABLE_GUI=OFF .."
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\nBuild",
+    "ContentSha": "PK7lVqeWPVpuOOeVRyNxxieTCXmzrTBJ8ejhxV3l5Rk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Construir\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Construir"
+      },
+      {
+        "row": 2,
+        "rowsha": "vdJUtluqwWn2rFDoF1zm2TDB/LCG3sWYCNPgFwriKR0=",
+        "originContent": "Build",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```\nmake\n```",
+    "ContentSha": "Sdr+lR7UpW2qdgKn7rJxKSRxHqni4+fYnTXuLnbIC5A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nmake\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "0FqioV+zxA7+6wO+xEU5PwAHRITPAcj7LakMpmlaVTE=",
+        "originContent": "make",
+        "translatedContent": "make"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

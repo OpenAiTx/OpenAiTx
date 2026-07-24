@@ -1,0 +1,1014 @@
+[
+  {
+    "Id": 1,
+    "Content": "# XGDTool\n<img src=\"https://github.com/wiredopposite/XGDTool/blob/master/resources/Screenshot.png\" alt=\"App\" width=\"700\"/>\n\nXGDTool is an OG Xbox and Xbox 360 disc utility, capable of converting discs to and from any mainstream format. It's available as a GUI or CLI app.\n\nThis program is still in initial testing. If you experience an issue, please report it in the Issues tab and help make this program better!\n\n## Features\n- Supports convertion between following formats:\n    - ISO / XISO\n    - Extracted files (Xex / Xbe / HDD Ready)\n    - GoD / Games on Demand\n    - CCI\n    - CSO\n    - ZAR\n- Seamless conversion, e.g. you can directly extract a GoD image, convert an ISO to ZAR archive, or extracted directory to CCI archive, without writing any temporary files. The only format requiring temporary files is ZAR when provided as input.\n- Image scrubbing (\"Partial Scrub\"), gets rid of random padding and trims the output file to the shortest length possible.\n- Image reauthoring (\"Full Scrub\"), completely rewrites the structure of the disc for the smallest possible output file.\n- Image authoring, takes your extracted files and creates a new image with them.\n- Multithreaded compression for CCI and CSO formats.\n- Batch processing, a folder full of different game formats can be batch converted to a single format.\n- Automatically finds split files when only one part is provided as an input path, assuming they're named in this format: ```name.1.extension``` ```name.2.extension```.\n- Option to select your target app/machine (Xemu, Xenia, OG Xbox, Xbox 360) and let XGDTool decide which settings to use.\n- Attach XBE generation for OG Xbox.\n- Online database lookup for accurate file naming (can be disabled).\n\n## CLI Usage",
+    "ContentSha": "2VqG3mxya/oCqHKQ9MenZK1AhfkaqRXFG02Xynypap0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# XGDTool\n<img src=\"https://github.com/wiredopposite/XGDTool/blob/master/resources/Screenshot.png\" alt=\"App\" width=\"700\"/>\n\nXGDTool 是一款适用于OG Xbox和Xbox 360光盘的实用工具，能够在各种主流格式之间进行光盘转换。它提供GUI和CLI两种应用形式。\n\n此程序仍处于初步测试阶段。如果您遇到问题，请在Issues标签中报告，帮助我们改进本程序！\n\n## 功能特性\n- 支持以下格式之间的转换：\n    - ISO / XISO\n    - 提取文件（Xex / Xbe / HDD Ready）\n    - GoD / 按需游戏下载\n    - CCI\n    - CSO\n    - ZAR\n- 无缝转换，例如，您可以直接提取GoD镜像，将ISO转换为ZAR档案，或将提取目录转换为CCI档案，无需写入任何临时文件。唯一需要临时文件的格式是作为输入的ZAR。\n- 镜像清理（“部分清理”），去除随机填充并将输出文件修剪到最短长度。\n- 镜像重构（“完全清理”），完全重写光盘结构以获得尽可能小的输出文件。\n- 镜像制作，使用您的提取文件创建新的镜像。\n- CCI和CSO格式的多线程压缩。\n- 批量处理，可以将一个文件夹中不同游戏格式批量转换为单一格式。\n- 当仅提供一个部分作为输入路径时，自动查找分割文件，假设文件命名格式为：```name.1.extension``` ```name.2.extension```。\n- 可选择目标应用/设备（Xemu、Xenia、OG Xbox、Xbox 360），让XGDTool自动决定使用的设置。\n- 支持OG Xbox的XBE生成。\n- 在线数据库查询以获得准确的文件命名（可禁用）。\n\n## CLI 使用方法",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ys54piOe5zwPGYwmStnQ5mog7MwwRsl3pOym6HLmHZo=",
+        "originContent": "# XGDTool",
+        "translatedContent": "# XGDTool"
+      },
+      {
+        "row": 2,
+        "rowsha": "uSP2GBPwfyp+4YJa7FJCG6GgIiBOhNqqF1GIQNbrzgE=",
+        "originContent": "<img src=\"https://github.com/wiredopposite/XGDTool/blob/master/resources/Screenshot.png\" alt=\"App\" width=\"700\"/>",
+        "translatedContent": "<img src=\"https://github.com/wiredopposite/XGDTool/blob/master/resources/Screenshot.png\" alt=\"App\" width=\"700\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "BEbtYurIDWPAxZmKI/6y3BcxbzzeGtwIY9yMQBj5LCI=",
+        "originContent": "XGDTool is an OG Xbox and Xbox 360 disc utility, capable of converting discs to and from any mainstream format. It's available as a GUI or CLI app.",
+        "translatedContent": "XGDTool 是一款适用于OG Xbox和Xbox 360光盘的实用工具，能够在各种主流格式之间进行光盘转换。它提供GUI和CLI两种应用形式。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "KKOsfqcf/49HaHpuoESkkWOQCpCihojPr4qhgY/820M=",
+        "originContent": "This program is still in initial testing. If you experience an issue, please report it in the Issues tab and help make this program better!",
+        "translatedContent": "此程序仍处于初步测试阶段。如果您遇到问题，请在Issues标签中报告，帮助我们改进本程序！"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能特性"
+      },
+      {
+        "row": 9,
+        "rowsha": "6lwZvb+w//XXHMp+OkdqpC3pRshDk7nwwMoi05AMhzU=",
+        "originContent": "- Supports convertion between following formats:",
+        "translatedContent": "- 支持以下格式之间的转换："
+      },
+      {
+        "row": 10,
+        "rowsha": "pIY1Q9a9ReetN3zx9CKcTcgcH+rkWV0D5nsXGkSyVoM=",
+        "originContent": "    - ISO / XISO",
+        "translatedContent": "    - ISO / XISO"
+      },
+      {
+        "row": 11,
+        "rowsha": "b2EJYipkbND96uw53IYtGksEJDzSJ0Qf05cNz5pdVxM=",
+        "originContent": "    - Extracted files (Xex / Xbe / HDD Ready)",
+        "translatedContent": "    - 提取文件（Xex / Xbe / HDD Ready）"
+      },
+      {
+        "row": 12,
+        "rowsha": "e4VyGCYB2J+IcIIM/7VWbtSAKl/QrnUr8r88AnJEylQ=",
+        "originContent": "    - GoD / Games on Demand",
+        "translatedContent": "    - GoD / 按需游戏下载"
+      },
+      {
+        "row": 13,
+        "rowsha": "0QcIey44+qnzvHN2Kqg/ByKRQZSkKfijhp2On6OIlqk=",
+        "originContent": "    - CCI",
+        "translatedContent": "    - CCI"
+      },
+      {
+        "row": 14,
+        "rowsha": "52wLIu4/576bhIES3uJiVcGVlR24bX9zwZcIHM3VDfI=",
+        "originContent": "    - CSO",
+        "translatedContent": "    - CSO"
+      },
+      {
+        "row": 15,
+        "rowsha": "F6RGsQ2OyRr63GGXymnEbh5ZNPKWFCB3z7WAtbR4WUA=",
+        "originContent": "    - ZAR",
+        "translatedContent": "    - ZAR"
+      },
+      {
+        "row": 16,
+        "rowsha": "e3ZMbngTI94u9qA55FW9hb812K/KLW4yN/OpD5gF0do=",
+        "originContent": "- Seamless conversion, e.g. you can directly extract a GoD image, convert an ISO to ZAR archive, or extracted directory to CCI archive, without writing any temporary files. The only format requiring temporary files is ZAR when provided as input.",
+        "translatedContent": "- 无缝转换，例如，您可以直接提取GoD镜像，将ISO转换为ZAR档案，或将提取目录转换为CCI档案，无需写入任何临时文件。唯一需要临时文件的格式是作为输入的ZAR。"
+      },
+      {
+        "row": 17,
+        "rowsha": "3IxLBnn2FgRjcwExamcdTlkc1d/E5n5jHSXk2kJnXXo=",
+        "originContent": "- Image scrubbing (\"Partial Scrub\"), gets rid of random padding and trims the output file to the shortest length possible.",
+        "translatedContent": "- 镜像清理（“部分清理”），去除随机填充并将输出文件修剪到最短长度。"
+      },
+      {
+        "row": 18,
+        "rowsha": "GqIbg82SGIDEzp9igGrJpyGB1D8LPpoSO11sYsdwcds=",
+        "originContent": "- Image reauthoring (\"Full Scrub\"), completely rewrites the structure of the disc for the smallest possible output file.",
+        "translatedContent": "- 镜像重构（“完全清理”），完全重写光盘结构以获得尽可能小的输出文件。"
+      },
+      {
+        "row": 19,
+        "rowsha": "x2+lAGRD0xUETPfzbaM/oxSjPyyzrtv+GyRuApq2hTc=",
+        "originContent": "- Image authoring, takes your extracted files and creates a new image with them.",
+        "translatedContent": "- 镜像制作，使用您的提取文件创建新的镜像。"
+      },
+      {
+        "row": 20,
+        "rowsha": "GLrCOrPm4Ivukl7N1AitSJlxB23bjMDwQ+REfppJ1Yg=",
+        "originContent": "- Multithreaded compression for CCI and CSO formats.",
+        "translatedContent": "- CCI和CSO格式的多线程压缩。"
+      },
+      {
+        "row": 21,
+        "rowsha": "CsMVE9VT1Pd5g69oP2aAug0lZ26uY2Bxje7PMAs1gFc=",
+        "originContent": "- Batch processing, a folder full of different game formats can be batch converted to a single format.",
+        "translatedContent": "- 批量处理，可以将一个文件夹中不同游戏格式批量转换为单一格式。"
+      },
+      {
+        "row": 22,
+        "rowsha": "VNo0AH2H5tjrp7SqevucYIfflJvrQWTGsXFO6afGid8=",
+        "originContent": "- Automatically finds split files when only one part is provided as an input path, assuming they're named in this format: ```name.1.extension``` ```name.2.extension```.",
+        "translatedContent": "- 当仅提供一个部分作为输入路径时，自动查找分割文件，假设文件命名格式为：```name.1.extension``` ```name.2.extension```。"
+      },
+      {
+        "row": 23,
+        "rowsha": "U1E0ciFFGcAjYhBXCpxlrP4i42IB21mZk4LfAiLMVqY=",
+        "originContent": "- Option to select your target app/machine (Xemu, Xenia, OG Xbox, Xbox 360) and let XGDTool decide which settings to use.",
+        "translatedContent": "- 可选择目标应用/设备（Xemu、Xenia、OG Xbox、Xbox 360），让XGDTool自动决定使用的设置。"
+      },
+      {
+        "row": 24,
+        "rowsha": "uIn3CFyW2Tkn5Zwo1oMjKQlfQYgv4H1hxRfGQctv4w8=",
+        "originContent": "- Attach XBE generation for OG Xbox.",
+        "translatedContent": "- 支持OG Xbox的XBE生成。"
+      },
+      {
+        "row": 25,
+        "rowsha": "TFGfM7rpyGumTRn97W3SCbZ7Cel9Wc8nhoE2i21pAHI=",
+        "originContent": "- Online database lookup for accurate file naming (can be disabled).",
+        "translatedContent": "- 在线数据库查询以获得准确的文件命名（可禁用）。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "DLSniBALTVyRyQUYfHh7y02Jm1dq06zfrJiiu7Uu+RE=",
+        "originContent": "## CLI Usage",
+        "translatedContent": "## CLI 使用方法"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```XGDTool.exe <output_format> <settings_flags> <input_path> <output_directory>```\n\nor on Linux\n\n```XGDTool <output_format> <settings_flags> <input_path> <output_directory>```",
+    "ContentSha": "w88zObu799PB6/r+5MYQxc1NZqOkmgqMmVdO0XDTE6E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```XGDTool.exe <output_format> <settings_flags> <input_path> <output_directory>```\n\nor on Linux\n\n```XGDTool <output_format> <settings_flags> <input_path> <output_directory>```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9UMhM/0IZZ1ctsF4pzaJuBFknxnP32mi8XRIAi1nPdg=",
+        "originContent": "```XGDTool.exe <output_format> <settings_flags> <input_path> <output_directory>```",
+        "translatedContent": "```XGDTool.exe <output_format> <settings_flags> <input_path> <output_directory>```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "MJZHTyDdrzzWMte+etPkqz3UhuXe1ZGleIDJztZm4zk=",
+        "originContent": "or on Linux",
+        "translatedContent": "or on Linux"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ZL544VqXVfTpjx5eSeBsFaJBzy1MhaJg00anisjugU4=",
+        "originContent": "```XGDTool <output_format> <settings_flags> <input_path> <output_directory>```",
+        "translatedContent": "```XGDTool <output_format> <settings_flags> <input_path> <output_directory>```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nSettings flags and output directory are optional.\n\n### Output format arguments (mutually exclusive)\n- ```--extract```   Extracts all files to a directory\n- ```--xiso```      Creates an Xiso image\n- ```--god```       Creates a Games on Demand image/directory structure\n- ```--cci```       Creates a CCI archive (automatically split if too large for Xbox)\n- ```--cso```       Creates a CSO archive (automatically split if too large for Xbox)\n- ```--zar```       Creates a ZAR archive\n- ```--xbe```       Generates an attach XBE file, does not convert the input file\n- ```--ogxbox```    Automatically choose format and settings for use with OG Xbox\n- ```--xbox360```   Automatically choose format and settings for use with Xbox 360\n- ```--xemu```      Automatically choose format and settings for use with Xemu\n- ```--xenia```     Automatically choose format and settings for use with Xenia\n\nInformation:\n- ```--list```      List contents of input file\n- ```--version```   Print version information\n- ```--help```      Print usage information\n\n### Settings flags\nThese arguments can be stacked, though not all output formats will use them, in that case the option is ignored. If any conflicting settings are provided (e.g. full/partial scrub), the last one will be used. \n- ```--partial-scrub```  Scrubs and trims the output image, random padding data is removed.\n- ```--full-scrub```     Completely reauthor the resulting image, this will produce the smallest file possible.\n- ```--split```          Splits the resulting XISO file if it's too large for OG Xbox.\n- ```--rename```         Patches the title field of resulting XBE files to one found in the database.\n- ```--attach-xbe```     Generates an attach XBE file along with the output file.\n- ```--am-patch```       Patches the \"Allowed Media\" field in resulting XBE files.\n- ```--offline```        Disables online functionality.\n- ```--debug```          Enable debug logging.\n- ```--quiet```          Disable all logging except for warnings and errors.\n\n## Build\nBy default this compiles as a GUI, configure Cmake with ```-DENABLE_GUI=OFF``` to compile for CLI. To compile for x86 there would need to be several changes made to the CmakeLists.txt and cmake/seutp_vcpkg.cmake files to accound for that.\n\n### Windows\nIf you have Cmake and MSVC installed, things should be fairly simple. The project has been setup for Windows so that it will automatically download and build all dependancies with vcpkg inside the project directory by configuring with Cmake. This can take a while depending on your internet speeds and PC specs but only has to happen once.\n\nClone this repo and make a build directory",
+    "ContentSha": "4oQqFLcpnsbSCwlUvz/69T+21lgx40l3qctekqwyboA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "设置标志和输出目录是可选的。\n\n### 输出格式参数（互斥）\n- ```--extract```   将所有文件提取到一个目录\n- ```--xiso```      创建一个 Xiso 镜像\n- ```--god```       创建一个按需游戏（Games on Demand）镜像/目录结构\n- ```--cci```       创建一个 CCI 归档（如果文件对 Xbox 来说过大，则自动拆分）\n- ```--cso```       创建一个 CSO 归档（如果文件对 Xbox 来说过大，则自动拆分）\n- ```--zar```       创建一个 ZAR 归档\n- ```--xbe```       生成附加的 XBE 文件，不转换输入文件\n- ```--ogxbox```    自动选择格式和设置以用于原版 Xbox\n- ```--xbox360```   自动选择格式和设置以用于 Xbox 360\n- ```--xemu```      自动选择格式和设置以用于 Xemu\n- ```--xenia```     自动选择格式和设置以用于 Xenia\n\n信息：\n- ```--list```      列出输入文件的内容\n- ```--version```   打印版本信息\n- ```--help```      打印使用说明\n\n### 设置标志\n这些参数可以叠加使用，尽管不是所有输出格式都会使用它们，在那种情况下该选项会被忽略。如果提供了冲突的设置（例如全擦除/部分擦除），将使用最后一个设置。\n- ```--partial-scrub```  擦除并修剪输出镜像，移除随机填充数据。\n- ```--full-scrub```     完全重新制作生成的镜像，这将产生尽可能小的文件。\n- ```--split```          如果生成的 XISO 文件对原版 Xbox 过大，则拆分它。\n- ```--rename```         修补生成的 XBE 文件的标题字段为数据库中找到的名称。\n- ```--attach-xbe```     生成一个附加的 XBE 文件与输出文件一起。\n- ```--am-patch```       修补生成的 XBE 文件中的“允许媒体”字段。\n- ```--offline```        禁用在线功能。\n- ```--debug```          启用调试日志。\n- ```--quiet```          禁用除警告和错误之外的所有日志。\n\n## 构建\n默认情况下，此项目编译为 GUI，使用 Cmake 配置时加上 ```-DENABLE_GUI=OFF``` 可编译为 CLI。要编译为 x86，需要对 CmakeLists.txt 和 cmake/setup_vcpkg.cmake 文件做一些更改以适应。\n\n### Windows\n如果你安装了 Cmake 和 MSVC，流程应该相当简单。该项目已为 Windows 设置，配置 Cmake 后会自动下载并使用 vcpkg 在项目目录内构建所有依赖项。根据你的网络速度和电脑性能，这可能需要一些时间，但只需执行一次。\n\n克隆此仓库并创建一个构建目录\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "设置标志和输出目录是可选的。"
+      },
+      {
+        "row": 2,
+        "rowsha": "iMLZFO2Qz2JIiCseT7dLaAS+bx/BFniewJ7rGpPX9us=",
+        "originContent": "Settings flags and output directory are optional.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 输出格式参数（互斥）"
+      },
+      {
+        "row": 4,
+        "rowsha": "1al8uNywzDK3AJTSdzf6q3OEF2HaM8sLVCYyWsKGK00=",
+        "originContent": "### Output format arguments (mutually exclusive)",
+        "translatedContent": "- ```--extract```   将所有文件提取到一个目录"
+      },
+      {
+        "row": 5,
+        "rowsha": "Gb/HeHnb9eaNqMuXjpx8v691pi1rWmAoePjaEfG+HdA=",
+        "originContent": "- ```--extract```   Extracts all files to a directory",
+        "translatedContent": "- ```--xiso```      创建一个 Xiso 镜像"
+      },
+      {
+        "row": 6,
+        "rowsha": "+mvO9yVdeAwP+ZajAIb90/ayEdFEI9GY+zgbQFxRDnc=",
+        "originContent": "- ```--xiso```      Creates an Xiso image",
+        "translatedContent": "- ```--god```       创建一个按需游戏（Games on Demand）镜像/目录结构"
+      },
+      {
+        "row": 7,
+        "rowsha": "DecMLn0kDkb6yqu8PsxGwcp5hAbDlkQxUm/sWFdp0GM=",
+        "originContent": "- ```--god```       Creates a Games on Demand image/directory structure",
+        "translatedContent": "- ```--cci```       创建一个 CCI 归档（如果文件对 Xbox 来说过大，则自动拆分）"
+      },
+      {
+        "row": 8,
+        "rowsha": "Fgwh+CNAivPZu1dKPS7enMVsB31tkVyQeoCpJqlzYGY=",
+        "originContent": "- ```--cci```       Creates a CCI archive (automatically split if too large for Xbox)",
+        "translatedContent": "- ```--cso```       创建一个 CSO 归档（如果文件对 Xbox 来说过大，则自动拆分）"
+      },
+      {
+        "row": 9,
+        "rowsha": "O6jZ7aFN7V/PVAG4G135doRrFAx1CEBX71gFyZuVAZw=",
+        "originContent": "- ```--cso```       Creates a CSO archive (automatically split if too large for Xbox)",
+        "translatedContent": "- ```--zar```       创建一个 ZAR 归档"
+      },
+      {
+        "row": 10,
+        "rowsha": "W20xCCVYWcr5MPa4SDXdi7lFB+yJQRg9mC4bQ6uq1/s=",
+        "originContent": "- ```--zar```       Creates a ZAR archive",
+        "translatedContent": "- ```--xbe```       生成附加的 XBE 文件，不转换输入文件"
+      },
+      {
+        "row": 11,
+        "rowsha": "Epcch/xGACDQaAvOtBTYlBukVfX7ZVhSCL/TISt+W5Y=",
+        "originContent": "- ```--xbe```       Generates an attach XBE file, does not convert the input file",
+        "translatedContent": "- ```--ogxbox```    自动选择格式和设置以用于原版 Xbox"
+      },
+      {
+        "row": 12,
+        "rowsha": "TK4y2vHXr68MixBs1drTyafay8W4GUZAzc5gJoXHtVo=",
+        "originContent": "- ```--ogxbox```    Automatically choose format and settings for use with OG Xbox",
+        "translatedContent": "- ```--xbox360```   自动选择格式和设置以用于 Xbox 360"
+      },
+      {
+        "row": 13,
+        "rowsha": "+RYmt+BPxxjH5pm1XLJLLInU0Fq1i4eiBClmV+WCvRQ=",
+        "originContent": "- ```--xbox360```   Automatically choose format and settings for use with Xbox 360",
+        "translatedContent": "- ```--xemu```      自动选择格式和设置以用于 Xemu"
+      },
+      {
+        "row": 14,
+        "rowsha": "SsPnGMhO5hmcDG33gzLvPq4X6gIobc4T1t6vU8J3ZBk=",
+        "originContent": "- ```--xemu```      Automatically choose format and settings for use with Xemu",
+        "translatedContent": "- ```--xenia```     自动选择格式和设置以用于 Xenia"
+      },
+      {
+        "row": 15,
+        "rowsha": "SuKGe7lCBizgXBXVET9W3YWA8Psr9eM6WJZNYywB2RM=",
+        "originContent": "- ```--xenia```     Automatically choose format and settings for use with Xenia",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "信息："
+      },
+      {
+        "row": 17,
+        "rowsha": "MscZ47JYh/3DWd96MF1gQl1qx/DqVSE2A8j5ZbPMOzA=",
+        "originContent": "Information:",
+        "translatedContent": "- ```--list```      列出输入文件的内容"
+      },
+      {
+        "row": 18,
+        "rowsha": "2tLjz4jHu0nobj8pgaJHNUIkOmdykPgxWVOAujiUShQ=",
+        "originContent": "- ```--list```      List contents of input file",
+        "translatedContent": "- ```--version```   打印版本信息"
+      },
+      {
+        "row": 19,
+        "rowsha": "WJN2GCZtiVc9VT5OUpuMB4Uit0znmwnJ8WDavnwJgkM=",
+        "originContent": "- ```--version```   Print version information",
+        "translatedContent": "- ```--help```      打印使用说明"
+      },
+      {
+        "row": 20,
+        "rowsha": "kKxg7hACw7ookV/iFne+R3W7Pg7QKbirAGOW5tMW7jc=",
+        "originContent": "- ```--help```      Print usage information",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 设置标志"
+      },
+      {
+        "row": 22,
+        "rowsha": "3RjiuoWJPCB2NhHj29zolz7hJNKgmXOpFdYPm3EWUok=",
+        "originContent": "### Settings flags",
+        "translatedContent": "这些参数可以叠加使用，尽管不是所有输出格式都会使用它们，在那种情况下该选项会被忽略。如果提供了冲突的设置（例如全擦除/部分擦除），将使用最后一个设置。"
+      },
+      {
+        "row": 23,
+        "rowsha": "2+w+ffIUVQsBUdI1JfxTVjQDBq5COjLfF6RrEadpXdg=",
+        "originContent": "These arguments can be stacked, though not all output formats will use them, in that case the option is ignored. If any conflicting settings are provided (e.g. full/partial scrub), the last one will be used. ",
+        "translatedContent": "- ```--partial-scrub```  擦除并修剪输出镜像，移除随机填充数据。"
+      },
+      {
+        "row": 24,
+        "rowsha": "bqC+QmbDyzuy/Rnk/a1ye49Z4XJyZ9/1sQreGJGfSBc=",
+        "originContent": "- ```--partial-scrub```  Scrubs and trims the output image, random padding data is removed.",
+        "translatedContent": "- ```--full-scrub```     完全重新制作生成的镜像，这将产生尽可能小的文件。"
+      },
+      {
+        "row": 25,
+        "rowsha": "p0NkrDFUBKq+6Il15nrX4SwOXcrrj1GtUWGO3lXuQNY=",
+        "originContent": "- ```--full-scrub```     Completely reauthor the resulting image, this will produce the smallest file possible.",
+        "translatedContent": "- ```--split```          如果生成的 XISO 文件对原版 Xbox 过大，则拆分它。"
+      },
+      {
+        "row": 26,
+        "rowsha": "OVeVfN7kKmA9yVIhBnF/J8jxBRYHdN433E6mRs+xmUY=",
+        "originContent": "- ```--split```          Splits the resulting XISO file if it's too large for OG Xbox.",
+        "translatedContent": "- ```--rename```         修补生成的 XBE 文件的标题字段为数据库中找到的名称。"
+      },
+      {
+        "row": 27,
+        "rowsha": "FLOUI3YiQhIKWPZ1MLYmpXn5NriqHL/bx2fHtR/4Z78=",
+        "originContent": "- ```--rename```         Patches the title field of resulting XBE files to one found in the database.",
+        "translatedContent": "- ```--attach-xbe```     生成一个附加的 XBE 文件与输出文件一起。"
+      },
+      {
+        "row": 28,
+        "rowsha": "Sg1chdMU7WptARbz9WHiuuP0S1xON7gwGurhdjRfgrM=",
+        "originContent": "- ```--attach-xbe```     Generates an attach XBE file along with the output file.",
+        "translatedContent": "- ```--am-patch```       修补生成的 XBE 文件中的“允许媒体”字段。"
+      },
+      {
+        "row": 29,
+        "rowsha": "aWUYIlkidZziLI9MO1/bjpRtrSmY7bZxxV6vaXQ1+MY=",
+        "originContent": "- ```--am-patch```       Patches the \"Allowed Media\" field in resulting XBE files.",
+        "translatedContent": "- ```--offline```        禁用在线功能。"
+      },
+      {
+        "row": 30,
+        "rowsha": "Jwfe2lsG3F5VWfhKnVP+jWeuVYKoTYJUQaklZwLJm0I=",
+        "originContent": "- ```--offline```        Disables online functionality.",
+        "translatedContent": "- ```--debug```          启用调试日志。"
+      },
+      {
+        "row": 31,
+        "rowsha": "29xCaxLZ4AfPrdLavYNAz585mZYUnuy/fSAbOuSAQhs=",
+        "originContent": "- ```--debug```          Enable debug logging.",
+        "translatedContent": "- ```--quiet```          禁用除警告和错误之外的所有日志。"
+      },
+      {
+        "row": 32,
+        "rowsha": "sd65A6loHvwbWWYiMEX31U8fzlTbCbIRIfWG5b5TRHw=",
+        "originContent": "- ```--quiet```          Disable all logging except for warnings and errors.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 构建"
+      },
+      {
+        "row": 34,
+        "rowsha": "sJ/yPrjOl4CqqmNX52jV/O9t1ocQUKu6R6aB9zUAdQM=",
+        "originContent": "## Build",
+        "translatedContent": "默认情况下，此项目编译为 GUI，使用 Cmake 配置时加上 ```-DENABLE_GUI=OFF``` 可编译为 CLI。要编译为 x86，需要对 CmakeLists.txt 和 cmake/setup_vcpkg.cmake 文件做一些更改以适应。"
+      },
+      {
+        "row": 35,
+        "rowsha": "KCF0MpStobKVwF2vjLK9fdRAv52jy7ju6cQ+Lwgw69k=",
+        "originContent": "By default this compiles as a GUI, configure Cmake with ```-DENABLE_GUI=OFF``` to compile for CLI. To compile for x86 there would need to be several changes made to the CmakeLists.txt and cmake/seutp_vcpkg.cmake files to accound for that.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Windows"
+      },
+      {
+        "row": 37,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "如果你安装了 Cmake 和 MSVC，流程应该相当简单。该项目已为 Windows 设置，配置 Cmake 后会自动下载并使用 vcpkg 在项目目录内构建所有依赖项。根据你的网络速度和电脑性能，这可能需要一些时间，但只需执行一次。"
+      },
+      {
+        "row": 38,
+        "rowsha": "Tbln4WJtDGPFgArk+n2VMMvlH9Ebjr7QBMMXD9ZWJgM=",
+        "originContent": "If you have Cmake and MSVC installed, things should be fairly simple. The project has been setup for Windows so that it will automatically download and build all dependancies with vcpkg inside the project directory by configuring with Cmake. This can take a while depending on your internet speeds and PC specs but only has to happen once.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "克隆此仓库并创建一个构建目录"
+      },
+      {
+        "row": 40,
+        "rowsha": "Y/3Tbc2DoKRz+zyLfmLoA6MqCZ33L/Dg6vnFn1k2sFk=",
+        "originContent": "Clone this repo and make a build directory",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\ngit clone --recursive https://github.com/wiredopposite/XGDTool.git\ncd XGDTool\nmkdir build\ncd build\n```",
+    "ContentSha": "U2tpj/hhi6VmdUBKwL9ps9xKHqfAsneB1zSYc4FA5Rs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone --recursive https://github.com/wiredopposite/XGDTool.git\ncd XGDTool\nmkdir build\ncd build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "yWcDbDSEtG7IULnWi4/9PxbRjIzYeYQK3zboMhensVo=",
+        "originContent": "git clone --recursive https://github.com/wiredopposite/XGDTool.git",
+        "translatedContent": "git clone --recursive https://github.com/wiredopposite/XGDTool.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "vniCvGsKkd7HNCz98ud65qhkv+Q+NFDzv6LSFLWvTO4=",
+        "originContent": "cd XGDTool",
+        "translatedContent": "cd XGDTool"
+      },
+      {
+        "row": 4,
+        "rowsha": "klYXsM14m4nOprfexqnXiyqPlC6FH6Z39Rbt9Y6MgzU=",
+        "originContent": "mkdir build",
+        "translatedContent": "mkdir build"
+      },
+      {
+        "row": 5,
+        "rowsha": "2E91V0MAwN4o4nI9U0XkQPFhdwGamzSnsb7s2xe+3Uw=",
+        "originContent": "cd build",
+        "translatedContent": "cd build"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nConfigure as GUI: ",
+    "ContentSha": "GZUFthgw1tvP4xcY0liXxyWm0ZIiicY+PNf7zdLVX3c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "配置为图形用户界面（GUI）：  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "配置为图形用户界面（GUI）：  "
+      },
+      {
+        "row": 2,
+        "rowsha": "7XrdyHnqmqVWJqugriFbDVv3xVF7owGq/fMOwQEf+2Y=",
+        "originContent": "Configure as GUI: ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```\ncmake -S .. -B . -G \"Visual Studio 17 2022\" -A x64\n``` ",
+    "ContentSha": "AiXwBKby/BiiKPfDBcsO1zVGFdTHlgrO/vLhMwBIg54=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncmake -S .. -B . -G \"Visual Studio 17 2022\" -A x64\n``` ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "8eGnTci3aTTpEwnIQuDFIIu8u//SqrZ02Rl3OPW3zws=",
+        "originContent": "cmake -S .. -B . -G \"Visual Studio 17 2022\" -A x64",
+        "translatedContent": "cmake -S .. -B . -G \"Visual Studio 17 2022\" -A x64"
+      },
+      {
+        "row": 3,
+        "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+        "originContent": "``` ",
+        "translatedContent": "``` "
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "or as CLI: ",
+    "ContentSha": "LrVz8pcctNmjKLAZy9XaTCH7kyJVwVvxY4z6R7yDI/s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "或作为命令行接口（CLI）： ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LrVz8pcctNmjKLAZy9XaTCH7kyJVwVvxY4z6R7yDI/s=",
+        "originContent": "or as CLI: ",
+        "translatedContent": "或作为命令行接口（CLI）： "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```\ncmake -S .. -B . -DENABLE_GUI=OFF -G \"Visual Studio 17 2022\" -A x64\n```",
+    "ContentSha": "1BIj25OEhEBv4VbrOMgyK+3nxim6FsAwTh3l42MasV4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncmake -S .. -B . -DENABLE_GUI=OFF -G \"Visual Studio 17 2022\" -A x64\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "21g+veUsyXmjRHkRIEIuobA9X87w0K7gexrAJo0nSSI=",
+        "originContent": "cmake -S .. -B . -DENABLE_GUI=OFF -G \"Visual Studio 17 2022\" -A x64",
+        "translatedContent": "cmake -S .. -B . -DENABLE_GUI=OFF -G \"Visual Studio 17 2022\" -A x64"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nBuild",
+    "ContentSha": "PK7lVqeWPVpuOOeVRyNxxieTCXmzrTBJ8ejhxV3l5Rk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n构建",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "vdJUtluqwWn2rFDoF1zm2TDB/LCG3sWYCNPgFwriKR0=",
+        "originContent": "Build",
+        "translatedContent": "构建"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```\ncmake --build . --config Release\n```",
+    "ContentSha": "6LsGpvFNMeIWEzwUtFUN5l9l9zLxwCN4f9WLaT4dRDA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncmake --build . --config Release\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3eMnTlZC21ucuJ7SmFiaWQs8ddldwg8tmhxKeJb/wpk=",
+        "originContent": "cmake --build . --config Release",
+        "translatedContent": "cmake --build . --config Release"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n### Linux\nThis app has not yet been tested extensively for Linux, Linux also has some quirks with wxWidgets so the GUI doesn't look exactly as it should. It's been tested with Clang, in addition to Clang, Make, and Cmake, you'll need to install some other dependancies:",
+    "ContentSha": "cKTwaXbPrHCKY2itvzXPQhIxF5XN0Y0pbRe+oIvMBzo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Linux\n此应用程序尚未在Linux上进行广泛测试，Linux在wxWidgets上也有一些怪癖，因此GUI看起来不会完全如预期。它已使用Clang进行了测试，除了Clang、Make和Cmake之外，您还需要安装一些其他依赖项：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": "### Linux"
+      },
+      {
+        "row": 3,
+        "rowsha": "2Mlsjv+gxfk0wD3CDT9NTVk8PEc7UbGsVp4o4xv5w0E=",
+        "originContent": "This app has not yet been tested extensively for Linux, Linux also has some quirks with wxWidgets so the GUI doesn't look exactly as it should. It's been tested with Clang, in addition to Clang, Make, and Cmake, you'll need to install some other dependancies:",
+        "translatedContent": "此应用程序尚未在Linux上进行广泛测试，Linux在wxWidgets上也有一些怪癖，因此GUI看起来不会完全如预期。它已使用Clang进行了测试，除了Clang、Make和Cmake之外，您还需要安装一些其他依赖项："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```\nsudo apt update\nsudo apt-get install pkg-config liblz4-dev libzstd-dev libssl-dev libcurl4-openssl-dev libwxgtk3.0-gtk3-dev\n```",
+    "ContentSha": "7OhMxR+GiYyqEhxgfOR29Z3ozC/w6RvLqrKoKE83FvE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsudo apt update\nsudo apt-get install pkg-config liblz4-dev libzstd-dev libssl-dev libcurl4-openssl-dev libwxgtk3.0-gtk3-dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "vsYfDMWqUGKl0v9rj6v4u69Jc+N5Z5zxQIom0T0+4Mo=",
+        "originContent": "sudo apt update",
+        "translatedContent": "sudo apt update"
+      },
+      {
+        "row": 3,
+        "rowsha": "Hd0DpeePEe7szU6j06dXOnnnv32LiszGermtZvF2ZfM=",
+        "originContent": "sudo apt-get install pkg-config liblz4-dev libzstd-dev libssl-dev libcurl4-openssl-dev libwxgtk3.0-gtk3-dev",
+        "translatedContent": "sudo apt-get install pkg-config liblz4-dev libzstd-dev libssl-dev libcurl4-openssl-dev libwxgtk3.0-gtk3-dev"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "Clone this repo and make a build directory",
+    "ContentSha": "Y/3Tbc2DoKRz+zyLfmLoA6MqCZ33L/Dg6vnFn1k2sFk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "克隆此仓库并创建一个构建目录",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Y/3Tbc2DoKRz+zyLfmLoA6MqCZ33L/Dg6vnFn1k2sFk=",
+        "originContent": "Clone this repo and make a build directory",
+        "translatedContent": "克隆此仓库并创建一个构建目录"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```\ngit clone --recursive https://github.com/wiredopposite/XGDTool.git\ncd XGDTool\nmkdir build\ncd build\n```",
+    "ContentSha": "U2tpj/hhi6VmdUBKwL9ps9xKHqfAsneB1zSYc4FA5Rs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone --recursive https://github.com/wiredopposite/XGDTool.git\ncd XGDTool\nmkdir build\ncd build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "yWcDbDSEtG7IULnWi4/9PxbRjIzYeYQK3zboMhensVo=",
+        "originContent": "git clone --recursive https://github.com/wiredopposite/XGDTool.git",
+        "translatedContent": "git clone --recursive https://github.com/wiredopposite/XGDTool.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "vniCvGsKkd7HNCz98ud65qhkv+Q+NFDzv6LSFLWvTO4=",
+        "originContent": "cd XGDTool",
+        "translatedContent": "cd XGDTool"
+      },
+      {
+        "row": 4,
+        "rowsha": "klYXsM14m4nOprfexqnXiyqPlC6FH6Z39Rbt9Y6MgzU=",
+        "originContent": "mkdir build",
+        "translatedContent": "mkdir build"
+      },
+      {
+        "row": 5,
+        "rowsha": "2E91V0MAwN4o4nI9U0XkQPFhdwGamzSnsb7s2xe+3Uw=",
+        "originContent": "cd build",
+        "translatedContent": "cd build"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "Configure as GUI: ",
+    "ContentSha": "7XrdyHnqmqVWJqugriFbDVv3xVF7owGq/fMOwQEf+2Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "配置为图形用户界面：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7XrdyHnqmqVWJqugriFbDVv3xVF7owGq/fMOwQEf+2Y=",
+        "originContent": "Configure as GUI: ",
+        "translatedContent": "配置为图形用户界面："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```\ncmake ..\n``` ",
+    "ContentSha": "V6rq3KAJl72aVCiKEaAysN6KqG0R31U3TuvDVc+pQ0M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncmake ..\n``` ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "V0mtka5lCsTxBGRpE4a14WQSlTI4WajbzQahr8N2sKQ=",
+        "originContent": "cmake ..",
+        "translatedContent": "cmake .."
+      },
+      {
+        "row": 3,
+        "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+        "originContent": "``` ",
+        "translatedContent": "``` "
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "or as CLI: ",
+    "ContentSha": "LrVz8pcctNmjKLAZy9XaTCH7kyJVwVvxY4z6R7yDI/s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "或作为命令行界面（CLI）： ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LrVz8pcctNmjKLAZy9XaTCH7kyJVwVvxY4z6R7yDI/s=",
+        "originContent": "or as CLI: ",
+        "translatedContent": "或作为命令行界面（CLI）： "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```\ncmake -DENABLE_GUI=OFF ..\n```",
+    "ContentSha": "b4T9PhpTgkdXs1UfBjkrVQFrRCzcjatuVL92eUUc4Bo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncmake -DENABLE_GUI=OFF ..\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "9rSI3quC6Pi6HsPM304tMeM+TOrjWSrLCUD3OdtX1wc=",
+        "originContent": "cmake -DENABLE_GUI=OFF ..",
+        "translatedContent": "cmake -DENABLE_GUI=OFF .."
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\nBuild",
+    "ContentSha": "PK7lVqeWPVpuOOeVRyNxxieTCXmzrTBJ8ejhxV3l5Rk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "构建\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "构建"
+      },
+      {
+        "row": 2,
+        "rowsha": "vdJUtluqwWn2rFDoF1zm2TDB/LCG3sWYCNPgFwriKR0=",
+        "originContent": "Build",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```\nmake\n```",
+    "ContentSha": "Sdr+lR7UpW2qdgKn7rJxKSRxHqni4+fYnTXuLnbIC5A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nmake\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "0FqioV+zxA7+6wO+xEU5PwAHRITPAcj7LakMpmlaVTE=",
+        "originContent": "make",
+        "translatedContent": "make"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
